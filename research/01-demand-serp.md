@@ -38,3 +38,39 @@ Ahrefs can't attribute clicks to the AIO itself, so I'm using three proxies:
 - UK/CA/AU/NZ/IE volumes (`volume-by-country`).
 - Matching-terms expansion per brand to size the facet long tail.
 - Airline refund and cancel-[service] keyword sets.
+
+---
+## Update 2 (2026-11-03): seed list, verticals, facet SERPs, international
+
+### Brand seed list: `brand-seed-us.csv`
+- **198 unique brands** from Ahrefs matching-terms on "return policy" (US). I merged spelling variants like "lowes/lowe's" and dropped generic and facet rows.
+- 39 brands have ≥5k searches a month, 115 have ≥2k, and the tail reaches 1.4k. **Median KD is 0–1.** This list is the 200-brand seed that SOURCES.md §5 asks for.
+- **Facet demand is real.** Facet keywords seen in the top 250: "walmart … without receipt" 6k, "costco mattress" 4.8k, "costco electronics" 3.2k (+2.8k variant), "target … opened items" 1.8k, "best buy open box" 1.9k, "home depot plant" 1.7k, "best buy tv" 1.6k, "ulta … used" 1.5k, "costco furniture/jewelry/tv" 1.4–1.7k. That supports `/brands/[brand]/[facet]/` pages for roughly the top 20 brands only.
+
+### Facet SERP: "walmart return without receipt" (5.2k)
+- It has an AI Overview. The AIO cites walmart.com, krocnews, **walmartdesk.com** and Quora.
+- **walmartdesk.com has a domain rating of 1, ranks #8, and gets ~1.3k visits a month** while also being cited in the AIO.
+- **This is the strongest evidence so far:** a site with almost no authority can capture facet-level traffic and AIO citations by answering one narrow question.
+
+### Airlines: "american airlines refund" (8.2k, KD 28)
+- The AIO sits at **position 4, not at the top**. aa.com takes #1, #3 and #5, then Reddit, CBS and NerdWallet. That works out to about 2.5k clicks a month for third parties.
+- The AIO cites transportation.gov's refunds page. **This is where DOT-rule content gets cited.**
+- Airline refund demand is otherwise small: United 2.2k, Spirit 1.2k, Delta/Southwest 900 each, and every other airline is under 600. The flight vertical is worth more for claim-firm leads than for traffic.
+
+### Subscriptions
+- The volume is large: "cancel planet fitness" 34k, "cancel adobe" 11k (TP 39k), "cancel hulu" 15k, "cancel netflix" 9.1k, "cancel spotify" 6.4k, "cancel la fitness" 5.1k.
+- The SERPs are owned by the official page plus **Privacy.com and Rocket Money**. Those are fintechs with cancellation products, and they're potential affiliate partners.
+- SOURCES.md lists `/cancel/` as "awaiting go/no-go". **The data says go.**
+
+### Digital goods
+- "apple refund" has 114k searches but KD 80. "steam refund" has 45k but TP 0, meaning Valve's own help page takes everything. "google play refund" has a CPS of 0.13, which is pure zero-click.
+- **No-go** as a traffic play.
+
+### International check (volumes only)
+- **UK "flight delay compensation": 8.8k searches, KD 0.** The same term in the US is 4.7k at KD 71. UK261 is the best lead-gen opportunity found so far, but SOURCES.md places the UK in a later phase.
+- **UK "cancel amazon prime": 8.9k, KD 1.**
+- **Canada:** Canadian Tire 9k, and "flight delay compensation canada" 1.1k (APPR).
+- **Australia:** Kmart/Bunnings 4.4k each. Statutory-rights queries ("consumer guarantee" 90) are tiny.
+- **Takeaway:** law pages earn links and trust; they won't bring traffic.
+
+SERPs sampled so far: 5 of 50.

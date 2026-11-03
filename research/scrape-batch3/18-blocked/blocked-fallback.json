@@ -1,0 +1,67 @@
+{
+ "Marshalls": {
+  "status": "unverified",
+  "source": "Google AI Overview via apify/google-search-scraper",
+  "apify_run_id": "Hme1WyBLTwDrRRcTM",
+  "apify_dataset_id": "tcZuy393zzeyNnYCz",
+  "fetched_at": "2026-11-03",
+  "ai_overview_text": "Marshalls allows full refunds to the original payment method for in-store purchases returned within 30 days with a valid register receipt.\nIn-Store Purchases\n- Within 30 days with receipt: Full refund to your original payment method.\n- After 30 days, or with a gift receipt / no receipt: Issued as a merchandise credit card. Without a receipt, a valid government-issued ID and personal info are required.\n- Condition: Items must be unwashed, unused, and appropriately tagged. Swimwear and intimate apparel must have original tickets attached.\n- Holiday Return Policy: Purchases made between October 4, 2026, and December 24, 2026, can be returned through February 4, 2027 (for online) or extended holiday windows in-store.\nOnline Purchases",
+  "cited_urls": [
+   "https://www.marshalls.com/us/m/jump/topic/Return-Policy-For-Items-Purchased-In-Stores/18400006p",
+   "https://m.marshalls.com/us/m/jump/topic/Returns/6500009p",
+   "https://www.reddit.com/r/marshallsfinds/comments/1eoakhb/returns/"
+  ]
+ },
+ "Home Depot": {
+  "status": "unverified",
+  "source": "Google AI Overview via apify/google-search-scraper",
+  "apify_run_id": "Hme1WyBLTwDrRRcTM",
+  "apify_dataset_id": "tcZuy393zzeyNnYCz",
+  "fetched_at": "2026-11-03",
+  "ai_overview_text": "The Home Depot allows returns for most new merchandise within 90 days with proof of purchase.\nStandard Return Windows\n- 90 Days: General merchandise, most plants, and standard items.\n- 365 Days: Purchases made with a Home Depot consumer credit card, Pro Xtra credit card, or commercial account (does not override shorter item-specific windows).\n- 30 Days: Furniture, consumer electronics, gas equipment, paint sprayers, and seasonal holiday decor (such as Halloween and Christmas items, which must be unused and have a receipt).\n- 7 Days: Air conditioners, dehumidifiers, gas generators, pumps, portable evaporation products, and portable heaters (must be unused with proof of purchase).",
+  "cited_urls": [
+   "https://www.homedepot.com/c/Return_Policy",
+   "https://www.homedepot.com/c/refund-policy",
+   "https://www.consumeraffairs.com/news/home-depots-return-policy-explained-insider-tips-hidden-rules-and-smart-ways-to-make-returns-easier-070126.html"
+  ]
+ },
+ "Adidas": {
+  "status": "unverified",
+  "source": "Google AI Overview via apify/google-search-scraper",
+  "apify_run_id": "Hme1WyBLTwDrRRcTM",
+  "apify_dataset_id": "tcZuy393zzeyNnYCz",
+  "fetched_at": "2026-11-03",
+  "ai_overview_text": "The standard Adidas return policy allows you to return online or in-store purchases within 30 days of receipt for a full refund, provided items are in good condition with original tags and packaging.\nKey Rules & Timelines\n- Standard Return Window: 30 days for most online and in-store orders.\n- Hype / Limited Items: Must be returned within 14 days.\n- Holiday Return Policy: Online orders placed between October 29, 2026, and January 11, 2027, have an extended return window of 60 days.\n- Condition: Items must be unworn, in original packaging, with all apparel tags and shoe boxes intact.\nNon-Returnable Items",
+  "cited_urls": [
+   "https://www.adidas.com/us/help/us-returns-refunds/how-do-i-return-my-products",
+   "https://www.adidas.com/us/help/us-returns-refunds/what-is-the-return-policy",
+   "https://www.adidas.com/us/help/us-returns-refunds/can-i-exchange-my-products"
+  ]
+ },
+ "Dick's Sporting Goods": {
+  "status": "unverified",
+  "source": "Google AI Overview via apify/google-search-scraper",
+  "apify_run_id": "Hme1WyBLTwDrRRcTM",
+  "apify_dataset_id": "tcZuy393zzeyNnYCz",
+  "fetched_at": "2026-11-03",
+  "ai_overview_text": "Review the Dick's Sporting Goods Return Policy for standard timeframes, rules, and item exceptions:\n- 90-Day Policy: Most products purchased at Dick's Sporting Goods, Calia, VRST, and Golf Galaxy can be returned within 90 days from the date of purchase (in-store) or from the original shipment date (online orders).\n- Condition: Items must be clean, unused, and in resalable condition with all original packaging and tags.\n- Proof of Purchase: Valid proof includes a sales receipt, order confirmation email, order number, pack slip, or return barcode.\nShorter Return Timeframes & Special Rules\n- 30-Day Policy: Applies to Dick's Sporting Goods Warehouse and Going, Going, Gone! locations, as well as fitness equipment, firearms, ammunition, and opened Theragun or Hyperice recovery products.\n- 7-Day Policy: Pre-owned, demo, refurbished items, and Nike Adapt shoes have a 7-day window and are eligible for exchange only.\n- 24-Hour Policy (Bikes): Bicycles have a 24-hour size/color verification window. Unused bikes can be returned within 24 hours of purchase or pickup only if they have not been ridden/used and retain all original tags.\nNon-Returnable & Restricted Items\n- Baseball/Softball Bats: Eligible for return only if they are unused.\n- Factory Sealed Items: Returns may be denied if factory seals are broken on items like football helmets, air beds, e-bikes, or electronic scooters.\nReturns Without a Receipt\n- Returns without a valid proof of purchase require a valid government-issued ID.\n- Refunds are issued as a store credit for the item's system-generated lowest selling price.\nIf you'd like, let me know:\n- What specific item you are trying to return\n- How long ago you bought it\n- Whether you have a receipt or online order number\nI can give you the exact steps or help you figure out if it qualifies for a refund!",
+  "cited_urls": [
+   "https://www.dickssportinggoods.com/s/return-policy",
+   "https://www.goinggoinggone.com/s/return-policy",
+   "https://www.purchy.ai/blog/dicks-sporting-goods-return-policy-2026"
+  ]
+ },
+ "Ulta": {
+  "status": "unverified",
+  "source": "Google AI Overview via apify/google-search-scraper",
+  "apify_run_id": "Hme1WyBLTwDrRRcTM",
+  "apify_dataset_id": "tcZuy393zzeyNnYCz",
+  "fetched_at": "2026-11-03",
+  "ai_overview_text": "Ulta Beauty allows returns of new and gently used products within 30 days of purchase for a full refund with proof of purchase, and between 31 and 60 days for merchandise/store credit.\nKey Return Guidelines\n- Return Window:\n  - 0\u201330 days: Full refund to your original payment method with a receipt or Ultamate Rewards lookup.\n  - 31\u201360 days: Merchandise or store credit.\n  - After 60 days: Returns are generally not accepted.\n- Condition:",
+  "cited_urls": [
+   "https://www.ulta.com/guestservices/all",
+   "https://www.reddit.com/r/Ulta/comments/1ibr2kx/updated_return_policy_all_thoughts_and_opinions/",
+   "https://www.ulta.com/company/terms-and-conditions"
+  ]
+ }
+}

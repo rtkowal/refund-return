@@ -1,0 +1,13 @@
+# TODO
+- [ ] Owner: attach GitHub repo; connect Apify; supply research/SOURCES.md; Ahrefs budget decision
+- [ ] 01: + UK flight keyword set (when Ahrefs units are bought)
+- [ ] 01: 50-SERP sample, intl volumes, facet long-tail sizing, airline + cancel sets
+- [x] 02 policy DB draft · 05,07,09,10 · 00-summary
+- [ ] Verify remaining ⚠ items in 03/04/06 (Apify batch 2)
+- [x] Drafts: 03, 04, 06, 08
+- [x] CHECKPOINT 1 approved 2026-11-03
+- [x] Phase 2 drafts: ia/01-sitemap.md, 02-wireframes.md, 03-top50-urls.csv
+- [ ] 2026-11-06: Ahrefs re-rank brands 41–200 + UK flights + facets + cancel set
+- [x] Apify batch 3 delivered (research/scrape-batch3). Manual queue: research/coverage-after-batch3.md
+- [ ] CHECKPOINT 2
+- [ ] (DEFERRED, much later) Manual verification queue — research/coverage-after-batch3.md

@@ -1,0 +1,31 @@
+---
+source_url: https://www.azleg.gov/ars/44/01377.htm
+title: ""
+fetched_at: 2026-11-03T09:11:17.456601+00:00
+apify_run_id: 74pyNi9PADn69gs4L
+apify_dataset_id: wotYbEM50GZZ02A7Z
+sha256: cbb3f9014d36a22a32e9f2ff5db49a86b190683394f72ba75bb5cdf6c3924608
+quality: ok
+---
+
+44-1377. <u>Disclosure of restocking fee; enforcement; definition</u>
+
+A. A business in this state that charges a restocking fee on a product the business sells shall disclose the existence of the fee and the amount of the fee to a customer in accordance with this section.
+
+B. If a business charges a restocking fee, the business shall do all of the following:
+
+1\. Disclose in any print advertising and promotional material, including a catalog, that a restocking fee may apply to the purchase of goods. The disclosure shall be printed in a clear and conspicuous manner in the advertising and promotional material.
+
+2\. Post a notice disclosing that a restocking fee may apply to the purchase of goods and where the customer may obtain the full restocking fee policy. The notice shall be clearly and conspicuously visible to the customer before purchase.
+
+3\. Disclose on the sales receipt in a conspicuous manner in type at least as large as the majority of the printed text on the receipt and in print that is clear and legible, both of the following:
+
+(a) That a restocking fee may apply to the purchased good.
+
+(b) Where the customer may obtain the full restocking fee policy.
+
+4\. At the point of purchase for a good on the web site of the business, disclose that a restocking fee may apply to the purchase of goods. The business must provide the full restocking fee policy on the web site. The disclosure prescribed by this paragraph shall be printed in a clear and conspicuous manner on the web site.
+
+C. An act or practice in violation of this section is an unlawful practice under section 44-1522. The attorney general may investigate and take appropriate action as prescribed by chapter 10, article 7 of this title.
+
+D. For the purposes of this section, "restocking fee" means a fee charged by a business for restocking of the good purchased on its return or exchange.

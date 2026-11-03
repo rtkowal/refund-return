@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #fbfaf7;
+  --surface: #ffffff;
+  --ink: #1b1d21;
+  --muted: #5d6470;
+  --line: #e4e1da;
+  --accent: #0f6b5c;      /* trust green */
+  --accent-ink: #ffffff;
+  --warn: #9a5b00;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121416; --surface: #1a1d20; --ink: #eceae6; --muted: #a3a9b2;
+    --line: #2b2f34; --accent: #4fc0a8; --accent-ink: #0b1210; --warn: #f0b35a;
+  }
+}
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-warn: var(--warn);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+body { background: var(--bg); color: var(--ink); }
+a { text-underline-offset: 3px; }
+.prose-rr p { margin: 0 0 1rem; line-height: 1.65; }
+.prose-rr h2 { font-size: 1.35rem; font-weight: 650; margin: 2rem 0 .75rem; }
+.prose-rr ul { list-style: disc; padding-left: 1.25rem; margin-bottom: 1rem; }
+.prose-rr li { margin: .25rem 0; }

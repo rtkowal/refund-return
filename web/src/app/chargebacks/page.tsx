@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Pillar } from "@/components/Pillar";
 import { REG_Z } from "@/lib/generator/defs";
 
-export const metadata: Metadata = { title: 'Chargebacks: how to dispute a card charge', description: 'A chargeback is when your card issuer reverses a charge. For credit cards, federal law gives you a formal billing-error process with a deadline. Debit cards and payment apps work differently.', alternates: { canonical: "/chargebacks/" } };
+export const metadata: Metadata = { title: 'Chargebacks: how to dispute a card charge', description: 'How to dispute a credit or debit card charge: the credit card billing-error process, its 60-day deadline, and how debit and payment apps differ.', alternates: { canonical: "/chargebacks/" } };
 
 export default function Page() {
   return <Pillar h1={'How to dispute a credit or debit card charge (chargeback)'} lead={'A chargeback is when your card issuer reverses a charge. For credit cards, federal law gives you a formal billing-error process with a deadline. Debit cards and payment apps work differently.'} laws={[REG_Z]} tools={[{ href: '/generator/chargeback-letter/', label: 'Credit card dispute letter' }, { href: '/generator/refund-request/', label: 'Ask the store for a refund first' }]} sections={[

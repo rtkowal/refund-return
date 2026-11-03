@@ -1,0 +1,5 @@
+# refund-return.com
+> Verified US store return policies, refund rules and letter templates. Every fact links to its official source with a last-verified date.
+
+- [How we verify](https://refund-return.com/methodology/)
+- [Editorial policy](https://refund-return.com/editorial-policy/)

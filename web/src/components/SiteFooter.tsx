@@ -10,6 +10,7 @@ export function SiteFooter() {
         </p>
         <nav aria-label="About" className="flex flex-col gap-1">
           <Link href="/returns/">How returns work</Link>
+          <Link href="/sellers/">For sellers</Link>
           <Link href="/about/">About</Link>
           <Link href="/methodology/">How we verify</Link>
           <Link href="/editorial-policy/">Editorial policy</Link>

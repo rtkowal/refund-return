@@ -1,0 +1,60 @@
+{
+  "id": "platform-amazon",
+  "jurisdiction": "platform",
+  "name": "Amazon",
+  "citation": "Amazon Seller Central: returns policies",
+  "url": "https://sellercentral.amazon.com/help/hub/reference/external/G69126",
+  "files": [
+    "research/scrape-2026-11-03/04-fixups/sellercentral-amazon-com-help-hub-reference-external-G69126-locale-en-US.md",
+    "research/scrape-2026-11-03/04-fixups/sellercentral-amazon-com-gp-help-external-202073170.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03/04-fixups/sellercentral-amazon-com-help-hub-reference-external-G69126-locale-en-US.md",
+      "sha256": "f67430145e7853cecddd61e37605d71b663e6c1fe83c9c4e73f2e0f282bbb79d",
+      "run": "wuOGP1JQ4DIQswjAY",
+      "url": "https://sellercentral.amazon.com/help/hub/reference/external/G69126?locale=en-US"
+    },
+    {
+      "file": "research/scrape-2026-11-03/04-fixups/sellercentral-amazon-com-gp-help-external-202073170.md",
+      "sha256": "22f24a48774e809a236ae065c5f974648d0ce8bec170f38d37471c727732b0db",
+      "run": "wuOGP1JQ4DIQswjAY",
+      "url": "https://sellercentral.amazon.com/gp/help/external/202073170"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Sellers must allow customers to cancel subscriptions of 2 to 5 months and receive a full refund within 7 days of payment.",
+      "quote": "For subscriptions with a term between 2 months and 5 months, allow a customer to cancel an order of a Product and receive a full refund within 7 days of payment (initial and renewal).",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/sellercentral-amazon-com-gp-help-external-202073170.md"
+    },
+    {
+      "text": "Sellers must allow customers to cancel subscriptions of 6 months or more and receive a full refund within 7 days of initial payment and within 30 days of renewal payment.",
+      "quote": "For subscriptions with a term 6 months or greater, allow a customer to cancel an order of a Product and receive a full refund: (a) within 7 days of initial payment and (b) within 30 days of payment at renewal.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/sellercentral-amazon-com-gp-help-external-202073170.md"
+    },
+    {
+      "text": "Sellers must allow customers to cancel and receive a full refund at any time if the product is defective or materially different from the listing.",
+      "quote": "For all subscription lengths, allow a customer to cancel an order of a Product and receive a full refund at any time where the Product is defective or materially different from the item represented in the Product Listing.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/sellercentral-amazon-com-gp-help-external-202073170.md"
+    },
+    {
+      "text": "Sellers must allow customers to cancel and receive a full refund at any time if there is a material change in the product, its availability, or terms and conditions.",
+      "quote": "For all subscription lengths, allow a customer to cancel an order of a Product and receive a full refund at any time if there is a material change in your Product, the availability of your Product or any of your terms and conditions of use and service relating to the Product.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/sellercentral-amazon-com-gp-help-external-202073170.md"
+    },
+    {
+      "text": "Sellers must clearly disclose that customers must cancel orders through Amazon's cancellation process and redirect customers to Amazon's subscription manager.",
+      "quote": "Customers who want to cancel orders must do so through the cancellation process offered by Amazon, including through the subscription manager on the Amazon Site. You must clearly disclose this requirement to customers and provide for such customers to be re-directed to Amazon's subscription manager.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/sellercentral-amazon-com-gp-help-external-202073170.md"
+    },
+    {
+      "text": "Sellers may not directly process cancellations, refunds, or returns except to redirect customers to Amazon's subscription manager.",
+      "quote": "You may not directly interact with a customer to cancel a Transaction or otherwise process a cancellation, refund or return for a Product, except as is necessary to re-direct such customer from your website or application to Amazon's subscription manager.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/sellercentral-amazon-com-gp-help-external-202073170.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

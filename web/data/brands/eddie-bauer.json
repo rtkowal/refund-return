@@ -1,0 +1,94 @@
+{
+  "slug": "eddie-bauer",
+  "name": "Eddie Bauer",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.eddiebauer.com/pages/return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.eddiebauer.com/pages/return-policy",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/eddiebauer-com-pages-return-policy.md",
+      "sha256": "c29a32c4c889740b434a5a83bceb203bc903dbcf2c2d29bef82232f7f027dda6",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "The default return period is 30 days from delivery for all items ordered via phone or online store.",
+      "quote": "We offer a hassle-free 30-day return period on all items ordered via phone or our online store.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-holiday-2",
+      "type": "holiday",
+      "channel": "online",
+      "windowDays": 45,
+      "windowAnchor": "delivery",
+      "text": "Orders placed between November 18 and December 25 have an extended 45-day return period from delivery.",
+      "quote": "Orders placed between Monday, November 18 and December 25 are eligible for an extended 45-day return period for items ordered through our online store.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Final Sale items are not eligible for return or exchange.",
+      "quote": "Final Sale items are not eligible for return or exchange",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "in_store",
+      "text": "In the US, customers can pay a $3.50 prepaid return fee at checkout to cover return costs.",
+      "quote": "Pay a $3.50 prepaid return fee at checkout, which covers the cost of a return made in accordance with this policy",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-5",
+      "type": "fee",
+      "channel": "in_store",
+      "text": "If the prepaid return option is declined in the US, a $10 restocking fee is deducted from the refund.",
+      "quote": "Decline the prepaid return option, in which case a $10 restocking fee will be deducted from any refund if the item is returned",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-6",
+      "type": "fee",
+      "channel": "in_store",
+      "text": "In Canada, a $20 restocking fee is deducted from refunds for returns, and prepaid return option is not available.",
+      "quote": "The prepaid return option is not available. For returns made in accordance with this policy, a $20 restocking fee will be deducted from the refund, subject to applicable law.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-7",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Returns without proof of purchase may be credited as merchandise credit at current selling price.",
+      "quote": "Returns made without proof of purchase may be credited at the item’s current selling price on the date of return, in the form of a merchandise credit",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

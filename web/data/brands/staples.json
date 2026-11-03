@@ -1,0 +1,161 @@
+{
+  "slug": "staples",
+  "name": "Staples",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.staples.com/sbd/cre/help-center/returns-policy/css",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.staples.com/sbd/cre/help-center/returns-policy/css",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/staples-com-sbd-cre-help-center-returns-policy-css.md",
+      "sha256": "9cb5e32f9fed1ea35f5329e1853a55b6009afa349f5982f18523b9f6a6714081",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-receipt-1",
+      "type": "receipt",
+      "channel": "any",
+      "text": "You may return or exchange it with a receipt or packing slip.",
+      "quote": "If you aren’t satisfied with your Staples purchase, you may return or exchange it with a receipt or packing slip.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "category": "Office Supplies",
+      "text": "Office supplies may be returned at any time.",
+      "quote": "Office Supplies\n\nThese items may be returned at any time.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-3",
+      "type": "window",
+      "channel": "any",
+      "category": "Technology",
+      "windowDays": 14,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Technology items may be returned within 14 days.",
+      "quote": "Technology*\n\n14 Days",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-4",
+      "type": "window",
+      "channel": "any",
+      "category": "Furniture",
+      "windowDays": 14,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Furniture items may be returned within 14 days.",
+      "quote": "Furniture*\n\n14 Days",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-5",
+      "type": "window",
+      "channel": "any",
+      "category": "Software",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Unopened boxed software may be returned for a full refund within 30 days.",
+      "quote": "Unopened boxed software that we currently sell may be returned for a full refund within 30 days.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Software",
+      "text": "Opened boxed software and downloadable software are not returnable or refundable.",
+      "quote": "Opened boxed software and Downloadable software is not returnable or refundable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Digital Software",
+      "text": "Digital software cannot be refunded.",
+      "quote": "Digital Software\n\nCannot be refunded.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-8",
+      "type": "window",
+      "channel": "any",
+      "category": "Ink & Toner",
+      "text": "Unopened, unexpired ink and toner items may be returned at any time.",
+      "quote": "Unopened, unexpired items may be returned at any time.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Ink & Toner",
+      "text": "Opened or expired ink and toner items cannot be refunded.",
+      "quote": "Opened or expired items cannot be refunded.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-10",
+      "type": "window",
+      "channel": "any",
+      "category": "AppleCare+",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "AppleCare+ may be returned within 30 days.",
+      "quote": "AppleCare+\n\n30 Days",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-11",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Prepaid Cards",
+      "text": "Prepaid cards are nonrefundable.",
+      "quote": "Prepaid Cards\n\nNonrefundable",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-holiday-12",
+      "type": "holiday",
+      "channel": "any",
+      "category": "Technology",
+      "windowDays": 25,
+      "windowAnchor": "purchase",
+      "text": "During the holiday season, electronic and furniture products purchased between Nov 17 and Dec 24, 2019 may be returned until Jan 11, 2020 or as regular policy allows, whichever is later.",
+      "quote": "During the holiday season, we are extending our regular 14–day electronic and furniture return policy to permit customers to return products that may be purchased as gifts.\n\nAny electronic or furniture products, which usually fall within the 14–day return policy, purchased between November 17, 2019 and December 24, 2019 may be returned until January 11, 2020 or as regular policy allows, whichever is later.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

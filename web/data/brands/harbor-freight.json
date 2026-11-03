@@ -1,0 +1,150 @@
+{
+  "slug": "harbor-freight",
+  "name": "Harbor Freight",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.harborfreight.com/customer-support/returns/policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.harborfreight.com/customer-support/returns/policy",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/harborfreight-com-customer-support-returns-policy.md",
+      "sha256": "e67eb6f195976c6d3a259034d939bbf192f90e5e0e125757e56a852a61675239",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 90,
+      "windowAnchor": "purchase",
+      "text": "You may return it within 90 days of the purchase date for a refund or exchange.",
+      "quote": "If you are unsatisfied with an item you purchased from Harbor Freight, you may return it within 90 days of the purchase date for a refund or exchange.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-2",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds may take up to 10 business days to be credited to your account after processing.",
+      "quote": "Once we process your refund, it may take up to 10 business days for the funds to be credited to your account.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds will automatically go back to the original form of payment used for the purchase, except gift card purchases which are refunded to a new Harbor Freight gift card.",
+      "quote": "In most cases, refunds will automatically go back to the original form of payment used for the purchase. Purchases made with a Harbor Freight gift card will be refunded to a new Harbor Freight gift card.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-4",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Proof of purchase is required for all returns.",
+      "quote": "Proof of purchase is required for all returns.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-5",
+      "type": "fee",
+      "channel": "any",
+      "text": "A restocking fee may apply to an item being returned.",
+      "quote": "A restocking fee may apply to an item being returned.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-6",
+      "type": "receipt",
+      "channel": "in_store",
+      "text": "For in-store returns, a valid government-issued photo ID and/or other identifying information must be presented at the time of return.",
+      "quote": "For in-store returns, a valid government-issued photo ID and/or other identifying information must be presented at the time of return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "pumps, sprayers, and drain cleaners",
+      "text": "Pumps, sprayers, and drain cleaners cannot be returned to stores or by mail if opened due to safety reasons.",
+      "quote": "Pumps, sprayers, and drain cleaners cannot be returned to stores or by mail if opened due to safety reasons.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "items containing engine oil or fuel",
+      "text": "Items cannot contain engine oil or fuel at the time of return and cannot be returned by mail if they use flammable liquids or gases or contain hazardous materials.",
+      "quote": "Items cannot contain engine oil or fuel in them at the time of the return. Please drain all the fuel and engine oil before returning your gas-powered item to any Harbor Freight store. Due to safety hazards, items that use flammable liquids or gases or contain hazardous materials cannot be returned through the mail even if the items were drained of the materials.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-9",
+      "type": "window",
+      "channel": "in_store",
+      "category": "Open Box and As-Is Items",
+      "windowDays": 5,
+      "windowAnchor": "purchase",
+      "text": "Open Box and As-Is Items can be returned within five (5) days of purchase to any Harbor Freight store.",
+      "quote": "Open Box and As-Is Items can be returned within five (5) days of purchase to any Harbor Freight store.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-10",
+      "type": "exclusion",
+      "channel": "in_store",
+      "category": "select items including abrasive media",
+      "text": "Select items including abrasive media can only be returned in-store if unopened, including items purchased online.",
+      "quote": "Select items, including abrasive media, can only be returned in-store if unopened, including items purchased online.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-11",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "replacement parts",
+      "text": "Replacement parts are final sale and cannot be returned.",
+      "quote": "Replacement parts are final sale and cannot be returned.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-12",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "gift cards",
+      "text": "Gift card purchases are nonrefundable.",
+      "quote": "Gift card purchases are nonrefundable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

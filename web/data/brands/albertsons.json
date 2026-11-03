@@ -1,0 +1,126 @@
+{
+  "slug": "albertsons",
+  "name": "Albertsons",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.albertsons.com/lp/fresh-guarantee.html",
+  "launch": false,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.albertsons.com/lp/fresh-guarantee.html",
+      "file": "research/scrape-batch3/17-brands-fix/albertsons-com-lp-fresh-guarantee-html.md",
+      "sha256": "3436f5c306b53d75d95e42b7a35fd911d11ae514a02de7657951409409508a73",
+      "apifyRunId": "eOw16fKOqV49VIlfU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-exclusion-1",
+      "type": "exclusion",
+      "channel": "online",
+      "category": "baby formula",
+      "windowDays": 7,
+      "windowAnchor": "delivery",
+      "text": "Baby formula cannot be returned or refunded once you have accepted delivery or picked up your order.",
+      "quote": "Note that certain items, including baby formula, alcoholic beverages, and tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "online",
+      "category": "alcoholic beverages",
+      "windowDays": 7,
+      "windowAnchor": "delivery",
+      "text": "Alcoholic beverages cannot be returned or refunded once you have accepted delivery or picked up your order.",
+      "quote": "Note that certain items, including baby formula, alcoholic beverages, and tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "online",
+      "category": "tobacco products",
+      "windowDays": 7,
+      "windowAnchor": "delivery",
+      "text": "Tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
+      "quote": "Note that certain items, including baby formula, alcoholic beverages, and tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-4",
+      "type": "window",
+      "channel": "online",
+      "windowDays": 7,
+      "windowAnchor": "delivery",
+      "text": "You can request a refund within seven days after your delivery or pick up for online grocery orders.",
+      "quote": "Notify the driver upon delivery of your order (or the Store Associate upon pick up of your order), or contact us within seven days after your delivery or pick up.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "online",
+      "text": "The satisfaction guarantee does not cover damage caused by improper use, storage, or accidents after delivery or pick up, or ordinary wear and tear on durable goods.",
+      "quote": "Please note that this satisfaction guarantee does not cover damage caused by improper use, storage, or accidents after delivery or pick up, or any ordinary wear and tear on durable goods.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-6",
+      "type": "refund_timing",
+      "channel": "any",
+      "windowDays": 7,
+      "windowAnchor": "receipt",
+      "text": "Refunds by check require a 7-day waiting period.",
+      "quote": "CHECK: Refunds will be issued in cash after a 7-day waiting period.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "eWIC",
+      "text": "No refunds are given for eWIC purchases.",
+      "quote": "eWIC: No Refund",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-8",
+      "type": "window",
+      "channel": "any",
+      "category": "produce",
+      "text": "All produce items are covered under the money back guarantee if not 100% satisfied with freshness.",
+      "quote": "All produce items are covered under our money back guarantee.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-9",
+      "type": "refund_method",
+      "channel": "any",
+      "category": "produce",
+      "text": "Produce refunds can be requested in store or via phone, web, mail, or chat.",
+      "quote": "If you’re not 100% satisfied with the freshness of your produce, you can request a full refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

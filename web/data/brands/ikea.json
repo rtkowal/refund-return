@@ -1,0 +1,91 @@
+{
+  "slug": "ikea",
+  "name": "IKEA",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.ikea.com/us/en/customer-service/returns-claims/return-policy/",
+  "launch": true,
+  "lastVerifiedAt": "2026-11-03",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.ikea.com/us/en/customer-service/returns-claims/return-policy/",
+      "file": "research/scrape-2026-11-03-b2/06-blocked-retail-walmart-uk261-ba/ikea-com-us-en-customer-service-returns-claims-return-policy.md",
+      "sha256": "8f1f2e7cefa089260bb1a27b6d089b537badf66e3f542e62c16b6f6be244c60d",
+      "apifyRunId": "14ymTuHeKHMDeSDld+tmUBsmyRiM6leEZSg",
+      "fetchedAt": "2026-11-03"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-exchange-1",
+      "type": "exchange",
+      "channel": "in_store",
+      "text": "You can exchange items at any IKEA store by bringing your merchandise, photo ID, receipt (or online order confirmation) and the card you used for the purchase.",
+      "quote": "Exchange items at any IKEA store by bringing your merchandise, photo ID, receipt (or online order confirmation) and the card you used for the purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns are not accepted at IKEA Planning Studio or IKEA Pick Up Point locations.",
+      "quote": "Returns are not accepted at IKEA Planning Studio or IKEA Pick Up Point locations.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-3",
+      "type": "receipt",
+      "channel": "in_store",
+      "text": "You need to bring your receipt or online order confirmation for exchanges.",
+      "quote": "Exchange items at any IKEA store by bringing your merchandise, photo ID, receipt (or online order confirmation) and the card you used for the purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-4",
+      "type": "receipt",
+      "channel": "in_store",
+      "text": "You need to bring the card you used for the purchase for exchanges.",
+      "quote": "Exchange items at any IKEA store by bringing your merchandise, photo ID, receipt (or online order confirmation) and the card you used for the purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-5",
+      "type": "receipt",
+      "channel": "in_store",
+      "text": "You need to bring photo ID for exchanges.",
+      "quote": "Exchange items at any IKEA store by bringing your merchandise, photo ID, receipt (or online order confirmation) and the card you used for the purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-6",
+      "type": "window",
+      "channel": "any",
+      "text": "You can start your return online.",
+      "quote": "You can start your return online [here](https://www.ikea.com/us/en/returns/).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-7",
+      "type": "fee",
+      "channel": "any",
+      "category": "small items",
+      "text": "Small items purchased in store can be returned via FedEx at drop-off locations by contacting Customer Support Center.",
+      "quote": "Do you need to return a small item that you recently purchased at the store? Please contact the Customer Support Center to return via FedEx at any of over 50,000 FedEx drop-off locations.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

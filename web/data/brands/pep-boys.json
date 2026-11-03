@@ -1,0 +1,142 @@
+{
+  "slug": "pep-boys",
+  "name": "Pep Boys",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.pepboys.com/customer-care/policies",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.pepboys.com/customer-care/policies",
+      "file": "research/scrape-batch3/17-brands-fix/pepboys-com-customer-care-policies.md",
+      "sha256": "1cd2ff66f323cdf1b280d2c9867b4e5e7281e0bc0d0df475ff274ee58712dbe6",
+      "apifyRunId": "te4KP4vEIqKaIvFVh",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "You can return items with the original receipt within 30 days of purchase for a refund or replacement.",
+      "quote": "simply return with the original receipt within 30 days of the purchase date for a refund or replacement.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "performance accessories, electrical items, electronics, and tire chains",
+      "text": "Installed performance accessories, electrical items, electronics, and tire chains cannot be returned.",
+      "quote": "If installed, performance accessories, electrical items, electronics, and tire chains cannot be accepted for return",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "opened or consumed products",
+      "text": "Opened or consumed products cannot be returned.",
+      "quote": "Opened or consumed products cannot be accepted for return",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "clearance merchandise",
+      "text": "Clearance merchandise is not eligible for return.",
+      "quote": "Clearance merchandise is not eligible for return",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "special order merchandise, uninstalled tires and uninstalled tire chains",
+      "text": "Special order merchandise, uninstalled tires and uninstalled tire chains are subject to a 20% restocking fee if returned.",
+      "quote": "Special Order merchandise, uninstalled tires and / or uninstalled tire chains will be accepted for return subject to a 20% restocking fee",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-6",
+      "type": "fee",
+      "channel": "any",
+      "text": "A 20% restocking fee applies to cancellations and certain returns.",
+      "quote": "We will process your refund and credit the payment card you used to place the order in the amount of your order, less the 20% restocking fee.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-7",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns without a receipt are accepted for in-store credit at the lowest selling price in the last 30 days with valid ID.",
+      "quote": "If you do not have your receipt, you may return your purchase for an in-store credit at our lowest selling price during the previous 30 days. You will need to provide a valid form of identification to return an item without a receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-8",
+      "type": "receipt",
+      "channel": "any",
+      "windowDays": 15,
+      "windowAnchor": "purchase",
+      "text": "If you paid by check, returns are not accepted until 15 days after purchase.",
+      "quote": "If you paid by check we unfortunately cannot accept your return until the 15th day after the date of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-9",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds may take up to ten business days to appear on your account due to credit card company regulations.",
+      "quote": "Please note that it may take up to ten business days for the credit to appear on your account, due to credit card company regulations.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-10",
+      "type": "exchange",
+      "channel": "in_store",
+      "category": "tires installed by Pep Boys",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Installed tires have a 30-day or 1,000-mile satisfaction guarantee allowing exchange for better suited tires.",
+      "quote": "Pep Boys offers a 30-days or 1,000-mile satisfaction guarantee on Pep Boys installed tires. If you are not 100% satisfied with your new tires, we will exchange them for tires better suited for your needs.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-11",
+      "type": "exchange",
+      "channel": "in_store",
+      "category": "batteries, alternators, starters",
+      "text": "Batteries, alternators, and starters can be exchanged if verified defective via in-store testing within warranty period.",
+      "quote": "Batteries / Alternators / Starters – eligible for exchange if verified defective via Pep Boys’ in-store testing within warranty period",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

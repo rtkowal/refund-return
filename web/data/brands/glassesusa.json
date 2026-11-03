@@ -1,0 +1,42 @@
+{
+  "slug": "glassesusa",
+  "name": "GlassesUSA.com",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://support.glassesusa.com/hc/en-us/articles/6816199546644-How-to-Return-or-Exchange-Your-Glasses",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://support.glassesusa.com/hc/en-us/articles/6816199546644-How-to-Return-or-Exchange-Your-Glasses",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/support-glassesusa-com-hc-en-us-articles-6816199546644-How-to-Return-or-Exchange-Your-Glasses.md",
+      "sha256": "36a6c964dd9d24ae2d607db2798ba1998c875c6c65d611365223295c504ed8f2",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "delivery",
+      "text": "You can return or exchange your order for free within 60 days of delivery.",
+      "quote": "Return or exchange your order for FREE within 60 days of delivery using our self-service portal or Live Chat.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-2",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Return processing takes approximately 4 business days after the return is scanned or received at the warehouse.",
+      "quote": "Once your return is scanned at Happy Returns or received at our warehouse, processing takes approximately 4 business days:",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "carhartt",
+  "name": "Carhartt",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.carhartt.com/shipping-and-returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.carhartt.com/shipping-and-returns",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/carhartt-com-shipping-and-returns.md",
+      "sha256": "46efea7af5de98c5e5b25852d18fef17f29407e2ddee29e224effa3f9ca79b28",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 180,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "You may return your purchase within 180 days of your order, in original condition with the tags attached.",
+      "quote": "How long do I have to return my purchase?\n\nYou may return your purchase within 180 days of your order, in original condition with the tags attached.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "We only accept returns from orders placed on Carhartt.com.",
+      "quote": "We only accept returns from orders placed on Carhartt.com.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "All refunds will be credited in the method of payment you used on the original purchase.",
+      "quote": "All refunds will be credited in the method of payment you used on the original purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "any",
+      "text": "Original shipping costs, if any, are non-refundable.",
+      "quote": "Original shipping costs, if any, are unfortunately non-refundable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-5",
+      "type": "exchange",
+      "channel": "any",
+      "text": "We are unable to perform exchanges at this time for online orders.",
+      "quote": "Can I exchange my purchase?\n\nWe're sorry but we are unable to perform exchanges at this time.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-6",
+      "type": "window",
+      "channel": "in_store",
+      "windowDays": 180,
+      "windowAnchor": "purchase",
+      "text": "Carhartt stores accept returns within 180 days of the original purchase with receipt and tags attached.",
+      "quote": "Carhartt stores will accept returns for items purchased from Carhartt within 180 days of the original purchase. Returned items should be in the original purchased condition, with tags attached, and the original purchase receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-7",
+      "type": "exchange",
+      "channel": "in_store",
+      "windowDays": 180,
+      "windowAnchor": "purchase",
+      "text": "Items returned with receipt may be exchanged for the same product or refunded in the original payment method within 180 days.",
+      "quote": "Such items may be exchanged for the same product or refunded in the original payment method.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-8",
+      "type": "receipt",
+      "channel": "in_store",
+      "text": "Returns with gift receipt can be exchanged for another item or gift card equal to purchase price.",
+      "quote": "Returns accompanied by a gift receipt can be exchanged for another item or for a gift card equal to the price of the item at the time of the purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-9",
+      "type": "exchange",
+      "channel": "in_store",
+      "text": "Returns without receipt may be exchanged for the same product or returned for merchandise credit.",
+      "quote": "Such items may be exchanged for the same product or returned for merchandise credit.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-10",
+      "type": "fee",
+      "channel": "any",
+      "text": "Allow 5-7 business days after receipt of return for refund processing.",
+      "quote": "After we receive your return, please allow 5-7 business days for the credit to be released back to the original method of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

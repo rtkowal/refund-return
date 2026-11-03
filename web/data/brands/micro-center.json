@@ -1,0 +1,140 @@
+{
+  "slug": "micro-center",
+  "name": "Micro Center",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.microcenter.com/site/content/return-policy-page.aspx",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.microcenter.com/site/content/return-policy-page.aspx",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/microcenter-com-site-content-return-policy-page-aspx.md",
+      "sha256": "48264aaf0f0dca2d02e1b25b4702910d865df95c4ffbcfaa2f0afd328106b81d",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 15,
+      "windowAnchor": "purchase",
+      "text": "The default return or exchange window is 15 calendar days from the date of purchase for specific categories.",
+      "quote": "Eligible return or exchange time frames are from the date of purchase: **15 calendar days**",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "All other products have a 30 calendar day return or exchange window from the date of purchase.",
+      "quote": "Eligible return or exchange time frames are from the date of purchase: **30 calendar days**\n\n*   All other products",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Certain products are not eligible for return, including earbuds, trading card games, damaged drones, opened software, electronic software downloads, point of sale activation cards with value, and gift cards.",
+      "quote": "The following products are not eligible for return:\n\n*   Earbuds*\n*   Trading Card Games\n*   Damaged Drones\n*   Opened software such as Microsoft Office, Microsoft Windows, Microsoft Windows Server, and Microsoft Windows Server clients**\n*   Electronic software downloads\n*   Point of Sale Activation Cards that have a dollar value\n*   Micro Center Gift Cards (except as required by law)",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "any",
+      "text": "No restocking fees are charged for returns.",
+      "quote": "No, we don't charge restocking fees.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-5",
+      "type": "exchange",
+      "channel": "any",
+      "category": "bundle",
+      "text": "Bundles must be returned as a whole; individual components cannot be returned separately unless defective and a replacement is available.",
+      "quote": "Bundles are treated as a single purchase. Individual components cannot be returned without returning the full bundle.\n\n**Exception:** if one component is defective, we may exchange just that part if a replacement is available.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-6",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds take 5-14 business days; credit card refunds take about 5 business days, debit card refunds about 14 business days.",
+      "quote": "Refunds usually take anywhere from 5-14 business days. Credit Card transaction usually take about 5 business days while Debit Card transactions take about 14 business days.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-7",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns require the item to be brought in as close to original condition as possible, including packaging, manuals, and accessories.",
+      "quote": "We kindly ask that you bring your item(s) to the store in as much of an original state as you are able to get them, including any packaging, manuals, or accessories you have retained.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "assembled items",
+      "text": "Assembled items like 3D printers must be disassembled and repackaged in original box with all packaging and accessories for return.",
+      "quote": "We kindly ask that you ensure that products such as 3D Printer that you're returning are disassembled and in like-new condition, repackaged in the original box with all packaging and accessories.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "data linked devices",
+      "text": "Devices must have all data removed and be unlinked from cloud accounts or other devices to be accepted for return.",
+      "quote": "Please make sure that all data has been removed and that the device is no longer linked to any cloud account or to any other device so that we may accept the return of this product.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-10",
+      "type": "exchange",
+      "channel": "in_store",
+      "category": "defective products",
+      "windowAnchor": "purchase",
+      "text": "Defective items can be repaired or replaced by visiting in-store experts within the return period.",
+      "quote": "If an item purchased from Micro Center is not working as expected with the return period, visit our in-store experts for free help with repair or replacement.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-11",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "same-day returns",
+      "text": "Same-day returns or exchanges to different locations are not eligible.",
+      "quote": "Same-day returns/exchanges to difference locations are not eligible.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

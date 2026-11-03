@@ -1,0 +1,129 @@
+{
+  "slug": "at-home",
+  "name": "At Home",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://help.athome.com/hc/en-us/articles/203774695-What-s-your-return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://help.athome.com/hc/en-us/articles/203774695-What-s-your-return-policy",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/help-athome-com-hc-en-us-articles-203774695-What-s-your-return-policy.md",
+      "sha256": "139c875ba467dfe439ac123c4ece6b96cfc461c32f031c9986faf8ec91fcc10d",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Returns of unused items in the original packaging will be fully refunded within 60 days with proof of purchase or receipt and valid ID.",
+      "quote": "Returns of unused items in the original packaging will be fully refunded within 60 days (90 days if you’re a Design Rewards member) with proof of purchase through your Design Rewards account or receipt and a valid ID.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 90,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Design Rewards members have 90 days to return unused items in original packaging with proof of purchase or receipt and valid ID.",
+      "quote": "Returns of unused items in the original packaging will be fully refunded within 60 days (90 days if you’re a Design Rewards member) with proof of purchase through your Design Rewards account or receipt and a valid ID.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "mattresses and box springs",
+      "text": "Mattresses and box springs cannot be returned.",
+      "quote": "We are unable to accept returns on mattresses and box springs.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "pillows and cushions",
+      "text": "Pillows and cushions cannot be returned without all of their tags.",
+      "quote": "We are unable to accept returns of pillows and cushions without all of their tags.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Items marked “All Sales Final” cannot be returned.",
+      "quote": "We are unable to accept returns of items marked “All Sales Final”.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Products delivered by local delivery partners must be returned in-store.",
+      "quote": "Products delivered by one of our local delivery partners, including Roadie, Instacart, and DoorDash, must be returned in-store.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-7",
+      "type": "refund_timing",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Damaged or defective items must be returned within 60 days (90 days for Design Rewards members) for a refund.",
+      "quote": "If an item you purchased is damaged or defective, please return it within 60 days (90 days if you’re a Design Rewards member) to your nearest store for a refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-8",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "If purchase cannot be verified, store credit is issued based on current price of the item(s).",
+      "quote": "If we can't verify your purchase, we’ll issue store credit based on the current price of the item(s).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-9",
+      "type": "exchange",
+      "channel": "any",
+      "text": "Exchanges are not provided; customers may return unwanted products and purchase new items.",
+      "quote": "We do not provide exchanges, but you're welcome to return any unwanted product and purchase new items.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-holiday-10",
+      "type": "holiday",
+      "channel": "any",
+      "category": "Christmas merchandise",
+      "text": "Christmas merchandise returned after December 25 will be refunded at the current price, even with original receipt.",
+      "quote": "Christmas merchandise returned after December 25 will be refunded at the current price of the items, even with the original receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

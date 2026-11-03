@@ -1,0 +1,100 @@
+{
+  "slug": "famous-footwear",
+  "name": "Famous Footwear",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.famousfootwear.com/shipping-and-returns",
+  "launch": false,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.famousfootwear.com/shipping-and-returns",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/famousfootwear-com-shipping-and-returns.md",
+      "sha256": "1c66329cf5ea680a1c61a6c9e3b00571503d086b0244ad343b641b445e330278",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-exclusion-1",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Famous Footwear stores cannot accept international returns or exchanges, including international returns and exchanges of online purchases.",
+      "quote": "Famous Footwear stores cannot accept international returns or exchanges, including international returns and exchanges of online purchases.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-2",
+      "type": "fee",
+      "channel": "online",
+      "text": "A $9.95 return processing fee is deducted from your refund for returns by mail.",
+      "quote": "Famous Footwear offers $9.95 flat-rate shipping for returns by mail. You can print this pre-paid return shipping label and we'll deduct a return processing fee of $9.95 upon receipt of your return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "online",
+      "text": "Return shipping cost must be paid by the customer for returns by mail.",
+      "quote": "Original shipping charges are not refundable and return shipping charges must be paid by the customer.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-4",
+      "type": "refund_method",
+      "channel": "in_store",
+      "text": "Cash refunds given for cash or check purchases with receipt; credit/debit card refunds returned to original card.",
+      "quote": "Cash refund will be given for merchandise purchased with cash or check with a receipt only. Credit or debit card refunds will be returned back to the card used for the original purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-5",
+      "type": "exchange",
+      "channel": "in_store",
+      "text": "Exchanges are only available in stores.",
+      "quote": "Sorry, exchanges are only available in stores.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-6",
+      "type": "exchange",
+      "channel": "in_store",
+      "text": "You can exchange items at a store for the full purchase price.",
+      "quote": "Exchange the item(s) at a store for the full purchase price.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-price_adjustment-7",
+      "type": "price_adjustment",
+      "channel": "any",
+      "text": "If overcharged, Famous Footwear will refund the difference immediately.",
+      "quote": "In the event we mistakenly overcharge you for any item, please let us know and we will immediately refund the difference between the amount we charged and the actual price for the item(s).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-price_adjustment-8",
+      "type": "price_adjustment",
+      "channel": "any",
+      "text": "Items purchased as part of Buy One, Get One 1/2 Off promotion will have adjusted refund or exchange amounts.",
+      "quote": "Items purchased as part of the Buy One, Get One 1/2 Off promotion will result in adjusted refund or exchange amount.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

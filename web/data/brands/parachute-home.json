@@ -1,0 +1,152 @@
+{
+  "slug": "parachute-home",
+  "name": "Parachute Home",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://parachutehome.com/pages/returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://parachutehome.com/pages/returns",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/parachutehome-com-pages-returns.md",
+      "sha256": "c163652a49ea1d8426c7fb173e07f029fc7f941a0aaa99c8a0c0a8e79547cbf7",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "delivery",
+      "text": "Most items can be returned within 60 days of delivery receipt.",
+      "quote": "We currently offer returns within 60 days on most items:",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-2",
+      "type": "fee",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "delivery",
+      "text": "An $8 mail-in and Happy Return Bar fee applies to all products except mattresses, furniture, and final sale items.",
+      "quote": "Flat rate $8 mail-in and Happy Return Bar fee within 60 days applies to all products except mattresses, furniture, and final sale items.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-3",
+      "type": "refund_timing",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "delivery",
+      "text": "Allow 10 to 14 business days for return processing and 3 to 5 business days for refund to appear on original payment method.",
+      "quote": "Please allow 10 to 14 business days for your return to process. We will notify you when the refund has been initiated. It may take 3 to 5 business days (or longer depending on the payment method used) for the refund to appear on the original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns of duvet inserts, pillows, mattress pads, feather beds, rugs, or oversized quilts are not accepted at Happy Returns Bars due to size restrictions.",
+      "quote": "Due to size restrictions, we do not accept returns of duvet inserts, pillows, mattress pads, feather beds, rugs, or oversized quilts at Happy Returns Bars.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-5",
+      "type": "window",
+      "channel": "any",
+      "category": "mattress",
+      "windowDays": 100,
+      "windowAnchor": "delivery",
+      "text": "Mattresses have a free 100-night trial and can be returned within 100 days of delivery receipt.",
+      "quote": "We offer a free 100-night trial.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "final sale",
+      "text": "Final sale products cannot be returned or exchanged outside of a 24-hour order cancellation window.",
+      "quote": "No returns will be accepted outside of our 24-hour order cancellation window.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-7",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Returns will be refunded to the original method of payment.",
+      "quote": "Returns will be refunded to the original method of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-8",
+      "type": "fee",
+      "channel": "any",
+      "text": "Shipping and handling fees are nonrefundable.",
+      "quote": "Shipping and handling fees are nonrefundable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-9",
+      "type": "refund_timing",
+      "channel": "in_store",
+      "text": "In-store refunds are processed immediately and take 1 to 3 business days to post to your account.",
+      "quote": "The refund will be processed immediately and take one to three business days to post to your account.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-10",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Returns to Happy Returns Bars are processed immediately and refunds appear within 3 to 5 business days.",
+      "quote": "Your return will begin to process immediately and the full refund amount will appear back in the original account within three to five business days.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-11",
+      "type": "refund_timing",
+      "channel": "online",
+      "text": "Mail-in returns take 10 to 14 business days to process plus 3 to 5 business days for refund to appear; an $8 return fee applies.",
+      "quote": "Please allow 10 to 14 business days for your return to process. We will send an email notification once the item(s) have been received and the refund has been initiated. From this date, the full refund amount will appear back in the original account within three to five business days. All mail-in returns are subject to an $8 return fee which will be deducted from your refund amount.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-12",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "delivery",
+      "text": "Free limited exchanges are offered at Happy Returns Bars and by mail for the same product in an alternate color.",
+      "quote": "We offer free limited exchanges at Happy Returns Bars and by mail. Exchanges will only be honored for the same product in an alternate color.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

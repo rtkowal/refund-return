@@ -1,0 +1,131 @@
+{
+  "slug": "ace-hardware",
+  "name": "Ace Hardware",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.acehardware.com/customer-service-center/returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.acehardware.com/customer-service-center/returns",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/acehardware-com-customer-service-center-returns.md",
+      "sha256": "7faa800f8924bcc70261416455693a46b2b3feb473c5bb427087683186239512",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "online",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Most items may be returned within 30 days from the original purchase date with original receipt.",
+      "quote": "You may return most items within 30 days from the original purchase date with original receipt, provided that it is unused, uninstalled, and in its original packaging.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-2",
+      "type": "receipt",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Original receipt is required for returns within 30 days.",
+      "quote": "You may return most items within 30 days from the original purchase date with original receipt, provided that it is unused, uninstalled, and in its original packaging.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "gift cards",
+      "text": "Gift Cards cannot be returned for any reason.",
+      "quote": "Gift Cards cannot be returned for any reason.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "trading cards",
+      "text": "Trading cards are final sale and cannot be returned or exchanged.",
+      "quote": "Trading cards are considered final sale. Returns or exchanges are not accepted.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "clearance items",
+      "text": "Clearance items are final sale and cannot be returned.",
+      "quote": "Clearance items are final sale.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "hazardous materials",
+      "text": "Hazardous materials and products using hazardous materials cannot be returned.",
+      "quote": "Hazardous materials and products that use hazardous materials, such as flammable liquids or gasses cannot be returned.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-7",
+      "type": "fee",
+      "channel": "in_store",
+      "category": "assembled or customized items",
+      "text": "Local Ace store may charge a 15% restocking fee, minimum $20, for assembled items returned but not damaged or defective.",
+      "quote": "Your local Ace store may charge a re-stocking fee of 15%, minimum of $20, for an item that has been assembled and returned but is not damaged or defective.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-8",
+      "type": "fee",
+      "channel": "in_store",
+      "category": "assembled or customized items",
+      "text": "A $15 pickup fee may be charged for returning proper items that are not damaged or defective.",
+      "quote": "If you received the proper item that was not damaged or defective, you may be charged a $15 pickup fee.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-9",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds may take 3 to 5 business days to issue plus additional time for funds to be available.",
+      "quote": "It may take three to five business days to issue your refund. Once we issue your refund, it may take additional time for your funds to be made available in your account by your financial institution.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-10",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "tinted paint/customized items",
+      "text": "Tinted paint orders are final and cannot be returned, refunded, or exchanged.",
+      "quote": "Tinted paint orders placed on acehardware.com are final and cannot be returned, refunded, or exchanged for a new color.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "five-below",
+  "name": "Five Below",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://support.fivebelow.com/hc/en-us/articles/223777307-return-policy-stores-online",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://support.fivebelow.com/hc/en-us/articles/223777307-return-policy-stores-online",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/support-fivebelow-com-hc-en-us-articles-223777307-return-policy-stores-online.md",
+      "sha256": "da776d3041075186f74fe7ff5d0558608d120b1ae86e6cb5fec6f71abeb56918",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 90,
+      "windowAnchor": "purchase",
+      "text": "Items can be returned within 90 days of purchase for a full refund with original receipt or online order confirmation.",
+      "quote": "Items can be returned **within 90 days of purchase** to any Five Below location for a full refund to the original payment method – just bring the original receipt or online order confirmation!",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-2",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Original receipt or online order confirmation is required for returns or exchanges.",
+      "quote": "we gladly accept exchanges or returns* for unopened or defective merchandise with the original receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds will be credited to the original debit/credit card used for purchase; card must be present to receive refund.",
+      "quote": "Refunds will be credited to the original debit/credit card used for purchase (card must be present to receive refund).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "online",
+      "text": "Five Below does not reimburse the cost of shipping for online returns or provide return shipment labels.",
+      "quote": "Five Below does not reimburse the cost of shipping for online returns or provide return shipment labels.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

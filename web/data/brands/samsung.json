@@ -1,0 +1,146 @@
+{
+  "slug": "samsung",
+  "name": "Samsung",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://order-help.us.samsung.com/articles/returns-refunds/what-is-samsungs-return-policy/669e3173cd7d5a05a5318406",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://order-help.us.samsung.com/articles/returns-refunds/what-is-samsungs-return-policy/669e3173cd7d5a05a5318406",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/order-help-us-samsung-com-articles-returns-refunds-what-is-samsungs-return-policy-669e3173cd7d5a05a5318406.md",
+      "sha256": "9925133776867a98692eceb2b16e45ad638b6d57ac3136591447ba96ebaede4a",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 15,
+      "windowAnchor": "delivery",
+      "text": "Most items bought from Samsung.com or through the Shop Samsung App can be returned within 15 days of delivery.",
+      "quote": "Most items bought from Samsung.com or through the Shop Samsung App can be returned within 15 days of delivery.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "category": "Mobile & Wearables",
+      "windowDays": 15,
+      "windowAnchor": "delivery",
+      "text": "Mobile & Wearables products can be returned within 15 days from delivery.",
+      "quote": "Return window | 15 days from delivery",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-3",
+      "type": "window",
+      "channel": "any",
+      "category": "Home Appliances",
+      "windowDays": 15,
+      "windowAnchor": "delivery",
+      "text": "Home Appliances can be returned within 15 days from delivery.",
+      "quote": "Return window | 15 days from delivery",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-4",
+      "type": "window",
+      "channel": "any",
+      "category": "TVs, Monitors & Audio",
+      "windowDays": 15,
+      "windowAnchor": "delivery",
+      "text": "TVs, Monitors & Audio can be returned within 15 days from delivery.",
+      "quote": "Return window | 15 days from delivery",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-5",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 15,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "After you request a return, you have another 15 days to ship the product back.",
+      "quote": "After you request a return, you have another 15 days to ship the product back.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-6",
+      "type": "fee",
+      "channel": "any",
+      "category": "Home Appliances",
+      "text": "Home appliances carry a 15% restocking fee unless the product is damaged or defective.",
+      "quote": "Restocking fee: 15%, for returns not caused by damage or defect from Samsung or its transportation partners.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-7",
+      "type": "fee",
+      "channel": "any",
+      "category": "Mobile & Wearables",
+      "text": "Mobile & Wearables products carry a 5% restocking fee except S Series and A Series phones which have no restocking fee.",
+      "quote": "Restocking fee: 5%, for returns not caused by damage or defect from Samsung or its transportation partners. This includes returns for a change of mind, ordering the wrong product, or buyer’s remorse. Galaxy S Series and Galaxy A Series phones don’t have a restocking fee.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-8",
+      "type": "fee",
+      "channel": "any",
+      "category": "TVs, Monitors & Audio",
+      "text": "TVs, audio, and displays carry a 5% restocking fee unless the product is damaged or defective.",
+      "quote": "Restocking fee: 5%, for returns not caused by damage or defect from Samsung or its transportation partners.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Only items bought on Samsung.com or through the Shop Samsung App can be returned to Samsung; products bought from other retailers must be returned to them.",
+      "quote": "Purchase must be direct from Samsung. Only items bought on Samsung.com or through the Shop Samsung App can be returned to Samsung. Products bought from other retailers or resellers must be returned to them, and are subject to their return policy.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-10",
+      "type": "fee",
+      "channel": "any",
+      "text": "Return shipping is free for all returns.",
+      "quote": "Return shipping is free.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-11",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are issued to your original payment method once the returned product passes inspection.",
+      "quote": "Refunds are issued to your original payment method once the returned product passes inspection.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

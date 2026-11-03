@@ -1,0 +1,87 @@
+{
+  "slug": "macys",
+  "name": "Macy's",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.macys.com/customer-service/articles/what-is-macys-return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.macys.com/customer-service/articles/what-is-macys-return-policy",
+      "file": "research/scrape-2026-11-03/03-brands/macys-com-customer-service-articles-what-is-macys-return-policy.md",
+      "sha256": "38e8e7af83ed7b9dad132b74882d2409e479860730fb9b4c523b2cc53083572c",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Most items can be returned within 30 days of delivery or purchase.",
+      "quote": "If you’re not completely satisfied, most items can be returned within **30 days of delivery or purchase**.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-2",
+      "type": "exchange",
+      "channel": "in_store",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Items purchased in store must be returned to a Macy’s store.",
+      "quote": "Items purchased in store must be returned to a Macy’s store",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "in_store",
+      "text": "Returns in store are always free.",
+      "quote": "Returns are always free",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-4",
+      "type": "exchange",
+      "channel": "online",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Items purchased online can be returned in store or by mail.",
+      "quote": "Items purchased online can be returned **in store or by mail**",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-5",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are issued to the original form of payment.",
+      "quote": "Refunds are issued to your **original form of payment**",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "jewelry and watches",
+      "text": "Jewelry and watches require an inspection before refund is processed.",
+      "quote": "Some items (like jewelry and watches) require an **inspection before refund is processed**",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,0 +1,149 @@
+{
+  "slug": "jcpenney",
+  "name": "JCPenney",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.jcpenney.com/m/customer-service/return-exceptions",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.jcpenney.com/m/customer-service/return-exceptions",
+      "file": "research/scrape-batch3/17-brands-fix/jcpenney-com-m-customer-service-return-exceptions.md",
+      "sha256": "9c0a562647062862a47e7ff5e8ab5cd934715d25383b72543c4395c6d53af6dd",
+      "apifyRunId": "Uc8WOn9zWYgL0A3bA",
+      "fetchedAt": "apify_run_"
+    },
+    "s2": {
+      "url": "https://www.jcpenney.com/m/customer-service/returns",
+      "file": "research/scrape-batch3/17-brands-fix/jcpenney-com-m-customer-service-returns.md",
+      "sha256": "866b162d579a61e6835457f66617faa57250a10ebe54c82287df55c4929868bc",
+      "apifyRunId": "Uc8WOn9zWYgL0A3bA",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "category": "Fitness Trackers and Smart Watches",
+      "windowDays": 10,
+      "windowAnchor": "purchase",
+      "text": "Fitness trackers and smart watches must be returned within 10 days of purchase with a sales receipt and in original condition.",
+      "quote": "Must be returned within 10 days of purchase with a sales receipt, unworn, and unaltered in original condition with packaging and any accompanying accessories.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-holiday-1",
+      "type": "holiday",
+      "channel": "any",
+      "windowDays": 123,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Holiday purchases made on or after October 1st may be returned through January 31st of the following year with an original or gift receipt.",
+      "quote": "Most purchases made on or after October 1st may be returned through January 31st, 2027 with an original or gift receipt.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "purchase",
+      "text": "Most purchases are eligible for return or exchange within 60 days of the original purchase date with a receipt.",
+      "quote": "Simply bring your item(s) and your receipt within 60 days of the purchase date and an associate will be happy to assist you.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exchange-3",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "purchase",
+      "text": "Most merchandise purchased in the last 60 days can be exchanged at any JCPenney location.",
+      "quote": "We are happy to exchange most merchandise purchased in the last 60 days at any JCPenney location.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-receipt-4",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns with a receipt will be refunded on the original form of payment or JCPenney Gift Card.",
+      "quote": "Refunds will be issued on the original form of payment or JCPenney Gift Card.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-receipt-5",
+      "type": "receipt",
+      "channel": "any",
+      "windowDays": 45,
+      "text": "Returns without a receipt may be eligible for a merchandise return voucher at the item's lowest selling price in the last 45 days when accompanied by valid ID.",
+      "quote": "Returns without a receipt may be eligible for a JCPenney Merchandise Return Voucher at the item’s lowest selling price in the last 45 days when accompanied by a valid ID.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-receipt-6",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Valid photo identification is required for all non-receipted returns or exchanges and information is retained to monitor returns.",
+      "quote": "Valid photo identification is required for all non-receipted returns or exchanges. Information from the ID will be retained in a secured company-wide database to monitor the number of un-receipted returns.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Gift Cards, Donations, Monogrammed Items, Personalized Items, Altered Items, Body Jewelry, Face Masks, False/Fake Eyelashes, Ear Piercing Kits, Perishable Foods, Services, shipping & handling charges and Colorado delivery fees cannot be returned.",
+      "quote": "Gift Cards, Donations, Monogrammed Items, Personalized Items, Altered Items, Body Jewelry, Face Masks, False/Fake Eyelashes, Ear Piercing Kits, Perishable Foods, Services, jcp.com Shipping & Handling Charges and Colorado Delivery Fees.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_timing-8",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds to a JCPenney Credit Card typically take up to 4 business days to post after merchandise is received.",
+      "quote": "Refunds to a JCPenney Credit Card typically take up to 4 business days to post to your account from the day the merchandise was received.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_timing-9",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds to bank or debit cards typically take up to 10 business days to post after merchandise is received.",
+      "quote": "It typically takes up to 10 business days to post to your account from the day the merchandise was received.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-price_adjustment-10",
+      "type": "price_adjustment",
+      "channel": "in_store",
+      "windowDays": 14,
+      "windowAnchor": "purchase",
+      "text": "Within 14 days after purchase, JCPenney will match a lower advertised price on an identical item and refund the difference.",
+      "quote": "Within 14 days after your purchase, if you find a lower, currently advertised price on an identical item at a competitor, just bring the ad to a JCPenney store and we’ll match that price and refund you the difference.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

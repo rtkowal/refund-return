@@ -1,0 +1,137 @@
+{
+  "slug": "lowes",
+  "name": "Lowe's",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.lowes.com/l/help/returns-policy",
+  "launch": true,
+  "lastVerifiedAt": "2026-11-03",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.lowes.com/l/help/returns-policy",
+      "file": "research/scrape-2026-11-03-b2/06-blocked-retail-walmart-uk261-ba/lowes-com-l-help-returns-policy.md",
+      "sha256": "81b7bb38452f3082cdd7c4a894c54f66c71af7dad68715afe484cc949b87fc0e",
+      "apifyRunId": "14ymTuHeKHMDeSDld+tmUBsmyRiM6leEZSg",
+      "fetchedAt": "2026-11-03"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "category": "major appliances at Outlet",
+      "windowDays": 2,
+      "windowAnchor": "purchase",
+      "text": "Major appliances at Lowe's Outlet Locations must be returned within 48 hours of purchase if they have mechanical or electrical damage or defects.",
+      "quote": "Lowe’s Outlet Locations will only accept returns for major appliances* items with mechanical or electrical damage or defects that deem the appliance non-functional. These items must be returned within 48 hours after taking possession of the item.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Some items can be returned within 30 days of purchase.",
+      "quote": "You can return these items within 30 days of purchase:",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-3",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 48,
+      "windowAnchor": "purchase",
+      "text": "Some items can be returned within 48 hours of purchase.",
+      "quote": "You can return these items within 48 hours of purchase:",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-4",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 90,
+      "windowAnchor": "purchase",
+      "text": "Most new, unused merchandise can be refunded or exchanged with receipt within 90 days of the original purchase date unless noted otherwise.",
+      "quote": "Most new, unused merchandise can be refunded or exchanged with receipt within 90 days of the original purchase date, unless noted in our [Return Policy Exceptions](https://www.lowes.com#ExpandedReturnPolicy).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-5",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 365,
+      "windowAnchor": "purchase",
+      "text": "Some items can be returned within 365 days of purchase.",
+      "quote": "You can return these items within 365 days of purchase:",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-6",
+      "type": "receipt",
+      "channel": "any",
+      "windowDays": 90,
+      "windowAnchor": "purchase",
+      "text": "A valid proof of purchase is required to receive a refund or in-store credit for permitted returns.",
+      "quote": "To receive a refund or in-store credit, you must present a valid proof of purchase with your permitted return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-7",
+      "type": "refund_method",
+      "channel": "any",
+      "windowDays": 90,
+      "windowAnchor": "purchase",
+      "text": "Returns with valid proof of purchase will be refunded or exchanged to the original method of payment except as otherwise set forth.",
+      "quote": "Returns with a valid proof of purchase will be exchanged or refunded to the original method of payment, except as set forth by the following:",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Lowe's Outlet items except major appliances with defects",
+      "text": "Lowe's Outlet Locations do not accept returns for cosmetic damage or insufficient size or other returns besides major appliances with defects within 48 hours.",
+      "quote": "Lowe’s Outlet Locations will not accept any other returns, including, but not limited to, returns for cosmetic damage or insufficient size.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Outlet vs regular store returns",
+      "text": "Items purchased at Lowe's Outlet may only be returned to the same Outlet and not to regular Lowe's stores; items purchased at regular Lowe's stores may not be returned to Outlets.",
+      "quote": "Items eligible for return that were purchased from a Lowe’s Outlet may only be returned to the same Outlet; they may not be returned to a regular Lowe’s retail store or a different Outlet. Items purchased at a regular Lowe’s retail store may not be returned to a Lowe’s Outlet.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-10",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Except for permitted returns, all sales are final and may not be returned.",
+      "quote": "Except for permitted returns, all sales are final and may not be returned.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

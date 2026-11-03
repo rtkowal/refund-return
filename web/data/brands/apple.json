@@ -1,0 +1,141 @@
+{
+  "slug": "apple",
+  "name": "Apple",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.apple.com/shop/help/returns_refund",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.apple.com/shop/help/returns_refund",
+      "file": "research/scrape-2026-11-03/03-brands/apple-com-shop-help-returns-refund.md",
+      "sha256": "26e33b1e67bece6075e8cb7ce8e39c096f915d432d96fc8500b8eff6066e1507",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    },
+    "s2": {
+      "url": "https://www.apple.com/legal/sales-support/sales-policies/retail_us.html",
+      "file": "research/scrape-batch4/19-gapfill/apple-com-legal-sales-support-sales-policies-retail-us-html.md",
+      "sha256": "4bada80220b2c4268659d19442a71fa0bcd6392efd00fe3bb14c4ca4b7d555d1",
+      "apifyRunId": "hohO3k9gttpmBnRkX",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-refund_method-1",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds for gift returns are issued as electronic Apple Gift Cards.",
+      "quote": "Once we receive your items, we'll email your refund in the form of an electronic Apple Gift Card.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 14,
+      "windowAnchor": "delivery",
+      "text": "You can return or exchange a product with a receipt within 14 days of the date you receive the product from Apple.",
+      "quote": "you can return or exchange it with a receipt within 14 days of the date you receive the product from Apple.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-receipt-2",
+      "type": "receipt",
+      "channel": "any",
+      "text": "A receipt is required to return or exchange a product.",
+      "quote": "you can return or exchange it with a receipt within 14 days of the date you receive the product from Apple.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Apple Gift Cards",
+      "text": "Apple Gift Cards cannot be returned.",
+      "quote": "Apple Gift Cards cannot be returned.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_timing-4",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refund or exchange will be issued within 10 business days after product inspection approval.",
+      "quote": "Returned products may require inspection. If approved, a refund or exchange will be issued within 10 business days.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Apple may refuse the return or exchange if security features activated on the product cannot be disabled by the person in possession.",
+      "quote": "If these features were activated and cannot be disabled by the person in possession, Apple may refuse the return or exchange.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "ZEISS Optical Inserts - Prescription",
+      "windowDays": 14,
+      "windowAnchor": "delivery",
+      "text": "ZEISS Optical Inserts - Prescription are custom, third-party products and may not be returned to an Apple Store location but can be returned to Apple within 14 days of receipt.",
+      "quote": "ZEISS Optical Inserts - Prescription are custom, third-party products and may not be returned to an Apple Store location. Apple will accept returns on behalf of ZEISS within 14 days of the date you receive them.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-window-7",
+      "type": "window",
+      "channel": "any",
+      "category": "ZEISS Optical Inserts - Readers",
+      "windowDays": 14,
+      "windowAnchor": "delivery",
+      "text": "ZEISS Optical Inserts - Readers can be returned to an Apple Store location within 14 days of receipt.",
+      "quote": "ZEISS Optical Inserts - Readers can be returned to an Apple Store location. Apple will accept returns within 14 days of the date you receive them.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exchange-8",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 14,
+      "windowAnchor": "delivery",
+      "text": "You can exchange a product with a receipt within 14 days of receipt if it is in original condition with all parts, accessories, and packaging.",
+      "quote": "you can return or exchange it with a receipt within 14 days of the date you receive the product from Apple. The product must be in its original condition with all of its included parts, accessories, and packaging and we’ll exchange it or offer a refund based on the payment method.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-price_adjustment-9",
+      "type": "price_adjustment",
+      "channel": "any",
+      "category": "Apple-branded products",
+      "windowDays": 14,
+      "windowAnchor": "delivery",
+      "text": "If Apple reduces the price on any Apple-branded product within 14 calendar days from receipt, you can request a refund or credit of the difference by visiting an Apple Store or contacting Retail Customer Care, excluding limited-time price reductions and special sales events.",
+      "quote": "Should Apple reduce the price on any Apple-branded product within 14 calendar days from the date you receive your product, visit an Apple Store location or contact Retail Customer Care at 1-800-MY-APPLE within 14 days of the price change to request a refund or credit of the difference in price. This excludes limited-time price reductions and special sales events, such as Black Friday.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

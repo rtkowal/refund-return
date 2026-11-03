@@ -1,0 +1,150 @@
+{
+  "slug": "bose",
+  "name": "Bose",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.bose.com/returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.bose.com/returns",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/bose-com-returns.md",
+      "sha256": "e73f6ed635c122d19e4f09e57981091a51679e7fbf858ba0585bbd5404219131",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "receipt",
+      "text": "Bose allows returns within 30 days of receipt for items purchased on Bose.com.",
+      "quote": "Experience Bose sound for 30 days when purchased on Bose.com.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Trade In program purchases, personalized items, final sale products, gift cards, and replacement products are not returnable.",
+      "quote": "Items that can't be returned are:\n\n*   Trade In program purchases. For more information on Trade In program policies, [click here](https://www.bose.com/supportsite/s/trade-in-faq).\n*   Personalized items\n*   Final sale products\n*   Gift cards\n*   Replacement products\n    *   Replacement products provided through warranty, service, or exchange are not refundable and are not eligible for return for refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "receipt",
+      "text": "Bose covers return shipping for items returned within 30 days of receipt when purchased on Bose.com.",
+      "quote": "No. Bose covers return shipping for items returned within 30 days of receipt, when purchased on Bose.com.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-4",
+      "type": "receipt",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "receipt",
+      "text": "Returns must be requested within 30 days of receipt and product must be purchased directly from Bose.",
+      "quote": "Your return request must be received by Bose within 30 days of receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-5",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds will be credited to the original payment method or gift card if purchased by gift card.",
+      "quote": "Refunds will only be credited to your original payment method\n*   Gift Card purchases will be refunded back to the Gift Card",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-6",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds typically process within 3-5 business days for credit cards and PayPal; other payment methods may take up to 2 weeks after Bose receives the returned items.",
+      "quote": "Refunds typically process within 3-5 business days for credit cards and PayPal; other payment methods may take up to 2 weeks.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-7",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "receipt",
+      "text": "Exchanges are allowed within 30 days of receipt for items purchased on Bose.com and require the original product and accessories to be returned in good condition.",
+      "quote": "Return to Bose within thirty (30) days of receipt using the shipping label Bose provides. Include all accessories, cases, and parts included in the original packaging. Item must be in good physical condition.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-8",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "receipt",
+      "text": "All exchanges require the original product to have been purchased on the Bose website or by phone from Bose.",
+      "quote": "All exchanges require the original product to have been purchased on the Bose website or by phone from Bose.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-price_adjustment-9",
+      "type": "price_adjustment",
+      "channel": "any",
+      "text": "If discounts or free items were received, Bose may deduct their value from refunds if not all items are returned.",
+      "quote": "If you received a discount for purchasing multiple items, a promotional item, or free item, Bose may deduct the value of the discount, promotional item, or free item from any refund or credit you receive if you do not return all items purchased in your exchange.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-price_adjustment-10",
+      "type": "price_adjustment",
+      "channel": "any",
+      "text": "For bundles, the bundle discount may be deducted from your refund if returning only part of the bundle purchase.",
+      "quote": "For bundles, the bundle discount may be deducted from your refund if returning only a part of your bundle purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-11",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Final sale products, shipping and handling charges, gift box and gift wrap fees, and certain taxes paid are non-refundable.",
+      "quote": "Non-Refundable Items:\n\n*   Final sale products\n*   Shipping and handling charges\n*   Gift box and gift wrap fees\n*   Certain taxes paid",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-12",
+      "type": "exchange",
+      "channel": "any",
+      "text": "To start an exchange, contact Bose customer service to receive a prepaid shipping label.",
+      "quote": "Start an exchange by contacting Bose at [Contact Us](https://www.bose.com/supportsite/s/get-help-landing-page).\n*   Upon approval, Bose will email a prepaid shipping label.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

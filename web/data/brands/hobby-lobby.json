@@ -1,0 +1,98 @@
+{
+  "slug": "hobby-lobby",
+  "name": "Hobby Lobby",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.hobbylobby.com/customer-service/faq/returns/returns---in-store-purchases",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.hobbylobby.com/customer-service/faq/returns/returns---in-store-purchases",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/hobbylobby-com-customer-service-faq-returns-returns-in-store-purchases.md",
+      "sha256": "db905ac7728683bb00bddc962c1294e2352799db5c6cb30683aca7cf39747ffe",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "in_store",
+      "windowDays": 90,
+      "windowAnchor": "purchase",
+      "text": "Returns with the original receipt are accepted within 90 days of purchase.",
+      "quote": "Within 90 days of purchase, we will gladly exchange the merchandise, give store credit, or issue a refund based on your original method of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-2",
+      "type": "exchange",
+      "channel": "in_store",
+      "windowDays": 90,
+      "windowAnchor": "purchase",
+      "text": "Within 90 days of purchase with receipt, merchandise can be exchanged.",
+      "quote": "Within 90 days of purchase, we will gladly exchange the merchandise, give store credit, or issue a refund based on your original method of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "in_store",
+      "windowDays": 90,
+      "windowAnchor": "purchase",
+      "text": "Refunds are issued based on the original method of payment when returned with receipt within 90 days.",
+      "quote": "Within 90 days of purchase, we will gladly exchange the merchandise, give store credit, or issue a refund based on your original method of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "in_store",
+      "text": "There is a 10 calendar day wait on refunds for check purchases, or merchandise credit can be issued instead.",
+      "quote": "There will be a wait of 10 calendar days on check purchases, or merchandise credit can be issued.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-5",
+      "type": "receipt",
+      "channel": "in_store",
+      "text": "A valid ID is required for returns without the original store receipt.",
+      "quote": "A valid ID is required.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-6",
+      "type": "exchange",
+      "channel": "in_store",
+      "windowDays": 60,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Without the original receipt, merchandise can be exchanged or merchandise credit issued based on the lowest selling price in the last 60 days.",
+      "quote": "You may exchange the merchandise or be issued a merchandise credit based on the lowest selling price in the last 60 days.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "in_store",
+      "text": "The store reserves the right to limit or refuse returns of certain products and non-receipted items.",
+      "quote": "We reserve the right to limit or refuse to accept the return of certain products and non-receipted items.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "dollar-tree",
+  "name": "Dollar Tree",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.dollartree.com/company-faq-return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.dollartree.com/company-faq-return-policy",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/dollartree-com-company-faq-return-policy.md",
+      "sha256": "f81948d72b3e5c1a1e65eefe6303485bcce52a6b8333c94166fd25edbdfd7179",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-exchange-1",
+      "type": "exchange",
+      "channel": "in_store",
+      "text": "Items purchased in-store can be exchanged for another item with the original receipt.",
+      "quote": "With the original receipt, items can be exchanged for another item, or a refund will be issued in the original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-2",
+      "type": "refund_method",
+      "channel": "in_store",
+      "text": "Refunds for in-store purchases with original receipt will be issued in the original form of payment.",
+      "quote": "With the original receipt, items can be exchanged for another item, or a refund will be issued in the original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-3",
+      "type": "exchange",
+      "channel": "in_store",
+      "text": "Items purchased in-store without the original receipt can be exchanged at the current scanned price.",
+      "quote": "Without the original receipt, items can be exchanged at the current scanned price.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "in_store",
+      "category": "gift cards",
+      "text": "Refunds and exchanges are not provided for gift cards or prepaid financial cards.",
+      "quote": "Refunds and exchanges are not provided for gift cards or prepaid financial cards.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-5",
+      "type": "window",
+      "channel": "online",
+      "windowAnchor": "purchase",
+      "text": "All sales are final for orders placed online at DollarTree.com.",
+      "quote": "For online purchases: All sales are final for orders placed at DollarTree.com.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "online",
+      "text": "Online purchases cannot be returned or refunded unless the order is incomplete or items arrived damaged.",
+      "quote": "However, if your order is incomplete or your items arrived damaged, call 1-877-530-TREE (8733) with your order information and our Customer Order Support Team will assist with a resolution.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

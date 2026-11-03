@@ -1,0 +1,30 @@
+{
+  "slug": "converse",
+  "name": "Converse",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.converse.com/s/ConverseUS/c/whats-your-return-policy.html",
+  "launch": false,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.converse.com/s/ConverseUS/c/whats-your-return-policy.html",
+      "file": "research/scrape-batch3/17-brands-fix/converse-com-s-ConverseUS-c-whats-your-return-policy-html.md",
+      "sha256": "dc040207b80b27bf0289b2dec07334e6f928258f73b0170cf3b16a1952a52dce",
+      "apifyRunId": "te4KP4vEIqKaIvFVh",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-fee-1",
+      "type": "fee",
+      "channel": "online",
+      "text": "Converse.com offers free returns within the continental US.",
+      "quote": "[Converse.com](http://converse.com/) offers free returns within the continental US.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

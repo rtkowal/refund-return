@@ -1,0 +1,135 @@
+{
+  "slug": "casper",
+  "name": "Casper",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://casper.com/pages/returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://casper.com/pages/returns",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/casper-com-pages-returns.md",
+      "sha256": "8c160f64cef155be50d4798a144050beda1b13b2d6cf052bb477aec78404344e",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "category": "mattresses",
+      "windowDays": 100,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "You have 100 nights to try your mattress for free with returns free and easy anytime after the 30-Night Adjustment Period.",
+      "quote": "We give you 100 nights to try your mattress for free. Returns are free and easy anytime after the 30-Night Adjustment Period.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "category": "pillows and bedding",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "You can return pillows and bedding within 30 days of delivery or in-store purchase if unused and in original packaging and condition.",
+      "quote": "You can return your Casper item and get a full refund within 30 days of delivery or within 30 days of an in-store purchase, provided the merchandise is unused, and in its original packaging and condition.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-3",
+      "type": "window",
+      "channel": "any",
+      "category": "furniture",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Furniture products have a 30-night trial period, extended to 100 nights if purchased with a paired mattress.",
+      "quote": "We offer a 30-night trial on our furniture products so that you can do just that. When you purchase your furniture with a paired mattress, we're happy to extend the trial to 100 nights to match that of your mattress.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-4",
+      "type": "window",
+      "channel": "any",
+      "category": "glow mattress topper dog bed",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Glow, Mattress Topper, and Dog Bed products have a 30-night trial period.",
+      "quote": "Our Glows, Mattress Toppers, and Dog Bed all come with 30-night trials.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-5",
+      "type": "exchange",
+      "channel": "any",
+      "category": "furniture",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Furniture can be returned without original packaging or box if in donate-able condition, even if assembled.",
+      "quote": "As long as your furniture is in donate-able condition, you can return it without the original packaging or box, even if it has been assembled.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-6",
+      "type": "fee",
+      "channel": "any",
+      "text": "In-home delivery and setup service fees are non-refundable.",
+      "quote": "If you paid for our in-home delivery and setup service, we will not refund for the service performed.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-7",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds will be credited back to your account within two weeks.",
+      "quote": "Refunds will be credited back to your account within two weeks.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-8",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are credited back to the original payment account.",
+      "quote": "Refunds will be credited back to your account within two weeks.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-9",
+      "type": "fee",
+      "channel": "any",
+      "text": "Shipping costs to Hawaii or Alaska are refunded if paid.",
+      "quote": "If you paid for shipping to Hawaii or Alaska, you’ll get a refund for those shipping costs as well.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-10",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "You may return a maximum of two items of the same product type.",
+      "quote": "You may return a maximum of two items of the same product type.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

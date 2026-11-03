@@ -1,0 +1,112 @@
+{
+  "slug": "fenty-beauty",
+  "name": "Fenty Beauty",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://fenty.gorgias.help/en-US/articles/returns-233388",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://fenty.gorgias.help/en-US/articles/returns-233388",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/fenty-gorgias-help-en-US-articles-returns-233388.md",
+      "sha256": "ddc7b9981e4ae786dd5b4d0ca63d70419f169f6fd64d2390eaa001f46fb061b7",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "You may return any Fenty Beauty product within 30 days from the purchase date.",
+      "quote": "You may return any Fenty Beauty product within 30 days from the purchase date.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-2",
+      "type": "fee",
+      "channel": "any",
+      "text": "Returns have free pre-paid shipping for all orders.",
+      "quote": "If you don't absolutely love your purchase, we offer free pre-paid returns for all for activ",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-3",
+      "type": "exchange",
+      "channel": "any",
+      "text": "Fenty Beauty does not offer exchanges, only returns.",
+      "quote": "At this time, we don’t offer exchanges—but we’d be happy to help with a return instead.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-4",
+      "type": "exchange",
+      "channel": "marketplace_3p",
+      "text": "TikTok Shop purchases are not eligible for exchanges.",
+      "quote": "At this time, TikTok Shop purchases are not eligible for exchanges.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-5",
+      "type": "refund_timing",
+      "channel": "marketplace_3p",
+      "text": "Refunds for TikTok Shop returns are typically processed within 3–5 business days after approval.",
+      "quote": "Refunds for TikTok Shop returns are typically processed within 3–5 business days after your return is approved.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-6",
+      "type": "receipt",
+      "channel": "any",
+      "text": "You must select all items you want refunded when starting a return; items not listed won’t be processed.",
+      "quote": "Please be sure to select all items you want refunded—any items not listed won’t be processed.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Items with hazmat shipping restrictions like Fenty Eau de Parfum or Liquid Killawatt cannot be returned internationally.",
+      "quote": "We’re unable to accept returns on items with hazmat shipping restrictions (like Fenty Eau de Parfum or Liquid Killawatt).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-8",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Returns must be completed online if purchased from fentybeauty.com; no in-store returns for online orders.",
+      "quote": "If you purchased directly from www.fentybeauty.com, your return must be completed online.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-9",
+      "type": "refund_method",
+      "channel": "marketplace_3p",
+      "text": "TikTok Shop returns must be processed through TikTok Shop.",
+      "quote": "All TikTok Shop orders must be returned directly through TikTok Shop.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "safeway",
+  "name": "Safeway",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.safeway.com/lp/fresh-guarantee.html",
+  "launch": false,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.safeway.com/lp/fresh-guarantee.html",
+      "file": "research/scrape-batch3/17-brands-fix/safeway-com-lp-fresh-guarantee-html.md",
+      "sha256": "46980f8cf0d38b0468bd871109213fec504546a733e85f370ed0ada64108db2a",
+      "apifyRunId": "eOw16fKOqV49VIlfU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-exclusion-1",
+      "type": "exclusion",
+      "channel": "online",
+      "category": "baby formula",
+      "windowDays": 7,
+      "windowAnchor": "delivery",
+      "text": "Baby formula cannot be returned or refunded once you have accepted delivery or picked up your order.",
+      "quote": "Note that certain items, including baby formula, alcoholic beverages, and tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "online",
+      "category": "alcoholic beverages",
+      "windowDays": 7,
+      "windowAnchor": "delivery",
+      "text": "Alcoholic beverages cannot be returned or refunded once you have accepted delivery or picked up your order.",
+      "quote": "Note that certain items, including baby formula, alcoholic beverages, and tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "online",
+      "category": "tobacco products",
+      "windowDays": 7,
+      "windowAnchor": "delivery",
+      "text": "Tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
+      "quote": "Note that certain items, including baby formula, alcoholic beverages, and tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-4",
+      "type": "window",
+      "channel": "online",
+      "windowDays": 7,
+      "windowAnchor": "delivery",
+      "text": "You can request a refund within seven days after your delivery or pick up for online grocery orders.",
+      "quote": "Notify the driver upon delivery of your order (or the Store Associate upon pick up of your order), or contact us within seven days after your delivery or pick up.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-5",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds will be issued based on the method of payment used.",
+      "quote": "A full refund will be issued when the product and receipt are presented. Refund will be issued based on the method of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-6",
+      "type": "receipt",
+      "channel": "any",
+      "text": "A receipt is required for all alcohol, cigarette, and tobacco product refunds and the person must be of legal age.",
+      "quote": "Receipt required for all alcohol / cigarette / tobacco product refunds. Person must be of legal age.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-7",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Refunds without a receipt over $10 require manager approval and will be issued as merchandise credit for the lowest selling price in the past 30 days.",
+      "quote": "Refunds without a receipt that are over $10 require manager approval. Approved refunds will be issued a merchandise credit for the lowest selling price in the past 30 days.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-8",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds over $20 paid by credit will be issued as account credit; refunds $20 or less will be issued in cash.",
+      "quote": "CREDIT: Refunds $20 or less will be issued cash. Refunds more than $20 will be issued account credit.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-9",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds paid by EBT or Corporate Charge will be credited to the account.",
+      "quote": "EBT or Corporate Charge: Refunds will be credited to the account.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-10",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "No refunds are given for eWIC purchases.",
+      "quote": "eWIC: No Refund",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-11",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "produce",
+      "text": "The money back guarantee applies only to produce items.",
+      "quote": "All produce items are covered under our money back guarantee.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

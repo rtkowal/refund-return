@@ -1,0 +1,65 @@
+{
+  "slug": "brooklinen",
+  "name": "Brooklinen",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.brooklinen.com/pages/returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.brooklinen.com/pages/returns",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/brooklinen-com-pages-returns.md",
+      "sha256": "b28f8800d30e2dacafdebcbaa14f803436843c9bbaedf58a286510fdadcae8a3",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 365,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Most of our products can be returned or exchanged within 365 days.",
+      "quote": "Most of our products can be returned or exchanged within 365 days.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-2",
+      "type": "exchange",
+      "channel": "any",
+      "category": "towels and robes",
+      "windowDays": 365,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Brooklinen offers exchanges on towels and robes within 365 days.",
+      "quote": "Currently, Brooklinen offers exchanges on towels and robes.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "any",
+      "text": "All returns are subject to a $9.95 return fee deducted from your refund amount.",
+      "quote": "All returns are subject to a $9.95 return fee deducted from your refund amount.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-4",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds can be issued to the original payment method or as a store credit.",
+      "quote": "Refunds can be issued to the original payment method or as a store credit.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

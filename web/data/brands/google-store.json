@@ -1,0 +1,32 @@
+{
+  "slug": "google-store",
+  "name": "Google Store",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://support.google.com/store/answer/2411741?hl=en",
+  "launch": false,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://support.google.com/store/answer/2411741?hl=en",
+      "file": "research/scrape-2026-11-03-b2/12-brands-retry-unblocker/support-google-com-store-answer-2411741-hl-en.md",
+      "sha256": "4effb2813fd9de92089a25ac63e749795e298ac52a0bc62a2379d30669a64152",
+      "apifyRunId": "a1RDVqKHolQTpskYp",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 15,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Most items purchased can be returned within 15 days.",
+      "quote": "You can return most items purchased within 15 days.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

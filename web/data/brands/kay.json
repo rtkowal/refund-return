@@ -1,0 +1,124 @@
+{
+  "slug": "kay",
+  "name": "Kay",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.kay.com/kay-returns-exchanges",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.kay.com/kay-returns-exchanges",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/kay-com-kay-returns-exchanges.md",
+      "sha256": "745dc6b964002eb51a7a8b94c360adb848aa2824067619e09b3bde6beafa5fad",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "category": "jewelry",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Returns are allowed within 30 days from the purchase shipment date for jewelry.",
+      "quote": "Returns are allowed within 30 days from the purchase shipment date and exchanges within 60 days of the purchase shipment date for jewelry.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "category": "jewelry",
+      "windowDays": 60,
+      "windowAnchor": "purchase",
+      "text": "Exchanges are allowed within 60 days from the purchase shipment date for jewelry.",
+      "quote": "Returns are allowed within 30 days from the purchase shipment date and exchanges within 60 days of the purchase shipment date for jewelry.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-3",
+      "type": "window",
+      "channel": "online",
+      "category": "watches",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Returns and exchanges for watches are allowed within 30 days from the purchase shipping date for online orders.",
+      "quote": "Returns and exchanges for watches are allowed within 30 days from the purchase shipping date for online orders.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-holiday-4",
+      "type": "holiday",
+      "channel": "any",
+      "windowDays": 36,
+      "windowAnchor": "purchase",
+      "text": "Merchandise purchased between 10/20/2026 and 12/24/2026 can be returned through 1/24/2027.",
+      "quote": "Merchandise purchased between 10/20/2026 and 12/24/2026 can be returned through 1/24/2027",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Merchandise purchased using Progressive Leasing cannot be exchanged.",
+      "quote": "Merchandise purchased using Progressive Leasing cannot be exchanged.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-6",
+      "type": "receipt",
+      "channel": "any",
+      "text": "All shipped returns must include the packing slip and all original documents received with your order.",
+      "quote": "All shipped returns MUST include the packing slip and all original documents received with your order.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-7",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "All refunds are credited to the same tender as the original purchase.",
+      "quote": "All refunds are credited to the same tender as the original purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-8",
+      "type": "fee",
+      "channel": "any",
+      "category": "sized-to-order rings",
+      "text": "The sizing fee for sized-to-order rings will be refunded once the return is processed.",
+      "quote": "If you return a sized-to-order ring, we will refund the sizing fee once we process your return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-9",
+      "type": "exchange",
+      "channel": "in_store",
+      "windowDays": 60,
+      "windowAnchor": "purchase",
+      "text": "Exchanges must be done at one of our stores.",
+      "quote": "We can process returns at Kay.com but exchanges must be done at one of our stores.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

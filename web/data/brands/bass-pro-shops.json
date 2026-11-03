@@ -1,0 +1,297 @@
+{
+  "slug": "bass-pro-shops",
+  "name": "Bass Pro Shops",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://help.cabelas.com/returns-ea2da3e6/what-is-your-return-policy-0f7504b3",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://help.cabelas.com/returns-ea2da3e6/what-is-your-return-policy-0f7504b3",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/help-cabelas-com-returns-ea2da3e6-what-is-your-return-policy-0f7504b3.md",
+      "sha256": "ccaaa51d55b6a502f6f7fb01e4b7fb04a630ef1982758e11cb49e0ebb5f6410c",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    },
+    "s2": {
+      "url": "https://help.basspro.com/returns-8ddb71e5/what-is-your-return-policy-aed39f03",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/help-basspro-com-returns-8ddb71e5-what-is-your-return-policy-aed39f03.md",
+      "sha256": "fb7dd63cc91ff7519c1acf8d19c9015f4b2215b71e97f5bf9077e918d0ae20e2",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "purchase",
+      "text": "Items purchased online or through the catalog may be returned for exchange or refund within 60 days of purchase with valid proof of purchase.",
+      "quote": "In most cases, if the item was purchased through the catalog or online, you may return it to us for an exchange or refund either by mail or at the store within 60 days of purchase with valid proof of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "category": "Sunglass Hut merchandise",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Purchases made at Sunglass Hut locations within retail stores must be returned within 30 days of purchase.",
+      "quote": "Purchases made at Sunglass Hut locations within our retail stores must be returned to those locations within 30 days of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "bikes",
+      "text": "Some bikes are subject to a restocking fee as noted on the item's webpage.",
+      "quote": "Some bikes are subject to a restocking fee. Please view the \"Important Notice\" information on the item's webpage to verify if fees apply.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Online orders paid with PayPal can be returned to a retail store but only exchanged or refunded as a gift card.",
+      "quote": "Online orders placed using PayPal as a payment method can be returned to a retail store, but we can only exchange or refund as a gift card.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Merchandise purchased from cabelas.ca or at Canadian retail locations must be returned to Cabela’s Canada.",
+      "quote": "Merchandise purchased from cabelas.ca or at a Cabela’s retail location in Canada must be returned to Cabela’s Canada.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "gasoline-powered items and drones",
+      "text": "Gasoline-powered items and drones cannot be returned if used, show signs of use, or if oil or fuel has been added.",
+      "quote": "Gasoline-powered items and drones are ineligible for return if they have been used, show signs of use, or if oil or fuel has been added.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "custom order products",
+      "text": "Custom order products must be returned to the manufacturer.",
+      "quote": "Custom Order products such as those for a specific make/model of the item must be returned to the manufacturer (e.g. seat covers, floor mats, furniture, etc.).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "altered products",
+      "text": "Products that have been altered may not be returned.",
+      "quote": "Any product that has been altered may not be returned (i.e. cut arrows, etc.)",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "in_store",
+      "category": "Bargain Cave items",
+      "text": "Bargain Cave items purchased at retail stores are nonreturnable.",
+      "quote": "Bargain Cave items purchased at a retail store are nonreturnable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-10",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "marine motor propellers",
+      "text": "Marine motor propellers that have been installed are nonreturnable.",
+      "quote": "Marine motor propellers that have been installed are nonreturnable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-11",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "firearms and related safety items",
+      "text": "Firearms, ammunition, black powder firearms, black powder, primers, reloading lead, brass or bullets, treestands, blowguns, and mouth calls are not returnable for safety reasons.",
+      "quote": "For safety reasons the following items are not returnable: Firearms, Ammunition, Black powder firearms, Black Powder, Primers, Reloading Lead, Brass or Bullets, Treestands, Blowguns, and Mouth Calls (ex: Waterfowl, Turkey, and Big Game Calls, etc.)",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-12",
+      "type": "window",
+      "channel": "any",
+      "category": "electronics and non-Bass Pro rods and reels",
+      "windowDays": 60,
+      "windowAnchor": "purchase",
+      "text": "Electronics and non-Bass Pro brand rods and reels should be returned to the manufacturer after 60 days for warranty service.",
+      "quote": "All electronics and non-Bass Pro brand rods and reels that are covered by the manufacturer's warranty should be returned to the manufacturer for replacement or repair after 60 days.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "purchase",
+      "text": "Items purchased online or through the catalog may be returned for exchange or refund within 60 days of purchase with valid proof of purchase.",
+      "quote": "In most cases, if the item was purchased through the catalog or online, you may return it to us for an exchange or refund either by mail or at the store within 60 days of purchase with valid proof of purchase.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-window-2",
+      "type": "window",
+      "channel": "any",
+      "category": "Sunglass Hut merchandise",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Purchases made at Sunglass Hut locations within retail stores must be returned within 30 days of purchase.",
+      "quote": "Purchases made at Sunglass Hut locations within our retail stores must be returned to those locations within 30 days of purchase.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "bikes",
+      "text": "Some bikes are subject to a restocking fee.",
+      "quote": "Some bikes are subject to a restocking fee.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "online orders paid with PayPal",
+      "text": "Online orders paid with PayPal can be returned to retail stores but refunds or exchanges are only issued as gift cards.",
+      "quote": "Online orders placed using PayPal as a payment method can be returned to a retail store, but we can only exchange or refund as a gift card.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Canadian purchases",
+      "text": "Merchandise purchased from basspro.ca or at Cabela’s retail locations in Canada must be returned to Cabela’s Canada.",
+      "quote": "Merchandise purchased from basspro.ca or at a Cabela’s retail location in Canada must be returned to Cabela’s Canada.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "gasoline-powered items and drones",
+      "text": "Gasoline-powered items and drones cannot be returned if used, show signs of use, or if oil or fuel has been added.",
+      "quote": "Gasoline-powered items and drones are ineligible for return if they have been used, show signs of use, or if oil or fuel has been added.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "custom order products",
+      "text": "Custom order products must be returned to the manufacturer.",
+      "quote": "Custom Order products such as those for a specific make/model of the item must be returned to the manufacturer (e.g. seat covers, floor mats, furniture, etc.).",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "altered products",
+      "text": "Products that have been altered may not be returned.",
+      "quote": "Any product that has been altered may not be returned (i.e. cut arrows, etc.)",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-9",
+      "type": "exclusion",
+      "channel": "in_store",
+      "category": "Bargain Cave items",
+      "text": "Bargain Cave items purchased at retail stores are nonreturnable.",
+      "quote": "Bargain Cave items purchased at a retail store are nonreturnable.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-10",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "marine motor propellers",
+      "text": "Marine motor propellers that have been installed are nonreturnable.",
+      "quote": "Marine motor propellers that have been installed are nonreturnable.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-11",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "firearms and related safety items",
+      "text": "Firearms, ammunition, black powder firearms, black powder, primers, reloading lead, brass or bullets, treestands, blowguns, and mouth calls are not returnable for safety reasons.",
+      "quote": "For safety reasons the following items are not returnable: Firearms, Ammunition, Black powder firearms, Black Powder, Primers, Reloading Lead, Brass or Bullets, Treestands, Blowguns, and Mouth Calls (ex: Waterfowl, Turkey, and Big Game Calls, etc.)",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_method-12",
+      "type": "refund_method",
+      "channel": "any",
+      "category": "returns without receipt",
+      "text": "Returns without receipt are refunded as merchandise credit in the form of a gift card.",
+      "quote": "Such items may be exchanged for the same product or returned for merchandise credit in the form of a gift card.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

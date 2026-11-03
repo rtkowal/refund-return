@@ -1,0 +1,84 @@
+{
+  "slug": "gamestop",
+  "name": "GameStop",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.gamestop.com/fullreturnpolicy/",
+  "launch": false,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.gamestop.com/fullreturnpolicy/",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/gamestop-com-fullreturnpolicy.md",
+      "sha256": "21e17528349d1970ee59c802b00516bf61c3773d9b87279240cf0dc96f347aa7",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-receipt-1",
+      "type": "receipt",
+      "channel": "any",
+      "text": "A valid in-store receipt or Gamestop.com order number is required for returns.",
+      "quote": "When visiting a store, an in-store receipt or Gamestop.com order number is required.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-2",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns may require a valid Government ID except where prohibited by law.",
+      "quote": "Returns may require a valid Government ID, except where prohibited by law. The following identification is accepted for returns: U.S. Driver's License, U.S. State ID, U.S. Military ID, or U.S. Passport.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Returns with valid proof of purchase will receive a refund based on the initial form of payment.",
+      "quote": "Returns with valid proof of purchase will receive a refund based on the initial form of payment, such as the credit card used for the purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returnable items without valid proof of purchase are not eligible for return or exchange.",
+      "quote": "Returnable items without a Valid Proof of Purchase are not eligible for return/exchange, but if the items are trade in eligible, may be traded in at current trade value pricing..",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "trading cards, blind items, clearance products, seasonal items, consumables, individual bundle components, digital products, Graded PSA Cards, books, magazines and guides",
+      "text": "Trading cards, blind items, clearance products, seasonal items, consumables, individual bundle components, digital products, Graded PSA Cards, and all books, magazines and guides are final sale and cannot be returned or exchanged.",
+      "quote": "The following are final sale and cannot be returned or exchanged:\n\n*   Trading cards, blind items, clearance products, seasonal items, consumables, individual bundle components, digital products, Graded PSA Cards, and all books, magazines and guides.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-6",
+      "type": "exchange",
+      "channel": "any",
+      "category": "defective general items",
+      "windowDays": 7,
+      "windowAnchor": "purchase",
+      "text": "Defective general items (excluding PCs, PC components, laptops, TVs, and monitors) can be exchanged for an identical replacement within the return window.",
+      "quote": "Defective products (excluding PCs, PC components, laptops, TVs, and monitors) can be exchanged for an identical replacement within the return window.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

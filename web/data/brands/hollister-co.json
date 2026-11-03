@@ -1,0 +1,40 @@
+{
+  "slug": "hollister-co",
+  "name": "Hollister Co.",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.hollisterco.com/hol/media/legalText/viewDetailsText20181212_SimpleReturns_US.html",
+  "launch": false,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.hollisterco.com/hol/media/legalText/viewDetailsText20181212_SimpleReturns_US.html",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/hollisterco-com-hol-media-legalText-viewDetailsText20181212-SimpleReturns-US-html.md",
+      "sha256": "1249c3aa531c9331636d110f6adc7c49d539aa4595c52ee6da6d7d2db3cefbcf",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-fee-1",
+      "type": "fee",
+      "channel": "online",
+      "text": "A $7 fee is applied to online returns.",
+      "quote": "A $7 fee will be applied to your return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-2",
+      "type": "refund_timing",
+      "channel": "online",
+      "text": "You receive an email confirmation when your online return package is received.",
+      "quote": "Look for the return label in your package, then drop it off at the post office, and you’ll receive an email confirmation of your receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

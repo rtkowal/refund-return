@@ -1,0 +1,33 @@
+{
+  "slug": "tempur-pedic",
+  "name": "Tempur-Pedic",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://help.tempurpedic.com/hc/en-us/articles/1500005817742-Do-you-have-a-return-or-exchange-shipping-fee",
+  "launch": false,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://help.tempurpedic.com/hc/en-us/articles/1500005817742-Do-you-have-a-return-or-exchange-shipping-fee",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/help-tempurpedic-com-hc-en-us-articles-1500005817742-Do-you-have-a-return-or-exchange-shipping-fee.md",
+      "sha256": "034ebb5640ee38a7d439bcfb6d4f428c6942d66017ae0f5cd1c0f2602a865d25",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-fee-1",
+      "type": "fee",
+      "channel": "any",
+      "category": "mattress",
+      "windowDays": 90,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Returning or exchanging a mattress during the 90-night trial period requires a non-refundable return shipping fee of $175.",
+      "quote": "When you return your mattress or exchange it during the 90-night trial period, we require a return shipping fee of $175. This fee is non-refundable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

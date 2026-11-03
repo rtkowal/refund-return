@@ -1,0 +1,142 @@
+{
+  "slug": "gap",
+  "name": "Gap",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.gap.com/customer-service/return-policy-faq?cid=1192370",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.gap.com/customer-service/return-policy-faq?cid=1192370",
+      "file": "research/scrape-2026-11-03/05-retries/gap-com-customer-service-return-policy-faq-cid-1192370.md",
+      "sha256": "4f7e08148387582db054e8b05d2bda4db5d784bcde734dc0e650fa66628c0da9",
+      "apifyRunId": "d4qhpOIPdZ7saP5eV",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Returns/exchanges must be returned within 30 days of the delivery date (online purchases) or date-of-purchase (in store purchases).",
+      "quote": "Returns/exchanges must be returned within 30 days of the delivery date (online purchases) or date-of-purchase (in store purchases). Returns/exchanges with sales receipt are accepted within 30 days of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 45,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Premier Encore Members may return merchandise up to 45 days after purchase or delivery and will be issued a Merchandise Return Card if returned after 30 days.",
+      "quote": "Premier Members who were signed in online or provided their phone number to make their purchase in store may return merchandise up to 45 days after purchase (or delivery) and will be issued a Merchandise Return Card (MRC) if the return is made over 30 days after purchase (or delivery).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-3",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "All-Access Cardmembers may return merchandise up to 60 days after purchase or delivery and will be issued a Merchandise Return Card if returned after 30 days.",
+      "quote": "All-Access Cardmembers who were signed in online or provided their phone number to make their purchase in store may return merchandise up to 60 days after purchase (or delivery) and will be issued a Merchandise Return Card (MRC) if the return is made over 30 days after purchase (or delivery).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-holiday-4",
+      "type": "holiday",
+      "channel": "any",
+      "text": "Items purchased between October 15 and December 24 may be returned through January 15 the following year, or 30 days from delivery or purchase date, whichever is later.",
+      "quote": "Items purchased online or in stores between October 15 and December 24 may be returned through January 15 the following year, or 30 days from delivery date (online purchases) or date-of-purchase (in store purchases), whichever is later.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Final sale items and items purchased in the Encore Market cannot be returned or exchanged.",
+      "quote": "Final sale items and items purchased in the Encore Market cannot be returned or exchanged.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "masks",
+      "text": "Masks are final sale and are not eligible for returns and exchanges.",
+      "quote": "Masks are final sale and are not eligible for returns and exchanges.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "beauty",
+      "text": "Gap Beauty products can only be returned in store and opened or used items cannot be returned or exchanged.",
+      "quote": "Yes, Gap Beauty products can only be returned in store. Opened or used items cannot be returned or exchanged.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "swimwear",
+      "text": "Swimwear must have original price tags and hygienic liner intact and can only be returned by mail.",
+      "quote": "Swimwear must have the original price tags and hygienic liner intact can only be returned by mail.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "sunglasses",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "New sunglasses may be returned within 30 days of delivery with original receipt and tags attached; defective sunglasses can be returned at any time.",
+      "quote": "New sunglasses may be returned within 30 days of the delivery date if accompanied by the original receipt, with tags attached. Defective sunglasses can be returned at any time.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-10",
+      "type": "fee",
+      "channel": "online",
+      "text": "Return shipping is free for Encore Members; nonmembers pay a $6 return shipping fee.",
+      "quote": "Return shipping is free for Encore Members. A $6 return shipping fee applies to nonmembers.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-11",
+      "type": "fee",
+      "channel": "online",
+      "text": "Exchanges by mail have no shipping fee.",
+      "quote": "Exchanges are free.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

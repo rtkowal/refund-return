@@ -1,0 +1,90 @@
+{
+  "slug": "sephora",
+  "name": "Sephora",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.sephora.com/beauty/returns-exchanges",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.sephora.com/beauty/returns-exchanges",
+      "file": "research/scrape-2026-11-03/03-brands/sephora-com-beauty-returns-exchanges.md",
+      "sha256": "6d599e1b2447bcdfa264584cffa4aa8be83b6d3d0b35db1dc96c13e75f83b681",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Most Sephora purchases can be returned within 30 days of purchase for a full refund with a receipt.",
+      "quote": "If you are not completely satisfied with a Sephora purchase or gift for any reason, Sephora welcomes you to return new or gently used products for a full refund to your original method of payment if returned within 30 days of purchase, in most cases.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-holiday-2",
+      "type": "holiday",
+      "channel": "any",
+      "windowDays": 63,
+      "windowAnchor": "purchase",
+      "text": "Merchandise purchased between October 30, 2026 and December 31, 2026 can be returned or exchanged by January 31, 2027 under an extended holiday return period.",
+      "quote": "For in-store and Sephora.com purchases of merchandise made on or after Friday, October 30, 2026 through and including Thursday, December 31, 2026, we offer an extended holiday return period as an exception to our normal Return Policy. So long as such merchandise is returned or exchanged on or before Sunday, January 31, 2027, we will allow in-store exchanges, store credit in the form of a Sephora merchandise credit for returns made in-store, or online credit for returns of Sephora.com purchase_s_ made by mail initiated on Sephora.com.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-3",
+      "type": "receipt",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "A proof of purchase is required to complete a return.",
+      "quote": "In order to complete the return, you must have a proof of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "gift cards",
+      "text": "Gift cards are final sale and cannot be returned or refunded.",
+      "quote": "All gift cards are final sale and no refunds will be given.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-5",
+      "type": "refund_timing",
+      "channel": "online",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Returns sent by mail can take up to 30 days to process and credit the account.",
+      "quote": "Please allow 30 days for your return to be processed if sent by mail.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "hazmat items",
+      "text": "Hazmat items have specific shipping restrictions and must be returned via USPS, not FedEx printerless returns.",
+      "quote": "Items with specific shipping restrictions (hazmat items) are not eligible for printerless returns and must be returned via USPS.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

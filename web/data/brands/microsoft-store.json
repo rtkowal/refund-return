@@ -1,0 +1,88 @@
+{
+  "slug": "microsoft-store",
+  "name": "Microsoft Store",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.microsoft.com/en-us/store/b/returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.microsoft.com/en-us/store/b/returns",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/microsoft-com-en-us-store-b-returns.md",
+      "sha256": "66fa23047d2d5af0d5536f72e6d82daaf0830ac86808e6353f26c222134f90fd",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "category": "eligible physical products purchased between October 1, 2026 - December 2, 2026",
+      "windowDays": 61,
+      "windowAnchor": "purchase",
+      "text": "Holiday purchases made between October 1, 2026 and December 2, 2026 can be returned through January 31, 2027.",
+      "quote": "Holiday extended return policy available with eligible physical products purchased between October 1, 2026 - December 2, 2026 from Microsoft Store online and Microsoft Experience Centers in select markets. Holiday purchases made during that window can be returned through January 31, 2027.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "returns",
+      "text": "Returns exclude ROG Xbox Ally X, ROG Xbox Ally, Surface Hub, HoloLens, and Windows DevKit.",
+      "quote": "Excludes ROG Xbox Ally X, ROG Xbox Ally, Surface Hub, HoloLens, and Windows DevKit.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "price adjustment",
+      "text": "Price adjustment excludes ROG Xbox Ally, ROG Xbox Ally X, Surface for Business devices and accessories, and refurbished products.",
+      "quote": "Excludes ROG Xbox Ally, ROG Xbox Ally X, Surface for Business devices and accessories, and refurbished products.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "any",
+      "category": "trade-in",
+      "text": "Customer must mail in the qualifying trade-in device to be eligible for reimbursement.",
+      "quote": "Customer must mail in the qualifying trade-in device to be eligible for reimbursement.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "trade-in",
+      "text": "Trade-in devices with broken or missing components, cracked display or screen, liquid damage, modifications, password protection, or missing original chargers/accessories are not eligible.",
+      "quote": "To be eligible for trade in, (i) you must own the qualifying device, (ii) the device must power on, (iii) the battery must hold a charge (the device must not be required to be plugged in to operate), and (iv) the device must be in fully-functional, working condition and not have broken or missing components, a cracked display or screen, liquid damage, modification(s) or the device warranty seal broken. The device cannot be password protected and must include its original chargers, accessories, and hard drive.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "trade-in",
+      "text": "All trade-ins are final and cannot be redeemed for cash, gift cards, or credit towards other products.",
+      "quote": "All trade-ins are final. Cannot be transferred or otherwise redeemed for cash or gift cards, or credit towards other devices or products.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

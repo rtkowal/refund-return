@@ -1,0 +1,64 @@
+{
+  "slug": "hsn",
+  "name": "HSN",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.hsn.com/article/easy-returns/5291",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.hsn.com/article/easy-returns/5291",
+      "file": "research/scrape-2026-11-03-b2/12-brands-retry-unblocker/hsn-com-article-easy-returns-5291.md",
+      "sha256": "673813de2e1ae407ed6dd121e508e7c981656449a92af63da4a4edba0d0803df",
+      "apifyRunId": "a1RDVqKHolQTpskYp",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "You can return items within 30 days of purchase or receipt.",
+      "quote": "If you don't, send it back within 30 days.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-2",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "You can exchange items within 30 days and the exchange shipping is free.",
+      "quote": "Need the same item in a different size or color? We'll ship your exchange for free.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are processed after the returned item is received using the label on the packing slip.",
+      "quote": "Apply the label that came on your packing slip to the outside of the package.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-4",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Return shipping is free and you can leave the package in your mailbox or drop it off at a Post Office or UPS location.",
+      "quote": "Leave it in your mailbox or drop it off at a Post Office or UPS location.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

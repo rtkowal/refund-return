@@ -1,0 +1,132 @@
+{
+  "slug": "raymour-flanigan",
+  "name": "Raymour & Flanigan",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.raymourflanigan.com/return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.raymourflanigan.com/return-policy",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/raymourflanigan-com-return-policy.md",
+      "sha256": "f212e14dab666d6a7485d2e6b8a012862f351c978d3d42688c1869337ec88d30",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-exclusion-1",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "furniture",
+      "text": "We are unfortunately unable to process returns or refunds once merchandise has been accepted.",
+      "quote": "Due to the care we put forth for every order, we are unfortunately unable to process returns or refunds once merchandise has been accepted.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-cancellation-2",
+      "type": "cancellation",
+      "channel": "any",
+      "windowAnchor": "purchase_or_receipt",
+      "text": "You may cancel anytime up to the day of pick-up or delivery.",
+      "quote": "If you have concerns about your order, you may cancel anytime up to the day of pick-up or delivery.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "furniture",
+      "text": "We reserve the right to repair or replace your furniture as deemed necessary at our sole discretion.",
+      "quote": "Please note that we reserve the right to repair or replace your furniture as deemed necessary at our sole discretion.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-4",
+      "type": "window",
+      "channel": "any",
+      "category": "free shipping products",
+      "windowDays": 3,
+      "windowAnchor": "receipt",
+      "text": "A return request must be made within 72 hours of receiving your item(s).",
+      "quote": "A return request must be made within 72 hours of receiving your item(s) by calling 888-729-6687.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "free shipping products",
+      "text": "Only items labeled \"Free Shipping\" qualify for return.",
+      "quote": "Only items labeled \"Free Shipping\" qualify for return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "free shipping products",
+      "text": "Assembled or modified items are unable to be returned.",
+      "quote": "Assembled or modified items are unable to be returned.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-7",
+      "type": "fee",
+      "channel": "any",
+      "category": "free shipping products",
+      "text": "A restocking fee of 15% of the merchandise total will be applied to returned free shipping items.",
+      "quote": "A restocking fee of 15% of the merchandise total will be applied to returned items.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-8",
+      "type": "fee",
+      "channel": "any",
+      "category": "special orders",
+      "text": "Changes after three days will result in the loss of your 20% deposit.",
+      "quote": "Changes after this period will result in the loss of your 20% deposit.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-9",
+      "type": "fee",
+      "channel": "any",
+      "category": "special orders",
+      "text": "After seven days from notification of arrival, a 5% storage fee per week may be assessed.",
+      "quote": "After seven days, you may be assessed a 5% storage fee per week.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-10",
+      "type": "fee",
+      "channel": "any",
+      "category": "area rugs",
+      "text": "All area rug returns require a restocking fee of 10%.",
+      "quote": "Please note: all returns will be reviewed for approval and require a restocking fee of 10%.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

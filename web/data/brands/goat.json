@@ -1,0 +1,62 @@
+{
+  "slug": "goat",
+  "name": "GOAT",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.goat.com/returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.goat.com/returns",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/goat-com-returns.md",
+      "sha256": "be30cb3c84b8c6a73189e876c466b15a9b0e74e4c0d81ee3f0c2734ab0c0f8d2",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "receipt",
+      "text": "You have 30 days to request a return from the date you receive your item(s).",
+      "quote": "You have 30 days to request a return from the date you receive your item(s). Failure to initiate a return request within 30 days of receipt may result in the denial of your return request under our Standard Return policy.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "No returns or refunds on items listed as Final Sale, special items (Vintage, Sample, ID, Custom, Defect, Pre-Release), used items, auction items, GOAT Storage items, or items shipped to freight forwarders or delivery addresses in China.",
+      "quote": "We do not issue refunds or accept returns or exchanges on any items listed as \"Final Sale\" on the checkout page, special items (e.g., Vintage, Sample, ID, Custom, Defect, Pre-Release), any used items, auction items, any GOAT Storage items, or any items shipped to a freight forwarder or a delivery address in the People's Republic of China.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-3",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns must include the GOAT return label and packing slip provided by GOAT.",
+      "quote": "Item(s) must include the return label and packing slip provided by us. Returns will not be processed without a GOAT return label and packing slip.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "any",
+      "text": "Refunds are issued less shipping costs to and from the buyer and any priority processing fee paid.",
+      "quote": "If your return is accepted, your refund will be issued in the form of GOAT Credit, less the shipping costs to and from you and any priority processing fee paid.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "lululemon",
+  "name": "lululemon",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://shop.lululemon.com/help/returns-and-refunds",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://shop.lululemon.com/help/returns-and-refunds",
+      "file": "research/scrape-2026-11-03/03-brands/shop-lululemon-com-help-returns-and-refunds.md",
+      "sha256": "20e4f3fda01ae56d4f2dca178da3a2529381c2bf31a5ff6735e92f0f367eb41a",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Your product is eligible for return within 30 days of the delivery date (for online purchases) or purchase date (for in-store purchases).",
+      "quote": "Your product is eligible for return within 30 days of the delivery date (for online purchases) or purchase date (for in-store purchases). ",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Your product is eligible for return within 30 days of the delivery date (for online purchases) or purchase date (for in-store purchases).",
+      "quote": "Your product is eligible for return within 30 days of the delivery date (for online purchases) or purchase date (for in-store purchases). ",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-holiday-3",
+      "type": "holiday",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Purchases made between October 13 and December 24 can be returned or exchanged until January 23.",
+      "quote": "Purchases made between October 13 and December 24 can be returned or exchanged until January 23.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-4",
+      "type": "refund_method",
+      "channel": "online",
+      "text": "Online purchases can be returned online or in store.",
+      "quote": "Online purchases can be returned online or in store.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-5",
+      "type": "exchange",
+      "channel": "in_store",
+      "text": "Exchanges can only be done in stores for online purchases.",
+      "quote": "Online purchases can be returned online or in store (exchanges can only be done in stores).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-6",
+      "type": "refund_method",
+      "channel": "in_store",
+      "text": "Store purchases can be returned in store or by contacting customer service to set up an online return.",
+      "quote": "Store purchases can be returned in store or by [contacting us](https://shop.lululemon.com/contact).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "customized product",
+      "text": "Customized product is final sale and cannot be returned.",
+      "quote": "Customized product is final sale—learn more by visiting our [Customized Product](https://shop.lululemon.com/help/orders/customized-product) page",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Merchandise must be unwashed and unworn with original hangtags attached; shoes can be worn but must be in the box.",
+      "quote": "The merchandise must be unwashed and unworn with the original hangtags attached. Shoes can be worn but must be in the box.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-9",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Proof of purchase must accompany the return and all products are subject to inspection which may lead to rejection of the return.",
+      "quote": "Proof of purchase must accompany the return, and all products are subject to inspection. Inspection may lead to the rejection of a return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-10",
+      "type": "fee",
+      "channel": "any",
+      "text": "The returns process is free with no fees.",
+      "quote": "Our returns process is free (and seamless).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

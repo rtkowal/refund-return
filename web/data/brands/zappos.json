@@ -1,0 +1,93 @@
+{
+  "slug": "zappos",
+  "name": "Zappos",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.zappos.com/c/shipping-and-returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.zappos.com/c/shipping-and-returns",
+      "file": "research/scrape-2026-11-03/03-brands/zappos-com-c-shipping-and-returns.md",
+      "sha256": "5aacdf3a4826086f696730f7a6667e426992c1a4a756ee32160c528d52fd7fbb",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "receipt",
+      "text": "Merchandise must be returned within 60 days in new condition.",
+      "quote": "Merchandise must be returned within 60 days in new condition.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Final Sale items are not eligible to be returned.",
+      "quote": "Final Sale items are not eligible to be returned.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns that do not comply with this return policy may not be eligible for a refund or could result in a restocking fee up to 50% of the item price.",
+      "quote": "Returns that do not comply with this return policy may not be eligible for a refund or could result in a restocking fee up to 50% of the item price.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-4",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds can be issued as store credit or original form of payment; guest accounts only get original form of payment.",
+      "quote": "Choose refund option: You will be presented a refund option of store credit or original form of payment. Guest accounts will only be eligible for refunds to the original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-5",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds are issued once the return is dropped off and scanned; store credit may take up to 24 hours; some financial institutions up to 10 business days; After Pay up to 20 business days; PayPal up to 30 business days.",
+      "quote": "FAST REFUNDS: For eligible orders, your refund will be issued once dropped off and scanned by the return carrier.\n\nEligible refunds are issued immediately. Please allow up to 24 hours for store credit. Some financial institutions may take up to 10 business days. After Pay may take up to 20 business days and PayPal up to 30 business days.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-6",
+      "type": "exchange",
+      "channel": "any",
+      "text": "An item cannot be sent back to you after it has been returned.",
+      "quote": "Note that an item cannot be sent back to you after it has been returned.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "footwear",
+      "text": "Footwear returns must include the original shoe box in its original condition without packing tape or postal labels.",
+      "quote": "Footwear must include the original shoe box in its original condition, without packing tape or postal labels.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

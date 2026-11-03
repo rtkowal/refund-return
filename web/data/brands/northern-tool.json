@@ -1,0 +1,139 @@
+{
+  "slug": "northern-tool",
+  "name": "Northern Tool",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.northerntool.com/product-returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.northerntool.com/product-returns",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/northerntool-com-product-returns.md",
+      "sha256": "dc67000c43e52b7fd306a426e49ad48daf8a2e11cf742cd44755d02cb9b92eb1",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "receipt",
+      "text": "Eligible products may be returned within 60 days of receipt for a refund or exchange.",
+      "quote": "Eligible products may be returned within 60 days of receipt for a refund or exchange.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "generators, chainsaws and water pumps",
+      "text": "During severe weather or natural disasters, sales of generators, chainsaws and water pumps may be designated as final and not returnable.",
+      "quote": "During the threat or occurrence of a severe weather event or natural disaster, sales of generators, chainsaws and water pumps may be designated as final.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "gas and diesel-powered products",
+      "text": "Gas and diesel-powered products cannot be returned after they have been fueled or oiled.",
+      "quote": "Gas and diesel-powered products cannot be returned to Northern Tool after they have been fueled or oiled.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "custom and built-to-order products",
+      "text": "Custom and built-to-order products are nonreturnable.",
+      "quote": "Custom and built-to-order products are nonreturnable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "NorTrac equipment, surface cleaners, gang reels, winches, reconditioned forklifts, books, DVDs, CDs, videos, blueprints, clearance items and electronic auction items",
+      "text": "NorTrac equipment, surface cleaners, gang reels, winches, reconditioned forklifts, books, DVDs, CDs, videos, blueprints, clearance items and electronic auction items are nonreturnable.",
+      "quote": "NorTrac equipment, surface cleaners, gang reels, winches, reconditioned forklifts, books, DVDs, CDs, videos, blueprints, clearance items and electronic auction items are nonreturnable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-6",
+      "type": "fee",
+      "channel": "any",
+      "text": "A restocking fee of up to 15% may apply to products that are not defective or are returned used, opened, incomplete or without original packaging.",
+      "quote": "A restocking fee of up to 15% may apply to products that are not defective or are returned used, opened, incomplete or without their original packaging.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-7",
+      "type": "fee",
+      "channel": "any",
+      "category": "factory-shipped products",
+      "text": "Factory-shipped products may be subject to a restocking fee of up to 15% and require manufacturer approval before return.",
+      "quote": "Factory-shipped products require approval from the manufacturer before they can be returned and should not be returned directly to Northern Tool. These products may also be subject to a restocking fee of up to 15%.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-8",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns require a packing slip, order number, or return authorization number to expedite the return process.",
+      "quote": "To expedite your return at the store, please bring your packing slip, order number, or return authorization number along with your products for return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-9",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Processing a return via shipment will take 2-4 weeks.",
+      "quote": "Processing your return via shipment will take 2-4 weeks.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-10",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are for the cost of the products only.",
+      "quote": "Refunds are for the cost of the products only.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-11",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "receipt",
+      "text": "Eligible products may be returned within 60 days of receipt for an exchange.",
+      "quote": "Eligible products may be returned within 60 days of receipt for a refund or exchange.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

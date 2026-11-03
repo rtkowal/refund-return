@@ -1,0 +1,218 @@
+{
+  "slug": "kitchenaid",
+  "name": "KitchenAid",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.kitchenaid.com/countertop-appliances/return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.kitchenaid.com/countertop-appliances/return-policy",
+      "file": "research/scrape-batch3/17-brands-fix/kitchenaid-com-countertop-appliances-return-policy.md",
+      "sha256": "fbd1bdcb1dc8f1e54a7c4a3ab111869f1ebd64888d32ac1dd6abb4a4b1fb3548",
+      "apifyRunId": "te4KP4vEIqKaIvFVh",
+      "fetchedAt": "apify_run_"
+    },
+    "s2": {
+      "url": "https://www.kitchenaid.com/return-policy.html",
+      "file": "research/scrape-batch3/17-brands-fix/kitchenaid-com-return-policy-html.md",
+      "sha256": "ab82fe531015cbb6d3f48b4a97b2674772ddf7945777ce82f44a11fad7aa60d4",
+      "apifyRunId": "te4KP4vEIqKaIvFVh",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-receipt-1",
+      "type": "receipt",
+      "channel": "any",
+      "text": "You must call the returns team at 1 (800) 541-6390 to initiate a return.",
+      "quote": "Please call our returns team at **1 (800) 541-6390** to initiate a return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-2",
+      "type": "refund_method",
+      "channel": "online",
+      "text": "You will receive a prepaid shipping label by email to return your product.",
+      "quote": "You'll get an email with a link to a shipping label.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returned products must be new and unused and packed securely in their original packaging.",
+      "quote": "Wrap the products in their original packaging with the shipping label on top.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "online",
+      "text": "Free return shipping is only available for U.S. consumers who call the returns team directly.",
+      "quote": "Free return shipping is only available for U.S. consumers who directly call this number.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-5",
+      "type": "refund_timing",
+      "channel": "online",
+      "text": "Returns are processed after the returned items are received and validated.",
+      "quote": "Once we validate the returned items have arrived, your return will be processed.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-fee-1",
+      "type": "fee",
+      "channel": "any",
+      "category": "major appliances",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Returns between day 16 and day 30 incur a 20% restocking fee with a $50 minimum, and original delivery, shipping and service fees are not refunded.",
+      "quote": "If you are Requesting a return between day 16 and day 30, an additional restocking fee of 20% of the product cost will be applied, with a $50 minimum. Original delivery, shipping and service fees will not be refunded.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "major appliances",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Returns after 30 days are not accepted; warranty service or repair must be scheduled instead.",
+      "quote": "After 30 Calendar Days If the 30-day return window has passed, and your product is still under warranty, call us for warranty service or to schedule a repair.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-fee-3",
+      "type": "fee",
+      "channel": "any",
+      "category": "major appliances",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Returns from Hawaii are subject to a flat $50 restocking fee.",
+      "quote": "If you're returning a product from Hawaii, your return will only be subject to a flat $50 restocking fee.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_method-4",
+      "type": "refund_method",
+      "channel": "any",
+      "category": "major appliances",
+      "windowDays": 15,
+      "windowAnchor": "delivery",
+      "text": "Refunds are issued for the product price only; delivery, shipping and service fees are not refunded.",
+      "quote": "Delivery, shipping and service fees will not be refunded.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_method-5",
+      "type": "refund_method",
+      "channel": "any",
+      "category": "major appliances",
+      "windowDays": 15,
+      "windowAnchor": "delivery",
+      "text": "Refunds are made in the form of the original payment method.",
+      "quote": "Refunds are made in the form of the original payment.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-window-6",
+      "type": "window",
+      "channel": "any",
+      "category": "major appliance parts & accessories",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Returns for major appliance parts and accessories are accepted within 30 calendar days after delivery.",
+      "quote": "Get a refund when you request your return within 30 calendar days after the date of delivery.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-fee-7",
+      "type": "fee",
+      "channel": "any",
+      "category": "major appliance parts & accessories",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Original shipping and handling and return postage charges for parts and accessories are not refunded and customers are often responsible for return shipping.",
+      "quote": "Original shipping and handling and return postage charges will not be refunded.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-window-8",
+      "type": "window",
+      "channel": "any",
+      "category": "water filters",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Water filters may be returned within 30 days from the date of shipment if unused and in original packaging.",
+      "quote": "Your product(s) may be returned within 30 days from the date of shipment. The product(s) must be in unused condition and in original packaging material.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-fee-9",
+      "type": "fee",
+      "channel": "any",
+      "category": "water filters",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Customers are responsible for return shipping and handling charges for water filter returns.",
+      "quote": "You are responsible for return shipping & handling charges.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_timing-10",
+      "type": "refund_timing",
+      "channel": "any",
+      "category": "countertop appliance parts & accessories",
+      "text": "Refunds for countertop appliance parts and accessories are processed within 14 days plus postal delivery time after receipt and validation of the returned product.",
+      "quote": "After the receipt of the returned product and product check-in, a check will be processed within 14 days plus postal delivery time, averaging 20 days after credit memo creation.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-cancellation-11",
+      "type": "cancellation",
+      "channel": "any",
+      "category": "major appliances",
+      "windowDays": 3,
+      "windowAnchor": "delivery",
+      "text": "Orders can be cancelled up to 72 hours before the scheduled delivery date with a full refund including delivery, shipping, and service fees.",
+      "quote": "You can cancel an order up to 72 hours before the scheduled delivery date. To cancel an order, please call us at the numbers listed above with your order number handy. We will refund your product purchase price as well as delivery, shipping, and service fees.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

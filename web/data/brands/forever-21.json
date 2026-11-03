@@ -1,0 +1,118 @@
+{
+  "slug": "forever-21",
+  "name": "Forever 21",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.forever21.com/pages/return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.forever21.com/pages/return-policy",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/forever21-com-pages-return-policy.md",
+      "sha256": "4019d4358cc50fcc7a4f18651855bc17f12cf7a52cee5fa7864a05a5a0783f82",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "receipt",
+      "text": "Returns are accepted for a refund within 30-days of receipt.",
+      "quote": "Returns are accepted for a refund within 30-days of receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-2",
+      "type": "fee",
+      "channel": "any",
+      "text": "All returned merchandise will incur a return shipping fee of $9.99 per return deducted from the refund.",
+      "quote": "All returned merchandise will incur a return shipping fee of $9.99 per return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "any",
+      "category": "furniture,mattresses,wall art,mirrors,lamps,artificial trees",
+      "text": "Furniture, mattresses, wall art, mirrors, lamps, and artificial trees may incur a 15% restocking fee of the purchase price in addition to the $9.99 return shipping fee.",
+      "quote": "Furniture, mattresses, wall art, mirrors, lamps, and artificial trees may incur a 15% restocking fee of the purchase price in addition to the $9.99 return shipping fee.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "furniture",
+      "text": "Furniture is non-returnable unless damaged upon delivery and refused at delivery; otherwise customer pays return shipping.",
+      "quote": "Furniture. If the item arrived damaged upon delivery, do not accept the delivery. If you accept the delivery, you shall be responsible for return shipping costs.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Items already assembled, altered apparel, special orders, cloth face masks, perishable or personalized/monogrammed items, and final sale items cannot be returned.",
+      "quote": "Items that have already been assembled by you.\n\n*   Altered apparel, special orders, cloth face mask coverings, perishable or personalized/monogrammed items, and items identified as \"final sale\" cannot be returned.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "intimates",
+      "text": "Intimates such as lingerie, swimsuits and undergarments are non-returnable.",
+      "quote": "Intimates such as lingerie, swimsuits and undergarments, etc.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-7",
+      "type": "window",
+      "channel": "any",
+      "category": "beauty products",
+      "windowDays": 30,
+      "windowAnchor": "receipt",
+      "text": "Beauty products may be returned within 30 days if unopened, unused, and original cellophane intact.",
+      "quote": "Beauty products may be returned if they are unopened, unused, and the original cellophane is fully intact.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-8",
+      "type": "fee",
+      "channel": "any",
+      "text": "Return shipping fee and/or restocking fee will be waived if item was damaged in shipping, incorrect, or defective.",
+      "quote": "For the following conditions the return shipping fee and/or restocking fee will be waived:\n\n*   The item was damaged in the initial shipping process.\n    \n*   An incorrect item was shipped by us; or\n    \n*   We shipped a defective item.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-9",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds will be credited to the original form of payment for the net price after discounts and/or coupons.",
+      "quote": "Refunds will be credited to the original form of payment for the net price after discounts and/or coupons- no exceptions.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

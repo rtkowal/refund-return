@@ -1,0 +1,128 @@
+{
+  "slug": "barnes-noble",
+  "name": "Barnes & Noble",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://help.barnesandnoble.com/hc/en-us/articles/5324602017691-Refund-and-Return-Policies",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://help.barnesandnoble.com/hc/en-us/articles/5324602017691-Refund-and-Return-Policies",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/help-barnesandnoble-com-hc-en-us-articles-5324602017691-Refund-and-Return-Policies.md",
+      "sha256": "589e1ea4c21250954fe6455a9953ca9f13f0b1ee5a695e114b047ce64de59d45",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Items bought online or in-store can be returned within 30 days after delivery or purchase date.",
+      "quote": "We will issue a refund for the purchase price of the item plus any applicable taxes to your original form of payment for items returned within 30 days after the delivery date.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-holiday-2",
+      "type": "holiday",
+      "channel": "any",
+      "windowDays": 61,
+      "windowAnchor": "purchase",
+      "text": "Purchases made between Nov 1 and Dec 31, 2026 are refundable or exchangeable through Jan 31, 2027.",
+      "quote": "Purchases made between November 1st and December 31st, 2026 are refundable or exchangeable through January 31st, 2027, including sealed or unsealed NOOK devices.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "opened shrink-wrapped products",
+      "text": "Opened shrink-wrapped or sealed products cannot be returned unless defective.",
+      "quote": "Shrink-wrapped or sealed product that has been opened and/or removed from original packaging may not be returned, unless it is defective, in which case it can be exchanged only for the same product.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "magazines, newspapers, used books",
+      "text": "Magazines, newspapers, used books and shipping fees are not returnable or exchangeable.",
+      "quote": "Magazines, newspapers, used books and shipping fees are not returnable or exchangeable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "digital content",
+      "text": "Digital content including eBooks, audiobooks, digital magazines, Access Codes, gift cards, and opened shrink-wrapped items are not returnable.",
+      "quote": "Digital content, including eBooks, audiobooks, digital magazines and newspapers, Access Codes, gift cards, and shrink-wrapped items that have been opened, are not returnable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "bulk orders",
+      "text": "Bulk orders of 50 or more copies are non-returnable.",
+      "quote": "Bulk orders of 50 or more copies are non-returnable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-7",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns require original receipt or proof of purchase; without packing slip or shipping confirmation, returns cannot be processed.",
+      "quote": "Without a packing slip or shipping confirmation printout, we cannot process the return and you will not receive your refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-8",
+      "type": "fee",
+      "channel": "online",
+      "text": "Shipping charges for returns are not refunded and return shipping is paid by the customer.",
+      "quote": "Shipping charges are non-refundable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-9",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are issued to the original form of payment or store credit if original payment is unavailable or for certain payment methods.",
+      "quote": "Eligible refunds will generally be made to your original form of tender. Store credit in the form of an electronic gift card will be issued if the original form of payment is not available.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-10",
+      "type": "refund_timing",
+      "channel": "online",
+      "text": "Refunds are processed within 24 hours after request but may take several business days to appear on statements.",
+      "quote": "Refunds are processed within 24 hours after being requested, but may take several business days to appear on your online statement depending on your card issuer's internal processes.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "menards",
+  "name": "Menards",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.menards.com/main/help-center/returns-exchanges/c-19282.htm",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.menards.com/main/help-center/returns-exchanges/c-19282.htm",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/menards-com-main-help-center-returns-exchanges-c-19282-htm.md",
+      "sha256": "81564c49e9be09556ae413a336879cb6b927db8ab20913f35eb2982a8283232c",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 90,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Items can be returned with a receipt within 90 days of purchase for a refund or exchange.",
+      "quote": "Returns with a Receipt within 90 Days of Purchase",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 90,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Returns with a receipt after 90 days of purchase receive in-store credit only.",
+      "quote": "Returns with a Receipt after 90 Days of Purchase\n\nIf you make a return after 90 days of purchase, you will receive an in-store credit for the original purchase price.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-3",
+      "type": "receipt",
+      "channel": "any",
+      "text": "A driver's license or state ID is required for all no-receipt returns.",
+      "quote": "Please note that a driver's license or state ID will be required for all no-receipt returns.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-4",
+      "type": "window",
+      "channel": "any",
+      "category": "gas-powered items",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Gas-powered items may be returned or exchanged within 30 days of purchase if unused, in original package, and not filled with gas.",
+      "quote": "A gas-powered item may be returned or exchanged within 30 days of purchase with a receipt if the item has not been used, is in the original package, and has not been filled with gas.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-5",
+      "type": "window",
+      "channel": "any",
+      "category": "service items",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Service items may be returned or exchanged within 30 days of purchase if unused and in original package.",
+      "quote": "A service item, such as a handheld gas-powered item or contractor paint sprayer, may be returned or exchanged within 30 days of purchase if the item has not been used and is in the original package.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-6",
+      "type": "window",
+      "channel": "any",
+      "category": "major appliances",
+      "windowDays": 7,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Major appliances with manufacturing defects may be returned or exchanged within 7 days of purchase.",
+      "quote": "A major appliance may be returned or exchanged within 7 days of the purchase date if the item has a manufacturing defect.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-7",
+      "type": "window",
+      "channel": "any",
+      "category": "major appliances",
+      "windowDays": 90,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Major appliances may be returned or exchanged within 90 days of purchase if unused and in original package.",
+      "quote": "A major appliance can be returned or exchanged within 90 days of the purchase date if the item has not been used and is in the original package.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

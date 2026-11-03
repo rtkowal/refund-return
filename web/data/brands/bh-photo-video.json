@@ -1,0 +1,269 @@
+{
+  "slug": "bh-photo-video",
+  "name": "B&H Photo Video",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.bhphotovideo.com/find/HelpCenter/ReturnExchange.jsp",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.bhphotovideo.com/find/HelpCenter/ReturnExchange.jsp",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/bhphotovideo-com-find-HelpCenter-ReturnExchange-jsp.md",
+      "sha256": "f9df7f43b15e1b1ea104f16502402daf4346d03bbb45e765933a3c626d7f95fa",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    },
+    "s2": {
+      "url": "https://www.bhphotovideo.com/find/HelpCenter/Used.jsp",
+      "file": "research/scrape-batch3/17-brands-fix/bhphotovideo-com-find-HelpCenter-Used-jsp.md",
+      "sha256": "d6e0e0b003dbcd83466ed28004d2064225df656c78352056131f97eb4af3c130",
+      "apifyRunId": "te4KP4vEIqKaIvFVh",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-holiday-1",
+      "type": "holiday",
+      "channel": "any",
+      "windowDays": 93,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Items purchased between November 1, 2026 and January 1, 2027 can be returned or exchanged until February 1, 2027.",
+      "quote": "As a courtesy during the busy holiday season, we have extended our usual 30-day limit on returns and exchanges. You have until February 1, 2027 to return or exchange items purchased after November 1, 2026 through January 1, 2027.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Items may be returned within 30 days of the delivery date.",
+      "quote": "If you are dissatisfied with your purchase for any reason, you may return it to B&H within 30 days of the delivery date, subject to the conditions and exclusions below.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-3",
+      "type": "receipt",
+      "channel": "any",
+      "text": "You must locate your order online or via guest lookup to start a return.",
+      "quote": "Log in to the My Account/My Orders section of the website; filter by Eligible for Return and locate your order details. Select Start a Return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "any",
+      "text": "Return shipping costs are deducted from your refund unless the item is defective or damaged.",
+      "quote": "Replace item(s) and invoice in original packaging. You may either affix the preprinted label provided with your Return Merchandise Authorization (return shipping cost will be deducted from your refund) or you may purchase a shipping label from the carrier of your choice.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-5",
+      "type": "fee",
+      "channel": "any",
+      "text": "A minimum 15% restocking fee may be charged if return conditions are not met.",
+      "quote": "If all conditions are not met, B&H reserves the right to refuse the return or to charge a minimum 15% restocking fee.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "TVs and monitors 37\" and larger",
+      "text": "TVs and monitors 37\" and larger cannot be returned if original packaging is opened or unsealed.",
+      "quote": "The following items cannot be returned if original packaging is unsealed or opened:\n\n*   TVs and monitors 37\" and larger",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Computers built or modified by B&H",
+      "text": "Computers built or modified by B&H to customer specifications are nonreturnable.",
+      "quote": "Any computers built or modified by B&H to customer specifications",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Underwater equipment that has been submerged",
+      "text": "Underwater equipment that has been submerged cannot be returned.",
+      "quote": "Underwater equipment that has been submerged",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Special-order merchandise",
+      "text": "Select special-order merchandise or any item indicated as nonreturnable on the website cannot be returned.",
+      "quote": "Select special-order merchandise, or any item indicated on the website as nonreturnable",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-window-1",
+      "type": "window",
+      "channel": "any",
+      "category": "used equipment",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "You may return your merchandise to B&H within 30 days of the purchase date for used equipment.",
+      "quote": "If you are dissatisfied with a Used equipment purchase for any reason, you may return your merchandise to B&H within 30 days of the purchase date (after receiving an RMA), subject to the conditions and exclusions below:",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-holiday-2",
+      "type": "holiday",
+      "channel": "any",
+      "category": "used equipment",
+      "windowDays": 93,
+      "windowAnchor": "purchase",
+      "text": "Items purchased after November 1, 2026 through January 1, 2027 can be returned or exchanged until February 1, 2027.",
+      "quote": "You have until February 1, 2027 to return or exchange items purchased after November 1, 2026 through January 1, 2027.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "used equipment",
+      "text": "Returned merchandise must be in the same condition as sold with all included accessories or a restocking fee of 15% may apply.",
+      "quote": "All returned merchandise must be in the same condition as sold, with all included accessories. If condition differs, we reserve the right to refuse the return or to charge a restocking fee of 15%.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-fee-4",
+      "type": "fee",
+      "channel": "any",
+      "category": "used equipment",
+      "text": "Return shipping fees are the responsibility of the customer and will be deducted from the refund if a prepaid label is used.",
+      "quote": "If defective, please specify the defect. You may either affix the preprinted label provided with your Return Merchandise Authorization (return shipping cost will be deducted from your refund) or you may purchase a shipping label from the carrier of your choice.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-fee-5",
+      "type": "fee",
+      "channel": "any",
+      "category": "used equipment",
+      "text": "Shipping fees are nonrefundable.",
+      "quote": "B&H can only refund your original purchase price—shipping fees are nonrefundable.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-receipt-6",
+      "type": "receipt",
+      "channel": "any",
+      "category": "used equipment",
+      "text": "An RMA number must be obtained before returning used equipment.",
+      "quote": "If you are dissatisfied with a Used equipment purchase for any reason, you may return your merchandise to B&H within 30 days of the purchase date (after receiving an RMA), subject to the conditions and exclusions below:",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_method-7",
+      "type": "refund_method",
+      "channel": "any",
+      "category": "used equipment",
+      "text": "Refunds are issued to the original payment method used for purchase.",
+      "quote": "In most cases, we will issue your refund to the same payment method used for the original purchase.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_timing-8",
+      "type": "refund_timing",
+      "channel": "any",
+      "category": "used equipment",
+      "text": "Credit card refunds appear within 7-10 days after B&H receives the product; check refunds are issued no sooner than 10 business days after purchase.",
+      "quote": "If payment was made by credit card, we will credit your account once we receive the product. Please allow 7-10 days for a credit to appear on your credit card statement. If payment was made by check, the refund check will be issued no sooner than 10 business days after the date of purchase.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exchange-9",
+      "type": "exchange",
+      "channel": "any",
+      "category": "used equipment",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "You may exchange used equipment within 30 days of purchase.",
+      "quote": "You have the option of exchanging an item or receiving a refund for the full amount of the original purchase price within the allowed return period.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-10",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "used equipment",
+      "windowDays": 2,
+      "windowAnchor": "receipt",
+      "text": "Claims for damaged or missing items must be received within two business days of receipt of merchandise.",
+      "quote": "Claims for damaged or missing items must be received within two business days of receipt of merchandise.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-window-11",
+      "type": "window",
+      "channel": "any",
+      "category": "used equipment warranty",
+      "windowDays": 90,
+      "windowAnchor": "purchase",
+      "text": "Every used item carries a 90-day parts and labor warranty covering operational defects under normal use.",
+      "quote": "Every used item we stock carries a 90-day Parts and Labor warranty.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exchange-12",
+      "type": "exchange",
+      "channel": "any",
+      "category": "used equipment warranty",
+      "windowDays": 90,
+      "windowAnchor": "purchase",
+      "text": "If a used item is proven defective within the warranty period, B&H may repair, exchange, or refund the item at their discretion.",
+      "quote": "If the product has been returned to B&H and proven by one of our technicians to be defective, then depending on the product and failure circumstances, at our discretion, we will either repair the product, exchange for the same model and cosmetic condition (or better) or provide a refund for the same value paid at the time of purchase.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

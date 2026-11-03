@@ -1,0 +1,30 @@
+{
+  "slug": "publix",
+  "name": "Publix",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.publix.com/pages/policies/publix-guarantee",
+  "launch": false,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.publix.com/pages/policies/publix-guarantee",
+      "file": "research/scrape-batch3/17-brands-fix/publix-com-pages-policies-publix-guarantee.md",
+      "sha256": "ee359636e3b3aaf1ff92ad8e840a8f850c22807b18b8a537482b381c75f78c69",
+      "apifyRunId": "eOw16fKOqV49VIlfU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-refund_method-1",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Publix will cheerfully refund the full purchase price immediately upon request if the purchase does not give complete satisfaction.",
+      "quote": "If for any reason your purchase does not give you complete satisfaction, the full purchase price will be cheerfully refunded immediately upon request.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

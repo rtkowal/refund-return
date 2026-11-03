@@ -1,0 +1,148 @@
+{
+  "slug": "kirklands-home",
+  "name": "Kirklands Home",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.kirklands.com/custserv/custserv.jsp?pageName=Returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.kirklands.com/custserv/custserv.jsp?pageName=Returns",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/kirklands-com-custserv-custserv-jsp-pageName-Returns.md",
+      "sha256": "333247301171ed09194d72182d391310c2f2bbc8423f2715a6ae6a6d0d47e65d",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Returns and exchanges can be made up to thirty (30) days from the date of purchase.",
+      "quote": "Returns and exchanges can be made up to thirty (30) days from the date of purchase, with your refund issued to your original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-2",
+      "type": "refund_method",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Refunds within 30 days are issued to the original form of payment.",
+      "quote": "Returns and exchanges can be made up to thirty (30) days from the date of purchase, with your refund issued to your original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Items returned after 30 days are refunded on a gift card for the current value plus tax.",
+      "quote": "Items returned after thirty (30) days from the purchase date will be refunded on a gift card for the current value of the item plus tax.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-4",
+      "type": "receipt",
+      "channel": "in_store",
+      "text": "Items returned without a receipt or order confirmation will be refunded to a gift card for the store's lowest selling price plus tax.",
+      "quote": "Items returned to a store without a receipt or order confirmation will be refunded to a gift card for the store's lowest selling price plus tax.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-5",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds for returns to the distribution center are processed within 14 days of receipt.",
+      "quote": "When returning an item to the distribution center, refunds are processed within 14 days of receiving the return at the distribution center.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-6",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 90,
+      "windowAnchor": "purchase",
+      "text": "Returns may be refused if more than 90 days have passed since purchase.",
+      "quote": "We reserve the right to refuse any item that is past ninety (90) days from the date of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Personalized items are final sale and cannot be returned.",
+      "quote": "Personalized items are final sale. No returns.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Fresh Cut Holiday Trees & Greenery",
+      "text": "Fresh Cut Holiday Trees & Greenery are final sale and cannot be returned.",
+      "quote": "Fresh Cut Holiday Trees & Greenery are final sale. No returns.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-9",
+      "type": "fee",
+      "channel": "online",
+      "text": "Shipping charges for online orders are non-refundable unless there is proof of damage.",
+      "quote": "Shipping charges for online orders are non-refundable. Kirkland’s Home will refund shipping charges with proof of damage.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-10",
+      "type": "fee",
+      "channel": "online",
+      "text": "A return shipping fee of 10% may be applied to items returned directly to the distribution center, reducing the refund amount.",
+      "quote": "A return shipping fee of 10% may be applied to items returned directly to Kirkland's distribution center. Notice of any return shipping fee will be displayed in the return process if applicable. If applied, this fee will reduce the amount of your refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-11",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns may be denied if the customer does not have proof of purchase.",
+      "quote": "We reserve the right to deny any return if a customer does not have a proof of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-12",
+      "type": "refund_method",
+      "channel": "any",
+      "category": "PayPal orders",
+      "text": "PayPal orders returned in store are refunded to a gift card; those returned by mail are credited to the PayPal account.",
+      "quote": "PayPal orders returned in the store will be refunded to a gift card. PayPal orders returned by mail will be credited to your PayPal account.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "etsy",
+  "name": "Etsy",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://help.etsy.com/hc/en-us/articles/360022953514",
+  "launch": false,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://help.etsy.com/hc/en-us/articles/360022953514",
+      "file": "research/scrape-2026-11-03/03-brands/help-etsy-com-hc-en-us-articles-360022953514.md",
+      "sha256": "d58d21cb9f22e3c5a5cb2d550b42fed28d7dd4495a0aba05bf7810ed7e3ba044",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-fee-1",
+      "type": "fee",
+      "channel": "any",
+      "text": "If you purchase the return shipping label, you will generally be charged for the label a few days after receiving the package.",
+      "quote": "If you used a shipping label purchased through Etsy, you’ll generally be charged for the label a few days after you receive the package.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-2",
+      "type": "fee",
+      "channel": "any",
+      "text": "You can issue a partial refund to recoup return shipping costs depending on who agreed to pay for return shipping.",
+      "quote": "You can also issue a partial refund to recoup return shipping costs, depending on who agreed to pay for return shipping.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds cannot exceed the original amount paid for the order.",
+      "quote": "On Etsy, you can’t refund an order for more than the original amount paid.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "any",
+      "text": "If you agreed to pay for return shipping, you can send the funds for the shipping label through PayPal.",
+      "quote": "If you agreed to pay for return shipping, one option is to send the funds for the shipping label through PayPal.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

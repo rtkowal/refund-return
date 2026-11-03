@@ -1,0 +1,92 @@
+{
+  "slug": "dillards",
+  "name": "Dillard's",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.dillards.com/c/returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.dillards.com/c/returns",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/dillards-com-c-returns.md",
+      "sha256": "d52621cdefc3d368db8e6539ed5f61f7b45365daa9608439dfad3f5bdb43b7bb",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-exclusion-1",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Clearance merchandise marked down 65% or more, merchandise on sale with an additional discount, and personalized merchandise are non-returnable and non-exchangeable.",
+      "quote": "The following items are non-returnable and non-exchangeable: (1) clearance merchandise marked down 65% or more; (2) merchandise on sale with an additional discount, e.g. items marked down 25% plus an additional 30-50% discount for a limited time; and (3) personalized merchandise.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "in_store",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "In-store returns must be made within 30 calendar days of purchase unless otherwise noted on the receipt or at point of sale.",
+      "quote": "no more than 30 calendar days have passed from the date of purchase (unless the face of the receipt or a notice at point of sale indicates that a longer return period is available)",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "online",
+      "text": "Using Dillard's return label for mail returns costs $9.95, deducted from the refund.",
+      "quote": "The restocking fee, plus any applicable taxes, will be deducted from your refunded amount. The restocking fee will be in addition to the $9.95 charged for use of a Dillard's return label.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-4",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are issued to the original payment method or as Dillard's merchandise credit, customer's choice.",
+      "quote": "Dillard’s will issue a refund in the form and amount of the original tender paid (including sales tax) or a Dillard’s merchandise credit, at the customer’s choice.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-5",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds for check purchases have a 10-day waiting period before cash or check refund is issued.",
+      "quote": "Refunds for check purchases will have a ten (10) day waiting period before a cash or check refund is issued.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-6",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Returns of merchandise purchased using Afterpay will be refunded via Dillard's gift card or credited back to Afterpay account.",
+      "quote": "Note – merchandise purchased using Afterpay and returned will be issued a Dillard's gift card or credited back to your Afterpay account for the purchase price.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-price_adjustment-7",
+      "type": "price_adjustment",
+      "channel": "any",
+      "text": "Dillard's does not issue price adjustments.",
+      "quote": "Dillard's does not issue Price Adjustments.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

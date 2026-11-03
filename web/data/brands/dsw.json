@@ -1,0 +1,52 @@
+{
+  "slug": "dsw",
+  "name": "DSW",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.dsw.com/content/return-and-exchange-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.dsw.com/content/return-and-exchange-policy",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/dsw-com-content-return-and-exchange-policy.md",
+      "sha256": "dde1a905361470dbf70646d6155ef407f460c6192eeacaf21fc4b357ee6015dd",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Merchandise purchased through DoorDash or Uber may be returned for a DSW merchandise credit within 30 days of purchase.",
+      "quote": "Unless marked as Final Sale, merchandise purchased through DoorDash or Uber may be returned for a DSW merchandise credit within 30 days of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-2",
+      "type": "fee",
+      "channel": "in_store",
+      "text": "In-store returns are free.",
+      "quote": "In-store returns are free.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-3",
+      "type": "exchange",
+      "channel": "any",
+      "text": "Exchanges for a different size or color are free both in store and by mail.",
+      "quote": "Need a different size or color? We offer free exchanges both in store and through mail.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

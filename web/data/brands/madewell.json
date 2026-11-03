@@ -1,0 +1,44 @@
+{
+  "slug": "madewell",
+  "name": "Madewell",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.madewell.com/c/returns/",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.madewell.com/c/returns/",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/madewell-com-c-returns.md",
+      "sha256": "9b18d945a944e315adf8c95b2c0dcab6769f78af0f27e11eeba7d677424825bd",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "You can return or exchange most items within 30 days of purchase or receipt.",
+      "quote": "Returns & Exchanges | Madewell",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-2",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Exchanges are allowed within 30 days of purchase or receipt.",
+      "quote": "Returns & Exchanges | Madewell",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

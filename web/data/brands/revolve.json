@@ -1,0 +1,161 @@
+{
+  "slug": "revolve",
+  "name": "REVOLVE",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.revolve.com/returnsexchanges",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.revolve.com/returnsexchanges",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/revolve-com-returnsexchanges.md",
+      "sha256": "e0cc607887f423e2286a00b3a7a762fa86236a8859c648a3de999949129992db",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Items purchased in store are only returnable in store and can't be mailed back to our online return center. You have 30 days from the date of purchase to return your item(s) for a refund.",
+      "quote": "Items purchased in store are only returnable in store and can't be mailed back to our online return center. You have 30 days from the date of purchase to return your item(s) for a refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "For orders shipped on or after May 1st 2024, we will accept returns within 30 days of shipment for a full refund.",
+      "quote": "For orders shipped on or after May 1st 2024, we will accept returns within 30 days of shipment for a full refund and within 60 days for an exchange.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-3",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "delivery",
+      "text": "For orders shipped on or after May 1st 2024, we will accept exchanges within 60 days of shipment.",
+      "quote": "For orders shipped on or after May 1st 2024, we will accept returns within 30 days of shipment for a full refund and within 60 days for an exchange.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "final sale",
+      "text": "Items marked FINAL SALE are not eligible for refund, exchange, or store credit.",
+      "quote": "Items marked _FINAL SALE_ are **not eligible** for refund, exchange, or store credit.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "beauty products",
+      "text": "Beauty products may be returned only if they are unused and unopened.",
+      "quote": "Beauty products may be returned only if they are **unused and unopened**.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-6",
+      "type": "window",
+      "channel": "any",
+      "category": "beauty products",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Beauty products may be returned within 30 days provided that they are unused and unopened.",
+      "quote": "We will accept back beauty products within 30 days provided that they are unused and unopened.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-7",
+      "type": "window",
+      "channel": "any",
+      "category": "FWRD Renew",
+      "windowDays": 14,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "FWRD Renew items must be returned within 14 days with all original tags, packaging, and accessories intact.",
+      "quote": "FWRD Renew items must be returned within 14 days with all original tags, packaging, and accessories intact.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-8",
+      "type": "fee",
+      "channel": "any",
+      "text": "For US customers, a prepaid return shipping label will be provided at no charge to return your merchandise (free shipping both ways).",
+      "quote": "For US customers, a prepaid return shipping label will be provided at no charge to return your merchandise (free shipping both ways).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-9",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Returns take 2-3 business days to process upon reaching the facility, and refunds can take several business days to reflect on your credit card account.",
+      "quote": "Returns take us 2-3 business days to process upon reaching our facility. Once your return is processed and your refund is issued, you will receive a refund confirmation email. Refunds can take several business days to reflect on your credit card account.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-10",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Items purchased in store can only be returned in store and exchanges must be reserved online or via customer service before returning in person.",
+      "quote": "Reserve your exchange item online via your order history or contact customer service prior returning in person.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-holiday-11",
+      "type": "holiday",
+      "channel": "any",
+      "windowDays": 40,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "During the Holiday season (Nov. 1st - Dec 25th), returns are accepted after 30 days if received by January 10th.",
+      "quote": "During the Holiday season (Nov. 1st - Dec 25th), we will accept your return after 30 days so long as it is received by January 10th.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-12",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "bridal gowns",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Bridal gowns may be returned within 30 days if unworn and unaltered with all original tags attached; no returns accepted after 30 days.",
+      "quote": "All bridal gowns may be returned within 30 days for a full refund or store credit. We cannot accept returns on any bridal gowns after 30 days. Bridal gowns must be unworn and unaltered, and all original tags must be attached.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

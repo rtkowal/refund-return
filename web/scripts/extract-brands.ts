@@ -81,18 +81,21 @@ async function extract(body: string) {
   if (DRY) { files.forEach((f) => console.log(" ", f)); return; }
   if (!process.env.OPENAI_API_KEY) throw new Error("OPENAI_API_KEY is not set");
   let tokensIn = 0, tokensOut = 0, done = 0, dropped = 0;
-  for (const f of files.slice(0, LIMIT)) {
+  const CONC = Number(process.env.EXTRACT_CONCURRENCY ?? 8);
+  const queue = files.slice(0, LIMIT);
+  const worker = async () => { for (let f = queue.shift(); f; f = queue.shift()) await one(f); };
+  const one = async (f: string) => {
     const raw = readFileSync(join(ROOT, f), "utf8"); const fm = front(raw);
     try {
       const { data, usage } = await extract(fm.body);
       tokensIn += usage?.prompt_tokens ?? 0; tokensOut += usage?.completion_tokens ?? 0;
-      if (!data.isReturnPolicy || !data.rules.length) { console.log(`– skip ${f} (not a policy page)`); continue; }
+      if (!data.isReturnPolicy || !data.rules.length) { console.log(`– skip ${f} (not a policy page)`); return; }
       const slug = String(data.slug).toLowerCase().replace(/[^a-z0-9-]/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
-      if (ONLY && slug !== ONLY) continue;
+      if (ONLY && slug !== ONLY) return;
       const nb = norm(fm.body);
       const good = data.rules.filter((r: { quote: string }) => nb.includes(norm(r.quote)));
       dropped += data.rules.length - good.length;
-      if (!good.length) { console.log(`✗ ${slug}: no verifiable rules`); continue; }
+      if (!good.length) { console.log(`✗ ${slug}: no verifiable rules`); return; }
       const path = join(OUT, `${slug}.json`);
       const existing = existsSync(path) ? JSON.parse(readFileSync(path, "utf8")) : null;
       const snapKey = existing ? `s${Object.keys(existing.snapshots).length + 1}` : "policy";
@@ -103,14 +106,15 @@ async function extract(body: string) {
         text: r.text, quote: r.quote, snapshot: snapKey, status: "extracted", extractedBy: "llm",
       }));
       const brand = existing ?? { slug, name: data.brandName, kind: "retailer", officialPolicyUrl: fm.url, launch: true, lastVerifiedAt: (fm.fetched || "2026-11-03").slice(0, 10), snapshots: {}, rules: [], facets: [] };
-      if (Object.values(brand.snapshots).some((s: any) => s.sha256 === fm.sha256)) { console.log(`= ${slug}: snapshot already extracted`); continue; }
+      if (Object.values(brand.snapshots).some((s: any) => s.sha256 === fm.sha256)) { console.log(`= ${slug}: snapshot already extracted`); return; }
       brand.snapshots[snapKey] = { url: fm.url, file: relative(ROOT, join(ROOT, f)), sha256: fm.sha256, apifyRunId: fm.run || "unknown", fetchedAt: (fm.fetched || "2026-11-03").slice(0, 10) };
       brand.rules.push(...rules);
       const parsed = Brand.safeParse(brand);
-      if (!parsed.success) { console.log(`✗ ${slug}: schema ${parsed.error.issues[0].message}`); continue; }
+      if (!parsed.success) { console.log(`✗ ${slug}: schema ${parsed.error.issues[0].message}`); return; }
       writeFileSync(path, JSON.stringify(parsed.data, null, 2) + "\n"); done++;
       console.log(`✓ ${slug}: ${rules.length} rules (${data.rules.length - good.length} dropped)`);
     } catch (e) { console.log(`! ${f}: ${(e as Error).message}`); }
-  }
+  };
+  await Promise.all(Array.from({ length: CONC }, worker));
   console.log(`done ${done}; rules dropped for unverifiable quotes: ${dropped}; tokens in ${tokensIn}, out ${tokensOut}`);
 })();

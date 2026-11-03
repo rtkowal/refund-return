@@ -4,21 +4,16 @@ import { buildMessages } from "@/lib/generator/prompt";
 import { getGenerator } from "@/lib/generator/defs";
 import { AI_MODELS, openaiText } from "@/lib/ai";
 import { getBrand } from "@/lib/brands";
+import { rateLimited, turnstileOk } from "@/lib/protect";
 
 export const runtime = "nodejs";
 
-// Best-effort per-instance limiter. TODO(milestone 7): Upstash + Turnstile.
-const hits = new Map<string, number[]>();
-function limited(ip: string) {
-  const now = Date.now(), win = 3_600_000, max = 15;
-  const arr = (hits.get(ip) ?? []).filter((t) => now - t < win); arr.push(now); hits.set(ip, arr);
-  return arr.length > max;
-}
-
 export async function POST(req: Request) {
   const ip = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ?? "unknown";
-  if (limited(ip)) return NextResponse.json({ error: "Too many letters this hour. Please try again later." }, { status: 429 });
-  const parsed = GenInput.safeParse(await req.json().catch(() => null));
+  if (await rateLimited(ip)) return NextResponse.json({ error: "Too many letters this hour. Please try again later." }, { status: 429 });
+  const body = await req.json().catch(() => null);
+  if (!(await turnstileOk(body?.turnstileToken, ip))) return NextResponse.json({ error: "Please complete the verification check." }, { status: 403 });
+  const parsed = GenInput.safeParse(body);
   if (!parsed.success) return NextResponse.json({ error: "Please check the form fields." }, { status: 400 });
   const input = parsed.data;
   const def = getGenerator(input.type);

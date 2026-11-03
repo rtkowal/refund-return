@@ -33,3 +33,4 @@ a { text-underline-offset: 3px; }
 .prose-rr h2 { font-size: 1.35rem; font-weight: 650; margin: 2rem 0 .75rem; }
 .prose-rr ul { list-style: disc; padding-left: 1.25rem; margin-bottom: 1rem; }
 .prose-rr li { margin: .25rem 0; }
+.prose-rr a { text-decoration: underline; }

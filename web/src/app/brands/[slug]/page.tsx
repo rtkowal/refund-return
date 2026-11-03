@@ -80,7 +80,7 @@ export default async function BrandPage({ params }: Props) {
         <h2 id="escalate" className="mb-2 text-xl font-semibold">If {b.name} says no</h2>
         <ol className="list-decimal space-y-1 pl-5">
           <li>Ask again in writing, citing the policy above.</li>
-          <li>Paid by card? You may be able to dispute the charge with your card issuer.</li>
+          <li>Paid by card? You may be able to <Link href="/chargebacks/" className="underline">dispute the charge</Link>.</li>
           <li>Check whether <Link href="/laws/us/" className="underline">your state&apos;s law</Link> gives you more than the store does.</li>
         </ol>
       </section>

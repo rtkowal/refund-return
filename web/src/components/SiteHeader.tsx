@@ -2,6 +2,10 @@ import Link from "next/link";
 
 const NAV = [
   { href: "/brands/", label: "Stores" },
+  { href: "/refunds/", label: "Refunds" },
+  { href: "/chargebacks/", label: "Chargebacks" },
+  { href: "/cancel/", label: "Cancel" },
+  { href: "/flights/", label: "Flights" },
   { href: "/generator/", label: "Letter templates" },
   { href: "/laws/us/", label: "Laws" },
   { href: "/methodology/", label: "How we verify" },

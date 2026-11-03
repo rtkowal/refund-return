@@ -7,7 +7,7 @@ import { GENERATORS } from "@/lib/generator/defs";
 export default function sitemap(): MetadataRoute.Sitemap {
   const brands = allBrands().filter((b) => isIndexable(b)).map((b) => `/brands/${b.slug}/`);
   const tools = ["/generator/", ...GENERATORS.map((g) => `/generator/${g.slug}/`)];
-  const pillars = ["/sellers/", "/sellers/return-policy-generator/", "/refunds/", "/returns/", "/chargebacks/", "/cancel/", "/flights/"];
+  const pillars = ["/sellers/", "/sellers/return-policy-generator/", "/holiday-return-deadlines/", "/privacy/", "/refunds/", "/returns/", "/chargebacks/", "/cancel/", "/flights/"];
   // Law pages are excluded until attorney-reviewed (noindex).
   return ["/", "/brands/", "/about/", "/methodology/", "/editorial-policy/", ...pillars, ...tools, ...brands].map((p) => ({ url: `${SITE.url}${p}` }));
 }

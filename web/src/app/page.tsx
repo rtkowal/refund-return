@@ -6,6 +6,7 @@ const POPULAR = [
   { href: "/brands/amazon/", label: "Amazon return policy" },
   { href: "/brands/best-buy/", label: "Best Buy return policy" },
   { href: "/brands/lowes/", label: "Lowe's return policy" },
+  { href: "/holiday-return-deadlines/", label: "Holiday return deadlines 2026" },
   { href: "/generator/refund-request/", label: "Write a refund request letter" },
 ];
 

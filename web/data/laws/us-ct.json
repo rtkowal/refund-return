@@ -1,0 +1,49 @@
+{
+  "id": "us-ct",
+  "state": "connecticut",
+  "jurisdiction": "US-CT",
+  "name": "Connecticut",
+  "citation": "Conn. Gen. Stat. ch. 735a (incl. § 42-110aa)",
+  "url": "https://www.cga.ct.gov/current/pub/chap_735a.htm",
+  "files": [
+    "research/scrape-2026-11-03-b2/08-state-statutes/cga-ct-gov-current-pub-chap-735a-htm.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03-b2/08-state-statutes/cga-ct-gov-current-pub-chap-735a-htm.md",
+      "sha256": "a7e2383636bbadf6fb5f68276e9ddb7621380337a1900af6799d70404b960697",
+      "run": "74pyNi9PADn69gs4L",
+      "url": "https://www.cga.ct.gov/current/pub/chap_735a.htm"
+    }
+  ],
+  "facts": [
+    {
+      "text": "The commissioner may order an investigation and examination related to unfair trade practices.",
+      "quote": "For the purposes of this chapter the commissioner shall have the power to order an investigation and examination to be made.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/cga-ct-gov-current-pub-chap-735a-htm.md"
+    },
+    {
+      "text": "The commissioner can issue subpoenas and conduct hearings in aid of investigations.",
+      "quote": "the commissioner or his authorized representatives may issue subpoenas to any person involved in any matter under investigation and examination, administer an oath or affirmation to any person, and conduct hearings in aid of any investigation or examination",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/cga-ct-gov-current-pub-chap-735a-htm.md"
+    },
+    {
+      "text": "The commissioner may apply to the superior court for enforcement of cease and desist orders, civil penalties, or restitution orders.",
+      "quote": "The commissioner may apply for the enforcement of any cease and desist order, civil penalty, order directing restitution or consent order issued or imposed under this chapter to the superior court for the judicial district of Hartford, or to any judge thereof if the same is not in session, for an order temporarily or permanently restraining and enjoining any person from continuing any violation of such cease and desist order, an order directing payment of any civil penalty or restitution or a consent order.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/cga-ct-gov-current-pub-chap-735a-htm.md"
+    },
+    {
+      "text": "A CUTPA action must be brought within three years after the violation occurs.",
+      "quote": "An action under this section may not be brought more than three years after the occurrence of a violation of this chapter.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/cga-ct-gov-current-pub-chap-735a-htm.md"
+    },
+    {
+      "text": "The court may award costs and reasonable attorneys' fees to the plaintiff in a CUTPA action.",
+      "quote": "In any action brought by a person under this section, the court may award, to the plaintiff, in addition to the relief provided in this section, costs and reasonable attorneys' fees based on the work reasonably performed by an attorney and not on the amount of recovery.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/cga-ct-gov-current-pub-chap-735a-htm.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

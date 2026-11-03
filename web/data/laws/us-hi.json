@@ -1,0 +1,59 @@
+{
+  "id": "us-hi",
+  "state": "hawaii",
+  "jurisdiction": "US-HI",
+  "name": "Hawaii",
+  "citation": "Haw. Rev. Stat. § 481B-5.5",
+  "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0481B/HRS_0481B-0005_0005.htm",
+  "files": [
+    "research/scrape-2026-11-03-b2/08-state-statutes/capitol-hawaii-gov-hrscurrent-Vol11-Ch0476-0490-HRS0481B-HRS-0481B-0005-0005-htm.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03-b2/08-state-statutes/capitol-hawaii-gov-hrscurrent-Vol11-Ch0476-0490-HRS0481B-HRS-0481B-0005-0005-htm.md",
+      "sha256": "0010be7acd6335f55cb246ad41a256b51214f667a6fbf0a844499d05b84e5b5c",
+      "run": "74pyNi9PADn69gs4L",
+      "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0481B/HRS_0481B-0005_0005.htm"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Merchants must post a conspicuous sign if they do not accept returns, stating \"All sales final\" or similar.",
+      "quote": "Any merchant who does not accept the return of goods shall post conspicuous signs bearing the words \"All sales final\", or \"No returns for refunds, merchandise credits, or exchanges\", or words or phrases of similar import, to inform customers that no return of goods shall be accepted.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/capitol-hawaii-gov-hrscurrent-Vol11-Ch0476-0490-HRS0481B-HRS-0481B-0005-0005-htm.md"
+    },
+    {
+      "text": "Merchants can limit the return period to less than 60 days only if they post a conspicuous sign informing purchasers of this limitation.",
+      "quote": "Any merchant who limits the period during which goods may be returned to less than sixty days after the date of purchase or delivery shall post conspicuous signs informing purchasers of the limitation of the period during which the return of goods shall be accepted.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/capitol-hawaii-gov-hrscurrent-Vol11-Ch0476-0490-HRS0481B-HRS-0481B-0005-0005-htm.md"
+    },
+    {
+      "text": "Refunds must be made in cash immediately if payment was cash and the refund is $25 or less; otherwise, a check within 10 days is allowed.",
+      "quote": "If payment was made in cash, the refund shall be made in cash at the time of the return of goods, except that if the amount to be returned exceeds $25, cash refunds may be made by check issued within ten days of the date of the return;",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/capitol-hawaii-gov-hrscurrent-Vol11-Ch0476-0490-HRS0481B-HRS-0481B-0005-0005-htm.md"
+    },
+    {
+      "text": "Refunds for credit card payments must be credited to the purchaser's credit card account within five banking business days after return, or at merchant's option, refunded in cash or check within ten days.",
+      "quote": "If payment was made by credit card, the refund shall be made by credit to the purchaser's credit card account; provided that the merchant shall initiate the submittal of the charge card credit memo or other appropriate documentation to the merchant's financial institution within five banking business days after the return of goods or, at the merchant's option, the refund may be made in cash at the time of the return of the goods or by check issued and mailed within ten days of the acceptance of the returned goods;",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/capitol-hawaii-gov-hrscurrent-Vol11-Ch0476-0490-HRS0481B-HRS-0481B-0005-0005-htm.md"
+    },
+    {
+      "text": "Merchants may deduct repacking and transportation charges from refunds if disclosed before purchase.",
+      "quote": "In determining the full amount of the payment for returns for reasons other than damaged or defective goods, a deduction for repacking and transportation charges may be made from the full amount of the payment, if the deduction is disclosed to the purchaser prior to the purchase.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/capitol-hawaii-gov-hrscurrent-Vol11-Ch0476-0490-HRS0481B-HRS-0481B-0005-0005-htm.md"
+    },
+    {
+      "text": "Merchants are not required to accept returns without proof of purchase, if goods are kept over 60 days, used or damaged after sale, or unsuitable for resale.",
+      "quote": "A merchant is not required to accept a return if: (1) There is no proof of purchase, by sales slips, receipts, or other evidence of purchase of the goods returned; (2) The purchaser has retained the goods in excess of sixty days after the purchase; (3) The goods have been used or damaged after sale, or altered by the purchaser at the time of or after the sale; or (4) The goods are of a type which are unsuitable for resale, pursuant to any applicable law.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/capitol-hawaii-gov-hrscurrent-Vol11-Ch0476-0490-HRS0481B-HRS-0481B-0005-0005-htm.md"
+    },
+    {
+      "text": "Return policies limiting refunds do not apply if goods were damaged or defective before sale unless the merchant notified the purchaser in writing.",
+      "quote": "Any return policies adopted by the merchant pursuant to this section that limits the purchaser's ability to obtain a refund shall not apply if the goods were damaged or defective prior to the time of sale, unless the merchant was aware of the damage or defect and notified the purchaser of the damage or defect in writing prior to the time of sale.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/capitol-hawaii-gov-hrscurrent-Vol11-Ch0476-0490-HRS0481B-HRS-0481B-0005-0005-htm.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

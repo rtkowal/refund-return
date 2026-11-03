@@ -1,0 +1,39 @@
+{
+  "id": "us-az",
+  "state": "arizona",
+  "jurisdiction": "US-AZ",
+  "name": "Arizona",
+  "citation": "A.R.S. § 44-1377",
+  "url": "https://www.azleg.gov/ars/44/01377.htm",
+  "files": [
+    "research/scrape-2026-11-03-b2/08-state-statutes/azleg-gov-ars-44-01377-htm.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03-b2/08-state-statutes/azleg-gov-ars-44-01377-htm.md",
+      "sha256": "cbb3f9014d36a22a32e9f2ff5db49a86b190683394f72ba75bb5cdf6c3924608",
+      "run": "74pyNi9PADn69gs4L",
+      "url": "https://www.azleg.gov/ars/44/01377.htm"
+    }
+  ],
+  "facts": [
+    {
+      "text": "If a business charges a restocking fee, it must disclose the existence and amount of the fee to customers.",
+      "quote": "A. A business in this state that charges a restocking fee on a product the business sells shall disclose the existence of the fee and the amount of the fee to a customer in accordance with this section.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/azleg-gov-ars-44-01377-htm.md"
+    },
+    {
+      "text": "Violating these restocking fee disclosure requirements is an unlawful practice subject to investigation and enforcement.",
+      "quote": "C. An act or practice in violation of this section is an unlawful practice under section 44-1522. The attorney general may investigate and take appropriate action as prescribed by chapter 10, article 7 of this title.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/azleg-gov-ars-44-01377-htm.md"
+    },
+    {
+      "text": "A restocking fee is defined as a fee charged for restocking a good upon its return or exchange.",
+      "quote": "D. For the purposes of this section, \"restocking fee\" means a fee charged by a business for restocking of the good purchased on its return or exchange.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/azleg-gov-ars-44-01377-htm.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

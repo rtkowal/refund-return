@@ -1,0 +1,63 @@
+{
+  "id": "us-federal-cooling-off",
+  "jurisdiction": "US",
+  "name": "FTC Cooling-Off Rule",
+  "citation": "16 CFR Part 429",
+  "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-429",
+  "files": [
+    "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-16-part-429.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-16-part-429.md",
+      "sha256": "ed77ea9ece265867164eaefaef54a1bb1f7b2c5baf59101b77c3c02314497319",
+      "run": "wuOGP1JQ4DIQswjAY",
+      "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/2026-10-30/title-16?part=429"
+    }
+  ],
+  "facts": [
+    {
+      "text": "You have the right to cancel a door-to-door sale within three business days after the transaction date.",
+      "quote": "the date, not earlier than the third business day following the date of the transaction, by which the buyer may give notice of cancellation.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-16-part-429.md"
+    },
+    {
+      "text": "The seller must provide you with a completed \"Notice of Right to Cancel\" form at the time you sign the contract or agree to buy.",
+      "quote": "Fail to furnish each buyer, at the time the buyer signs the door-to-door sales contract or otherwise agrees to buy consumer goods or services from the seller, a completed form in duplicate, captioned either “NOTICE OF RIGHT TO CANCEL” or “NOTICE OF CANCELLATION,”",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-16-part-429.md"
+    },
+    {
+      "text": "The seller must give you a fully completed receipt or contract copy at the time of sale, in the same language used in the sales presentation, showing the date and seller's name and address.",
+      "quote": "Fail to furnish the buyer with a fully completed receipt or copy of any contract pertaining to such sale at the time of its execution, which is in the same language, e.g., Spanish, as that principally used in the oral sales presentation and which shows the date of the transaction and contains the name and address of the seller,",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-16-part-429.md"
+    },
+    {
+      "text": "The seller cannot include any waiver of your right to cancel or confession of judgment in the contract or receipt.",
+      "quote": "Include in any door-to-door contract or receipt any confession of judgment or any waiver of any of the rights to which the buyer is entitled under this section including specifically the buyer's right to cancel the sale in accordance with the provisions of this section.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-16-part-429.md"
+    },
+    {
+      "text": "The seller must orally inform you of your right to cancel at the time you sign the contract or purchase the goods or services.",
+      "quote": "Fail to inform each buyer orally, at the time the buyer signs the contract or purchases the goods or services, of the buyer's right to cancel.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-16-part-429.md"
+    },
+    {
+      "text": "The seller must honor your valid cancellation notice and within 10 business days refund all payments, return traded goods, cancel negotiable instruments, and terminate security interests.",
+      "quote": "Fail or refuse to honor any valid notice of cancellation by a buyer and within 10 business days after the receipt of such notice, to: (i) Refund all payments made under the contract or sale; (ii) return any goods or property traded in, in substantially as good condition as when received by the seller; (iii) cancel and return any negotiable instrument executed by the buyer in connection with the contract or sale and take any action necessary or appropriate to terminate promptly any security interest created in the transaction.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-16-part-429.md"
+    },
+    {
+      "text": "The seller cannot transfer or assign your debt to a third party before midnight of the fifth business day after the contract date or purchase date.",
+      "quote": "Negotiate, transfer, sell, or assign any note or other evidence of indebtedness to a finance company or other third party prior to midnight of the fifth business day following the day the contract was signed or the goods or services were purchased.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-16-part-429.md"
+    },
+    {
+      "text": "Within 10 business days of your cancellation notice, the seller must notify you whether they will repossess or abandon any shipped or delivered goods.",
+      "quote": "Fail, within 10 business days of receipt of the buyer's notice of cancellation, to notify the buyer whether the seller intends to repossess or to abandon any shipped or delivered goods.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-16-part-429.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

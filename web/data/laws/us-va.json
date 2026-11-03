@@ -1,0 +1,49 @@
+{
+  "id": "us-va",
+  "state": "virginia",
+  "jurisdiction": "US-VA",
+  "name": "Virginia",
+  "citation": "Va. Code § 59.1-200",
+  "url": "https://law.lis.virginia.gov/vacode/title59.1/chapter17/section59.1-200/",
+  "files": [
+    "research/scrape-2026-11-03-b2/08-state-statutes/law-lis-virginia-gov-vacode-title59-1-chapter17-section59-1-200.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03-b2/08-state-statutes/law-lis-virginia-gov-vacode-title59-1-chapter17-section59-1-200.md",
+      "sha256": "1c603548ff4786beb0f6046e2527c6d72481ac30d6baf461a1cb3d494ff2f2fa",
+      "run": "74pyNi9PADn69gs4L",
+      "url": "https://law.lis.virginia.gov/vacode/title59.1/chapter17/section59.1-200/"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Suppliers must disclose all conditions, charges, or fees related to the return of goods for refund, exchange, or credit by means of a sign attached to the goods or placed in a conspicuous public area of the premises.",
+      "quote": "Failing to disclose all conditions, charges, or fees relating to: a. The return of goods for refund, exchange, or credit. Such disclosure shall be by means of a sign attached to the goods, or placed in a conspicuous public area of the premises of the supplier, so as to be readily noticeable and readable by the person obtaining the goods from the supplier.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/law-lis-virginia-gov-vacode-title59-1-chapter17-section59-1-200.md"
+    },
+    {
+      "text": "If a supplier does not permit refunds, exchanges, or credits for returns, they must state this on a similar sign.",
+      "quote": "If the supplier does not permit a refund, exchange, or credit for return, he shall so state on a similar sign.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/law-lis-virginia-gov-vacode-title59-1-chapter17-section59-1-200.md"
+    },
+    {
+      "text": "Retail merchants with a policy of providing a cash refund or credit for defective, unused, or undamaged merchandise must provide this for at least 20 days after purchase upon presentation of proof.",
+      "quote": "The provisions of this subdivision shall not apply to any retail merchant who has a policy of providing, for a period of not less than 20 days after date of purchase, a cash refund or credit to the purchaser's credit card account for the return of defective, unused, or undamaged merchandise upon presentation of proof of purchase.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/law-lis-virginia-gov-vacode-title59-1-chapter17-section59-1-200.md"
+    },
+    {
+      "text": "For merchandise paid by check, refunds may be delayed for 10 banking days to allow the check to clear.",
+      "quote": "In the case of merchandise paid for by check, the purchase shall be treated as a cash purchase and any refund may be delayed for a period of 10 banking days to allow for the check to clear.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/law-lis-virginia-gov-vacode-title59-1-chapter17-section59-1-200.md"
+    },
+    {
+      "text": "Suppliers must provide written notice to consumers of open-end credit balances over $5 resulting from overpayments within 60 days.",
+      "quote": "Failing to provide written notice to a consumer of an existing open-end credit balance in excess of $5 (i) on an account maintained by the supplier and (ii) resulting from such consumer's overpayment on such account. Suppliers shall give consumers written notice of such credit balances within 60 days of receiving overpayments.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/law-lis-virginia-gov-vacode-title59-1-chapter17-section59-1-200.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

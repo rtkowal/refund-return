@@ -1,0 +1,44 @@
+{
+  "id": "us-md",
+  "state": "maryland",
+  "jurisdiction": "US-MD",
+  "name": "Maryland",
+  "citation": "Md. Code, Com. Law § 14-1319",
+  "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcl&section=14-1319",
+  "files": [
+    "research/scrape-2026-11-03-b2/08-state-statutes/mgaleg-maryland-gov-mgawebsite-Laws-StatuteText-article-gcl-section-14-1319-enactments-false.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03-b2/08-state-statutes/mgaleg-maryland-gov-mgawebsite-Laws-StatuteText-article-gcl-section-14-1319-enactments-false.md",
+      "sha256": "90ebb5e69394c5873581fe57ce32236c9453b89c3405292f514e31fd7a6c81fb",
+      "run": "74pyNi9PADn69gs4L",
+      "url": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcl&section=14-1319&enactments=false"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Gift certificates cannot expire or have fees within 4 years after purchase.",
+      "quote": "A person may not sell or issue a gift certificate that, within 4 years after the date of purchase, is subject to expiration or a fee or charge of any kind.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/mgaleg-maryland-gov-mgawebsite-Laws-StatuteText-article-gcl-section-14-1319-enactments-false.md"
+    },
+    {
+      "text": "Any expiration or fee terms effective after 4 years must be clearly printed in at least 10 point type on the gift certificate or its packaging.",
+      "quote": "Any term or condition concerning expiration or a fee or charge that takes effect more than 4 years after the date of purchase must be printed clearly in at least 10 point type in a visible place on: (1) The front or back of the gift certificate; (2) A sticker permanently affixed to the gift certificate; or (3) An envelope containing the gift certificate.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/mgaleg-maryland-gov-mgawebsite-Laws-StatuteText-article-gcl-section-14-1319-enactments-false.md"
+    },
+    {
+      "text": "Terms about expiration or fees cannot be changed after purchase unless the change benefits the consumer.",
+      "quote": "Unless the change benefits the consumer, a term or condition disclosed under subsection (c) of this section may not be changed after the date of purchase or issuance.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/mgaleg-maryland-gov-mgawebsite-Laws-StatuteText-article-gcl-section-14-1319-enactments-false.md"
+    },
+    {
+      "text": "Gift certificates sold or issued in violation of these rules are still valid and cannot expire or have fees.",
+      "quote": "A gift certificate that is sold or issued in violation of this section shall be considered valid and may not be subject to expiration or any fee or charge.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/mgaleg-maryland-gov-mgawebsite-Laws-StatuteText-article-gcl-section-14-1319-enactments-false.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

@@ -27,4 +27,14 @@ for (const f of readdirSync(dir).filter((x) => x.endsWith(".json"))) {
   }
   console.log(`✓ ${f} (${b.rules.length} rules)`);
 }
+// laws: every fact quote must be verbatim in one of its snapshots
+const lawDir = join(__dirname, "..", "data", "laws");
+for (const f of readdirSync(lawDir).filter((x) => x.endsWith(".json"))) {
+  const l = JSON.parse(readFileSync(join(lawDir, f), "utf8"));
+  for (const fact of l.facts) {
+    const raw = readFileSync(join(repoRoot, fact.snapshot), "utf8");
+    if (!norm(raw).includes(norm(fact.quote))) { console.error(`✗ law ${f}: quote not found in ${fact.snapshot}`); errors++; }
+  }
+  console.log(`✓ law ${f} (${l.facts.length} facts)`);
+}
 if (errors) { console.error(`${errors} error(s)`); process.exit(1); }

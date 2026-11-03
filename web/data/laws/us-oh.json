@@ -1,0 +1,64 @@
+{
+  "id": "us-oh",
+  "state": "ohio",
+  "jurisdiction": "US-OH",
+  "name": "Ohio",
+  "citation": "Ohio Admin. Code 109:4-3-02",
+  "url": "https://codes.ohio.gov/ohio-administrative-code/rule-109:4-3-02",
+  "files": [
+    "research/scrape-2026-11-03-b2/08b-state-fixups/codes-ohio-gov-ohio-administrative-code-rule-109-4-3-02.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03-b2/08b-state-fixups/codes-ohio-gov-ohio-administrative-code-rule-109-4-3-02.md",
+      "sha256": "ef4669bc4674558770117389c6779b518fcb49fd48de27d092b3afe27a1a6305",
+      "run": "ailqkRW2SRF9vueBD",
+      "url": "https://codes.ohio.gov/ohio-administrative-code/rule-109:4-3-02"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Any offer in written or printed advertising must clearly and conspicuously state any material exclusions, reservations, limitations, modifications, or conditions near the offer.",
+      "quote": "It is a deceptive act or practice in connection with a consumer transaction for a supplier, in the sale or offering for sale of goods or services, to make any offer in written or printed advertising or promotional literature without stating clearly and conspicuously in close proximity to the words stating the offer any material exclusions, reservations, limitations, modifications, or conditions.",
+      "snapshot": "research/scrape-2026-11-03-b2/08b-state-fixups/codes-ohio-gov-ohio-administrative-code-rule-109-4-3-02.md"
+    },
+    {
+      "text": "Disclosures in advertising must be easily legible and specific enough to avoid misunderstanding.",
+      "quote": "Disclosure shall be easily legible to anyone reading the advertising or promotional literature and shall be sufficiently specific so as to leave no reasonable probability that the terms of the offer might be misunderstood.",
+      "snapshot": "research/scrape-2026-11-03-b2/08b-state-fixups/codes-ohio-gov-ohio-administrative-code-rule-109-4-3-02.md"
+    },
+    {
+      "text": "If there is an additional charge for delivery or mail orders, that must be disclosed in the advertisement.",
+      "quote": "If there is an additional charge for delivery or mail orders, that fact must be disclosed.",
+      "snapshot": "research/scrape-2026-11-03-b2/08b-state-fixups/codes-ohio-gov-ohio-administrative-code-rule-109-4-3-02.md"
+    },
+    {
+      "text": "If an advertisement offers a rebate requiring repeat purchases, the required number, amount, timeframe, and other actions must be disclosed.",
+      "quote": "If an advertisement offers a rebate that requires repeat purchases by a consumer, that information must be disclosed, including, but not limited to, the required number of purchases, the amount of each of the purchases, the time frame over which the purchases need to be made, and any other actions required by the consumer to redeem the rebate.",
+      "snapshot": "research/scrape-2026-11-03-b2/08b-state-fixups/codes-ohio-gov-ohio-administrative-code-rule-109-4-3-02.md"
+    },
+    {
+      "text": "Offers made through audio or audiovisual media must be preceded or immediately followed by a clear oral or written statement of any material exclusions or conditions.",
+      "quote": "Offers made through any audio or audiovisual medium including advertisements via radio, television, or an online or digital medium, must be preceded or immediately followed by a conspicuously clear oral or written statement of any material exclusions, reservations, limitations, modifications, or conditions.",
+      "snapshot": "research/scrape-2026-11-03-b2/08b-state-fixups/codes-ohio-gov-ohio-administrative-code-rule-109-4-3-02.md"
+    },
+    {
+      "text": "Oral disclosures in audio or audiovisual ads must be spoken clearly and loudly enough for consumers to hear and understand.",
+      "quote": "Oral disclosures in audio or audiovisual advertisements must be spoken with sufficient deliberateness, clarity, and volume so as to afford a consumer a reasonable opportunity to hear and understand them.",
+      "snapshot": "research/scrape-2026-11-03-b2/08b-state-fixups/codes-ohio-gov-ohio-administrative-code-rule-109-4-3-02.md"
+    },
+    {
+      "text": "Online or digital offers must clearly and conspicuously state any material exclusions or conditions near the offer, preferably on the same screen.",
+      "quote": "It is a deceptive act or practice in connection with an offer made through any online or digital medium, to make any offer without stating clearly and conspicuously, in close proximity to the words stating the offer, any material exclusions, reservations, limitations, modifications, or conditions. Disclosures should be as near to, and if possible on the same screen, as the triggering offer.",
+      "snapshot": "research/scrape-2026-11-03-b2/08b-state-fixups/codes-ohio-gov-ohio-administrative-code-rule-109-4-3-02.md"
+    },
+    {
+      "text": "If scrolling or hyperlinking is needed to view disclosures online, the advertisement must guide consumers with obvious instructions and the hyperlink must lead directly to the disclosed information.",
+      "quote": "If scrolling or a hyperlink is necessary to view the disclosure, the advertisement should guide consumers with obvious terms or instructions to scroll down or click on the hyperlink. Hyperlinked disclosures should lead directly to the disclosed information and not require scrolling or clicking on any additional hyperlinks.",
+      "snapshot": "research/scrape-2026-11-03-b2/08b-state-fixups/codes-ohio-gov-ohio-administrative-code-rule-109-4-3-02.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

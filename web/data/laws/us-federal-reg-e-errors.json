@@ -1,0 +1,58 @@
+{
+  "id": "us-federal-reg-e-errors",
+  "jurisdiction": "US",
+  "name": "Debit card and electronic transfer errors (Regulation E)",
+  "citation": "12 CFR 1005.11",
+  "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/11/",
+  "files": [
+    "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1005-11.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1005-11.md",
+      "sha256": "973319ce5b9994fe2355e5cb044605b711c160b987c88495cc5fcbbc890efcbb",
+      "run": "BrDSV6rfarU6FOjBB",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/11/"
+    }
+  ],
+  "facts": [
+    {
+      "text": "You must notify your financial institution of an error within 60 days after the statement showing the error was sent.",
+      "quote": "An institution is not required to comply with the requirements of this section for any notice of error from the consumer that is received by the institution later than 60 days from the date on which the periodic statement first reflecting the error is sent.",
+      "snapshot": "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1005-11.md"
+    },
+    {
+      "text": "The financial institution must investigate and determine if an error occurred within 10 business days of receiving your error notice.",
+      "quote": "A financial institution shall investigate promptly and, except as otherwise provided in this paragraph (c), shall determine whether an error occurred within 10 business days of receiving a notice of error.",
+      "snapshot": "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1005-11.md"
+    },
+    {
+      "text": "The institution must notify you within 2 business days after provisional crediting and give you full use of the funds during the investigation.",
+      "quote": "Informs the consumer, within two business days after the provisional crediting, of the amount and date of the provisional crediting and gives the consumer full use of the funds during the investigation;",
+      "snapshot": "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1005-11.md"
+    },
+    {
+      "text": "If an error is found, the institution must correct it within one business day after determining the error.",
+      "quote": "Corrects the error, if any, within one business day after determining that an error occurred;",
+      "snapshot": "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1005-11.md"
+    },
+    {
+      "text": "The institution must report the results of its investigation to you within 3 business days after completing it.",
+      "quote": "Reports the results to the consumer within three business days after completing its investigation (including, if applicable, notice that a provisional credit has been made final).",
+      "snapshot": "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1005-11.md"
+    },
+    {
+      "text": "You may be required to provide written confirmation of an error within 10 business days of an oral notice.",
+      "quote": "A financial institution may require the consumer to give written confirmation of an error within 10 business days of an oral notice.",
+      "snapshot": "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1005-11.md"
+    },
+    {
+      "text": "The institution cannot charge you fees related to the error resolution process.",
+      "quote": "If a billing error occurred, whether as alleged or in a different amount or manner, the financial institution may not impose a charge related to any aspect of the error-resolution process (including charges for documentation or investigation).",
+      "snapshot": "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1005-11.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

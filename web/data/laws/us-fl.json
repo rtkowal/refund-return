@@ -1,0 +1,59 @@
+{
+  "id": "us-fl",
+  "state": "florida",
+  "jurisdiction": "US-FL",
+  "name": "Florida",
+  "citation": "Fla. Stat. § 501.142",
+  "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.142.html",
+  "files": [
+    "research/scrape-2026-11-03-b2/08-state-statutes/leg-state-fl-us-statutes-index-cfm-App-mode-Display-Statute-URL-0500-0599-0501-Sections-0501-142-html.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03-b2/08-state-statutes/leg-state-fl-us-statutes-index-cfm-App-mode-Display-Statute-URL-0500-0599-0501-Sections-0501-142-html.md",
+      "sha256": "5fa7ad5962ec8343492a186cd8744aaf1fd36928427c3d12dc6b5560cdce5c0e",
+      "run": "74pyNi9PADn69gs4L",
+      "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.142.html"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Retail sales establishments that do not offer cash refunds, credit refunds, or exchanges must post a sign stating this at the point of sale.",
+      "quote": "Every retail sales establishment offering goods for sale to the general public that offers no cash refund, credit refund, or exchange of merchandise must post a sign so stating at the point of sale.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/leg-state-fl-us-statutes-index-cfm-App-mode-Display-Statute-URL-0500-0599-0501-Sections-0501-142-html.md"
+    },
+    {
+      "text": "If a retail sales establishment does not post a 'no refund' sign, it must provide a refund or exchange policy in writing upon consumer request.",
+      "quote": "Failure of a retail sales establishment to exhibit a “no refund” sign under such circumstances at the point of sale shall mean that a refund or exchange policy exists, and the policy shall be presented in writing to the consumer upon request.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/leg-state-fl-us-statutes-index-cfm-App-mode-Display-Statute-URL-0500-0599-0501-Sections-0501-142-html.md"
+    },
+    {
+      "text": "If a retail sales establishment fails to comply with the refund sign requirement, it must grant a refund within 7 days of purchase if the merchandise is unused and in the original carton.",
+      "quote": "Any retail establishment failing to comply with the provisions of this section shall grant to the consumer, upon request and proof of purchase, a refund on the merchandise, within 7 days of the date of purchase, provided the merchandise is unused and in the original carton, if one was furnished.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/leg-state-fl-us-statutes-index-cfm-App-mode-Display-Statute-URL-0500-0599-0501-Sections-0501-142-html.md"
+    },
+    {
+      "text": "Retail sales establishments may have refund policies that exceed the 7-day refund period specified.",
+      "quote": "Nothing herein shall prohibit a retail sales establishment from having a refund policy which exceeds the number of days specified herein.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/leg-state-fl-us-statutes-index-cfm-App-mode-Display-Statute-URL-0500-0599-0501-Sections-0501-142-html.md"
+    },
+    {
+      "text": "The refund policy provisions do not apply to food, perishable goods, custom made or altered goods, or goods that cannot be resold due to law or regulation.",
+      "quote": "The provisions of this section shall not apply to the sale of food, perishable goods, goods which are custom made, goods which are custom altered at the request of the customer, or goods which cannot be resold by the merchant because of any law, rule, or regulation adopted by a governmental body.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/leg-state-fl-us-statutes-index-cfm-App-mode-Display-Statute-URL-0500-0599-0501-Sections-0501-142-html.md"
+    },
+    {
+      "text": "The Department of Agriculture and Consumer Services can impose fines up to $100 per violation for violations of this refund policy section.",
+      "quote": "The department may enter an order doing one or more of the following if the department finds that a person has violated or is operating in violation of any of the provisions of this section or the orders issued under this section: (a) Impose an administrative fine not to exceed $100 for each violation.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/leg-state-fl-us-statutes-index-cfm-App-mode-Display-Statute-URL-0500-0599-0501-Sections-0501-142-html.md"
+    },
+    {
+      "text": "Local governments may issue a written warning for a first violation and fines up to $50 for subsequent violations of this refund policy section.",
+      "quote": "Upon the first violation of this section, a local government may issue a written warning. Upon a second and any subsequent violation, a local government may impose a fine of up to $50 per violation.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/leg-state-fl-us-statutes-index-cfm-App-mode-Display-Statute-URL-0500-0599-0501-Sections-0501-142-html.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

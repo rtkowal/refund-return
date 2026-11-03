@@ -1,0 +1,56 @@
+{
+  "id": "us-ia",
+  "state": "iowa",
+  "jurisdiction": "US-IA",
+  "name": "Iowa",
+  "citation": "Iowa Code § 714H.3 and § 714.16",
+  "url": "https://www.legis.iowa.gov/docs/code/714H.3.pdf",
+  "files": [
+    "research/scrape-2026-11-03-b2/09-pdfs/legis-iowa-gov-docs-code-714H-3-pdf.md",
+    "research/scrape-2026-11-03-b2/09-pdfs/legis-iowa-gov-docs-code-714-16-pdf.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03-b2/09-pdfs/legis-iowa-gov-docs-code-714H-3-pdf.md",
+      "sha256": "6b6a262eacaca6705cfeab52c78b983f900f8dbe7bcaffeb6bf31f11a457add7",
+      "run": "1gewS4vzhLpDwVyZN",
+      "url": "https://www.legis.iowa.gov/docs/code/714H.3.pdf"
+    },
+    {
+      "file": "research/scrape-2026-11-03-b2/09-pdfs/legis-iowa-gov-docs-code-714-16-pdf.md",
+      "sha256": "a493d5b992094a8ec5dadf5a2d65fae286e263eed60da89cdb9c05e21c549679",
+      "run": "1gewS4vzhLpDwVyZN",
+      "url": "https://www.legis.iowa.gov/docs/code/714.16.pdf"
+    }
+  ],
+  "facts": [
+    {
+      "text": "It is unlawful to conceal, suppress, or omit a material fact with intent that others rely on it in connection with the sale or advertisement of merchandise.",
+      "quote": "The act, use or employment by a person of an unfair practice, deception, fraud, false pretense, false promise, or misrepresentation, or the concealment, suppression, or omission of a material fact with intent that others rely upon the concealment, suppression, or omission, in connection with the lease, sale, or advertisement of any merchandise or the solicitation of contributions for charitable purposes, whether or not a person has in fact been misled, deceived, or damaged, is an unlawful practice.",
+      "snapshot": "research/scrape-2026-11-03-b2/09-pdfs/legis-iowa-gov-docs-code-714-16-pdf.md"
+    },
+    {
+      "text": "It is unlawful to advertise a going-out-of-business sale and remain in business under the same ownership or trade name for more than 120 days after the first advertisement.",
+      "quote": "It is an unlawful practice for any person to advertise the sale of merchandise at reduced rates due to the cessation of business operations and after the date of the first such advertisement remain in business under the same or substantially the same ownership, or under the same or substantially the same trade name, or to continue to offer for sale the same type of merchandise at the same location for more than one hundred twenty days.",
+      "snapshot": "research/scrape-2026-11-03-b2/09-pdfs/legis-iowa-gov-docs-code-714-16-pdf.md"
+    },
+    {
+      "text": "A person conducting a going-out-of-business sale with added merchandise must obtain a permit and disclose the added merchandise and its customary retail price in all advertisements.",
+      "quote": "It is an unlawful practice for a person to acquire directly or indirectly an interest in a business which has either gone out of business or is going out of business and conduct or continue a going-out-of-business sale where additional merchandise has been added to the merchandise of the liquidating business for the purposes of the sale, unless the person provides a clear and conspicuous notice in all advertisements that merchandise has been added. The advertisement shall also state the customary retail price of the merchandise that has been added or brought in for the sale. The person acquiring the interest shall obtain a permit to hold the sale before commencing the sale.",
+      "snapshot": "research/scrape-2026-11-03-b2/09-pdfs/legis-iowa-gov-docs-code-714-16-pdf.md"
+    },
+    {
+      "text": "A person must obtain affirmative consent from a consumer before imposing financial obligations from a free offer.",
+      "quote": "It is an unlawful practice for a person to impose a financial obligation on a consumer as a result of the consumer’s acceptance of a free offer unless the consumer’s affirmative consent to the terms of the free offer as disclosed in subparagraph (1) is obtained.",
+      "snapshot": "research/scrape-2026-11-03-b2/09-pdfs/legis-iowa-gov-docs-code-714-16-pdf.md"
+    },
+    {
+      "text": "A person who violates going-out-of-business sale rules by misrepresenting added merchandise is liable for civil penalties up to $1,000 per day.",
+      "quote": "A person who violates this paragraph, including any misrepresentation of the presence and the percentage of additional merchandise that had been added to that of the liquidating company, is liable for a civil penalty of not to exceed one thousand dollars for each day of each violation.",
+      "snapshot": "research/scrape-2026-11-03-b2/09-pdfs/legis-iowa-gov-docs-code-714-16-pdf.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

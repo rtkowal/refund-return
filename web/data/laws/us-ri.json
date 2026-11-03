@@ -1,0 +1,44 @@
+{
+  "id": "us-ri",
+  "state": "rhode-island",
+  "jurisdiction": "US-RI",
+  "name": "Rhode Island",
+  "citation": "R.I. Gen. Laws § 6-27-9",
+  "url": "http://webserver.rilegislature.gov/Statutes/TITLE6/6-27/6-27-9.htm",
+  "files": [
+    "research/scrape-2026-11-03-b2/08-state-statutes/webserver-rilegislature-gov-Statutes-TITLE6-6-27-6-27-9-htm.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03-b2/08-state-statutes/webserver-rilegislature-gov-Statutes-TITLE6-6-27-6-27-9-htm.md",
+      "sha256": "6da78c862d5014b95ee8d41692607aff44e1005c3ca27faa0ee2b3a3c5bb8a81",
+      "run": "74pyNi9PADn69gs4L",
+      "url": "https://webserver.rilegislature.gov/Statutes/TITLE6/6-27/6-27-9.htm"
+    }
+  ],
+  "facts": [
+    {
+      "text": "If a customer returns an unused item within 10 business days with a sales slip, they are entitled to a refund in the same manner as paid.",
+      "quote": "wherever a customer who has paid cash for an item, and who has in his or her possession a sales slip or other evidence that he or she has purchased the item in a retail outlet, returns the item, unused, within ten (10) business days from the date of purchase, he or she shall be entitled to a refund in the same manner as paid in an amount equivalent to that paid at the time of sale.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/webserver-rilegislature-gov-Statutes-TITLE6-6-27-6-27-9-htm.md"
+    },
+    {
+      "text": "Retailers must clearly inform customers by a poster or notice at the display, cash register, or store entrance if all sales are final and merchandise is not returnable.",
+      "quote": "Except where a customer has been clearly informed by either a poster or other appropriate notice placed at the point of display or at the cash register or at the store entrance that all sales are final and that the merchandise is not returnable,",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/webserver-rilegislature-gov-Statutes-TITLE6-6-27-6-27-9-htm.md"
+    },
+    {
+      "text": "The refund rule does not apply to books, magazines, food, perishable items, custom-made merchandise, items sold 'as is', or items prohibited by law from refund or return.",
+      "quote": "This section shall not apply to the sale of books, magazines, or any publications; food; perishable items; merchandise that is substantially custom-made or custom-finished; items for internal consumption; items sold “as is”; or any items presently prohibited for refund, return, or exchange by a retailer by federal or state law or any rule or regulation promulgated by any state agency.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/webserver-rilegislature-gov-Statutes-TITLE6-6-27-6-27-9-htm.md"
+    },
+    {
+      "text": "Retailers who fail to post the required notice about final sales are guilty of a misdemeanor and face fines between $500 and $1,000 per violation.",
+      "quote": "Any person, corporation, or entity, refusing or neglecting to post in accordance with subsection (a), shall be deemed guilty of a misdemeanor for each violation and shall be punished by a fine of not less than five hundred dollars ($500) or more than one thousand dollars ($1,000).",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/webserver-rilegislature-gov-Statutes-TITLE6-6-27-6-27-9-htm.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

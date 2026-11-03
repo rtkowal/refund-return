@@ -13,6 +13,8 @@ export function SiteFooter() {
           <Link href="/about/">About</Link>
           <Link href="/methodology/">How we verify</Link>
           <Link href="/editorial-policy/">Editorial policy</Link>
+          <Link href="/privacy/">Privacy</Link>
+          <Link href="/holiday-return-deadlines/">Holiday return deadlines</Link>
         </nav>
         <p>© {new Date().getFullYear()} refund-return.com</p>
       </div>

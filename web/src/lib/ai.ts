@@ -18,3 +18,16 @@ export async function openaiJson<T>(opts: { model: string; messages: Msg[]; sche
   const j = await res.json();
   return { data: JSON.parse(j.choices[0].message.content) as T, usage: j.usage as { prompt_tokens: number; completion_tokens: number } };
 }
+
+export async function openaiText(opts: { model: string; messages: Msg[]; maxTokens?: number }) {
+  const key = process.env.OPENAI_API_KEY;
+  if (!key) throw new Error("OPENAI_API_KEY is not set");
+  const res = await fetch("https://api.openai.com/v1/chat/completions", {
+    method: "POST",
+    headers: { "Content-Type": "application/json", Authorization: `Bearer ${key}` },
+    body: JSON.stringify({ model: opts.model, temperature: 0.4, max_tokens: opts.maxTokens ?? 900, messages: opts.messages }),
+  });
+  if (!res.ok) throw new Error(`OpenAI ${res.status}`);
+  const j = await res.json();
+  return { text: String(j.choices[0].message.content ?? ""), usage: j.usage as { prompt_tokens: number; completion_tokens: number } };
+}

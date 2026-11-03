@@ -20,3 +20,5 @@ Workspace balance at start: **785,839 / 800,000 used → ~14.2k left**; resets 2
 2. **Apify not connected** (re-checked 2026-11-03; the owner sees it connected in claude.ai, but it's absent from this session; a new session is needed after connecting). No Apify MCP is attached to this session and there is no `APIFY_TOKEN`. Under the brief, all scraping must go through Apify, so no policy-page scraping has happened.
 3. ~~SOURCES.md missing~~ resolved 2026-11-03.
 4. **No GitHub remote.** The directory was empty and not a repo. I ran `git init` locally, but nothing can be pushed until a repo is attached.
+
+- 2026-11-03: Batch 2 README reports Ahrefs at 6 units (the remaining ~3.8k buffer was used outside this session). **Next Ahrefs work: 2026-11-06.**

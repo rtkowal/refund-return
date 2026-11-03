@@ -72,16 +72,9 @@ Inputs:
   - Every affiliate rate (confirm in partner dashboards)
   - Mail-return fees (re-snapshot)
 
-## Decisions needed at CP1
-1. Approve this scope and these go/no-go verdicts.
-2. **Attorney reviewer budget:** get quotes. Nothing is indexable without them.
-3. Buy Ahrefs units (option c) for the UK flight set, facet expansion for the top 20 brands, and the cancel-[service] set. **Estimate ~15–20k units.**
-4. **Attach the GitHub repo.** It's still local-only.
-5. **Apify batch 2:**
-   - Fix the bot-wall brands
-   - corporate.walmart.com/policies
-   - UK261 data.xml
-   - BA, Virgin Atlantic, easyJet, Ryanair
-   - 13 state statutes
-   - Brands 41–200
-6. Owner's Shopify-merchant input for 07.
+## CP1 outcome (owner, 2026-11-03)
+1. Scope and go/no-go verdicts: **APPROVED**.
+2. Handled by the owner.
+3. **Ahrefs: resume on 2026-11-06.** Batch 2 notes the balance is at 6 units; the reset is 2026-11-05. On 11-06: re-rank brands 41–200, then the UK flight set, the top-20 facet expansion and the cancel-[service] set (~15–20k units).
+4. GitHub repo: later. Local commits only until then.
+5. Apify batch 2: delivered → `scrape-2026-11-03-b2/` (243 pages, 147 usable).

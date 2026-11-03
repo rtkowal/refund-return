@@ -1,0 +1,94 @@
+[{
+  "url": "https://www.fossil.com/en-us/customer-care/returns/",
+  "httpStatus": 410,
+  "errorCode": "NOT_FOUND"
+},
+{
+  "url": "https://www.allbirds.com/pages/returns",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+},
+{
+  "url": "https://www.columbia.com/returns.html",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+},
+{
+  "url": "https://www.rossstores.com/faqs/",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+},
+{
+  "url": "https://www.thenorthface.com/en-us/help-section/returns",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+}][{
+  "url": "https://www.depop.com/help/returns",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+},
+{
+  "url": "https://www.glossier.com/en-us/pages/returns",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+},
+{
+  "url": "https://www.maccosmetics.com/customer-service-returns",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+},
+{
+  "url": "https://www.lenovo.com/us/en/shopping-faq/return-policy/",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+},
+{
+  "url": "https://www.newegg.com/promotions/nepro/24-0039/index.html",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+},
+{
+  "url": "https://help.thredup.com/en_us/returns",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+},
+{
+  "url": "https://www.kitchenaid.com/returns.html",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+},
+{
+  "url": "https://www.mattressfirm.com/return-policy.html",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+},
+{
+  "url": "https://www.oreillyauto.com/return-policy",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+},
+{
+  "url": "https://www.vitaminshoppe.com/u/return-policy",
+  "errorCode": "UNKNOWN"
+},
+{
+  "url": "https://www.autozone.com/lp/return-policy",
+  "errorCode": "UNKNOWN"
+},
+{
+  "url": "https://www.adorama.com/help/returns",
+  "errorCode": "UNKNOWN"
+}][{
+  "url": "https://www.easyjet.com/en/terms-and-conditions/general-conditions-of-carriage",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+}][{
+  "url": "https://www.ohioattorneygeneral.gov/Individuals-and-Families/Consumers/Shopping-Smart/Refund-Policies",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+},
+{
+  "url": "https://www.mass.gov/regulations/940-CMR-300-general-regulations",
+  "httpStatus": 404,
+  "errorCode": "NOT_FOUND"
+}]

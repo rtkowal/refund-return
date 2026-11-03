@@ -1,6 +1,6 @@
 # 10 — E-E-A-T plan for a Poland-based operator on YMYL-adjacent topics
 
-1. **Named reviewer** (owner decision 2): US-licensed attorney or consumer advocate, with a bio page, a bar number or credential link, and per-page `reviewed_by`/`reviewed_at`. Unreviewed pages are `noindex`. **Budget needed:** get quotes before CP2.
+1. **Named reviewer** (owner decision 2): US-licensed attorney or consumer advocate, with a bio page, a bar number or credential link, and per-page `reviewed_by`/`reviewed_at`. Unreviewed pages are `noindex`.
 2. **Named author/editor:** a real person with an editorial-policy page. Never imply a US law firm.
 3. **Provenance visible on every fact:** "Source: {official URL} · last verified {date}". This comes straight from `snapshots` (02).
 4. **Public update log** (`/updates/`) generated from `policy_changes`.

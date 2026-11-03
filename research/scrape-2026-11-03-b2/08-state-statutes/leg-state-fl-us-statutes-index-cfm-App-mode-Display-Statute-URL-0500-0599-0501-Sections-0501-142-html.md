@@ -1,0 +1,21 @@
+---
+source_url: http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.142.html
+title: ""
+fetched_at: 2026-11-03T09:11:19.567508+00:00
+apify_run_id: 74pyNi9PADn69gs4L
+apify_dataset_id: wotYbEM50GZZ02A7Z
+sha256: 5fa7ad5962ec8343492a186cd8744aaf1fd36928427c3d12dc6b5560cdce5c0e
+quality: ok
+---
+
+|  | [Skip to Menu](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.142.html/#menu) \| [Skip to Main Content](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/Sections/0501.142.html/#content) | 
+|       |  | 
+| Copyright © 1995-2026 The Florida Legislature • [Privacy Statement](http://www.leg.state.fl.us/cgi-bin/View_Page.pl?File=privacy.html&Directory=welcome/&Location=app&Tab=info_center&Submenu=4) • [Contact Us](http://www.leg.state.fl.us/cgi-bin/View_Page.pl?File=contact.html&Directory=Info_Center/help/&Location=app&Tab=info_center&Submenu=4) |  | 
+
+|  | The 2026 Florida Statutes            | 
+|  |  | 
+
+|  | 
+| 501.142 Retail sales establishments; preemption; notice of refund policy; exceptions; penalty.— (1) The regulation of refunds is preempted to the Department of Agriculture and Consumer Services notwithstanding any other law or local ordinance to the contrary. Every retail sales establishment offering goods for sale to the general public that offers no cash refund, credit refund, or exchange of merchandise must post a sign so stating at the point of sale. Failure of a retail sales establishment to exhibit a “no refund” sign under such circumstances at the point of sale shall mean that a refund or exchange policy exists, and the policy shall be presented in writing to the consumer upon request. Any retail establishment failing to comply with the provisions of this section shall grant to the consumer, upon request and proof of purchase, a refund on the merchandise, within 7 days of the date of purchase, provided the merchandise is unused and in the original carton, if one was furnished. Nothing herein shall prohibit a retail sales establishment from having a refund policy which exceeds the number of days specified herein. However, this subsection does not prohibit a local government from enforcing the provisions established by this section. (2) The provisions of this section shall not apply to the sale of food, perishable goods, goods which are custom made, goods which are custom altered at the request of the customer, or goods which cannot be resold by the merchant because of any law, rule, or regulation adopted by a governmental body. (3) The department may enter an order doing one or more of the following if the department finds that a person has violated or is operating in violation of any of the provisions of this section or the orders issued under this section: (a) Impose an administrative fine not to exceed $100 for each violation. (b) Direct the person to cease and desist specified activities. (4) The administrative proceedings that could result in the entry of an order imposing any of the penalties specified in subsection (3) are governed by chapter 120. (5) Any moneys recovered by the Department of Agriculture and Consumer Services as a penalty under this section shall be deposited in the General Inspection Trust Fund. (6) Upon the first violation of this section, a local government may issue a written warning. Upon a second and any subsequent violation, a local government may impose a fine of up to $50 per violation. Any moneys recovered by the local government as a penalty under this section shall be deposited in the appropriate local account. History.—ss. 1, 2, ch. 78-148; s. 5, ch. 2006-165; s. 2, ch. 2007-334; s. 56, ch. 2012-116. | 
+
+|      **[Title XXXIII](http://www.leg.state.fl.us/index.cfm?App_mode=Display_Index&Title_Request=XXXIII#TitleXXXIII)** REGULATION OF TRADE, COMMERCE, INVESTMENTS, AND SOLICITATIONS |               **[Chapter 501](http://www.leg.state.fl.us/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/0501ContentsIndex.html)**          CONSUMER PROTECTION | **[View Entire Chapter](http://www.leg.state.fl.us/index.cfm?App_mode=Display_Statute&URL=0500-0599/0501/0501.html)** |

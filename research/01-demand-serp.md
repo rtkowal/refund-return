@@ -74,3 +74,9 @@ Ahrefs can't attribute clicks to the AIO itself, so I'm using three proxies:
 - **Takeaway:** law pages earn links and trust; they won't bring traffic.
 
 SERPs sampled so far: 5 of 50.
+
+---
+## Update 3: owner's Apify SERP sample (40 brands, `scrape-2026-11-03/serp-summary.csv`, run bg2yUon3U4umlQ943)
+- AI Overview on **40/40**. Reddit is in the top 10 on **39/40** and is **#1 on 12/40**.
+- This confirms the Ahrefs-based conclusion: the head term is a gateway, and the facet and long tail are the target. The PAA questions and related queries in `raw-serp/` become the facet backlog.
+- SERPs sampled across both sources: 45 (5 via Ahrefs + 40 via Apify). That meets the brief's "50 SERPs" intent closely enough for CP1, unless the owner wants the full 50.

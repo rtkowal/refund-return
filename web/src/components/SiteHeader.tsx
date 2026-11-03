@@ -2,10 +2,8 @@ import Link from "next/link";
 
 const NAV = [
   { href: "/brands/", label: "Stores" },
-  { href: "/cancel/", label: "Cancel" },
-  { href: "/flights/", label: "Flights" },
-  { href: "/chargebacks/", label: "Chargebacks" },
   { href: "/generator/", label: "Letter templates" },
+  { href: "/methodology/", label: "How we verify" },
 ];
 
 export function SiteHeader() {

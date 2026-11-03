@@ -114,7 +114,7 @@ export function Wizard({ brands, initialBrand }: { brands: BrandOpt[]; initialBr
               <p className="text-sm text-muted">refund-return.com is not affiliated with {brandName}.</p>
             </div>
           )}
-          <p className="text-sm text-muted">If they say no: <a className="underline" href="/chargebacks/">dispute the charge</a> with your card issuer, or check <a className="underline" href="/laws/us/">your state&apos;s law</a>.</p>
+          <p className="text-sm text-muted">If they say no: you may be able to dispute the charge with your card issuer, or check whether your state&apos;s law gives you more.</p>
         </div>
       )}
       <p className="text-xs text-muted">Templates and information, not legal advice. We don&apos;t store what you type.</p>

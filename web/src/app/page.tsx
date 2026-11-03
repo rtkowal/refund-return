@@ -1,12 +1,12 @@
 import Link from "next/link";
 
 const POPULAR = [
-  { href: "/brands/walmart/without-receipt/", label: "Walmart returns without a receipt" },
+  { href: "/brands/walmart/", label: "Walmart return policy" },
   { href: "/brands/costco/", label: "Costco return policy" },
-  { href: "/brands/target/price-adjustment/", label: "Target price adjustment" },
-  { href: "/cancel/amazon-prime/", label: "Cancel Amazon Prime" },
-  { href: "/flights/uk261/", label: "UK flight delay compensation" },
-  { href: "/chargebacks/", label: "How to dispute a card charge" },
+  { href: "/brands/amazon/", label: "Amazon return policy" },
+  { href: "/brands/best-buy/", label: "Best Buy return policy" },
+  { href: "/brands/lowes/", label: "Lowe's return policy" },
+  { href: "/generator/refund-request/", label: "Write a refund request letter" },
 ];
 
 export default function Home() {

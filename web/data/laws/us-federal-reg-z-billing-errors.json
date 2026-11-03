@@ -1,0 +1,48 @@
+{
+  "id": "us-federal-reg-z-billing-errors",
+  "jurisdiction": "US",
+  "name": "Credit card billing errors (Fair Credit Billing Act, Regulation Z)",
+  "citation": "12 CFR 1026.13",
+  "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/13/",
+  "files": [
+    "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1026-13.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1026-13.md",
+      "sha256": "395e3aa9f352005e91e40d9cb2696303b12cdd346e8363a004d9860c405e3802",
+      "run": "BrDSV6rfarU6FOjBB",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/13/"
+    }
+  ],
+  "facts": [
+    {
+      "text": "You do not have to notify the merchant before reporting a billing error to your creditor.",
+      "quote": "A consumer is not required to first notify the merchant or other payee from whom he or she has purchased goods or services and attempt to resolve a dispute regarding the good or service before providing a billing-error notice to the creditor under § 1026.13(a)(3) asserting that the goods or services were not accepted or delivered as agreed.",
+      "snapshot": "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1026-13.md"
+    },
+    {
+      "text": "Your creditor must acknowledge your billing error notice in writing within 30 days.",
+      "quote": "The creditor shall mail or deliver written acknowledgment to the consumer within 30 days of receiving a billing error notice, unless the creditor has complied with the appropriate resolution procedures of paragraphs (e) and (f) of this section, as applicable, within the 30-day period;",
+      "snapshot": "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1026-13.md"
+    },
+    {
+      "text": "Your creditor must resolve the billing error within two billing cycles but no later than 90 days after receiving your notice.",
+      "quote": "The creditor shall comply with the appropriate resolution procedures of paragraphs (e) and (f) of this section, as applicable, within 2 complete billing cycles (but in no event later than 90 days) after receiving a billing error notice.",
+      "snapshot": "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1026-13.md"
+    },
+    {
+      "text": "You can withhold payment of the disputed amount and related charges while the billing error is being investigated, and the creditor cannot try to collect that amount.",
+      "quote": "The consumer need not pay (and the creditor may not try to collect) any portion of any required payment that the consumer believes is related to the disputed amount (including related finance or other charges).",
+      "snapshot": "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1026-13.md"
+    },
+    {
+      "text": "The creditor cannot report you as delinquent or harm your credit for withholding disputed amounts during the investigation.",
+      "quote": "The creditor or its agent shall not (directly or indirectly) make or threaten to make an adverse report to any person about the consumer's credit standing, or report that an amount or account is delinquent, because the consumer failed to pay the disputed amount or related finance or other charges.",
+      "snapshot": "research/scrape-2026-11-03/01-federal-sellers-brands/consumerfinance-gov-rules-policy-regulations-1026-13.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

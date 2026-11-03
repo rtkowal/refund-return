@@ -1,0 +1,38 @@
+{
+  "id": "us-federal-airline-refunds",
+  "jurisdiction": "US",
+  "name": "DOT airline refund rule",
+  "citation": "14 CFR Part 260",
+  "url": "https://www.ecfr.gov/current/title-14/chapter-II/subchapter-A/part-260",
+  "files": [
+    "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-14-part-260.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-14-part-260.md",
+      "sha256": "3bc627fb65a9dc460671b087d2186c8aabf4fbfee30119baab368e42dc1ea184",
+      "run": "wuOGP1JQ4DIQswjAY",
+      "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/2026-10-30/title-14?part=260"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Carriers must promptly refund fees for ancillary services paid for but not provided through no fault of the consumer.",
+      "quote": "A covered carrier that is the merchant of record shall provide a prompt and automatic refund to a consumer for any fees it collected from the consumer for ancillary services if the service was not provided through no fault of the consumer",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-14-part-260.md"
+    },
+    {
+      "text": "Carriers must provide a prompt refund for fees charged for lost or significantly delayed checked bags.",
+      "quote": "A covered carrier that is the merchant of record or, if a ticket agent is the merchant of record, the covered carrier that operated the flight or the last flight segment in a multiple-carrier itinerary, must provide a prompt refund to a consumer of any fee charged for transporting a lost bag or a significantly delayed checked bag",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-14-part-260.md"
+    },
+    {
+      "text": "Carriers may not retain a processing fee for issuing refunds that are due.",
+      "quote": "Carriers may not retain a processing fee for issuing refunds that are due.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-14-part-260.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

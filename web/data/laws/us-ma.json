@@ -1,0 +1,29 @@
+{
+  "id": "us-ma",
+  "state": "massachusetts",
+  "jurisdiction": "US-MA",
+  "name": "Massachusetts",
+  "citation": "940 CMR 3.13",
+  "url": "https://www.mass.gov/regulations/940-CMR-300-general-regulations",
+  "files": [
+    "research/scrape-batch3/15-law/mass-gov-940-cmr-3-consumer-protection-general-regulations.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-batch3/15-law/mass-gov-940-cmr-3-consumer-protection-general-regulations.md",
+      "sha256": "4dcac6eef3862e13fde05fb0ea96b1fae7e054b4b24c69c6af1d4756a5d3e099",
+      "run": "Uc8WOn9zWYgL0A3bA",
+      "url": "https://www.mass.gov/doc/940-cmr-3-consumer-protection-general-regulations/download"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Sellers must clearly and conspicuously disclose their refund, return, or cancellation policy to buyers before the transaction.",
+      "quote": "It is unfair and deceptive trade practice: (a) To fail to clearly and conspicuously disclose to a buyer, prior to the consummation of a transaction, the exact nature and extent of the seller's refund, return, or cancellation policy;",
+      "snapshot": "research/scrape-batch3/15-law/mass-gov-940-cmr-3-consumer-protection-general-regulations.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

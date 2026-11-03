@@ -1,0 +1,39 @@
+{
+  "id": "us-ny",
+  "state": "new-york",
+  "jurisdiction": "US-NY",
+  "name": "New York",
+  "citation": "N.Y. Gen. Bus. Law § 218-a",
+  "url": "https://www.nysenate.gov/legislation/laws/GBS/218-A",
+  "files": [
+    "research/scrape-2026-11-03/02-airlines-payments-marketplaces/nysenate-gov-legislation-laws-GBS-218-A.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03/02-airlines-payments-marketplaces/nysenate-gov-legislation-laws-GBS-218-A.md",
+      "sha256": "a30f05b67fafdbcd4265252c039fb82ff5fb68fa96be78313d250a60b535cc9f",
+      "run": "UJwOvPM779jZfmfPN",
+      "url": "https://www.nysenate.gov/legislation/laws/GBS/218-A"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Retailers must conspicuously post their refund policy on the item, at the cash register, store entrance, or online near the item or before billing information is requested.",
+      "quote": "Every retail mercantile establishment and online retailer shall conspicuously post, in the following manner, its refund policy as to all goods, wares or merchandise offered to the public for sale: (a) on a sign attached to the item itself; or (b) on a sign affixed to each cash register or point of sale; or (c) on a sign so situated as to be clearly visible to the buyer from the cash register; or (d) on a sign posted at each store entrance used by the public; or (e) in case of an online retailer, by a notice displayed or made accessible by hyperlink near the item itself or by a notice displayed to or made accessible by hyperlink by the consumer prior to requesting billing information.",
+      "snapshot": "research/scrape-2026-11-03/02-airlines-payments-marketplaces/nysenate-gov-legislation-laws-GBS-218-A.md"
+    },
+    {
+      "text": "Consumers must be advised they can request a written copy of the store's refund policy.",
+      "quote": "(b) advise consumers that they are entitled to a written copy of the store's refund policy upon request.",
+      "snapshot": "research/scrape-2026-11-03/02-airlines-payments-marketplaces/nysenate-gov-legislation-laws-GBS-218-A.md"
+    },
+    {
+      "text": "If a retailer violates the refund policy posting requirements, the buyer can get a cash refund or credit within 30 days of purchase if the merchandise is unused and purchase can be verified.",
+      "quote": "Any retail mercantile establishment or online retailer which violates any provision of this section shall be liable, for a period of up to thirty days from the date of purchase, to the buyer for a cash refund or a credit, at the buyer's option, provided that the merchandise has not been used or damaged by the buyer and the buyer can verify the date of the purchase with a receipt or any other purchase verification method utilized by the retail merchant.",
+      "snapshot": "research/scrape-2026-11-03/02-airlines-payments-marketplaces/nysenate-gov-legislation-laws-GBS-218-A.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

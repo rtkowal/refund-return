@@ -1,0 +1,34 @@
+{
+  "id": "us-federal-mail-order",
+  "jurisdiction": "US",
+  "name": "FTC Mail, Internet or Telephone Order Rule",
+  "citation": "16 CFR Part 435",
+  "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-435",
+  "files": [
+    "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-16-part-435.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-16-part-435.md",
+      "sha256": "733553b859f66fba8bbd98ecd23039538d52633743c4264c52995eb97cf46467",
+      "run": "wuOGP1JQ4DIQswjAY",
+      "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/2026-10-30/title-16?part=435"
+    }
+  ],
+  "facts": [
+    {
+      "text": "If a seller states no shipping time, it must ship within 30 days of receiving a properly completed order.",
+      "quote": "If no time is clearly and conspicuously stated, within thirty (30) days after receipt of a properly completed order from the buyer.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-16-part-435.md",
+      "extractedBy": "claude-session"
+    },
+    {
+      "text": "Sellers must provide buyers with adequate means, at the seller's expense, to cancel orders or consent to delays.",
+      "quote": "Wherever a buyer has the right to exercise any option under this part or to cancel an order by so notifying the seller prior to shipment, to fail to furnish the buyer with adequate means, at the seller's expense, to exercise such option or to notify the seller regarding cancellation.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/ecfr-gov-api-renderer-v1-content-enhanced-2026-10-30-title-16-part-435.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

@@ -1,6 +1,6 @@
 // Crawl the built site and fail on any internal link that 404s. Usage: npm run build && npm run check-links
 import { spawn } from "node:child_process";
-const PORT = 3199, base = `http://localhost:${PORT}`;
+const PORT = 3200 + Math.floor(Math.random() * 700), base = `http://localhost:${PORT}`;
 const srv = spawn("npx", ["next", "start", "-p", String(PORT)], { stdio: "ignore" });
 const wait = async () => { for (let i = 0; i < 60; i++) { try { await fetch(base); return; } catch { await new Promise((r) => setTimeout(r, 500)); } } throw new Error("server did not start"); };
 try {

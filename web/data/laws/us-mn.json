@@ -1,0 +1,44 @@
+{
+  "id": "us-mn",
+  "state": "minnesota",
+  "jurisdiction": "US-MN",
+  "name": "Minnesota",
+  "citation": "Minn. Stat. § 325F.80",
+  "url": "https://www.revisor.mn.gov/statutes/cite/325F.80",
+  "files": [
+    "research/scrape-2026-11-03-b2/08-state-statutes/revisor-mn-gov-statutes-cite-325F-80.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03-b2/08-state-statutes/revisor-mn-gov-statutes-cite-325F-80.md",
+      "sha256": "cede9d52aeeaecc34f95287ed860b4364ffd2d79002bd75e762ac69119099e03",
+      "run": "74pyNi9PADn69gs4L",
+      "url": "https://www.revisor.mn.gov/statutes/cite/325F.80"
+    }
+  ],
+  "facts": [
+    {
+      "text": "A seller must give a cash refund for goods that are acceptable for return unless they comply with a specific notice requirement.",
+      "quote": "A seller may not refuse to give a cash refund to a consumer for goods that are acceptable for return unless the seller complies with subdivision 3.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/revisor-mn-gov-statutes-cite-325F-80.md"
+    },
+    {
+      "text": "If a seller wants to change the cash refund policy, they must display a written notice of the policy clearly and conspicuously on the premises.",
+      "quote": "If a seller wishes to alter the cash refund policy required by this section, written notice of the seller's cash refund policy must be clearly and conspicuously displayed on the premises.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/revisor-mn-gov-statutes-cite-325F-80.md"
+    },
+    {
+      "text": "The refund policy notice must be written in boldface type of at least 14 points in size.",
+      "quote": "The notice must be written in boldface type of a minimum size of 14 points.",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/revisor-mn-gov-statutes-cite-325F-80.md"
+    },
+    {
+      "text": "Goods are considered acceptable for return if they meet the seller's reasonable and objective standards, are returned within a reasonable time from purchase, and proof of purchase is presented.",
+      "quote": "\"acceptable\" means that the goods returned are in a condition acceptable to the seller using reasonable and objective standards, the goods are returned within a reasonable time from the date of purchase, and proof of purchase is presented by the consumer at time of return;",
+      "snapshot": "research/scrape-2026-11-03-b2/08-state-statutes/revisor-mn-gov-statutes-cite-325F-80.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

@@ -7,3 +7,4 @@
 - 2026-11-03 — APPROVED by owner: state-law pages limited to ~15 states with disclosure statutes (CA, CT, FL, HI, IA, MD, MA, MN, NJ, NY, OH, RI, UT, VA + AZ restocking), plus one /laws/us/ table for the remaining 36 + DC. Replaces "51 state pages".
 - 2026-11-03 — CHECKPOINT 1 APPROVED by owner (scope + go/no-go in research/00-summary.md). Phase 2 (IA) starts.
 - 2026-11-03 — Ahrefs work resumes 2026-11-06. GitHub repo deferred ("later").
+- 2026-11-03 — Owner: the manual verification queue (32 items: Home Depot, Ulta, Planet Fitness, NJ statute, etc.) is DEFERRED until much later. Those pages are not built at launch (no verified source → no page). Launch uses only Apify-verified sources.

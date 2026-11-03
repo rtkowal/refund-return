@@ -13,7 +13,7 @@ Batch 3: 182 manifest rows, 74 `use=yes`. Spot-checked by Claude:
 | State law (15) | 14 official texts | NJ N.J.S.A. 56:8-2.15 → manual copy, or have it supplied |
 | Flights | US rule, UK261 + CAA, EU261, AA/Delta/United/Alaska-Hawaiian/Allegiant/Frontier/JetBlue/Southwest, BA, Virgin, Ryanair, easyJet help page | easyJet General Conditions (404). **Spirit is defunct** → one "airline shut down" page |
 
-**Manual verification queue:** 32 items (26 brands, Planet Fitness, Paramount+, YouTube Premium, Home Depot no-receipt, NJ statute, easyJet GCC).
+**Manual verification queue (DEFERRED by owner 2026-11-03):** 32 items (26 brands, Planet Fitness, Paramount+, YouTube Premium, Home Depot no-receipt, NJ statute, easyJet GCC).
 - `blocked-fallback.json` holds unverified AI Overview text for 5 brands. Never publish it as fact.
 - **Recommendation:** at launch, drop any of the 26 that are not in the top 60 by volume. Of these, only Home Depot (43k) and Ulta (31k) truly matter.
 

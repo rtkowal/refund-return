@@ -10,3 +10,4 @@
 - [ ] 2026-11-06: Ahrefs re-rank brands 41–200 + UK flights + facets + cancel set
 - [x] Apify batch 3 delivered (research/scrape-batch3). Manual queue: research/coverage-after-batch3.md
 - [ ] CHECKPOINT 2
+- [ ] (DEFERRED, much later) Manual verification queue — research/coverage-after-batch3.md

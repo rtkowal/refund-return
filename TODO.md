@@ -5,4 +5,8 @@
 - [x] 02 policy DB draft · 05,07,09,10 · 00-summary
 - [ ] Verify remaining ⚠ items in 03/04/06 (Apify batch 2)
 - [x] Drafts: 03, 04, 06, 08
-- [ ] CHECKPOINT 1 — awaiting owner approval
+- [x] CHECKPOINT 1 approved 2026-11-03
+- [x] Phase 2 drafts: ia/01-sitemap.md, 02-wireframes.md, 03-top50-urls.csv
+- [ ] 2026-11-06: Ahrefs re-rank brands 41–200 + UK flights + facets + cancel set
+- [ ] Apify batch 3: cancel-[service] official pages, facet pages (price adjustment, open box, mattress), manual path for Home Depot/Ulta/Marshalls/Adidas/Dick's, NJ 56:8-2.15, Spirit
+- [ ] CHECKPOINT 2

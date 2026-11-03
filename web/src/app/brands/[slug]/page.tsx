@@ -5,6 +5,7 @@ import { allBrands, getBrand, publicRules } from "@/lib/brands";
 import { isIndexable } from "@/lib/policy-schema";
 import { SITE_INDEXABLE, SITE } from "@/lib/site";
 import { SourceStamp } from "@/components/SourceStamp";
+import { AdSlot } from "@/components/AdSlot";
 
 export const dynamicParams = false;
 export function generateStaticParams() { return allBrands().map((b) => ({ slug: b.slug })); }
@@ -76,6 +77,8 @@ export default async function BrandPage({ params }: Props) {
         <Link href={`/generator/refund-request/?brand=${b.slug}`} className="mt-4 inline-block rounded-lg bg-accent px-5 py-3 font-medium text-accent-ink">Write my letter</Link>
       </section>
 
+      <AdSlot id="brand-mid" />
+
       <section aria-labelledby="escalate">
         <h2 id="escalate" className="mb-2 text-xl font-semibold">If {b.name} says no</h2>
         <ol className="list-decimal space-y-1 pl-5">
@@ -86,7 +89,7 @@ export default async function BrandPage({ params }: Props) {
       </section>
 
       <p className="text-sm text-muted">
-        <a href={`/go/${b.slug}/`} rel="nofollow" className="underline">Start your return on {new URL(b.officialPolicyUrl).hostname.replace(/^www\./, "")}</a>
+        <a href={`/go/${b.slug}/?from=brand-page`} rel="nofollow" className="underline">Start your return on {new URL(b.officialPolicyUrl).hostname.replace(/^www\./, "")}</a>
         {" "}· refund-return.com is not affiliated with {b.name}.
       </p>
     </article>

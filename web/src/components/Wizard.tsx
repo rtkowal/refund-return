@@ -1,5 +1,8 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+
+const TS_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
+declare global { interface Window { turnstile?: { render: (el: HTMLElement, o: { sitekey: string; callback: (t: string) => void }) => void } } }
 import type { GeneratorDef, Law } from "@/lib/generator/defs";
 
 type BrandOpt = { slug: string; name: string };
@@ -15,13 +18,23 @@ export function Wizard({ def, brands, initialBrand }: { def: GeneratorDef; brand
   const [tone, setTone] = useState<"polite" | "firm" | "final">("polite");
   const [res, setRes] = useState<Result | null>(null);
   const [err, setErr] = useState(""); const [busy, setBusy] = useState(false);
+  const [tsToken, setTs] = useState<string>();
+  const tsRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (!TS_KEY || step !== 2 || !tsRef.current) return;
+    const el = tsRef.current;
+    const render = () => window.turnstile?.render(el, { sitekey: TS_KEY, callback: setTs });
+    if (window.turnstile) { render(); return; }
+    const sc = Object.assign(document.createElement("script"), { src: "https://challenges.cloudflare.com/turnstile/v0/api.js", async: true, onload: render });
+    document.head.appendChild(sc);
+  }, [step]);
   const brandName = brands.find((b) => b.slug === brand)?.name;
 
   async function generate(t = tone) {
     setBusy(true); setErr("");
     try {
       const r = await fetch("/api/generate/", { method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ type: def.slug, brand: brand || undefined, story, fields: vals, priorContact, tone: t }) });
+        body: JSON.stringify({ type: def.slug, brand: brand || undefined, story, fields: vals, priorContact, tone: t, turnstileToken: tsToken }) });
       const j = await r.json(); if (!r.ok) throw new Error(j.error ?? "Something went wrong.");
       setRes(j); setStep(3);
     } catch (e) { setErr((e as Error).message); } finally { setBusy(false); }
@@ -69,6 +82,7 @@ export function Wizard({ def, brands, initialBrand }: { def: GeneratorDef; brand
             </label>
           ))}
           <label className="flex items-center gap-2 pt-6"><input type="checkbox" checked={priorContact} onChange={(e) => setPrior(e.target.checked)} /> I already contacted them</label>
+          {TS_KEY && <div ref={tsRef} className="sm:col-span-2" />}
           <div className="flex gap-2 sm:col-span-2">
             <button onClick={() => setStep(1)} className="rounded-lg border border-line px-5 py-3">Back</button>
             <button disabled={busy} onClick={() => generate()} className="rounded-lg bg-accent px-5 py-3 font-medium text-accent-ink disabled:opacity-50">{busy ? "Writing…" : "Write my letter"}</button>
@@ -103,7 +117,7 @@ export function Wizard({ def, brands, initialBrand }: { def: GeneratorDef; brand
           </div>
           {brand && def.usesBrand && (
             <div className="rounded-xl border border-line bg-surface p-4">
-              <a href={`/go/${brand}/`} rel="nofollow" className="font-medium underline">Contact {brandName} →</a>
+              <a href={`/go/${brand}/?from=generator-${def.slug}`} rel="nofollow" className="font-medium underline">Contact {brandName} →</a>
               <p className="text-sm text-muted">refund-return.com is not affiliated with {brandName}.</p>
             </div>
           )}

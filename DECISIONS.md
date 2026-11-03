@@ -8,3 +8,4 @@
 - 2026-11-03 — CHECKPOINT 1 APPROVED by owner (scope + go/no-go in research/00-summary.md). Phase 2 (IA) starts.
 - 2026-11-03 — Ahrefs work resumes 2026-11-06. GitHub repo deferred ("later").
 - 2026-11-03 — Owner: the manual verification queue (32 items: Home Depot, Ulta, Planet Fitness, NJ statute, etc.) is DEFERRED until much later. Those pages are not built at launch (no verified source → no page). Launch uses only Apify-verified sources.
+- 2026-11-03 — Owner: all 26 blocked/broken brands are DROPPED from launch. That includes Home Depot and Ulta, so their top-50 rows and the Home Depot no-receipt facet are removed from the launch list. They return only if a later automated fetch succeeds.

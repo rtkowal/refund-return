@@ -3,10 +3,8 @@ url,primary_keyword,us_volume,kd,page_type,source_status
 /brands/walmart/,walmart return policy,61000,14,brand-hub,b1+b2 corporate ✅
 /brands/costco/,costco return policy,53000,5,brand-hub,b1 ✅ pilot extracted
 /brands/amazon/,amazon return policy,43000,22,brand-hub,b1 ✅
-/brands/home-depot/,home depot return policy,43000,3,brand-hub,BLOCKED → manual
 /brands/sephora/,sephora return policy,37000,1,brand-hub,b1 ✅
 /brands/lowes/,lowes return policy,32000,3,brand-hub,b2 recovered
-/brands/ulta/,ulta return policy,31000,1,brand-hub,BLOCKED → manual
 /brands/best-buy/,best buy return policy,28000,4,brand-hub,b3 ✅
 /brands/old-navy/,old navy return policy,28000,5,brand-hub,b1 ✅
 /brands/nordstrom-rack/,nordstrom rack return policy,27000,16,brand-hub,check
@@ -28,8 +26,6 @@ url,primary_keyword,us_volume,kd,page_type,source_status
 /brands/best-buy/open-box/,best buy open box return policy,1900,4,facet,b3 ✅ (in main policy; dedicated page 404)
 /brands/target/opened-items/,target return policy for opened items,1800,10,facet,b2 verify
 /brands/best-buy/price-adjustment/,best buy price adjustment,1300,7,facet,b3 ✅
-/brands/home-depot/without-receipt/,home depot return policy without receipt,1600,6,facet,BLOCKED → manual
-/cancel/planet-fitness/,cancel planet fitness membership,34000,17,cancel,b3 FAILED (club-specific; manual)
 /cancel/amazon-prime/,cancel amazon prime,16000,35,cancel,b3 ✅
 /cancel/hulu/,cancel hulu,15000,67,cancel,b3 ✅
 /cancel/adobe/,cancel adobe subscription,11000,31,cancel,b3 ✅

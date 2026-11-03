@@ -10,3 +10,5 @@
 - 2026-11-03 — Owner: the manual verification queue (32 items: Home Depot, Ulta, Planet Fitness, NJ statute, etc.) is DEFERRED until much later. Those pages are not built at launch (no verified source → no page). Launch uses only Apify-verified sources.
 - 2026-11-03 — Owner: all 26 blocked/broken brands are DROPPED from launch. That includes Home Depot and Ulta, so their top-50 rows and the Home Depot no-receipt facet are removed from the launch list. They return only if a later automated fetch succeeds.
 - 2026-11-03 — CHECKPOINT 2 APPROVED by owner. Phase 3 starts.
+- 2026-11-03 — GitHub repo: rtkowal/refund-return. Vercel project `refund-return` (team robkowal1989), Root Directory `web`, SITE_INDEXABLE=false on all envs. Node pinned to 22.x.
+- 2026-11-03 — Supabase: reusing the inactive project `qhrkqqkmckrryudtfgbs` FAILED (free-plan limit of 2 active projects; toTU App and ninak-web are active). Owner must pause one, or upgrade. Migration 0001 is ready, not yet applied.

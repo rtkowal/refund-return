@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "sw
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
-  title: { default: "Return policies & refund help, verified | refund-return.com", template: "%s | refund-return.com" },
+  title: { default: "Return policies & refund help, verified | refund-return.com", template: "%s" },
   description: SITE.description,
   robots: SITE_INDEXABLE ? { index: true, follow: true } : { index: false, follow: false },
   alternates: { canonical: "/" },

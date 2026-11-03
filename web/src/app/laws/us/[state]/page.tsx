@@ -9,7 +9,8 @@ type Props = { params: Promise<{ state: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const l = getState((await params).state); if (!l) return {};
-  return { title: `${l.name} refund and return law (${l.citation})`, description: `What ${l.name} law says about store refund policies, from the official text of ${l.citation}.`,
+  const full = `${l.name} refund and return law (${l.citation})`;
+  return { title: full.length <= 70 ? full : `${l.name} refund and return law`, description: `What ${l.name} law says about store refund policies, from the official text of ${l.citation}.`,
     alternates: { canonical: `/laws/us/${l.state}/` }, robots: l.reviewedBy ? undefined : { index: false, follow: true } };
 }
 

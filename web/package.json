@@ -10,7 +10,8 @@
     "validate": "tsx scripts/validate-data.ts",
     "extract": "tsx scripts/extract-brands.ts",
     "check-links": "node scripts/check-links.mjs",
-    "extract-laws": "tsx scripts/extract-laws.ts"
+    "extract-laws": "tsx scripts/extract-laws.ts",
+    "seo-audit": "node scripts/seo-audit.mjs"
   },
   "dependencies": {
     "@upstash/ratelimit": "^2.2.0",

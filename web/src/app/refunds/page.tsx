@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Pillar } from "@/components/Pillar";
 import { MAIL_ORDER } from "@/lib/generator/defs";
 
-export const metadata: Metadata = { title: 'How refunds work', description: "Most refunds in the US come from the store's own policy, not from a general legal right. Start with the store, then use your payment method and the law where they apply.", alternates: { canonical: "/refunds/" } };
+export const metadata: Metadata = { title: 'How refunds work', description: "How to get a refund in the US: check the store's policy, ask in writing, then use card disputes and the law where they apply.", alternates: { canonical: "/refunds/" } };
 
 export default function Page() {
   return <Pillar h1={'How to get a refund: your options, step by step'} lead={"Most refunds in the US come from the store's own policy, not from a general legal right. Start with the store, then use your payment method and the law where they apply."} laws={[MAIL_ORDER]} tools={[{ href: '/generator/refund-request/', label: 'Refund request letter' }, { href: '/generator/order-never-arrived/', label: 'Order never arrived' }, { href: '/generator/demand-letter/', label: 'Final demand letter' }]} sections={[

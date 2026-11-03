@@ -1,0 +1,114 @@
+{
+  "slug": "pandora",
+  "name": "Pandora",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://help.pandora.net/s/article/Return-Policy?language=en_US",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://help.pandora.net/s/article/Return-Policy?language=en_US",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/help-pandora-net-s-article-Return-Policy-language-en-US.md",
+      "sha256": "82aa416623e742ce828f01cb4626b4486cf3c8dd2566f9748fe44d3f4b96a4d1",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-holiday-1",
+      "type": "holiday",
+      "channel": "any",
+      "windowDays": 84,
+      "windowAnchor": "purchase",
+      "text": "Holiday purchases made beginning November 2, 2026 will be eligible for return or exchange through January 24, 2027.",
+      "quote": "Holiday purchases made beginning November 2, 2026 will be eligible for return or exchange through January 24, 2027.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "You can return items that are unused and in original condition within 30 days of purchase with your original receipt or electronic receipt.",
+      "quote": "You can return items that are unused and in original condition within 30 days of purchase with your original receipt or electronic receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-3",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Original receipt or electronic receipt is required for returns.",
+      "quote": "You can return items that are unused and in original condition within 30 days of purchase with your original receipt or electronic receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returned items must include all original stones and components to be eligible for a refund.",
+      "quote": "To be eligible for a refund, returned items, must include all original stones and components.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Pandora may deny a return or refund if the item has been altered, modified, damaged, tampered with, or had any stone or component removed, substituted, or replaced after purchase.",
+      "quote": "Pandora may deny a return or refund if inspection determines that an item has been altered, modified, damaged, tampered with, or has had any stone or component removed, substituted, or replaced after purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-6",
+      "type": "fee",
+      "channel": "online",
+      "text": "Return shipping is free for returns by mail.",
+      "quote": "Return shipping is on us, so you won't be charged.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-7",
+      "type": "fee",
+      "channel": "any",
+      "text": "Original shipping charges are not refundable.",
+      "quote": "Original shipping charges are not refundable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Gift Cards are non-returnable and not refundable once purchased.",
+      "quote": "Gift Cards are non-returnable and not refundable once purchased.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-9",
+      "type": "exchange",
+      "channel": "any",
+      "text": "To exchange, first return the original item for a refund, then purchase the new item; in-store exchanges for equal or lesser value items may be available depending on inventory.",
+      "quote": "If you’d like a different item:\n\n*   First, return the original item and receive a refund\n    \n*   Then, purchase your new item\n    \n*   In-store exchanges for items of equal or lesser value may be available, depending on store inventory",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

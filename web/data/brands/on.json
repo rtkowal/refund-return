@@ -1,0 +1,115 @@
+{
+  "slug": "on",
+  "name": "On",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.on.com/en-us/faq/returns-and-exchanges",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.on.com/en-us/faq/returns-and-exchanges",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/on-com-en-us-faq-returns-and-exchanges.md",
+      "sha256": "4616cbbe385220d8ad24a9ab5946f25d0feed36622de867bb2b11c7a58d3804d",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Standard return window is 30 days for purchases outside the holiday extended period.",
+      "quote": "For all other countries, our standard 30 day return and exchange policy applies.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns are only accepted for orders purchased directly from On.",
+      "quote": "We are only able to accept returns for orders purchased directly from On.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "On is unable to accept returns of products purchased from retail partners.",
+      "quote": "On is unable to accept the return of product purchased from one of our retail partners.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "limited editions and last season items",
+      "text": "Limited editions and last season items can only be refunded, not exchanged.",
+      "quote": "Limited editions and last season items can only be refunded, but are not exchangeable due to limited stock.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-5",
+      "type": "fee",
+      "channel": "any",
+      "text": "Expedited shipping costs on the original order are not refunded.",
+      "quote": "Please note that expedited shipping costs on the original outbound order will not be refunded in the case of returns or exchanges.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-6",
+      "type": "fee",
+      "channel": "any",
+      "text": "Return shipping is free for eligible returns except in India, Indonesia, Thailand, and Malaysia.",
+      "quote": "We offer free return shipping for eligible returns unless you are in India, Indonesia, Thailand or Malaysia.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-7",
+      "type": "receipt",
+      "channel": "any",
+      "category": "gift returns",
+      "text": "Gift returns require the original order number and gift receipt in the US.",
+      "quote": "In the US, we ask that you provide the gift receipt that was sent in the Shipping Confirmation email of the original order.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-8",
+      "type": "exchange",
+      "channel": "any",
+      "text": "Exchanges are allowed only for different sizes or colors of the same model if in stock.",
+      "quote": "We allow for exchanges for a different size or color of the same model as originally purchased. The new size and color must be in stock to be able to proceed with the exchange.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-9",
+      "type": "exchange",
+      "channel": "any",
+      "category": "limited editions and last season items",
+      "text": "Limited edition and last season items are not exchangeable but can be returned for a refund.",
+      "quote": "Limited edition products and colorways plus Last Season pieces are not exchangeable but can be returned for a refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,0 +1,136 @@
+{
+  "slug": "foot-locker",
+  "name": "Foot Locker",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://help.footlocker.com/hc/en-us/articles/360034123454-What-s-the-policy-for-returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://help.footlocker.com/hc/en-us/articles/360034123454-What-s-the-policy-for-returns",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/help-footlocker-com-hc-en-us-articles-360034123454-What-s-the-policy-for-returns.md",
+      "sha256": "eb2c553fbad6463346c47fe464c03a36211afac1275c85f913e66f6dec628f5a",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 45,
+      "windowAnchor": "delivery",
+      "text": "Returns for online and store orders must take place within 45 days after the original shipment date in order to receive a credit in the original form of payment.",
+      "quote": "Returns for online and store orders must take place within 45 days after the original shipment date in order to receive a credit in the original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returned/exchanged merchandise must be unworn and in new condition with the original tags and packaging including original hang-tags.",
+      "quote": "Returned/exchanged merchandise must be unworn and in new condition with the original tags. Returned/exchanged items must be returned in the original boxes and bags and must include all the original hang-tags.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are issued to the original form of payment.",
+      "quote": "Returns for online and store orders must take place within 45 days after the original shipment date in order to receive a credit in the original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "any",
+      "text": "Original shipping fees will not be refunded unless the returned item was defective or you received a wrong item.",
+      "quote": "Original shipping fees will not be refunded unless the returned item was defective or you received a wrong item.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-5",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refund processing timeframe for Klarna payments is 3-7 business days to restore funds to your Klarna account.",
+      "quote": "The processing timeframe is **3-7 business days** to restore funds to your Klarna account.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-6",
+      "type": "receipt",
+      "channel": "in_store",
+      "windowDays": 45,
+      "windowAnchor": "purchase",
+      "text": "With a valid receipt, unworn merchandise is eligible for a full refund or exchange within 45 days of the original purchase date.",
+      "quote": "With a valid receipt, unworn merchandise is eligible for a full refund or exchange within 45 days of the original purchase date.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-7",
+      "type": "exchange",
+      "channel": "in_store",
+      "windowDays": 45,
+      "windowAnchor": "purchase",
+      "text": "With a valid receipt, unworn merchandise can be exchanged within 45 days of purchase.",
+      "quote": "With a valid receipt, unworn merchandise is eligible for a full refund or exchange within 45 days of the original purchase date.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-8",
+      "type": "exchange",
+      "channel": "in_store",
+      "text": "Without a receipt, unworn merchandise may be exchanged at the lowest selling price from the past 60 days with verification.",
+      "quote": "Without a receipt, unworn merchandise may be exchanged at the lowest selling price from the past 60 days, which may reflect any applicable promotions or discounts. Verification through a phone number and two-factor authentication is required.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns received more than 45 days after shipment date will not be accepted and will be returned to sender.",
+      "quote": "Returns received more than 45 days after shipment date will not be accepted and will be returned to sender.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-10",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Foot Locker is not responsible for packages not sent to their Returns Center.",
+      "quote": "We are not responsible for packages that are not sent to our Returns Center.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-11",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Items that do not meet the returns policy may be rejected.",
+      "quote": "We reserve the right to reject items that don't meet our returns policy.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

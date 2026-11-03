@@ -1,0 +1,137 @@
+{
+  "slug": "burrow",
+  "name": "Burrow",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://burrow.com/returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://burrow.com/returns",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/burrow-com-returns.md",
+      "sha256": "42a852e35f5671710c2dd6911ced853e66a9300c7b7ddd71d1fa07bc30336d6c",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "receipt",
+      "text": "The return process must be initiated within 30 calendar days of receipt for all products, with the sole exception of mattresses.",
+      "quote": "The return process must be initiated within 30 calendar days of receipt for all products, with the sole exception of mattresses.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "category": "mattresses",
+      "windowDays": 100,
+      "windowAnchor": "receipt",
+      "text": "The return process for mattresses must be initiated within 100 days of receipt.",
+      "quote": "The return process for mattresses must be initiated within 100 days of receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "any",
+      "text": "Return shipping fee is 10% of the paid value with original packaging, 20% without, capped at $250 per item.",
+      "quote": "we charge a return shipping fee equal to 10% of what you paid for the product, with the original packaging intact. If you don't have the original packaging, the fee is 20% of the paid value. The fee is always capped at $250, per returned item.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "any",
+      "category": "mattresses",
+      "text": "Mattress returns are free if mattress is in good condition; otherwise a $100 pick-up fee applies.",
+      "quote": "Mattress returns are free only if the mattress is in good condition; if the mattress is soiled or otherwise unsalable there is a $100 pick-up fee.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Defective or damaged orders are covered by warranty and not subject to return shipping fees.",
+      "quote": "defective or damaged orders are covered by our warranty and aren't subject to any return shipping fees.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-6",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are issued to the original form of payment.",
+      "quote": "Refunds will be issued to the original form of payment within 48 hours of confirmation that the shipping carrier is in possession of your return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-7",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds issued within 48 hours of carrier possession confirmation; may take up to 2 weeks to appear depending on financial institution.",
+      "quote": "Refunds will be issued to the original form of payment within 48 hours of confirmation that the shipping carrier is in possession of your return. Depending on your financial institution it may take up to 2 weeks to receive your refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Products shipped outside the continental US are not eligible for return.",
+      "quote": "Products shipped outside of the continental United States are not eligible for return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Individually purchased components or add-ons not part of original order are not eligible for returns.",
+      "quote": "Individually purchased components or add-ons that were not part of your original order are not eligible for returns.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-10",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "mattresses",
+      "text": "Mattresses are not eligible for exchanges.",
+      "quote": "Please note that we do not offer exchanges for mattresses.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-11",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Photos are required for damaged or defective returns; failure to provide may result in return shipping fee.",
+      "quote": "Photos clearly depicting the issue are required for any damaged or defective product returns or replacement requests. Without photos, Burrow reserves the right to assess a return shipping fee.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

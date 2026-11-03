@@ -1,0 +1,72 @@
+{
+  "slug": "dermstore",
+  "name": "Dermstore",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.dermstore.com/c/info/returns/",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.dermstore.com/c/info/returns/",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/dermstore-com-c-info-returns.md",
+      "sha256": "9eb0437f9053ec5fd013a9d0a6cabff2510846eb870951e66117c2344a97ecc6",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "receipt",
+      "text": "You have 60 days from the date of receiving your item to start a return.",
+      "quote": "You have 60 days from the date of receiving your item to start a return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns are accepted only if items are in pristine condition, unopened, unused and seals intact.",
+      "quote": "We accept returns for all orders, provided they are in pristine condition. This means they’re unopened, unused and any seals are intact.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Exchanges are not offered; customers must place a new order and return the original for a refund.",
+      "quote": "Please note, we don’t offer exchanges. You will need to place a new order and return your original for a refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-4",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds are processed within 3-5 working days after the return is received.",
+      "quote": "Once received, we'll refund the amount for the returned goods and send you a notification via email. This can take 3-5 working days from the date we receive the return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-5",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds should appear in the customer's account within 5 working days after processing.",
+      "quote": "Your refund should be returned to your account within 5 working days and we’ll send you an email to let you know it's on its way!",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

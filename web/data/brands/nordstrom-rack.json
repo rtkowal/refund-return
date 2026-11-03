@@ -1,0 +1,138 @@
+{
+  "slug": "nordstrom-rack",
+  "name": "Nordstrom Rack",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.nordstromrack.com/customer-service/ship-return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.nordstromrack.com/customer-service/ship-return-policy",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/nordstromrack-com-customer-service-ship-return-policy.md",
+      "sha256": "27ac3013bc6bf90f36c402d17063e64518abdfff85f9f6e825288884452788d3",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 40,
+      "windowAnchor": "purchase",
+      "text": "Online purchases must be returned within 40 days of order date.",
+      "quote": "Online purchases must be returned within 40 days of order date.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "in_store",
+      "windowDays": 40,
+      "windowAnchor": "purchase",
+      "text": "Store purchases must be returned within 40 days of purchase.",
+      "quote": "Store purchases must be returned within 40 days of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-3",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns must be accompanied by the receipt.",
+      "quote": "Accompanied by the receipt",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "beauty",
+      "text": "Beauty products must be unopened and may only be returned in-store.",
+      "quote": "Beauty products must be unopened and may only be returned in-store.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "car seats",
+      "text": "Car seats must be returned unopened in original box with unbroken seals; returns with broken seals are not accepted.",
+      "quote": "Car seats must be returned in the original, unopened box. Car seat boxes come with unbroken seals to ensure the item is brand-new. We will not accept returns with a broken seal.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "fine jewelry and designer items",
+      "text": "Fine jewelry and designer items purchased at Nordstrom or Nordstrom.com are not eligible to be returned to Nordstrom Rack stores or by mail.",
+      "quote": "Fine jewelry and designer items purchased at Nordstrom or [Nordstrom.com](https://www.nordstrom.com/) are not eligible to be returned to Nordstrom Rack stores or by mail.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-7",
+      "type": "fee",
+      "channel": "online",
+      "text": "A returns shipping charge of $9.95 will be deducted from your refund per pre-paid shipping label used for mail returns.",
+      "quote": "A returns shipping charge of $9.95 will be deducted from your refund per pre-paid shipping label used.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-8",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Eligible returns will be credited to the original form of payment.",
+      "quote": "Eligible returns will be credited to original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-9",
+      "type": "refund_method",
+      "channel": "any",
+      "category": "gift returns",
+      "text": "Refunds for gifts will be issued as a Nordstrom Gift Card redeemable online and in store at Nordstrom and Nordstrom Rack.",
+      "quote": "Refunds for gifts will be issued as a Nordstrom Gift Card, redeemable online and in store at Nordstrom and Nordstrom Rack.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-10",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds to credit cards may appear within 3–5 business days depending on the financial institution.",
+      "quote": "If you've paid with a credit card, depending on your financial institution, you may see that refund within 3–5 business days.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-11",
+      "type": "exchange",
+      "channel": "in_store",
+      "text": "Online and store purchases may be exchanged in store; exchanges by mail are not provided.",
+      "quote": "Online and store purchases may be exchanged in store. Sorry, we do not provide an exchange option by mail at this time.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "kroger",
+  "name": "Kroger",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.kroger.com/i/terms/return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.kroger.com/i/terms/return-policy",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/kroger-com-i-terms-return-policy.md",
+      "sha256": "bd5f22a6d72c972a2dae6df86afd9ceb85df0d080ac1f2f2395de8cf801ac5ed",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "All Kroger Co. Family of Stores can accept returns of items purchased at any Kroger Company family of stores location within a 30-day window of purchase.",
+      "quote": "All Kroger Co. Family of Stores can accept returns of items purchased at any Kroger Company family of stores location within a 30-day window of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-2",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns with receipt can be made with either paper or digital receipt.",
+      "quote": "There are two receipt options: paper receipt or digital receipt",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Returns will be refunded to the same payment method that was used to make the purchase.",
+      "quote": "Returns will be refunded to the same payment method that was used to make the purchase. Example: Credit Card, EBT/SNAP Card or Cash. Check purchases should be given back as Cash.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-4",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Returns without a receipt over $10 receive a Kroger Co. Family of Stores Merchandise Gift Card.",
+      "quote": "Over $10.00 will receive a Kroger Co. Family of Stores Merchandise Gift Card.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-5",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Return slip must be signed by all customers with returns over $10 without a receipt.",
+      "quote": "The return slip must be signed by all customers with returns over $10.00",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-6",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Returns without a receipt under $10 receive cash.",
+      "quote": "Under $10.00 the customer will receive cash for their returns",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "WIC items",
+      "text": "Items purchased with WIC cannot be refunded but can be exchanged for the exact same item.",
+      "quote": "Kroger Company family of stores cannot provide refunds for any items which have been purchased with WIC. Any items purchased on WIC can be exchanged for the exact same item.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-8",
+      "type": "receipt",
+      "channel": "any",
+      "category": "baby formula",
+      "text": "Customers must have a receipt to refund or exchange baby formula.",
+      "quote": "Customers must have a receipt in order to refund / exchange baby formula.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "baby formula purchased with WIC",
+      "text": "Baby formula purchased using WIC cannot be returned but can be exchanged for the exact same item.",
+      "quote": "Baby formula purchased using WIC cannot be returned due to USDA regulation, but can be exchanged for the exact same item (Example: a damaged or dented item may be exchanged for the exact same product).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-10",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "tobacco, beer, wine and alcohol",
+      "text": "Return of tobacco, beer, wine and alcohol is governed by local law.",
+      "quote": "Return of Tobacco, Beer, Wine and Alcohol is governed by local law",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

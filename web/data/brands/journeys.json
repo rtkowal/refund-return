@@ -1,0 +1,106 @@
+{
+  "slug": "journeys",
+  "name": "Journeys",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.journeys.com/help?a=Returns-and-Exchanges---id--FewL8wYeTRCSdWXUXmqoQw",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.journeys.com/help?a=Returns-and-Exchanges---id--FewL8wYeTRCSdWXUXmqoQw",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/journeys-com-help-a-Returns-and-Exchanges-id-FewL8wYeTRCSdWXUXmqoQw.md",
+      "sha256": "ab48c42e1ead5768e06ce69a75d3a4b680b4342675e46d402d0b7f94dd257872",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "purchase",
+      "text": "Returns or exchanges are accepted within 60 days of purchase for merchandise in new condition with original packaging and valid proof of purchase.",
+      "quote": "We accept returns or exchanges on merchandise in new condition, with original packaging and valid proof of purchase (such as a receipt or online order confirmation), within 60 days of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 365,
+      "windowAnchor": "purchase",
+      "text": "Orders placed before April 1, 2026 may be returned or exchanged within 365 days of the original purchase date if all other return policy requirements are met.",
+      "quote": "For orders placed before April 1, 2026, the return policy in effect at the time of purchase will apply. These orders may be returned or exchanged within 365 days of the original purchase date, as long as all other return policy requirements are met.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "online",
+      "text": "A $7.99 fee will be deducted for using the prepaid return shipping label for online returns.",
+      "quote": "A $7.99 fee will be deducted for using the prepaid label.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-4",
+      "type": "refund_timing",
+      "channel": "online",
+      "text": "Please allow 2–4 weeks for processing online returns.",
+      "quote": "Please allow 2–4 weeks for processing.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-5",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Valid proof of purchase such as a receipt or online order confirmation is required for returns or exchanges.",
+      "quote": "We accept returns or exchanges on merchandise in new condition, with original packaging and valid proof of purchase (such as a receipt or online order confirmation), within 60 days of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Shipping charges are non-refundable.",
+      "quote": "Shipping charges are non-refundable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-7",
+      "type": "exchange",
+      "channel": "in_store",
+      "windowDays": 60,
+      "windowAnchor": "purchase",
+      "text": "Returns or exchanges can be made for free at any Journeys store within the return window.",
+      "quote": "Visit any Journeys store for FREE returns or exchanges.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-8",
+      "type": "receipt",
+      "channel": "in_store",
+      "text": "Proof of purchase is required for in-store returns or exchanges.",
+      "quote": "Just bring the item in original packaging and proof of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

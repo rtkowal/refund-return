@@ -1,0 +1,89 @@
+{
+  "slug": "sams-club",
+  "name": "Sam's Club",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://help.samsclub.com/app/answers/detail/a_id/4072/~/returns---sams-club",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://help.samsclub.com/app/answers/detail/a_id/4072/~/returns---sams-club",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/help-samsclub-com-app-answers-detail-a-id-4072-returns-sams-club.md",
+      "sha256": "1eb5a88b7daede08ea70a09652a85307ea27f55f9532fa034b9d5bd056edca9f",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "text": "Most items can be returned at any time unless noted otherwise.",
+      "quote": "Return at any time | Most items, unless noted below",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "category": "Electronics",
+      "windowDays": 90,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Electronics can be returned within 90 days of purchase or receipt.",
+      "quote": "Within 90 days | Electronics",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-3",
+      "type": "window",
+      "channel": "any",
+      "category": "Commercial heavy equipment",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Commercial heavy equipment can be returned within 30 days of purchase or receipt.",
+      "quote": "Within 30 days | Commercial heavy equipment",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-4",
+      "type": "window",
+      "channel": "any",
+      "category": "Cell phones (prepaid, postpaid and no contract)",
+      "windowDays": 14,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Cell phones (prepaid, postpaid and no contract) can be returned within 14 days of purchase or receipt.",
+      "quote": "Within 14 days | Cell phones (prepaid, postpaid and no contract)",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-5",
+      "type": "refund_method",
+      "channel": "in_store",
+      "text": "Refunds for in-club returns are issued as cash or credit depending on the original form of payment.",
+      "quote": "Your refund will be issued as cash or credit, depending on your original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-6",
+      "type": "refund_method",
+      "channel": "online",
+      "text": "Refunds for online returns are credited to the account charged at the time of purchase.",
+      "quote": "For items returned through SamsClub.com, you'll receive credit to the account that was charged at the time of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

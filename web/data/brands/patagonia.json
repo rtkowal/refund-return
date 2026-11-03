@@ -1,0 +1,50 @@
+{
+  "slug": "patagonia",
+  "name": "Patagonia",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.patagonia.com/returns.html",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.patagonia.com/returns.html",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/patagonia-com-returns-html.md",
+      "sha256": "15aaf721396d52dc08fec55e074492e1f6d72c4ed01038f95ed924a7cb88695e",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-exchange-1",
+      "type": "exchange",
+      "channel": "any",
+      "text": "You can start an exchange for a wrong size or color and get free shipping both ways.",
+      "quote": "Wrong size or color? Want a different item instead? Start your exchange here and get free shipping both ways.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Dirty products will be returned and not accepted for repair.",
+      "quote": "Dirty products will be returned.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Returns can be started online or brought to a Patagonia-owned store.",
+      "quote": "Don't want a purchase after all? Start your return here or bring it in to a Patagonia-owned store.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

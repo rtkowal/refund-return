@@ -1,0 +1,86 @@
+{
+  "slug": "calvin-klein",
+  "name": "Calvin Klein",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://help.calvinklein.us/s/article/returns-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://help.calvinklein.us/s/article/returns-policy",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/help-calvinklein-us-s-article-returns-policy.md",
+      "sha256": "c6cf5fdf9d02433425c7d293a9eba5e29fcb0bddd417e76d9886f589c47a67eb",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-holiday-1",
+      "type": "holiday",
+      "channel": "any",
+      "windowDays": 39,
+      "windowAnchor": "purchase",
+      "text": "Purchases made between October 22, 2026 - December 24, 2026, can be returned through January 31, 2027.",
+      "quote": "Need to return a gift? Our extended holiday return policy makes it easier. Purchases made between October 22, 2026 - December 24, 2026, can be returned through January 31, 2027.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "online",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Online returns must be received by our warehouse within 30 days of the shipping confirmation date.",
+      "quote": "Online returns must be received by our warehouse within 30 days (45 days for My Calvin Rewards members) of the shipping confirmation date.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-3",
+      "type": "window",
+      "channel": "online",
+      "windowDays": 45,
+      "windowAnchor": "delivery",
+      "text": "My Calvin Rewards members have 45 days from shipping confirmation date to return items online.",
+      "quote": "Online returns must be received by our warehouse within 30 days (45 days for My Calvin Rewards members) of the shipping confirmation date.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "online",
+      "text": "Items must be unworn and tags must be attached to be eligible for return.",
+      "quote": "Items must be unworn and tags must be attached.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-5",
+      "type": "refund_timing",
+      "channel": "online",
+      "text": "Return processing takes 3-5 business days after warehouse receives the return.",
+      "quote": "Once received by our warehouse, the return takes 3-5 business days to process.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-6",
+      "type": "refund_timing",
+      "channel": "online",
+      "text": "Refund can take up to 5 business days after processing depending on card issuing bank.",
+      "quote": "After processing, your refund can take up to 5 business days depending your card issuing bank.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

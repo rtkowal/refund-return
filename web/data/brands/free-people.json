@@ -1,0 +1,154 @@
+{
+  "slug": "free-people",
+  "name": "Free People",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.freepeople.com/help/returns-exchanges/",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.freepeople.com/help/returns-exchanges/",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/freepeople-com-help-returns-exchanges.md",
+      "sha256": "9591aef27d44145b4f2385b4859f8487ac5ac2ef36555222d6c199851a59e805",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 365,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Returns or exchanges are not accepted after one year from purchase or receipt.",
+      "quote": "Please note: After one year, we will no longer accept returns or exchanges.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "online",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Online orders must be returned within 30 days of delivery to receive a refund to the original form of payment.",
+      "quote": "If we receive your return at our warehouse within 30 days of delivery, we’ll credit your original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-3",
+      "type": "window",
+      "channel": "online",
+      "windowAnchor": "delivery",
+      "text": "Returns received after 30 days of delivery will be issued a Free People e-gift card.",
+      "quote": "If it's received after 30 days, a Free People e-gift card will be issued.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "beauty and wellness",
+      "text": "Opened and used Beauty and Wellness products cannot be returned.",
+      "quote": "We’re unable to process returns for opened and used Beauty and Wellness products.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "swim and intimates",
+      "text": "Swimwear or intimate apparel that has been worn or is soiled cannot be returned.",
+      "quote": "We’re unable to process returns for swimwear or intimate apparel items that have been worn or are returned in a soiled condition.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "fp mart and vintage items",
+      "text": "FP MART and Vintage items cannot be returned or exchanged to Free People stores or warehouse; returns are at seller's discretion.",
+      "quote": "FP MART and Vintage styles cannot be returned or exchanged to Free People stores or to Free People's warehouse. Returns are at the discretion of the seller.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "nuuly resale items",
+      "text": "Nuuly Resale items sold through FreePeople.com are final sale and cannot be returned online or in store.",
+      "quote": "Nuuly Resale items sold through FreePeople.com are final sale and cannot be returned online or in store.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-8",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns must be accompanied by the original store sales receipt and attached Free People price tickets.",
+      "quote": "Items must include the attached Free People price tickets and be accompanied by the original store sales receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-9",
+      "type": "refund_method",
+      "channel": "online",
+      "text": "Refunds within 30 days of delivery are credited to the original form of payment; after 30 days, refunds are issued as Free People e-gift cards.",
+      "quote": "If we receive your return at our warehouse within 30 days of delivery, we’ll credit your original form of payment. If it's received after 30 days, a Free People e-gift card will be issued.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-10",
+      "type": "refund_method",
+      "channel": "any",
+      "category": "gift returns",
+      "text": "Gift returns are refunded as e-gift cards sent to the email address provided.",
+      "quote": "Once the return is received, an e-gift card will be issued.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-11",
+      "type": "exchange",
+      "channel": "in_store",
+      "category": "store purchases with gift receipt",
+      "text": "Store purchases with a gift receipt can be exchanged or refunded in store for the value on the gift receipt.",
+      "quote": "For store purchases, returns with a gift receipt can be exchanged or refunded in store for the value indicated on the gift receipt and refunds will be made in the form of a merchandise credit.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-12",
+      "type": "fee",
+      "channel": "any",
+      "category": "furniture and oversized items",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Customers are responsible for return shipping costs on furniture and oversized items.",
+      "quote": "Customers are responsible for any return shipping costs.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

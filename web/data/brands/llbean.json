@@ -1,0 +1,161 @@
+{
+  "slug": "llbean",
+  "name": "L.L.Bean",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.llbean.com/llb/shop/510624?page=returns-and-exchanges",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.llbean.com/llb/shop/510624?page=returns-and-exchanges",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/llbean-com-llb-shop-510624-page-returns-and-exchanges.md",
+      "sha256": "66257728760a7751a20e3dc619342a6cd6ce44ff7bf435505fd11a18b88cb3c5",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "text": "Products purchased before February 9, 2018, are not subject to the one-year return time limit.",
+      "quote": "Products purchased before February 9, 2018, are not subject to this one-year time limit.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns are not accepted for products damaged by misuse, abuse, improper care, negligence, accidents, or pet damage.",
+      "quote": "Products damaged by misuse, abuse, improper care or negligence, or accidents (including pet damage)",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns are not accepted for products showing excessive wear and tear.",
+      "quote": "Products showing excessive wear and tear. Products differ, but generally, wear and tear is considered excessive if the product is nearing the end of its practical use, or just looks heavily worn",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns are not accepted for products lost or damaged due to fire, flood, or natural disaster.",
+      "quote": "Products lost or damaged due to fire, flood, or natural disaster",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns are not accepted for products with missing or defaced labels.",
+      "quote": "Products with a missing label or label that has been defaced",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns are not accepted for products returned for personal reasons unrelated to product performance or satisfaction.",
+      "quote": "Products returned for personal reasons unrelated to product performance or satisfaction",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns are not accepted for products that have been soiled or contaminated until properly cleaned.",
+      "quote": "Products that have been soiled or contaminated, until they have been properly cleaned",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "ammunition",
+      "text": "Returns on ammunition are not accepted either in stores or by mail.",
+      "quote": "Returns on ammunition, either in our stores or through the mail",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns are not accepted from customers who have habitually abused the Return Policy.",
+      "quote": "On rare occasions, past habitual abuse of our Return Policy",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-10",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Products purchased from third party sellers must be returned to those sellers and are subject to their policies.",
+      "quote": "Products purchased from third party sellers (Items purchased at one of our retail partners must be returned to them and are subject to their return policies)",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-11",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Proof of purchase is required for all returns and exchanges.",
+      "quote": "Proof of purchase required.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-12",
+      "type": "refund_method",
+      "channel": "in_store",
+      "text": "Items returned in stores will be refunded as store credit or by check mailed to the customer; refunds to PayPal are not supported.",
+      "quote": "Currently, we are not able to support refunds back to your PayPal account. Items returned in stores will be refunded as store credit or check by mail.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-13",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Returns by mail can take up to 2-3 weeks to process.",
+      "quote": "Returns by mail can take up to 2-3 weeks to process.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-14",
+      "type": "exchange",
+      "channel": "any",
+      "text": "Exchanges are processed by shipping the new item after the return is processed; allow 4-6 weeks for delivery of exchanged items.",
+      "quote": "If you request an exchange, we will pay shipping charges for the item we ship to you. Please allow 4-6 weeks for delivery of your new item.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "aldi",
+  "name": "ALDI",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://help.aldi.us/faqs/article/Refunds-and-Returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://help.aldi.us/faqs/article/Refunds-and-Returns",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/help-aldi-us-faqs-article-Refunds-and-Returns.md",
+      "sha256": "21c5326a66031b78b4ce08e44e54d18b4bc34ff124230c7b31012498a1c5eb3f",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-exclusion-1",
+      "type": "exclusion",
+      "channel": "online",
+      "text": "The Twice as Nice Guarantee applies only to in-store purchases and not to online purchases.",
+      "quote": "ALDI Twice as Nice Guarantee applies to in-store purchases only.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-2",
+      "type": "refund_method",
+      "channel": "online",
+      "text": "Refunds or replacements for online purchases are handled by the third-party service provider fulfilling the order.",
+      "quote": "If you placed your order online through aldi.us or a third-party delivery such as Instacart, DoorDash or Uber Eats, your order is fulfilled and supported by the service provider.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

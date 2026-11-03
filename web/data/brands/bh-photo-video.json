@@ -1,0 +1,118 @@
+{
+  "slug": "bh-photo-video",
+  "name": "B&H Photo Video",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.bhphotovideo.com/find/HelpCenter/ReturnExchange.jsp",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.bhphotovideo.com/find/HelpCenter/ReturnExchange.jsp",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/bhphotovideo-com-find-HelpCenter-ReturnExchange-jsp.md",
+      "sha256": "f9df7f43b15e1b1ea104f16502402daf4346d03bbb45e765933a3c626d7f95fa",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-holiday-1",
+      "type": "holiday",
+      "channel": "any",
+      "windowDays": 93,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Items purchased between November 1, 2026 and January 1, 2027 can be returned or exchanged until February 1, 2027.",
+      "quote": "As a courtesy during the busy holiday season, we have extended our usual 30-day limit on returns and exchanges. You have until February 1, 2027 to return or exchange items purchased after November 1, 2026 through January 1, 2027.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Items may be returned within 30 days of the delivery date.",
+      "quote": "If you are dissatisfied with your purchase for any reason, you may return it to B&H within 30 days of the delivery date, subject to the conditions and exclusions below.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-3",
+      "type": "receipt",
+      "channel": "any",
+      "text": "You must locate your order online or via guest lookup to start a return.",
+      "quote": "Log in to the My Account/My Orders section of the website; filter by Eligible for Return and locate your order details. Select Start a Return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "any",
+      "text": "Return shipping costs are deducted from your refund unless the item is defective or damaged.",
+      "quote": "Replace item(s) and invoice in original packaging. You may either affix the preprinted label provided with your Return Merchandise Authorization (return shipping cost will be deducted from your refund) or you may purchase a shipping label from the carrier of your choice.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-5",
+      "type": "fee",
+      "channel": "any",
+      "text": "A minimum 15% restocking fee may be charged if return conditions are not met.",
+      "quote": "If all conditions are not met, B&H reserves the right to refuse the return or to charge a minimum 15% restocking fee.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "TVs and monitors 37\" and larger",
+      "text": "TVs and monitors 37\" and larger cannot be returned if original packaging is opened or unsealed.",
+      "quote": "The following items cannot be returned if original packaging is unsealed or opened:\n\n*   TVs and monitors 37\" and larger",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Computers built or modified by B&H",
+      "text": "Computers built or modified by B&H to customer specifications are nonreturnable.",
+      "quote": "Any computers built or modified by B&H to customer specifications",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Underwater equipment that has been submerged",
+      "text": "Underwater equipment that has been submerged cannot be returned.",
+      "quote": "Underwater equipment that has been submerged",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Special-order merchandise",
+      "text": "Select special-order merchandise or any item indicated as nonreturnable on the website cannot be returned.",
+      "quote": "Select special-order merchandise, or any item indicated on the website as nonreturnable",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

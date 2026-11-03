@@ -1,0 +1,108 @@
+{
+  "slug": "kate-spade",
+  "name": "Kate Spade",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.katespade.com/support/return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.katespade.com/support/return-policy",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/katespade-com-support-return-policy.md",
+      "sha256": "0ddc7568b403a3785ef4e186da1eb6bd1ff2976763fa666b24b3f5feaab5c347",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-exchange-1",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "receipt",
+      "text": "You may exchange an item free of charge within 30 days of receipt.",
+      "quote": "If you would like to exchange an item, you may do so free of charge within 30 days of receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-2",
+      "type": "exchange",
+      "channel": "any",
+      "category": "handbags, shoes, wallets and clothing",
+      "windowDays": 30,
+      "windowAnchor": "receipt",
+      "text": "Exchanges for select handbags, shoes, wallets and clothing items may be initiated online.",
+      "quote": "Exchanges for select handbags, shoes, wallets and clothing items may be initiated online.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-3",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 3,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "You must ship the original item to the distribution center within 3 days of initiating the exchange.",
+      "quote": "To ensure inventory availability, please ship the original item to our distribution center within 3 days of initiating the exchange.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-4",
+      "type": "exchange",
+      "channel": "any",
+      "text": "If the replacement item is not available, you will receive a full refund to your original form of payment.",
+      "quote": "Please note if the replacement item is not available, you will receive a full refund to your original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-5",
+      "type": "exchange",
+      "channel": "any",
+      "text": "If the original item is not received at the distribution center, the exchange will be cancelled.",
+      "quote": "Lastly, if we do not receive your original item at our distribution center, your exchange will be cancelled.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "outlet orders and items marked \"Final Sale\"",
+      "text": "All outlet orders and items marked \"Final Sale\" are not eligible for returns, exchanges, or price adjustments.",
+      "quote": "All outlet orders and items marked \"Final Sale\" are not eligible for returns, exchanges, or price adjustments.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Original items must be unused, unworn with original hangtags and packaging attached to be eligible for exchange.",
+      "quote": "Original items must be unused, unworn with original hangtags and packaging attached.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-8",
+      "type": "fee",
+      "channel": "any",
+      "text": "Initial shipping charges are not refundable.",
+      "quote": "Initial shipping charges are not refundable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

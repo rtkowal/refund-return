@@ -3,7 +3,7 @@
   "name": "ZARA",
   "kind": "retailer",
   "officialPolicyUrl": "https://www.zara.com/us/en/help-center/Refund",
-  "launch": false,
+  "launch": true,
   "lastVerifiedAt": "apify_run_",
   "snapshots": {
     "policy": {
@@ -11,6 +11,20 @@
       "file": "research/scrape-2026-11-03/03-brands/zara-com-us-en-help-center-Refund.md",
       "sha256": "6e59a7e056d673a4ec3b696caa83acc58c4a8a97a176e2acfe0559c08b3e2a3d",
       "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    },
+    "s2": {
+      "url": "https://www.zara.com/us/en/help-center/HowToReturn",
+      "file": "research/scrape-batch4/19-gapfill/zara-com-us-en-help-center-HowToReturn.md",
+      "sha256": "c7ebb3fe3939de8fe8599a0b7cf9ee4a00f0f7920effe135e0faa800b2cd8ea8",
+      "apifyRunId": "hohO3k9gttpmBnRkX",
+      "fetchedAt": "apify_run_"
+    },
+    "s3": {
+      "url": "https://www.zara.com/us/en/help-center/ReturnSpecialConditions",
+      "file": "research/scrape-batch4/19-gapfill/zara-com-us-en-help-center-ReturnSpecialConditions.md",
+      "sha256": "f9c055a176850b437da3e6d1501fbf9fa7a9c547a499fff06d19b9c5de134c84",
+      "apifyRunId": "hohO3k9gttpmBnRkX",
       "fetchedAt": "apify_run_"
     }
   },
@@ -66,6 +80,59 @@
       "text": "Refund amount will be received within a maximum of 14 days after return completion, depending on the bank.",
       "quote": "Keep in mind that once the return has been made, you will receive the amount within a maximum period of 14 days, depending on your bank.",
       "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-1",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns must be made in the same market/region where the purchase was made.",
+      "quote": "You must make the return in the same market/region where you made the purchase.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-receipt-2",
+      "type": "receipt",
+      "channel": "online",
+      "text": "No receipt is needed when returning online purchases via drop off point.",
+      "quote": "You do not need to include the receipt.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-3",
+      "type": "exclusion",
+      "channel": "online",
+      "category": "HOME collection large sized items",
+      "text": "Large sized items from the HOME collection require contacting Zara to arrange a pickup at your house for returns.",
+      "quote": "When making a return request, if your order contains a large sized item from the HOME collection, we will ask you to contact us to arrange a pickup at your house.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s3-exclusion-1",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "cosmetics",
+      "text": "Items from the Standard Procedure collection of cosmetics may not be exchanged or returned.",
+      "quote": "Items from the Standard Procedure collection may not be exchanged or returned.",
+      "snapshot": "s3",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s3-window-2",
+      "type": "window",
+      "channel": "any",
+      "category": "home",
+      "text": "Home items must be returned in their sealed original packaging and original condition.",
+      "quote": "HOME items must be returned in their sealed original packaging and in its original condition.",
+      "snapshot": "s3",
       "status": "extracted",
       "extractedBy": "llm"
     }

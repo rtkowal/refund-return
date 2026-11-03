@@ -17,9 +17,9 @@ const BRAND_DIRS = [
   "research/scrape-2026-11-03/03-brands", "research/scrape-2026-11-03/05-retries",
   "research/scrape-2026-11-03-b2/06-blocked-retail-walmart-uk261-ba", "research/scrape-2026-11-03-b2/10-brands-41-120",
   "research/scrape-2026-11-03-b2/11-brands-121-200", "research/scrape-2026-11-03-b2/12-brands-retry-unblocker",
-  "research/scrape-batch3/14-facets", "research/scrape-batch3/17-brands-fix",
+  "research/scrape-batch3/14-facets", "research/scrape-batch3/17-brands-fix", "research/scrape-batch4/19-gapfill",
 ];
-const MANIFESTS = ["research/scrape-2026-11-03/manifest.csv", "research/scrape-2026-11-03-b2/manifest.csv", "research/scrape-batch3/manifest.csv"];
+const MANIFESTS = ["research/scrape-2026-11-03/manifest.csv", "research/scrape-2026-11-03-b2/manifest.csv", "research/scrape-batch3/manifest.csv", "research/scrape-batch4/manifest.csv"];
 const args = process.argv.slice(2);
 const DRY = args.includes("--dry");
 const LIMIT = Number(args[args.indexOf("--limit") + 1]) || Infinity;

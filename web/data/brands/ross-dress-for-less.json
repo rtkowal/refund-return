@@ -3,7 +3,7 @@
   "name": "Ross Dress for Less",
   "kind": "retailer",
   "officialPolicyUrl": "https://www.rossstores.com/contact-us/",
-  "launch": false,
+  "launch": true,
   "lastVerifiedAt": "apify_run_",
   "snapshots": {
     "policy": {

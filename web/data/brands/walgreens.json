@@ -1,0 +1,90 @@
+{
+  "slug": "walgreens",
+  "name": "Walgreens",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.walgreens.com/topic/help/shophelp/returns_help_main.jsp",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.walgreens.com/topic/help/shophelp/returns_help_main.jsp",
+      "file": "research/scrape-batch4/19-gapfill/walgreens-com-topic-help-shophelp-returns-help-main-jsp.md",
+      "sha256": "f13e6d9c8eacaf486569868bfe494825a331bd8c82e8ce74959abe780c781ddb",
+      "apifyRunId": "hohO3k9gttpmBnRkX",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Eligible items purchased at Walgreens or on Walgreens.com may be returned or exchanged at any Walgreens store within 30 days of purchase date.",
+      "quote": "Eligible items purchased at Walgreens or on Walgreens.com may be returned or exchanged at any Walgreens store within 30 days of purchase date and must be accompanied by the original receipt or Order number.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-2",
+      "type": "receipt",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Returns must be accompanied by the original receipt or Order number.",
+      "quote": "Eligible items purchased at Walgreens or on Walgreens.com may be returned or exchanged at any Walgreens store within 30 days of purchase date and must be accompanied by the original receipt or Order number.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Refunds will be issued to the original form of payment.",
+      "quote": "Refunds will be issued to the original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Gift cards, pre-paid cards, phone cards, mobile phones, bathing suits, underwear, earrings, sexual wellness items, seasonal products, hazmat items, or COVID-19 testing kits cannot be returned.",
+      "quote": "We cannot accept returns for gift cards, pre-paid cards, phone cards, mobile phones, bathing suits, underwear, earrings, sexual wellness items, seasonal products, hazmat items, or COVID-19 testing kits.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-5",
+      "type": "window",
+      "channel": "any",
+      "category": "hearing aids",
+      "windowDays": 45,
+      "windowAnchor": "purchase",
+      "text": "Hearing aids can be returned within 45 days of purchase.",
+      "quote": "Additionally, hearing aids can be returned within 45 days or purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "oversized items",
+      "text": "Large bulky items such as electric wheelchairs, scooters, lift chairs, and oversized home medical equipment require special return instructions and should not be returned to a store.",
+      "quote": "For large bulky items such as electric wheelchairs, scooters, lift chairs, and oversized home medical equipment please contact Customer Care at 1-877-250-5823 for special return instructions. Do NOT return these items to a store.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

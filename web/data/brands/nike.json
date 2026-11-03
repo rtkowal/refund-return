@@ -1,0 +1,142 @@
+{
+  "slug": "nike",
+  "name": "Nike",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.nike.com/help/a/return-exceptions",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.nike.com/help/a/return-exceptions",
+      "file": "research/scrape-batch4/19-gapfill/nike-com-help-a-return-exceptions.md",
+      "sha256": "e3572065642cd78509b329e2a04e28fc321d39dc243229cb078d1f9d344cbd58",
+      "apifyRunId": "hohO3k9gttpmBnRkX",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "category": "Apple Watch accessories",
+      "windowDays": 14,
+      "windowAnchor": "delivery",
+      "text": "Apple Watch accessories must be returned within 14 days of an online order delivery or Nike store purchase.",
+      "quote": "Apple Watch accessories must be returned within 14 days of an online order delivery or Nike store purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Custom Jersey By You soccer jerseys",
+      "text": "Custom Jersey By You soccer jerseys cannot be returned.",
+      "quote": "Custom Jersey By You soccer jerseys cannot be returned.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Nike pre-orders and SNKRS Reserve orders",
+      "text": "Nike pre-orders and SNKRS Reserve orders cannot be returned.",
+      "quote": "Nike pre-orders and SNKRS Reserve orders cannot be returned.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Gift cards",
+      "text": "Gift cards cannot be returned.",
+      "quote": "Gift cards cannot be returned.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Items noted as nonreturnable",
+      "text": "Items noted as nonreturnable cannot be returned.",
+      "quote": "Items noted as nonreturnable cannot be returned.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Items purchased at Nike Clearance stores",
+      "text": "Items purchased at Nike Clearance stores cannot be returned or exchanged and are not eligible for price adjustments.",
+      "quote": "Items purchased at Nike Clearance stores cannot be returned or exchanged and are not eligible for price adjustments.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Items purchased at other Nike stores or online",
+      "text": "Items purchased at other Nike stores or online cannot be returned to Nike Clearance stores.",
+      "quote": "In addition, items purchased at other Nike stores or online cannot be returned to Nike Clearance stores.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Nike jewelry",
+      "text": "Nike jewelry must be unworn and in original condition with all original packaging including the box, pouch, insert(s), and tag(s) to return.",
+      "quote": "Nike jewelry must be **unworn and in original condition with all original packaging** including the box, pouch, insert(s), and tag(s) to return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Nike x LEGO® brick sets",
+      "text": "Nike x LEGO® brick sets must be sealed and unopened to return.",
+      "quote": "Nike x LEGO® brick sets must be sealed and unopened to return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-10",
+      "type": "fee",
+      "channel": "any",
+      "text": "Shipping fees are not refundable unless you receive an incorrect item.",
+      "quote": "Shipping fees are not refundable unless you receive an incorrect item.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-11",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Some Nike products with specific written guarantees and/or warranties",
+      "text": "Some Nike products have specific written guarantees and/or warranties with separate return information.",
+      "quote": "Some Nike products have specific written guarantees and/or warranties—please check the label, hang tag, or warranty card for details and return information.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

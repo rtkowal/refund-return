@@ -9,6 +9,9 @@ import { Brand } from "../src/lib/policy-schema";
 import { AI_MODELS, openaiJson } from "../src/lib/ai";
 
 const ROOT = join(__dirname, "..", "..");
+// load web/.env.local (gitignored) if present
+const ENV = join(__dirname, "..", ".env.local");
+if (existsSync(ENV)) for (const l of readFileSync(ENV, "utf8").split("\n")) { const m = /^([A-Z_]+)=(.*)$/.exec(l.trim()); if (m && !process.env[m[1]]) process.env[m[1]] = m[2]; }
 const OUT = join(__dirname, "..", "data", "brands");
 const BRAND_DIRS = [
   "research/scrape-2026-11-03/03-brands", "research/scrape-2026-11-03/05-retries",

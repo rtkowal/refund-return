@@ -19,6 +19,8 @@ const SYSTEM = `You summarize official US consumer-law text for shoppers.
 Extract up to 8 facts relevant to returns, refunds, posted refund policies, cancellations, shipping deadlines, disputes, or restocking fees.
 Only facts stated in the text; each needs an exact verbatim supporting quote. No legal advice, no interpretation beyond the words. If the text has no relevant provisions, return facts: [].`;
 
+const SYSTEM_PLATFORM = `You summarize a selling platform's official rules about seller return/refund policies for US merchants.
+Extract up to 8 facts a seller must follow: required/minimum return windows, who pays return shipping, refund timing, restocking fees, what must be stated in a return policy, and platform-imposed overrides. Only facts stated in the text; each needs an exact verbatim supporting quote. If none, return facts: [].`;
 (async () => {
   for (const c of cfg.filter((x) => !ONLY || x.id === ONLY)) {
     const snaps = c.files.map((f) => { const raw = readFileSync(join(ROOT, f), "utf8"); const fm = /^---\n([\s\S]*?)\n---\n?/.exec(raw);
@@ -26,7 +28,7 @@ Only facts stated in the text; each needs an exact verbatim supporting quote. No
       return { file: f, body: fm ? raw.slice(fm[0].length) : raw, sha256: get("sha256"), run: get("apify_run_id"), url: get("loaded_url") || get("source_url") }; });
     const text = snaps.map((s) => s.body).join("\n\n").slice(0, 120_000);
     const { data } = await openaiJson<{ facts: { text: string; quote: string }[] }>({ model: AI_MODELS.extract, schema: SCHEMA,
-      messages: [{ role: "system", content: SYSTEM }, { role: "user", content: `${c.name} — ${c.citation}\n\n${text}` }] });
+      messages: [{ role: "system", content: c.jurisdiction === "platform" ? SYSTEM_PLATFORM : SYSTEM }, { role: "user", content: `${c.name} — ${c.citation}\n\n${text}` }] });
     const facts = data.facts.flatMap((f) => { const s = snaps.find((x) => norm(x.body).includes(norm(f.quote))); return s ? [{ ...f, snapshot: s.file }] : []; });
     writeFileSync(join(OUT, `${c.id}.json`), JSON.stringify({ ...c, snapshots: snaps.map(({ body: _b, ...s }) => s), facts, status: "extracted", reviewedBy: null, reviewedAt: null }, null, 2) + "\n");
     console.log(`${facts.length ? "✓" : "✗"} ${c.id}: ${facts.length} facts (${data.facts.length - facts.length} dropped)`);

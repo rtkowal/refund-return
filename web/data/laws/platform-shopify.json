@@ -1,0 +1,22 @@
+{
+  "id": "platform-shopify",
+  "jurisdiction": "platform",
+  "name": "Shopify",
+  "citation": "Shopify Help Center: refund policy settings",
+  "url": "https://help.shopify.com/en/manual/checkout-settings/refund-privacy-tos",
+  "files": [
+    "research/scrape-2026-11-03/01-federal-sellers-brands/help-shopify-com-en-manual-checkout-settings-refund-privacy-tos.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03/01-federal-sellers-brands/help-shopify-com-en-manual-checkout-settings-refund-privacy-tos.md",
+      "sha256": "24e90eba6c9be47e696276e13392b9a65abc0f1f3f72fc5f7d41b5b39ea0d3c3",
+      "run": "BrDSV6rfarU6FOjBB",
+      "url": "https://help.shopify.com/en/manual/checkout-settings/refund-privacy-tos"
+    }
+  ],
+  "facts": [],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

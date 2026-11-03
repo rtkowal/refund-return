@@ -1,0 +1,43 @@
+{
+  "id": "platform-tiktok-shop",
+  "jurisdiction": "platform",
+  "name": "TikTok Shop",
+  "citation": "TikTok Shop Seller University: return and refund policy",
+  "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=3253210454181634",
+  "files": [
+    "research/scrape-2026-11-03-b2/06-blocked-retail-walmart-uk261-ba/seller-us-tiktok-com-university-essay-knowledge-id-3253210454181634-lang-en.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03-b2/06-blocked-retail-walmart-uk261-ba/seller-us-tiktok-com-university-essay-knowledge-id-3253210454181634-lang-en.md",
+      "sha256": "062b2ae6b5c160e965717ffb2dd57e286e53084e1e2074fbbd66db9c90ff10b8",
+      "run": "14ymTuHeKHMDeSDld+tmUBsmyRiM6leEZSg",
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=3253210454181634&lang=en"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Customers have 30 calendar days from the date the package is marked as Delivered to submit a return and refund request, unless a different return window is specified at checkout.",
+      "quote": "Customers have the return timeframe specified at checkout or the default 30 calendar days from the date the package is marked as \"Delivered\" to submit a return and refund request.",
+      "snapshot": "research/scrape-2026-11-03-b2/06-blocked-retail-walmart-uk261-ba/seller-us-tiktok-com-university-essay-knowledge-id-3253210454181634-lang-en.md"
+    },
+    {
+      "text": "Sellers are responsible for return shipping costs when the return reason is seller-fault (e.g., product quality issues or packaging damage).",
+      "quote": "If at least 1 item in a batch is being returned due to a seller-fault reason, the seller is responsible for the return shipping fee.",
+      "snapshot": "research/scrape-2026-11-03-b2/06-blocked-retail-walmart-uk261-ba/seller-us-tiktok-com-university-essay-knowledge-id-3253210454181634-lang-en.md"
+    },
+    {
+      "text": "Sellers bear the cost of shipping item replacements or exchanges from seller to customer; TikTok Shop covers return shipping costs for exchanges.",
+      "quote": "The seller will bear the cost of shipping the item replacement from the seller to the customer and the cost of return shipping of the original item.",
+      "snapshot": "research/scrape-2026-11-03-b2/06-blocked-retail-walmart-uk261-ba/seller-us-tiktok-com-university-essay-knowledge-id-3253210454181634-lang-en.md"
+    },
+    {
+      "text": "Sellers must state their return policy clearly, including return windows and conditions, and comply with TikTok Shop's policies and applicable laws.",
+      "quote": "This policy is updated periodically. Sellers must check this page regularly to ensure compliance with our current policy.",
+      "snapshot": "research/scrape-2026-11-03-b2/06-blocked-retail-walmart-uk261-ba/seller-us-tiktok-com-university-essay-knowledge-id-3253210454181634-lang-en.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

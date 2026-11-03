@@ -1,0 +1,53 @@
+{
+  "id": "platform-etsy",
+  "jurisdiction": "platform",
+  "name": "Etsy",
+  "citation": "Etsy Purchase Protection Program for Sellers",
+  "url": "https://www.etsy.com/legal/policy/purchase-protection-program-for-sellers/34509585385",
+  "files": [
+    "research/scrape-2026-11-03/04-fixups/etsy-com-legal-policy-purchase-protection-program-for-sellers-34509585385.md"
+  ],
+  "snapshots": [
+    {
+      "file": "research/scrape-2026-11-03/04-fixups/etsy-com-legal-policy-purchase-protection-program-for-sellers-34509585385.md",
+      "sha256": "5d89be7c8eccb744a5145860b480b887a02b0c54cfe1dcec15bb86f936d22fe5",
+      "run": "wuOGP1JQ4DIQswjAY",
+      "url": "https://www.etsy.com/legal/policy/purchase-protection-program-for-sellers/34509585385"
+    }
+  ],
+  "facts": [
+    {
+      "text": "Sellers must provide an accurate 'ships from' location and use valid tracking or a shipping label purchased on Etsy.",
+      "quote": "Provide an accurate “ships from” location and use valid tracking and/or, where available, a shipping label purchased on Etsy.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/etsy-com-legal-policy-purchase-protection-program-for-sellers-34509585385.md"
+    },
+    {
+      "text": "Sellers must fill out all Shop Policies, including policies for returns, exchanges, and custom orders, which must comply with Etsy's policies and local laws.",
+      "quote": "Fill out all of your Shop Policies (it's especially important to have policies for returns, exchanges, and custom orders). Your Shop Policies have to comply with Etsy's policies, as well as your local laws.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/etsy-com-legal-policy-purchase-protection-program-for-sellers-34509585385.md"
+    },
+    {
+      "text": "For orders shipped to the United States, sellers must use a Delivery Duty Paid (DDP) shipping method to avoid additional import duties or fees for buyers.",
+      "quote": "For orders shipped to the United States, use a Delivery Duty Paid (DDP) shipping method to ensure buyers are not charged additional import duties, taxes, or customs fees after purchase.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/etsy-com-legal-policy-purchase-protection-program-for-sellers-34509585385.md"
+    },
+    {
+      "text": "Sellers are responsible for refunding costs for orders that fall outside of the Purchase Protection program requirements or exceed $250.",
+      "quote": "Sellers are responsible for refunding costs for orders that fall outside of these requirements, refund amounts that exceed $250 (including shipping & taxes), or are damaged in transit following the first case covered by Etsy.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/etsy-com-legal-policy-purchase-protection-program-for-sellers-34509585385.md"
+    },
+    {
+      "text": "Etsy may refund buyers up to $250 on eligible cases and sellers will not be held responsible for those cases.",
+      "quote": "Etsy may refund buyers up to $250 USD (including shipping & taxes collected on the Etsy Platform) and sellers will not be held responsible.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/etsy-com-legal-policy-purchase-protection-program-for-sellers-34509585385.md"
+    },
+    {
+      "text": "Sellers are responsible for their independent warranty or return requirements under local applicable law.",
+      "quote": "Sellers are also responsible for their independent warranty or return requirements under local applicable law.",
+      "snapshot": "research/scrape-2026-11-03/04-fixups/etsy-com-legal-policy-purchase-protection-program-for-sellers-34509585385.md"
+    }
+  ],
+  "status": "extracted",
+  "reviewedBy": null,
+  "reviewedAt": null
+}

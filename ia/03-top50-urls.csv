@@ -7,7 +7,7 @@ url,primary_keyword,us_volume,kd,page_type,source_status
 /brands/sephora/,sephora return policy,37000,1,brand-hub,b1 ✅
 /brands/lowes/,lowes return policy,32000,3,brand-hub,b2 recovered
 /brands/ulta/,ulta return policy,31000,1,brand-hub,BLOCKED → manual
-/brands/best-buy/,best buy return policy,28000,4,brand-hub,b1 thin → refetch
+/brands/best-buy/,best buy return policy,28000,4,brand-hub,b3 ✅
 /brands/old-navy/,old navy return policy,28000,5,brand-hub,b1 ✅
 /brands/nordstrom-rack/,nordstrom rack return policy,27000,16,brand-hub,check
 /brands/nordstrom/,nordstrom return policy,23000,15,brand-hub,b1 ✅
@@ -21,24 +21,24 @@ url,primary_keyword,us_volume,kd,page_type,source_status
 /brands/apple/,apple return policy,15000,34,brand-hub,b1 ✅
 /brands/tj-maxx/,tj maxx return policy,11000,1,brand-hub,b2 recovered
 /brands/nike/,nike return policy,11000,0,brand-hub,b1 ✅
-/brands/walmart/without-receipt/,walmart return policy without receipt,6000,14,facet,b2 corporate ✅
-/brands/target/price-adjustment/,target price adjustment,6700,1,facet,needs fetch
-/brands/costco/mattress/,costco mattress return policy,4800,0,facet,needs fetch
+/brands/walmart/without-receipt/,walmart return policy without receipt,6000,14,facet,b2 corporate ✅ (ID required; refund as gift card)
+/brands/target/price-adjustment/,target price adjustment,6700,1,facet,b3 ✅
+/brands/costco/mattress/,costco mattress return policy,4800,0,facet,b3 ✅ (in main policy + freight page)
 /brands/costco/electronics/,costco electronics return policy,3200,2,facet,b1 ✅
-/brands/best-buy/open-box/,best buy open box return policy,1900,4,facet,needs fetch
+/brands/best-buy/open-box/,best buy open box return policy,1900,4,facet,b3 ✅ (in main policy; dedicated page 404)
 /brands/target/opened-items/,target return policy for opened items,1800,10,facet,b2 verify
-/brands/best-buy/price-adjustment/,best buy price adjustment,1300,7,facet,needs fetch
+/brands/best-buy/price-adjustment/,best buy price adjustment,1300,7,facet,b3 ✅
 /brands/home-depot/without-receipt/,home depot return policy without receipt,1600,6,facet,BLOCKED → manual
-/cancel/planet-fitness/,cancel planet fitness membership,34000,17,cancel,needs fetch
-/cancel/amazon-prime/,cancel amazon prime,16000,35,cancel,needs fetch
-/cancel/hulu/,cancel hulu,15000,67,cancel,needs fetch
-/cancel/adobe/,cancel adobe subscription,11000,31,cancel,needs fetch
-/cancel/netflix/,cancel netflix,9100,60,cancel,needs fetch
-/cancel/spotify/,cancel spotify,6400,0,cancel,needs fetch
-/cancel/la-fitness/,cancel la fitness membership,5100,3,cancel,needs fetch
+/cancel/planet-fitness/,cancel planet fitness membership,34000,17,cancel,b3 FAILED (club-specific; manual)
+/cancel/amazon-prime/,cancel amazon prime,16000,35,cancel,b3 ✅
+/cancel/hulu/,cancel hulu,15000,67,cancel,b3 ✅
+/cancel/adobe/,cancel adobe subscription,11000,31,cancel,b3 ✅
+/cancel/netflix/,cancel netflix,9100,60,cancel,b3 ✅
+/cancel/spotify/,cancel spotify,6400,0,cancel,b3 ✅
+/cancel/la-fitness/,cancel la fitness membership,5100,3,cancel,b3 ✅
 /flights/american-airlines-refund/,american airlines refund,8200,28,airline,b1 ✅
 /flights/united-refund/,united airlines refund,2200,18,airline,b1 ✅
-/flights/spirit-refund/,spirit airlines refund,1200,2,airline,MISSING (check carrier status)
+/flights/spirit-shutdown-refund/,spirit airlines refund,1200,2,airline-defunct,Spirit ceased ops 2026-05-02 (verified: NPR/CNN/CBS); page = chargeback + DOT + bankruptcy-claim path
 /flights/uk261/,flight delay compensation (GB),8800,0,pillar-flights,b2 ✅ UK261 + CAA
 /flights/eu261/,eu261,1300,26,pillar-flights,b1 ✅ EUR-Lex
 /flights/us-refund-rule/,dot refund rule,10,,pillar-flights,b1 ✅ 14 CFR 260 (link asset; low volume)

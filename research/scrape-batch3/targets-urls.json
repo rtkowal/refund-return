@@ -1,0 +1,1145 @@
+[
+ {
+  "folder": "13-cancel",
+  "target": "Planet Fitness",
+  "query": "site:planetfitness.com how to cancel membership",
+  "urls": [
+   "https://www.planetfitness.com/about-planet-fitness/customer-service/",
+   "https://www.planetfitness.com/login"
+  ],
+  "titles": [
+   "Planet Fitness Customer Service and FAQ",
+   "My Account"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "Amazon Prime",
+  "query": "site:amazon.com cancel Prime membership",
+  "urls": [
+   "https://www.amazon.com/gp/help/customer/display.html?nodeId=GTJQ7QZY7QL2HK4Y",
+   "https://www.amazon.com/gp/help/customer/display.html?nodeId=TKX9QawwBIbXy736eI"
+  ],
+  "titles": [
+   "Cancel Your Amazon Prime Membership",
+   "Cancel Your Amazon Prime Membership"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "Hulu",
+  "query": "site:help.hulu.com cancel subscription",
+  "urls": [],
+  "titles": []
+ },
+ {
+  "folder": "13-cancel",
+  "target": "Adobe",
+  "query": "site:helpx.adobe.com cancel plan early termination fee",
+  "urls": [
+   "https://helpx.adobe.com/account/individual/terms-policies-and-regulations/adobe-subscription-terms.html",
+   "https://helpx.adobe.com/account/individual/subscriptions-and-plans/renewals-and-cancellations/cancel-adobe-subscription.html"
+  ],
+  "titles": [
+   "Understand Adobe's subscription terms and refund policies",
+   "Cancel your Adobe trial or subscription"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "Netflix",
+  "query": "site:help.netflix.com cancel",
+  "urls": [
+   "https://help.netflix.com/en/node/407",
+   "https://help.netflix.com/en/node/110165"
+  ],
+  "titles": [
+   "How to cancel Netflix",
+   "How to cancel a Netflix account for a member who has died ..."
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "Spotify",
+  "query": "site:support.spotify.com cancel Premium",
+  "urls": [
+   "https://support.spotify.com/us/article/cancel-premium/",
+   "https://support.spotify.com/us/article/premium-student/"
+  ],
+  "titles": [
+   "How to cancel Premium plans",
+   "Premium Student"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "LA Fitness",
+  "query": "site:lafitness.com cancel membership",
+  "urls": [
+   "https://www.lafitness.com/Pages/DenyAccess.aspx?View=PersonalTraining",
+   "https://www.lafitness.com/Pages/MembershipQuestions.aspx/1000"
+  ],
+  "titles": [
+   "Cancel Membership",
+   "Health Club Member Services | Membership Questions"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "SiriusXM",
+  "query": "site:siriusxm.com cancel subscription",
+  "urls": [
+   "https://listenercare.siriusxm.com/prweb/autoredirect/app/ExternalKM/help/SupportCenter/article/KC-1969/How-do-I-manage-or-cancel-my-service%3F",
+   "https://www.siriusxm.com/help/refund-policy-change"
+  ],
+  "titles": [
+   "SiriusXM \u2014 manage or cancel service",
+   "FAQs for Refund Policy Changes for Audio Plans"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "Peloton",
+  "query": "site:support.onepeloton.com cancel membership",
+  "urls": [
+   "https://support.onepeloton.com/s/article/Peloton-Membership-How-To-Cancel-Your-App-Membership?language=en_US",
+   "https://support.onepeloton.com/s/article/Peloton-Membership-How-to-Manage-Your-All-Access-Membership"
+  ],
+  "titles": [
+   "Identifying and Canceling a Peloton App Membership",
+   "How to Manage Your All-Access Membership"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "Disney+",
+  "query": "site:help.disneyplus.com cancel subscription",
+  "urls": [
+   "https://help.disneyplus.com/article/disneyplus-cancel",
+   "https://help.disneyplus.com/article/disneyplus-en-tw-cancel"
+  ],
+  "titles": [
+   "How to cancel Disney+",
+   "How to cancel Disney+"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "Max",
+  "query": "site:help.max.com cancel subscription",
+  "urls": [
+   "https://help.max.com/US-en/answer/detail/000002526",
+   "https://help.max.com/tr-en/answer/detail/000002526"
+  ],
+  "titles": [
+   "How do I cancel HBO Max?",
+   "How do I end my HBO Max subscription?"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "Paramount+",
+  "query": "site:help.paramountplus.com cancel subscription",
+  "urls": [
+   "https://help.paramountplus.com/s/",
+   "https://help.paramountplus.com/s/login/"
+  ],
+  "titles": [
+   "Paramount Plus Help",
+   "Login"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "YouTube Premium",
+  "query": "site:support.google.com cancel YouTube Premium",
+  "urls": [
+   "https://support.google.com/youtube/answer/6308278?hl=en&co=GENIE.Platform%3DAndroid",
+   "https://support.google.com/youtube/thread/412358948/can-t-cancel-my-youtube-premium-membership?hl=en"
+  ],
+  "titles": [
+   "Cancel YouTube Premium or YouTube Music Premium",
+   "Can't cancel my youtube premium membership"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "Audible",
+  "query": "site:audible.com cancel membership",
+  "urls": [
+   "https://help.audible.com/s/article/cancel-membership?language=en_US",
+   "https://help.audible.com/s/article/before-you-cancel-your-audible-membership?language=en_US"
+  ],
+  "titles": [
+   "Cancel membership",
+   "Before you cancel your Audible membership"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "Kindle Unlimited",
+  "query": "site:amazon.com cancel Kindle Unlimited",
+  "urls": [
+   "https://www.amazon.com/gp/help/customer/display.html?nodeId=GLSQ4722655M4ZEJ",
+   "https://www.amazon.com/gp/help/customer/display.html?nodeId=201556940"
+  ],
+  "titles": [
+   "Cancel Your Kindle+ Subscription",
+   "Kindle Unlimited Terms of Use - Amazon Customer Service"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "Xbox Game Pass",
+  "query": "site:support.xbox.com cancel Game Pass",
+  "urls": [
+   "https://support.xbox.com/en-US/help/subscriptions-billing/manage-subscriptions/cancel-recurring-billing-or-subscription",
+   "https://support.xbox.com/en-US/help/subscriptions-billing/browse"
+  ],
+  "titles": [
+   "XBOX subscription cancellations and refunds",
+   "Subscriptions & billing"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "PlayStation Plus",
+  "query": "site:playstation.com cancel PlayStation Plus",
+  "urls": [
+   "https://www.playstation.com/en-us/support/store/cancel-ps-store-subscription/",
+   "https://www.playstation.com/en-us/support/subscriptions/cancel-playstation-plus/"
+  ],
+  "titles": [
+   "How to manage subscriptions on PlayStation (US)",
+   "How to cancel PlayStation Plus"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "DoorDash DashPass",
+  "query": "site:help.doordash.com cancel DashPass",
+  "urls": [
+   "https://help.doordash.com/en-us/consumers/article/how-do-i-cancel-my-dashpass-subscription",
+   "https://help.doordash.com/en-us/consumers/category/dashpass"
+  ],
+  "titles": [
+   "How do I cancel my DashPass subscription?",
+   "DashPass | Customer Support"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "Walmart+",
+  "query": "site:walmart.com cancel Walmart+",
+  "urls": [
+   "https://www.walmart.com/help/article/manage-walmart-membership/126c9a990a944c3abd8531de52a87440",
+   "https://www.walmart.com/subscriptions/manage"
+  ],
+  "titles": [
+   "Manage Walmart+ Membership",
+   "Manage Account - My subscriptions"
+  ]
+ },
+ {
+  "folder": "13-cancel",
+  "target": "Crunch Fitness",
+  "query": "site:crunch.com cancel membership",
+  "urls": [
+   "https://www.crunch.com/faq",
+   "https://www.crunch.com/locations/corpus-christi"
+  ],
+  "titles": [
+   "FAQ",
+   "Corpus Christi Gym with Personal Trainers & Group ..."
+  ]
+ },
+ {
+  "folder": "13-cancel-terms",
+  "target": "Planet Fitness",
+  "query": "site:planetfitness.com membership terms cancellation",
+  "urls": [
+   "https://www.planetfitness.com/about-planet-fitness/customer-service/"
+  ],
+  "titles": [
+   "Planet Fitness Customer Service and FAQ"
+  ]
+ },
+ {
+  "folder": "13-cancel-terms",
+  "target": "Adobe",
+  "query": "site:adobe.com subscription terms cancellation refund",
+  "urls": [
+   "https://www.adobe.com/legal/subscription-terms.html"
+  ],
+  "titles": [
+   "Adobe Subscription and Cancellation Terms | Adobe Legal"
+  ]
+ },
+ {
+  "folder": "13-cancel-terms",
+  "target": "Peloton",
+  "query": "site:onepeloton.com membership terms refund",
+  "urls": [
+   "https://www.onepeloton.com/membership-terms"
+  ],
+  "titles": [
+   "Peloton Membership Terms"
+  ]
+ },
+ {
+  "folder": "13-cancel-terms",
+  "target": "SiriusXM",
+  "query": "site:siriusxm.com customer agreement cancellation refund",
+  "urls": [
+   "https://www.siriusxm.com/customer-agreement"
+  ],
+  "titles": [
+   "SiriusXM's Customer Agreement"
+  ]
+ },
+ {
+  "folder": "13-cancel-terms",
+  "target": "PlayStation Plus",
+  "query": "site:playstation.com PlayStation Store cancellation policy refund",
+  "urls": [
+   "https://www.playstation.com/en-us/legal/playstation-store-cancellation-policy/"
+  ],
+  "titles": [
+   "PlayStation Store cancellation policy (US)"
+  ]
+ },
+ {
+  "folder": "13-cancel-terms",
+  "target": "Xbox Game Pass",
+  "query": "site:microsoft.com subscription refund policy",
+  "urls": [
+   "https://support.microsoft.com/en-us/accounts-billing/subscriptions/microsoft-subscription-refund-policy"
+  ],
+  "titles": [
+   "Microsoft subscription refund policy"
+  ]
+ },
+ {
+  "folder": "13-cancel-terms",
+  "target": "Amazon Prime",
+  "query": "site:amazon.com Prime terms refund",
+  "urls": [
+   "https://www.amazon.com/gp/help/customer/display.html?nodeId=G2B9L3YR7LR8J4XP"
+  ],
+  "titles": [
+   "Amazon Prime Terms & Conditions"
+  ]
+ },
+ {
+  "folder": "13-cancel-terms",
+  "target": "Walmart+",
+  "query": "site:walmart.com Walmart+ terms cancellation",
+  "urls": [],
+  "titles": []
+ },
+ {
+  "folder": "14-facets",
+  "target": "Target price match",
+  "query": "site:target.com price match guarantee",
+  "urls": [
+   "https://www.target.com/help/articles/policies-guidelines/price-match-guarantee"
+  ],
+  "titles": [
+   "Price Match Guarantee : Help"
+  ]
+ },
+ {
+  "folder": "14-facets",
+  "target": "Best Buy open-box",
+  "query": "site:bestbuy.com open-box return policy",
+  "urls": [
+   "https://www.bestbuy.com/site/questions/rocketfish-bluetooth-audio-receiver-black/6357221/question/37a8281d-0a7b-3172-9932-4aa896f33e54"
+  ],
+  "titles": [
+   "If it's a opened box excellent condition, does th \u2013 Q&A"
+  ]
+ },
+ {
+  "folder": "14-facets",
+  "target": "Best Buy price match",
+  "query": "site:bestbuy.com price match guarantee",
+  "urls": [
+   "https://www.bestbuy.com/site/help-topics/price-match-guarantee/pcmcat290300050002.c?id=pcmcat290300050002"
+  ],
+  "titles": [
+   "Price Match Guarantee"
+  ]
+ },
+ {
+  "folder": "14-facets",
+  "target": "Costco mattress",
+  "query": "site:customerservice.costco.com mattress return policy",
+  "urls": [
+   "https://customerservice.costco.com/app/answers/detail/a_id/1191/~/what-is-costcos-return-policy%3F"
+  ],
+  "titles": [
+   "What is Costco's return policy?"
+  ]
+ },
+ {
+  "folder": "14-facets",
+  "target": "Costco large item",
+  "query": "site:customerservice.costco.com return large item freight",
+  "urls": [
+   "https://customerservice.costco.com/app/answers/detail/a_id/769/~/how-are-freight-returns-handled"
+  ],
+  "titles": [
+   "How are freight returns handled?"
+  ]
+ },
+ {
+  "folder": "14-facets",
+  "target": "Home Depot no receipt",
+  "query": "site:homedepot.com return without receipt",
+  "urls": [
+   "https://www.homedepot.com/c/Return_Policy"
+  ],
+  "titles": [
+   "Return Policy"
+  ]
+ },
+ {
+  "folder": "15-law",
+  "target": "NJSA 56:8-2.15",
+  "query": "site:njleg.state.nj.us 56:8-2.15",
+  "urls": [
+   "https://lis.njleg.state.nj.us/nxt/gateway.dll?xhitlist_vq=56%3A8-163+Disclosure+of+breach+of+security+to+customers.&f=xhitlist&xhitlist_q=%5BRank+100%5D%5BDomain%3A+56%3A8-163+Disclosure+of+breach+of+security+to+customers.%5D56%3A8-163+Disclosure+of+breach+of+security+to+customers.&xhitlist_x=advanced&xhitlist_s=relevance-weight&xhitlist_mh=99999&xhitlist_d=&xhitlist_hc=%5BXML%5D%5BKwic%2C25%5D&xhitlist_xsl=xhitlist.xsl&xhitlist_vpc=first&xhitlist_vps=20&xhitlist_sel=title%3Bpath%3Brelevance-weight%3Bcontent-type%3Bhome-title%3Bitem-bookmark%3Btitle-path%3Bhit-context&vid=Publish:10.1048/Enu",
+   "https://pub.njleg.state.nj.us/Bills/2026/A2000/1851_I1.HTM",
+   "https://pub.njleg.state.nj.us/Bills/2026/S4500/4496_I1.PDF"
+  ],
+  "titles": [
+   "Search Results",
+   "A1851",
+   "STATE OF NEW JERSEY"
+  ]
+ },
+ {
+  "folder": "15-law",
+  "target": "940 CMR 3.13",
+  "query": "site:mass.gov 940 CMR 3.00",
+  "urls": [
+   "https://www.mass.gov/regulations/940-CMR-300-general-regulation",
+   "https://www.mass.gov/doc/940-cmr-3-consumer-protection-general-regulations/download",
+   "https://www.mass.gov/regulations/940-CMR-3800-unfair-and-deceptive-fees"
+  ],
+  "titles": [
+   "940 CMR 3.00: General regulation",
+   "940 CMR 3.00: GENERAL REGULATIONS",
+   "940 CMR 38.00: Unfair and deceptive fees"
+  ]
+ },
+ {
+  "folder": "16-airlines",
+  "target": "Spirit CoC",
+  "query": "site:spirit.com contract of carriage",
+  "urls": [
+   "https://cars.spirit.com/rentalcars/rs/1000"
+  ],
+  "titles": [
+   "Rental Car Deals in Mazeres - Spirit Airlines"
+  ]
+ },
+ {
+  "folder": "16-airlines",
+  "target": "Spirit refunds",
+  "query": "site:customersupport.spirit.com refund",
+  "urls": [],
+  "titles": []
+ },
+ {
+  "folder": "16-airlines",
+  "target": "easyJet GCC",
+  "query": "site:easyjet.com general conditions of carriage",
+  "urls": [
+   "https://www.easyjet.com/en/help-centre/policy-terms-and-conditions/terms-and-conditions"
+  ],
+  "titles": [
+   "Terms and Conditions"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Publix",
+  "query": "site:publix.com \"return policy\"",
+  "urls": [
+   "https://www.publix.com/pd/futuro-back-comfort-stabilizing-support/RIO-PCI-635562",
+   "https://corporate.publix.com/newsroom/news-stories/insight-into-the-journey-of-the-creation-of-publix"
+  ],
+  "titles": [
+   "Futuro Back Comfort Stabilizing Support",
+   "Insight into the journey of the creation of Publix"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Albertsons",
+  "query": "site:albertsons.com \"return policy\"",
+  "urls": [
+   "https://www.albertsons.com/fast-grocery-delivery.html",
+   "https://www.albertsons.com/schedule-and-save.html"
+  ],
+  "titles": [
+   "Fast Grocery Delivery - 30 Minute ...",
+   "Schedule and Save"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Fossil",
+  "query": "site:fossil.com \"return policy\"",
+  "urls": [
+   "https://stores.fossil.com/us/mn/bloomington/mall-of-america-8303",
+   "https://stores.fossil.com/us/tx/allen/allen-outlets-7612"
+  ],
+  "titles": [
+   "Mall of America",
+   "Fossil Outlet Store in Allen, US"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "BJ's Wholesale",
+  "query": "site:bjs.com \"return policy\"",
+  "urls": [],
+  "titles": []
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Big Lots",
+  "query": "site:biglots.com \"return policy\"",
+  "urls": [
+   "https://biglots.com/faq/"
+  ],
+  "titles": [
+   "FAQ"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Safeway",
+  "query": "site:safeway.com \"return policy\"",
+  "urls": [
+   "https://www.safeway.com/shopping-guides/personal-care-and-health/foot-care/finding-the-right-insoles-at-safeway-3z7i72",
+   "https://www.safeway.com/fast-grocery-delivery.html"
+  ],
+  "titles": [
+   "Finding the Right Insoles at Safeway",
+   "Fast Grocery Delivery - 30 Minute ..."
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "JCPenney",
+  "query": "site:jcpenney.com \"return policy\"",
+  "urls": [
+   "https://www.jcpenney.com/m/customer-service/returns",
+   "https://www.jcpenney.com/m/customer-service/return-exceptions"
+  ],
+  "titles": [
+   "JCPenney Returns Policy",
+   "Return Exceptions"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Ross",
+  "query": "site:rossstores.com \"return policy\"",
+  "urls": [
+   "https://www.rossstores.com/contact-us/"
+  ],
+  "titles": [
+   "Contact US | Ross Dress for Less"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Aerie",
+  "query": "site:ae.com aerie returns",
+  "urls": [
+   "https://www.ae.com/us/en/content/aerie-refer-a-friend",
+   "https://www.ae.com/us/en/c/men/featured/cat3110069"
+  ],
+  "titles": [
+   "Aerie",
+   "Featured"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Banana Republic",
+  "query": "site:bananarepublic.gap.com \"return policy\"",
+  "urls": [
+   "https://bananarepublic.gap.com/Asset_Archive/GPWeb/content/static-marketing/xbrand-edfs-content/edfsLegal-BR-Narvar040220.html",
+   "https://bananarepublic.gap.com/stores/mn/stlouispark/banana-republic-2101.html"
+  ],
+  "titles": [
+   "Free Shipping on all orders over $50 - Banana Republic",
+   "Women's & Men's Business Casual Clothing at 8330 Hwy 7"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Kay Jewelers",
+  "query": "site:kay.com \"return policy\"",
+  "urls": [
+   "https://www.kay.com/kay-safe-shipping",
+   "https://www.kay.com/terms-and-conditions-modal"
+  ],
+  "titles": [
+   "Learn About KAY Shipping",
+   "Terms And Conditions Modal"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Trader Joe's",
+  "query": "site:traderjoes.com \"return policy\"",
+  "urls": [],
+  "titles": []
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "LOFT",
+  "query": "site:loft.com \"return policy\"",
+  "urls": [
+   "https://www.loft.com/customer-service",
+   "https://www.loft.com/terms-of-use/"
+  ],
+  "titles": [
+   "Customer Service | Loft",
+   "Terms of Use"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Torrid",
+  "query": "site:torrid.com \"return policy\"",
+  "urls": [
+   "https://www.torrid.com/torrid/customer-service/how-can-we-help/td-customerservice-help-returnpolicy.html",
+   "https://www.torrid.com/torrid/customer-service/faqs/td-customerservice-faqs-returns.html"
+  ],
+  "titles": [
+   "Returns",
+   "Returns FAQs"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Ann Taylor",
+  "query": "site:anntaylor.com \"return policy\"",
+  "urls": [
+   "https://www.anntaylor.com/terms-of-use/",
+   "https://www.anntaylor.com/customer-service"
+  ],
+  "titles": [
+   "Terms of Use",
+   "Customer Service"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Uniqlo",
+  "query": "site:uniqlo.com \"return policy\"",
+  "urls": [
+   "https://faq-us.uniqlo.com/articles/en_US/FAQ/Returns-and-Exchanges/?l=en_US&fs=RelatedArticle",
+   "https://faq-us.uniqlo.com/articles/en_US/FAQ/What-is-your-return-policy-for-online-orders/"
+  ],
+  "titles": [
+   "Introduction | Exchange & Return Overview",
+   "Online Orders | Exchange & Return Policy\u200b"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Converse",
+  "query": "site:converse.com \"return policy\"",
+  "urls": [
+   "https://www.converse.com/s/ConverseUS/c/whats-your-return-policy.html",
+   "https://www.converse.com/fi/returns-exchanges/returns.html"
+  ],
+  "titles": [
+   "What is Converse's return policy?",
+   "RETURNS & EXCHANGES"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Levi's",
+  "query": "site:levi.com \"return policy\"",
+  "urls": [
+   "https://help.levi.com/hc/en-ca/articles/360052069812-Levi-s-Return-Policy",
+   "https://help.levi.com/hc/en-ca/articles/360052069852-Levi-s-Return-Policy-Overview"
+  ],
+  "titles": [
+   "Levi's\u00ae Return Policy",
+   "Levi's\u00ae Return Policy Overview"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Belk",
+  "query": "site:belk.com \"return policy\"",
+  "urls": [
+   "https://www.belk.com/customer-service/returns-refunds/",
+   "https://www.belk.com/customer-service/afterpay/"
+  ],
+  "titles": [
+   "Returns & Refunds",
+   "Afterpay"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Under Armour",
+  "query": "site:underarmour.com \"return policy\"",
+  "urls": [
+   "https://help.underarmour.com/s/article/Under-Armour-Return-Policy",
+   "https://www.underarmour.com/en-us/returnlabel/"
+  ],
+  "titles": [
+   "Under Armour Return and Exchange Policy",
+   "Returns & Exchanges"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Finish Line",
+  "query": "site:finishline.com \"return policy\"",
+  "urls": [
+   "https://www.finishline.com/plp/arrives-by-sales-text?page=7",
+   "https://www.finishline.com/catalog"
+  ],
+  "titles": [
+   "Finish Line",
+   "Catalog"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Vans",
+  "query": "site:vans.com \"return policy\"",
+  "urls": [
+   "https://www.vans.com/en-us/help/returns",
+   "https://www.vans.com/en-fi/help/returns/return-policy"
+  ],
+  "titles": [
+   "Returns | Vans US",
+   "Return Policy"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "American Eagle",
+  "query": "site:ae.com \"return policy\"",
+  "urls": [
+   "https://www.ae.com/us/en/content/help/return-policy",
+   "https://www.ae.com/us/en/content/help/home"
+  ],
+  "titles": [
+   "Return, Refund and Exchange Policy",
+   "Help Topics"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Hoka",
+  "query": "site:hoka.com \"return policy\"",
+  "urls": [
+   "https://www.hoka.com/help-center.html?a=How-to-Return-or-Exchange---id--ffBjkixuTRq54qyhGbGaEg",
+   "https://www.hoka.com/en/us/return-policy-and-warranties/return-policy-warranty.html"
+  ],
+  "titles": [
+   "How to Return or Exchange",
+   "Returns for Warranty Evaluation"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "On Running",
+  "query": "site:on.com \"return policy\"",
+  "urls": [
+   "https://www.on.com/en-us/faq/returns-and-exchanges",
+   "https://www.on.com/en-us/returns"
+  ],
+  "titles": [
+   "Returns and exchanges | On United States - On Running",
+   "Return / Exchange form | On United States - On Running"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "The North Face",
+  "query": "site:thenorthface.com \"return policy\"",
+  "urls": [
+   "https://www.thenorthface.com/en-lu/help-section/returns/how-to-return-in-store",
+   "https://www.thenorthface.com/en-ie/help-section/returns/return-policy"
+  ],
+  "titles": [
+   "How To Return in Store",
+   "Returns and Exchange Policy"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Columbia Sportswear",
+  "query": "site:columbia.com \"return policy\"",
+  "urls": [
+   "https://www.columbia.com/order-returns/",
+   "https://help.columbia.com/s/article/Returns-COL-US"
+  ],
+  "titles": [
+   "Product Returns and FAQs",
+   "Returns - Columbia Help Center"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Fanatics",
+  "query": "site:fanatics.com \"return policy\"",
+  "urls": [
+   "https://www.fanatics.com/what-is-your-return-policy/ch-2358",
+   "https://www.fanatics.com/exchanges/ch-8594"
+  ],
+  "titles": [
+   "What is your return policy?",
+   "Exchanges-HD North America Main Site Group"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "New Balance",
+  "query": "site:newbalance.com \"return policy\"",
+  "urls": [
+   "https://www.newbalance.com/returns/",
+   "https://www.newbalance.com/faqs/"
+  ],
+  "titles": [
+   "Return Policy, Returns, & Refunds",
+   "Most Popular FAQs"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Tommy Hilfiger",
+  "query": "site:usa.tommy.com \"return policy\"",
+  "urls": [
+   "https://help.usa.tommy.com/s/article/our-policy",
+   "https://usa.tommy.com/en/terms-and-conditions.html"
+  ],
+  "titles": [
+   "Our Policy",
+   "Terms & Conditions"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Ralph Lauren",
+  "query": "site:ralphlauren.com \"return policy\"",
+  "urls": [
+   "https://www.ralphlauren.com/support?a=Returns-and-Exchanges-Policy---id--XQjSJDtDQnu81JuT4jv6xA",
+   "https://www.ralphlauren.com/returns"
+  ],
+  "titles": [
+   "Returns & Exchanges Policy",
+   "Returns & Exchanges"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Glossier",
+  "query": "site:glossier.com \"return policy\"",
+  "urls": [
+   "https://www.glossier.com/policies/refund-policy",
+   "https://help.glossier.com/"
+  ],
+  "titles": [
+   "Refund policy",
+   "Glossier. Help Center"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Ray-Ban",
+  "query": "site:ray-ban.com \"return policy\"",
+  "urls": [
+   "https://www.ray-ban.com/usa/c/return-policy",
+   "https://india.ray-ban.com/returns-refund-policy"
+  ],
+  "titles": [
+   "Return Policy & Process",
+   "Return Policy for Ray-Ban Eyewear in India"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Estee Lauder",
+  "query": "site:esteelauder.com \"return policy\"",
+  "urls": [
+   "https://www.esteelauder.com/customer-service/returns",
+   "https://www.esteelauder.com/customer-service/faqs"
+  ],
+  "titles": [
+   "Customer Service - Returns",
+   "Customer Service - FAQs"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Vitamin Shoppe",
+  "query": "site:vitaminshoppe.com \"return policy\"",
+  "urls": [
+   "https://www.vitaminshoppe.com/lp/purchase-policy",
+   "https://www.vitaminshoppe.com/lp/same-day-delivery-faqs"
+  ],
+  "titles": [
+   "Purchase Policy",
+   "Same Day Delivery FAQs"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "AutoZone",
+  "query": "site:autozone.com \"return policy\"",
+  "urls": [
+   "https://www.autozone.com/lp/termsAndConditions",
+   "https://www.autozone.com/lp/faqs"
+  ],
+  "titles": [
+   "Terms and Conditions | AutoZone",
+   "Frequently Asked Questions"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Pep Boys",
+  "query": "site:pepboys.com \"return policy\"",
+  "urls": [
+   "https://www.pepboys.com/customer-care/policies",
+   "https://www.pepboys.com/customer-care/policies/terms"
+  ],
+  "titles": [
+   "Customer Care: Policies",
+   "Customer Care Policies | Terms and Conditions"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "O'Reilly Auto Parts",
+  "query": "site:oreillyauto.com \"return policy\"",
+  "urls": [
+   "https://www.oreillyauto.com/detail/c/standard-ignition/engine-sensors---emissions/engine---drivetrain-sensors/abs-wheel-speed-sensor/233f0aa1b25c/standard-ignition-2-terminal-camshaft-sensor-connector/std0/s824/v/a/128070/automotive-truck-2014-ford-f-150",
+   "https://www.oreillyauto.com/detail/c/brakebest-select-drum-rotor-hub/brakes/brake-drums---rotors/7145c118aa8d/brakebest-select-brake-drum/bbr0/6819dgs/v/a/143532/automotive-car-2018-nissan-sentra"
+  ],
+  "titles": [
+   "Standard Ignition 2 Terminal Camshaft Sensor Connector S824",
+   "BrakeBest Select Brake Drum 6819DGS"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Depop",
+  "query": "site:depop.com \"return policy\"",
+  "urls": [
+   "https://www.depop.com/products/andreahzlders-condition-return-policy-notice-eb0e/?pla_feed=US",
+   "https://www.depop.com/products/retropresenf-100-authentic-clothing-usa-vmiq2wh2umyt8avg-af8f/?pla_feed=US"
+  ],
+  "titles": [
+   "Ann Taylor Women's Blue Jumper",
+   "100% Authentic Clothing - USA SELLER Return policy..."
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Discount Tire",
+  "query": "site:discounttire.com \"return policy\"",
+  "urls": [
+   "https://www.discounttire.com/customer-service/return-policy",
+   "https://www.discounttire.com/learn/assistance-plan-info/cooper-satisfaction-guarantee"
+  ],
+  "titles": [
+   "Our Return Policy",
+   "Cooper Satisfaction Guarantee"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Adorama",
+  "query": "site:adorama.com \"return policy\"",
+  "urls": [
+   "https://www.adorama.com/help",
+   "https://www.adorama.com/help/usedMarketplace"
+  ],
+  "titles": [
+   "Customer Service | Adorama.com",
+   "Buying & Selling Used | Adorama.com"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Office Depot",
+  "query": "site:officedepot.com \"return policy\"",
+  "urls": [
+   "https://www.officedepot.com/l/help/returns",
+   "https://help.officedepot.com/app/answers/detail/a_id/7408/~/how-do-i-return-an-item"
+  ],
+  "titles": [
+   "Return Policy",
+   "How do I return an item"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "KitchenAid",
+  "query": "site:kitchenaid.com \"return policy\"",
+  "urls": [
+   "https://www.kitchenaid.com/return-policy.html",
+   "https://www.kitchenaid.com/countertop-appliances/return-policy"
+  ],
+  "titles": [
+   "Return Policy & Cancellations",
+   "Returns & Refunds | KitchenAid US"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Ninja Kitchen",
+  "query": "site:ninjakitchen.com \"return policy\"",
+  "urls": [
+   "https://support.ninjakitchen.com/hc/en-us/articles/5952154197532-NC500-Series-Ninja-CREAMi-Deluxe-11-in-1-Ice-Cream-and-Frozen-Treat-Maker-FAQs",
+   "https://support.ninjakitchen.com/hc/en-us/articles/4402874049810-Ninja-3-Year-VIP-Warranty"
+  ],
+  "titles": [
+   "United States 60-Day Returns, Refunds and Exchanges ...",
+   "How to Start a Return"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Sony",
+  "query": "site:sony.com \"return policy\"",
+  "urls": [
+   "https://electronics.sony.com/terms-conditions",
+   "https://us.community.sony.com/s/question/0D54O00007xJQ8SSAW/nontransparent-playstation-direct-return-policy-and-conflicting-playstation-direct-customer-service-explanation?language=en_US"
+  ],
+  "titles": [
+   "Terms & Conditions",
+   "Nontransparent PlayStation Direct return policy and ..."
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "B&H Photo",
+  "query": "site:bhphotovideo.com \"return policy\"",
+  "urls": [
+   "https://www.bhphotovideo.com/find/HelpCenter/ReturnExchange.jsp",
+   "https://www.bhphotovideo.com/find/HelpCenter/Used.jsp"
+  ],
+  "titles": [
+   "Returns & Exchanges Policy | Hassle-Free Returns at B&H",
+   "Used Item Return Policy - NYC"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Crate & Barrel",
+  "query": "site:crateandbarrel.com \"return policy\"",
+  "urls": [],
+  "titles": []
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Purple",
+  "query": "site:purple.com \"return policy\"",
+  "urls": [
+   "https://support.purple.com/hc/en-us/articles/49739582072205-What-Is-Purple-s-Return-Policy",
+   "https://support.purple.com/hc/en-us/articles/360026197531-What-is-the-Purple-Mattress-Return-Policy"
+  ],
+  "titles": [
+   "What Is Purple's Return Policy?",
+   "What is the Purple Mattress\u00ae Return Policy?"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Mattress Firm",
+  "query": "site:mattressfirm.com \"return policy\"",
+  "urls": [
+   "https://www.mattressfirm.com/blog/mattress-obsessed/avoid-buyers-remorse",
+   "https://www.mattressfirm.com/blog/mattress-obsessed/the-dirty-dozen-mattress-myths"
+  ],
+  "titles": [
+   "Avoid Buyers Remorse",
+   "The Dirty Dozen: 12 Mattress Myths"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Lenovo",
+  "query": "site:lenovo.com \"return policy\"",
+  "urls": [
+   "https://www.lenovo.com/us/en/shopping-faq/",
+   "https://www.lenovo.com/au/en/shopping-faqs/"
+  ],
+  "titles": [
+   "Shopping FAQs: Price Protection, Shipping and Return Policy",
+   "Lenovo Return Policy & Shopping FAQs"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Newegg",
+  "query": "site:newegg.com \"return policy\"",
+  "urls": [
+   "https://kb.newegg.com/knowledge-base/return-policy-2/",
+   "https://www.newegg.com/promotions/nepro/22-2075/index.html"
+  ],
+  "titles": [
+   "Return policy - Newegg Knowledge Base",
+   "Return Policy | Newegg.com"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "Restoration Hardware",
+  "query": "site:rh.com \"return policy\"",
+  "urls": [
+   "https://rh.com/us/en/customer-experience/return-policy",
+   "https://rh.com/ca/en/customer-experience/return-policy"
+  ],
+  "titles": [
+   "Return Policy",
+   "Return Policy"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "ThredUp",
+  "query": "site:thredup.com \"return policy\"",
+  "urls": [
+   "https://help.thredup.com/en_us/what-is-thredup-s-return-policy-HJjbVX1jn",
+   "https://help.thredup.com/en_us/categories/order-returns-SJDweIVaN"
+  ],
+  "titles": [
+   "What is ThredUp's return policy?",
+   "Order Returns"
+  ]
+ },
+ {
+  "folder": "17-brands-fix",
+  "target": "AliExpress",
+  "query": "site:aliexpress.com \"return policy\"",
+  "urls": [
+   "https://helpcenter.aliexpress.com/s/BuyerHelp/knowledge?categoryId=1000110454&m_station=BuyerHelp&questionId=1061035943",
+   "https://www.aliexpress.com/w/wholesale-oreillys-return-policy-with-receipt.html"
+  ],
+  "titles": [
+   "AliExpress Rules about \u201cFree Return\u201d",
+   "Understanding O'Reilly's Return Policy with Receipt"
+  ]
+ }
+]

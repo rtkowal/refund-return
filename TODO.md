@@ -8,5 +8,5 @@
 - [x] CHECKPOINT 1 approved 2026-11-03
 - [x] Phase 2 drafts: ia/01-sitemap.md, 02-wireframes.md, 03-top50-urls.csv
 - [ ] 2026-11-06: Ahrefs re-rank brands 41–200 + UK flights + facets + cancel set
-- [ ] Apify batch 3: cancel-[service] official pages, facet pages (price adjustment, open box, mattress), manual path for Home Depot/Ulta/Marshalls/Adidas/Dick's, NJ 56:8-2.15, Spirit
+- [x] Apify batch 3 delivered (research/scrape-batch3). Manual queue: research/coverage-after-batch3.md
 - [ ] CHECKPOINT 2

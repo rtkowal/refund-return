@@ -1,0 +1,40 @@
+{
+ "fetched_at": "2026-11-03",
+ "apify_run_id": "Hme1WyBLTwDrRRcTM",
+ "apify_dataset_id": "tcZuy393zzeyNnYCz",
+ "results": [
+  {
+   "title": "Spirit Airlines ceases operations and US transportation ...",
+   "url": "https://www.theguardian.com/business/2026/may/01/spirit-airlines-stops-operation-after-failed-deal",
+   "date": "2026-05-01T12:00:00.000Z",
+   "snippet": "Several US airlines have agreed to cap ticket prices for Spirit customers who need to rebook canceled flights."
+  },
+  {
+   "title": "Spirit Airlines shutting down after failed effort at ...",
+   "url": "https://www.cbsnews.com/news/spirit-airlines-shutting-down-failed-rescue-deal/",
+   "date": "2026-05-03T12:00:00.000Z",
+   "snippet": "The budget carrier Spirit Airlines is ceasing operations after failing to land a $500 million bailout from the Trump administration."
+  },
+  {
+   "title": "Spirit Airlines canceled all flights and is going out of business",
+   "url": "https://www.cnn.com/2026/05/02/business/spirit-to-halt-all-flights",
+   "date": "2026-05-02T12:00:00.000Z",
+   "snippet": "Spirit Airlines, the pioneering discount airline that shook up the budget travel business, is shutting down its operations."
+  },
+  {
+   "title": "Spirit Airlines files for bankruptcy",
+   "url": "https://www.facebook.com/CBSMornings/videos/spirit-airlines-files-for-bankruptcy/1557075248303564/",
+   "date": null,
+   "snippet": "Spirit Airlines has filed for bankruptcy protection and will attempt to reboot as it struggles to recover from the pandemic-caused dip in travel"
+  },
+  {
+   "title": "Spirit Airlines ceases operations",
+   "url": "https://www.flightradar24.com/blog/aviation-news/airline-news/spirit-airlines-ceases-operations/",
+   "date": "2026-05-02T12:00:00.000Z",
+   "snippet": "Spirit Airlines ceased all operations abruptly after failing to secure a last-minute rescue deal, ending decades of service."
+  }
+ ],
+ "ai_overview": "Spirit Airlines is permanently closed. The ultra-low-cost carrier officially ceased all global operations and shut down on May 2, 2026, at 3:00 a.m. EDT after bailout negotiations with the federal government collapsed and bondholders rejected a $500 million rescue deal.\nKey Details of the Shutdown\n- Operations Halted: All Spirit flights were canceled, the website and mobile app went dark, and airport kiosks stopped functioning.\n- Causes: The airline struggled with long-term unprofitability since 2019, a blocked merger with JetBlue, engine defects, and soaring jet fuel costs triggered by the war with Iran.\n- Refunds: Spirit stated that it automatically processes refunds for tickets purchased directly with a credit or debit card",
+ "query": "Spirit Airlines bankruptcy flights news",
+ "ai_overview_news_query": null
+}

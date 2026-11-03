@@ -1,0 +1,133 @@
+{
+  "slug": "academy-brand",
+  "name": "Academy Brand",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://academy-help-center.gorgias.help/en-US/articles/returns-and-exchanges-17789",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://academy-help-center.gorgias.help/en-US/articles/returns-and-exchanges-17789",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/academy-help-center-gorgias-help-en-US-articles-returns-and-exchanges-17789.md",
+      "sha256": "c5708ae190baa9ca1eb43abbcf98423975df46682a4423e847164ed7eff4f85d",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Returns are accepted within 30 days of purchase.",
+      "quote": "If you are not satisfied with your purchase, we will accept the return of goods within 30 days of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "sale items",
+      "text": "No refunds on sale items unless they are faulty.",
+      "quote": "please note: we don't accept refunds on sale items (unless faulty)",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "final sale items",
+      "text": "Final sale products cannot be returned for refund, exchange or store credit unless faulty.",
+      "quote": "'Final Sale' return policy. Products marked as 'FINAL SALE' cannot be returned for refund, exchange or store credit unless they are deemed to be faulty.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "sale or outlet items",
+      "text": "No refunds on sale or outlet items unless faulty; exchanges allowed for same value items.",
+      "quote": "We do not offer refunds on sale or outlet items (unless faulty), so please choose carefully. - These items will show a 'strike-through' or 'red pen' discount (see image below). We will happily exchange the item for something of the same value or issu",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-5",
+      "type": "refund_timing",
+      "channel": "online",
+      "windowDays": 5,
+      "text": "Online returns are processed between 5 to 10 business days after receipt, up to 15 days during busy periods.",
+      "quote": "Once your item has been received we aim to have your online return processed between 5- 10 business days. Please note during busy sale periods please allow up to 15 business days.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-6",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Proof of purchase is generally required for exchanges or store credits; receipt can sometimes be located with transaction details.",
+      "quote": "To assist with exchanges or store credits, we generally require a proof of purchase. However, we may be able to locate the receipt if you provide details such as store location, date and approximate time of the transaction, and the amount spent.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-7",
+      "type": "exchange",
+      "channel": "in_store",
+      "category": "sale items",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Sale items can be exchanged for items of the same value within 30 days.",
+      "quote": "We will happily exchange the item for something of the same value or issu",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-8",
+      "type": "exchange",
+      "channel": "in_store",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Online orders can be returned to an Academy Brand Store for exchange or credit within 30 days with proof of purchase.",
+      "quote": "Online orders can be returned to an Academy Brand Store (excl David Jones), please note: we don't accept refunds on sale items (unless faulty)",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-9",
+      "type": "exchange",
+      "channel": "in_store",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "In-store purchases cannot be returned online; must be returned in store.",
+      "quote": "Unfortunately, we're unable to process a return for an in-store purchase online. If you want to return item/s that you purchased from our Academy Brand stores, Please visit any of our stores to proceed and our lovely store are ready to assist you.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-holiday-10",
+      "type": "holiday",
+      "channel": "any",
+      "text": "Extended returns period for purchases made in November and December 2025 for Christmas shopping.",
+      "quote": "we've extended the returns period of all purchases made in November & December 2025 to b",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

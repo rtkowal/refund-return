@@ -1,0 +1,99 @@
+{
+  "slug": "bloomingdales",
+  "name": "Bloomingdale's",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.bloomingdales.com/customer-service/articles/what-is-the-return-and-exchange-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.bloomingdales.com/customer-service/articles/what-is-the-return-and-exchange-policy",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/bloomingdales-com-customer-service-articles-what-is-the-return-and-exchange-policy.md",
+      "sha256": "efd4f15556188ccf34bb98a5df3ea7eb670e30a98e6e1a8978ef92a630fe9152",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "receipt",
+      "text": "Most saleable merchandise can be returned within 30 days of receipt with proof of purchase.",
+      "quote": "most saleable merchandise can be returned within **30 days of receipt** with proof of purchase for a refund to your original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "category": "CHANEL, myGemma, REBAG, and other pre-owned merchandise",
+      "windowDays": 14,
+      "windowAnchor": "purchase",
+      "text": "CHANEL, myGemma, REBAG, and other pre-owned merchandise may be returned within 14 days of purchase.",
+      "quote": "**CHANEL, myGemma, REBAG, and other pre-owned merchandise** may be returned within **14 days of purchase**.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Final Sale items",
+      "text": "Final Sale items cannot be returned or exchanged.",
+      "quote": "**Final Sale items** cannot be returned or exchanged, including:\n    *   Items marked **\"The Final Offer\"**\n    *   Altered, customized, monogrammed, or personalized products\n    *   Breast pumps\n    *   Food and beverage items\n    *   Sexual wellness products",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Baby & Child Products",
+      "text": "Baby & Child Products must be unused, unopened, and sealed in their original packaging to be returned.",
+      "quote": "For safety reasons, the following items must be **unused, unopened, and sealed in their original packaging**:\n    *   **Baby & Child Products**\n        *   Baby strollers\n        *   Car seats\n        *   Highchairs\n        *   Playpens\n        *   Bouncers\n        *   Changing tables\n        *   Dressers\n        *   Cribs\n        *   Bassinets",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-5",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Proof of purchase is required for a refund to the original form of payment.",
+      "quote": "most saleable merchandise can be returned within **30 days of receipt** with proof of purchase for a refund to your original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Gifts with Purchase",
+      "text": "Gifts with purchase must be returned with the qualifying items or the gift value may be deducted from the refund or the return may be refused.",
+      "quote": "If your order included a gift with purchase, the gift must be returned along with the qualifying item(s). If it is not returned, the value of the gift may be deducted from your refund, or your return may not be accepted.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "in_store",
+      "category": "Outlet Store Returns",
+      "text": "Merchandise purchased at bloomingdales.com or Bloomingdale's stores cannot be returned or exchanged at Bloomingdale's Outlet Stores.",
+      "quote": "Merchandise purchased at **bloomingdales.com** or at a **Bloomingdale's store** cannot be returned or exchanged at a **Bloomingdale's Outlet Store**.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

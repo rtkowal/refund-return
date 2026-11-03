@@ -1,0 +1,74 @@
+{
+  "slug": "zara",
+  "name": "ZARA",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.zara.com/us/en/help-center/Refund",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.zara.com/us/en/help-center/Refund",
+      "file": "research/scrape-2026-11-03/03-brands/zara-com-us-en-help-center-Refund.md",
+      "sha256": "6e59a7e056d673a4ec3b696caa83acc58c4a8a97a176e2acfe0559c08b3e2a3d",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-refund_method-1",
+      "type": "refund_method",
+      "channel": "in_store",
+      "text": "Refunds for in-store purchases are made using the same payment method used for the purchase.",
+      "quote": "If you have returned an item purchased in-store, the refund will be made with the same method of payment used for the purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-2",
+      "type": "refund_method",
+      "channel": "in_store",
+      "text": "If refund to the original payment method is not possible for in-store returns, store staff will provide an alternative method.",
+      "quote": "If a refund to the original method of payment is not possible, our store staff will indicate an alternative method.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "online",
+      "text": "Refunds for online purchases are made using the same payment method used for the purchase.",
+      "quote": "When you make a return of an online purchase, you will receive the refund via the same payment method you used for the purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-4",
+      "type": "refund_timing",
+      "channel": "online",
+      "windowDays": 3,
+      "windowAnchor": "delivery",
+      "text": "Online returns sent through a shipping company are processed within 72 hours after receipt at the facilities.",
+      "quote": "If you sent your return through a shipping company, we will process it in the 72 hours after receiving it in our facilities.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-5",
+      "type": "refund_timing",
+      "channel": "online",
+      "windowDays": 14,
+      "windowAnchor": "receipt",
+      "text": "Refund amount will be received within a maximum of 14 days after return completion, depending on the bank.",
+      "quote": "Keep in mind that once the return has been made, you will receive the amount within a maximum period of 14 days, depending on your bank.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

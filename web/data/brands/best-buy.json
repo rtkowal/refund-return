@@ -1,0 +1,136 @@
+{
+  "slug": "best-buy",
+  "name": "Best Buy",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014&intl=nosplash",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.bestbuy.com/site/help-topics/return-exchange-policy/pcmcat260800050014.c?id=pcmcat260800050014&intl=nosplash",
+      "file": "research/scrape-2026-11-03/05-retries/bestbuy-com-site-help-topics-return-exchange-policy-pcmcat260800050014-c-id-pcmcat260800050014-intl-nosplash.md",
+      "sha256": "36ed48eff50a56c7f712d77c8404d9c65e9800e821ae76a4e32e6b5adb09a9af",
+      "apifyRunId": "d4qhpOIPdZ7saP5eV",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 15,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Halloween Decorations and Christmas Decorations can be returned within 15 days for a full refund.",
+      "quote": "Products in Halloween Decorations and Christmas Decorations categories can be returned within 15 days for all customers, including My Best Buy™, My Best Buy Plus™ and My Best Buy Total™ (“Membership Program”) members, for a full refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "category": "litter boxes",
+      "windowDays": 90,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Litter boxes have a 90-day return policy for all customers.",
+      "quote": "Litter boxes have a 90-day return policy for all customers, including Membership Program members;",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-3",
+      "type": "window",
+      "channel": "any",
+      "category": "pet training devices",
+      "windowDays": 60,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Pet training devices have a 60-day return policy for all customers.",
+      "quote": "pet training devices and hearing aids have a 60-day return policy for all customers, including Membership Program members.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-4",
+      "type": "window",
+      "channel": "any",
+      "category": "hearing aids",
+      "windowDays": 60,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Hearing aids have a 60-day return policy for all customers.",
+      "quote": "pet training devices and hearing aids have a 60-day return policy for all customers, including Membership Program members.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-5",
+      "type": "window",
+      "channel": "any",
+      "category": "hearing amplifiers",
+      "windowDays": 15,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Hearing amplifiers follow the standard 15-day return policy.",
+      "quote": "Please note that hearing amplifiers follow our standard 15-day return policy.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-6",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns lacking proof of purchase may be denied or limited and will be reimbursed as store credit if accepted.",
+      "quote": "Reimbursements on returns lacking proof of purchase may require an email address, will be in the form of store credit, may be denied or limited, and state sales taxes and fees will not be reimbursed.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns missing accessories or packaging may be denied or refunded with a deduction.",
+      "quote": "Please return items with all accessories and packaging. If you do not, Best Buy and Marketplace Sellers may either deny the return, or allow a return with a nonrefundable deduction on your refund for what is missing.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "If you do not return all items purchased in a bundle, you lose the discount or free item benefit.",
+      "quote": "If you received a discount or free item by purchasing multiple items together, you will lose that benefit if you do not return all items purchased.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-9",
+      "type": "refund_method",
+      "channel": "in_store",
+      "category": "gifts",
+      "text": "Gifts returned in store will be refunded as store credit.",
+      "quote": "If the product was purchased from Best Buy, we will provide you store credit for the purchase price of a gift you return in store.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-10",
+      "type": "refund_method",
+      "channel": "online",
+      "category": "gifts",
+      "text": "Gifts returned by mail will credit the gift purchaser and notify them by email.",
+      "quote": "For gifts returned via mail, we will credit the gift purchaser and notify them via email.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

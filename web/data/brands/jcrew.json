@@ -1,0 +1,135 @@
+{
+  "slug": "jcrew",
+  "name": "J.Crew",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.jcrew.com/help/returns-exchanges",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.jcrew.com/help/returns-exchanges",
+      "file": "research/scrape-2026-11-03/03-brands/jcrew-com-help-returns-exchanges.md",
+      "sha256": "27ba41c1204e2311faf6d8d4bff0072ca110264a672428b065be1eef1ae0ab1e",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-fee-1",
+      "type": "fee",
+      "channel": "any",
+      "text": "Using the prepaid return label deducts $7.50 from your refund.",
+      "quote": "When using our prepaid label $7.50 will be deducted from your refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Returns and exchanges must be requested within 30 days of original purchase with proof of purchase.",
+      "quote": "J.Crew gladly accepts returns of unworn, unwashed, undamaged or defective merchandise purchased online, by phone or in stores for delivery that shipped to a U.S. address for a full refund or free exchange which are requested within 30 days of original purchase and include proof of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "swimsuits",
+      "text": "Swimsuits without hygienic liners cannot be returned or exchanged.",
+      "quote": "Swimsuits without hygienic liners in place are ineligible for returns or exchanges.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-4",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are made to the original payment method unless otherwise agreed.",
+      "quote": "Refunds will be made in the form of the original payment, unless otherwise agreed.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-5",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Merchandise purchased with a gift card will be refunded on a new gift card.",
+      "quote": "Merchandise purchased with a gift card will be issued a refund on a new gift card.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-6",
+      "type": "receipt",
+      "channel": "in_store",
+      "text": "In-store returns may require proof of purchase and a valid government-issued photo ID.",
+      "quote": "J.Crew may consider factors including, but not limited to, the condition of the merchandise, proof of purchase, return activity, and transaction history with J.Crew Group and our affiliated brands. We may request additional information to process in-store returns, including proof of purchase, a valid government-issued photo ID, or other information necessary to validate the transaction.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "final sale, monogrammed, personalized, lingerie, vintage, altered",
+      "text": "Final sale, monogrammed, personalized, lingerie, vintage, altered items cannot be returned or exchanged.",
+      "quote": "All monogrammed, personalized, lingerie, vintage, altered or final sale items cannot be returned or exchanged.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-8",
+      "type": "exchange",
+      "channel": "any",
+      "text": "Exchanges cannot be done for returned merchandise; returns must be processed first and a new order placed for replacement.",
+      "quote": "Unfortunately, we cannot offer exchanges for returned merchandise. Please return the item you wish to exchange for a refund in accordance with our return policy and place a new order for a replacement item.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "marketplace items",
+      "text": "Marketplace vendor items must be returned directly to the vendor and are not accepted at J.Crew stores or distribution centers.",
+      "quote": "Items delivered by our Marketplace vendors must be returned directly to them by following the instructions enclosed in your package and will not be accepted at J.Crew stores or the distribution center.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-10",
+      "type": "receipt",
+      "channel": "in_store",
+      "text": "Gift returns or exchanges in stores require a gift receipt and refunds are issued to a J.Crew Gift Card.",
+      "quote": "In stores, requests to return or exchange merchandise received as a gift must be accompanied by a gift receipt. We will refund the purchase amount to a J.Crew Gift Card.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-11",
+      "type": "fee",
+      "channel": "any",
+      "text": "Using the prepaid label for gift returns deducts $7.50 from your refund.",
+      "quote": "When using our prepaid label $7.50 will be deducted from your refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "anthropologie",
+  "name": "Anthropologie",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.anthropologie.com/help/returns-exchanges",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.anthropologie.com/help/returns-exchanges",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/anthropologie-com-help-returns-exchanges.md",
+      "sha256": "41549a3bf891fcb235f1a2c14732e19f1822cd812064db496d6744e9d1adb0e2",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-exclusion-1",
+      "type": "exclusion",
+      "channel": "in_store",
+      "text": "Merchandise purchased in our stores can only be returned to a store.",
+      "quote": "Please note, merchandise purchased in our stores can only be returned to a store.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-2",
+      "type": "fee",
+      "channel": "online",
+      "text": "A $5.95 shipping charge will be deducted from your refund unless you are processing an exchange.",
+      "quote": "However, a $5.95 shipping charge will be deducted from your refund unless you are processing an exchange.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "online",
+      "text": "Shipping fees are non-refundable.",
+      "quote": "Shipping fees are non-refundable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-4",
+      "type": "exchange",
+      "channel": "online",
+      "text": "Exchanges for the same item in a different size or color include a free return label and waived shipping for the new order.",
+      "quote": "Did you order the wrong size or color? We’ll provide a FREE return label and waive shipping for your new order.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

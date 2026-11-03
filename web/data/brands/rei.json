@@ -1,0 +1,80 @@
+{
+  "slug": "rei",
+  "name": "REI",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.rei.com/help/returns",
+  "launch": true,
+  "lastVerifiedAt": "2026-11-03",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.rei.com/help/returns",
+      "file": "research/scrape-2026-11-03-b2/06-blocked-retail-walmart-uk261-ba/rei-com-help-returns.md",
+      "sha256": "f5f2929d02135123faa6408da8f5b16a39f98546528d964b2bc5e334406c8c89",
+      "apifyRunId": "14ymTuHeKHMDeSDld+tmUBsmyRiM6leEZSg",
+      "fetchedAt": "2026-11-03"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-exclusion-1",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Some items are final sale and cannot be returned.",
+      "quote": "Final sale",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-2",
+      "type": "fee",
+      "channel": "online",
+      "text": "A $7.99 fee is deducted from the refund for return shipping when using the prepaid shipping label for mail returns.",
+      "quote": "$7.99 will be deducted from your refund to cover return shipping for standard size/weight packages when your return is mailed using the prepaid shipping label provided.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "in_store",
+      "text": "Purchases of $500 or more made with cash will be refunded by check in store.",
+      "quote": "Purchases of $500 or more made with cash will be refunded by check.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-4",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Store purchases returned by mail will be refunded by check.",
+      "quote": "Store purchases returned by mail will be refunded by check, including any portion purchased with Total REI Rewards.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-5",
+      "type": "refund_timing",
+      "channel": "online",
+      "text": "Gift return refunds by check can take up to 3 weeks starting from the day the return is received.",
+      "quote": "Refunds by check can take up to 3 weeks, starting the day we receive your return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-6",
+      "type": "exchange",
+      "channel": "online",
+      "text": "Direct exchanges by mail are not offered.",
+      "quote": "Unfortunately, we are not able to offer direct exchanges by mail.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

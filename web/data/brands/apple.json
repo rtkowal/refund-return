@@ -1,0 +1,30 @@
+{
+  "slug": "apple",
+  "name": "Apple",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.apple.com/shop/help/returns_refund",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.apple.com/shop/help/returns_refund",
+      "file": "research/scrape-2026-11-03/03-brands/apple-com-shop-help-returns-refund.md",
+      "sha256": "26e33b1e67bece6075e8cb7ce8e39c096f915d432d96fc8500b8eff6066e1507",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-refund_method-1",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds for gift returns are issued as electronic Apple Gift Cards.",
+      "quote": "Once we receive your items, we'll email your refund in the form of an electronic Apple Gift Card.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "brooks-running",
+  "name": "Brooks Running",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.brooksrunning.com/en_us/returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.brooksrunning.com/en_us/returns",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/brooksrunning-com-en-us-returns.md",
+      "sha256": "a9e73fff3a2aa13a0357aa5826e4021b152519bace1c0561f955b7bad828f406",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 90,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Brooks Running allows returns within 90 days of purchase or receipt.",
+      "quote": "Take your Brooks gear for a 90-day trial run and if you aren't satisfied, return them for free",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-2",
+      "type": "fee",
+      "channel": "any",
+      "text": "Brooks Running does not charge shipping or restocking fees for returns.",
+      "quote": "no shipping or re‐stocking fee",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

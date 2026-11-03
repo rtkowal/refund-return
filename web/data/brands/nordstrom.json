@@ -1,0 +1,141 @@
+{
+  "slug": "nordstrom",
+  "name": "Nordstrom",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.nordstrom.com/browse/customer-service/return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.nordstrom.com/browse/customer-service/return-policy",
+      "file": "research/scrape-2026-11-03/03-brands/nordstrom-com-browse-customer-service-return-policy.md",
+      "sha256": "81a58b612fa161d4792094c907a0b4c8e5b3489837e39d345bbb3ec093348109",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-refund_timing-1",
+      "type": "refund_timing",
+      "channel": "in_store",
+      "text": "Refunds can be expected in 3-5 business days after return in store.",
+      "quote": "Refunds can be expected in 3-5 business days.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-2",
+      "type": "refund_timing",
+      "channel": "online",
+      "text": "Returns sent by mail are processed in 8-12 business days and refunds can be expected 3-5 business days after processing.",
+      "quote": "Returns are processed in 8-12 business days and refunds can be expected 3-5 business days after processing.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-3",
+      "type": "refund_timing",
+      "channel": "marketplace_3p",
+      "text": "For Marketplace items sold by third-party sellers, expect refunds within 10-14 business days of shipping the return, including transit and processing time.",
+      "quote": "For Marketplace items sold by third-party sellers, expect refunds within 10-14 business days of shipping the return, including transit and processing time.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-4",
+      "type": "receipt",
+      "channel": "any",
+      "text": "If no record of sale is available, personal identification is required and refund will be provided on a Nordstrom gift card at current price.",
+      "quote": "If we choose to provide a refund and no record of sale is available, we'll ask for personal identification and a refund will be provided at the current price on a Nordstrom gift card.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "gift cards",
+      "text": "Gift cards cannot be returned.",
+      "quote": "Gift cards can't be returned.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-6",
+      "type": "window",
+      "channel": "any",
+      "category": "Balsam Hill",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Balsam Hill returns/exchanges are accepted within 30 days of purchase or prior to December 25, whichever comes first.",
+      "quote": "Returns/exchanges are accepted within 30 days of purchase or prior to December 25 (whichever comes first).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Balsam Hill",
+      "text": "Nordstrom will not accept Balsam Hill products in stores or by mail.",
+      "quote": "Nordstrom will not accept Balsam Hill products in stores or by mail.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "car seats and bases",
+      "text": "Car seats and bases can only be returned in their original, unopened boxes.",
+      "quote": "Car seats and bases can only be returned in their original, unopened boxes.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "fine jewelry",
+      "text": "Fine jewelry cannot be returned by mail and must be returned to a Nordstrom store with a Fine Jewelry department with order confirmation or credit card used.",
+      "quote": "For your protection, fine jewelry cannot be returned by mail. Please return fine jewelry to any Nordstrom store that has a Fine Jewelry department. Bring your order confirmation (email or digital receipt) and/or the credit card used when you placed the order.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-10",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Marketplace products",
+      "text": "Marketplace products are not eligible for exchanges, price adjustments, or expedited shipping services.",
+      "quote": "Please note that Marketplace products are not eligible for exchanges, price adjustments, or expedited shipping services.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-11",
+      "type": "exchange",
+      "channel": "any",
+      "category": "Balsam Hill",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Balsam Hill returns/exchanges are accepted within 30 days of purchase or prior to December 25, whichever comes first.",
+      "quote": "Returns/exchanges are accepted within 30 days of purchase or prior to December 25 (whichever comes first).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

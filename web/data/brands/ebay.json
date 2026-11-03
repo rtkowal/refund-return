@@ -1,0 +1,133 @@
+{
+  "slug": "ebay",
+  "name": "eBay",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.ebay.com/help/buying/returns-refunds/return-item-refund?id=4041",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.ebay.com/help/buying/returns-refunds/return-item-refund?id=4041",
+      "file": "research/scrape-2026-11-03/03-brands/ebay-com-help-buying-returns-refunds-return-item-refund-id-4041.md",
+      "sha256": "fe989c00235b252f02e5ea00fe7f1bf8e31a5ca4f5cddabbc8dcd096cfb710ac",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    },
+    "s2": {
+      "url": "https://www.ebay.com/help/policies/ebay-money-back-guarantee-policy/ebay-money-back-guarantee-policy?id=4210",
+      "file": "research/scrape-2026-11-03/03-brands/ebay-com-help-policies-ebay-money-back-guarantee-policy-ebay-money-back-guarantee-policy-id-4210.md",
+      "sha256": "163fda7a53bbfe699e6e03faa55e92d5cf11ab9306de94a543f52775f04000c7",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 3,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "The seller has 3 business days to respond to your return request.",
+      "quote": "The seller has 3 business days to accept and offer a full refund, offer a partial refund, offer a replacement or exchange, decline (if you changed your mind and their policy says no returns, or you missed the deadline), or ask you for more details.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-2",
+      "type": "refund_timing",
+      "channel": "any",
+      "windowDays": 3,
+      "windowAnchor": "receipt",
+      "text": "Refunds typically arrive within 3-5 business days after the seller receives the returned item.",
+      "quote": "Refunds typically arrive within 3-5 business days of the seller receiving your return, back to your original or selected payment method.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-3",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 3,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "The seller may offer a replacement or exchange within 3 business days of your return request.",
+      "quote": "The seller has 3 business days to accept and offer a full refund, offer a partial refund, offer a replacement or exchange, decline (if you changed your mind and their policy says no returns, or you missed the deadline), or ask you for more details.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "any",
+      "text": "If you paid for a return shipping label provided by eBay, its cost is deducted from your refund.",
+      "quote": "If you paid for a label we provided, its cost is deducted too.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-5",
+      "type": "receipt",
+      "channel": "any",
+      "text": "You must open a return request through your recent purchases or My eBay to start a return.",
+      "quote": "To request a return, select the item from your recent purchases, or use the button below. You can also start a return request from your Purchases in My eBay.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-6",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are issued back to your original or selected payment method.",
+      "quote": "Refunds typically arrive within 3-5 business days of the seller receiving your return, back to your original or selected payment method.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-7",
+      "type": "exchange",
+      "channel": "any",
+      "text": "If you change your mind about returning, you can close your return request but cannot reopen it or submit a new one for the same transaction.",
+      "quote": "You can't reopen a return request after closing it, or submit a new one for the same transaction.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_method-1",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Buyers are usually refunded to their original payment method; if not possible, refunds may be issued via PayPal, coupons, or vouchers.",
+      "quote": "For most purchases, buyers are refunded to their original payment method. If we're unable to send refunds to the buyer's original payment method, we may provide refunds by another method such as PayPal, or by coupons or vouchers redeemable for purchases on eBay.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exchange-2",
+      "type": "exchange",
+      "channel": "any",
+      "text": "Buyers and sellers may agree to a replacement item instead of a refund for items not as described.",
+      "quote": "Buyers and sellers may agree to another solution, such as a full or partial refund while the buyer keeps the item, or a replacement item instead of a refund.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-receipt-3",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Buyers must take action within required time frames and meet policy requirements to be eligible for coverage.",
+      "quote": "You must meet the requirements specified in this policy, including taking action within the required time frames;",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

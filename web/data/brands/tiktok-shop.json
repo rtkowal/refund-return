@@ -1,0 +1,86 @@
+{
+  "slug": "tiktok-shop",
+  "name": "TikTok Shop",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://seller-us.tiktok.com/university/essay?knowledge_id=3253210454181634&lang=en",
+  "launch": true,
+  "lastVerifiedAt": "2026-11-03",
+  "snapshots": {
+    "policy": {
+      "url": "https://seller-us.tiktok.com/university/essay?knowledge_id=3253210454181634&lang=en",
+      "file": "research/scrape-2026-11-03-b2/06-blocked-retail-walmart-uk261-ba/seller-us-tiktok-com-university-essay-knowledge-id-3253210454181634-lang-en.md",
+      "sha256": "062b2ae6b5c160e965717ffb2dd57e286e53084e1e2074fbbd66db9c90ff10b8",
+      "apifyRunId": "14ymTuHeKHMDeSDld+tmUBsmyRiM6leEZSg",
+      "fetchedAt": "2026-11-03"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Customers have 30 calendar days from the date the package is marked as Delivered to submit a return and refund request for eligible items.",
+      "quote": "Customers have the return timeframe specified at checkout or the default 30 calendar days from the date the package is marked as \"Delivered\" to submit a return and refund request.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "category": "customized Print on Demand (POD)",
+      "windowDays": 14,
+      "windowAnchor": "delivery",
+      "text": "For customized Print on Demand (POD) products, eligible protected claims must be submitted within 14 days of delivery.",
+      "quote": "For customized Print on Demand (POD) products, eligible protected claims must be submitted within 14 days of delivery and include required supporting evidence.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are issued to the customer at the seller's cost unless specified otherwise.",
+      "quote": "A refund is issued to the customer at the seller's cost, unless specified otherwise.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "any",
+      "text": "Sellers are responsible for return shipping costs when the return reason is seller-fault; customers pay return shipping for buyer-fault reasons.",
+      "quote": "If at least 1 item in a batch is being returned due to a seller-fault reason, the seller is responsible for the return shipping fee.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-5",
+      "type": "exchange",
+      "channel": "any",
+      "text": "Sellers bear the cost of shipping the item exchange to the customer; TikTok Shop covers return shipping of the original item.",
+      "quote": "The seller will bear the cost of shipping the item exchange from the seller to the customer. TikTok Shop covers the cost of the return shipping of the original item.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-6",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 1,
+      "text": "Sellers have 1 business day to review replacement requests without return; if no action is taken, TikTok Shop may auto-approve the request.",
+      "quote": "Sellers have 1 business day (excluding weekends) to review a replacement request. If no action is taken by the seller after 1 business day from when the request was submitted, TikTok Shop may auto-approve the replacement request.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

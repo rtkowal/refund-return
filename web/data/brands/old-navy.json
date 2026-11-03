@@ -1,0 +1,104 @@
+{
+  "slug": "old-navy",
+  "name": "Old Navy",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://oldnavy.gap.com/customerService/info.do?cid=82724",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://oldnavy.gap.com/customerService/info.do?cid=82724",
+      "file": "research/scrape-2026-11-03/03-brands/oldnavy-gap-com-customerService-info-do-cid-82724.md",
+      "sha256": "7019a4ad01f79e00c1512f9ba1ca81afad6c1800fa1f98e8be7828839f2f98af",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "online",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Online purchases can be returned or exchanged within 30 days from the delivery date.",
+      "quote": "30 Days to Return or Exchange\n    *   From the delivery date for online purchases",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 45,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Premier Encore Members have up to 45 days to return items.",
+      "quote": "Some Encore Members have extended return windows:\n    *   Premier Members have up to 45 days to return",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "online",
+      "text": "Nonmembers pay a $6 return fee for returns by mail.",
+      "quote": "A $6 return fee applies to returns by mail from nonmembers",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "online",
+      "text": "Encore Members get free returns by mail.",
+      "quote": "Free for Encore Members",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-5",
+      "type": "fee",
+      "channel": "online",
+      "text": "Items shipped and sold by third-party sellers are eligible for free returns.",
+      "quote": "Items shipped & sold by third-party sellers are eligible for free returns.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "online",
+      "text": "Items purchased on third-party sites or apps follow the return policies of those sites.",
+      "quote": "Items purchased on third-party sites or apps are subject to the return policies of those sites.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-7",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Returns after 30 days receive a Merchandise Return Card (MRC) instead of a refund.",
+      "quote": "Returns after 30 days will receive a Merchandise Return Card (MRC).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-8",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Eligible purchases are required for free in-store returns and exchanges.",
+      "quote": "Free In-Store Return and Exchange\n    *   Available for eligible* purchases",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

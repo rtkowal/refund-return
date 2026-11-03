@@ -1,0 +1,94 @@
+{
+  "slug": "shein",
+  "name": "SHEIN",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://us.shein.com/return-policy-a-281.html",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://us.shein.com/return-policy-a-281.html",
+      "file": "research/scrape-2026-11-03/03-brands/us-shein-com-return-policy-a-281-html.md",
+      "sha256": "2f0d42656345e454f08ae6ec79c05190131b2ba487a096e9f302e1a8221de01e",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Most items sold on SHEIN.com may be returned within 30 days from the delivery date.",
+      "quote": "Most items sold on SHEIN.com may be returned **within 30 days from the delivery date** with some exceptions (see Non-Returnable Items section below) if they meet all applicable return requirements listed in this Return Policy.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "text": "For certain products sold by third-party sellers, the return window may be longer or shorter and is specified on the product detail page.",
+      "quote": "For certain products sold by third-party sellers, the return window may be longer or shorter. Please check the product detail page for information about the return window before placing an order.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "any",
+      "text": "If returning oversized or overweight items or from remote areas, customers may need to arrange and pay for return shipping upfront, with possible reimbursement after quality inspection.",
+      "quote": "If you need to return an oversized or overweight item, or if you are returning items from a remote area, you may be required to arrange the return shipment yourself. In such cases, you will need to cover the shipping cost upfront and save the proof of mailing. Once you have returned the items and they have successfully passed our quality inspection, you can contact us for reimbursement of the shipping costs.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "clothing",
+      "text": "Clothing items must be returned in new, unworn, unwashed, undamaged, and unaltered condition with original tags and hygiene sticker intact.",
+      "quote": "Items must be returned in new, unworn, unwashed, undamaged, and unaltered condition and have the original tags attached and the hygiene sticker (if applicable) intact.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "electronics",
+      "text": "Electronics must be returned in new, unused, inactivated condition with original packaging, manuals, and parts included.",
+      "quote": "Cell phones, laptops, tablets, projectors, 3D printers, earphones, smart watches, gaming consoles (such as PlayStation and Switch consoles), and other electronics must be returned in new, unused, inactivated condition, in their original packaging.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-6",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are issued to the original payment method or SHEIN Wallet per customer request.",
+      "quote": "The refund will be issued to the original payment method or your SHEIN Wallet, per your request.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Original shipping fees are non-refundable.",
+      "quote": "The original shipping fee, if any, is non-refundable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

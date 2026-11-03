@@ -1,0 +1,119 @@
+{
+  "slug": "temu",
+  "name": "Temu",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.temu.com/return-and-refund-policy.html",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.temu.com/return-and-refund-policy.html",
+      "file": "research/scrape-2026-11-03/03-brands/temu-com-return-and-refund-policy-html.md",
+      "sha256": "e0a8e6d3acbce0a5305f7458c5eac3f75ebcc42ea5de474dd13ac29a6fe71f3f",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "category": "certain electronic goods or large electrical appliances",
+      "windowDays": 45,
+      "windowAnchor": "purchase",
+      "text": "The Voluntary Return Window may be only up to 45 or 60 days for certain electronic goods or large electrical appliances, as specified on the individual product detail page depending on the seller.",
+      "quote": "The Voluntary Return Window may be only up to 45 or 60 days for certain electronic goods or large electrical appliances, as specified on the individual product detail page depending on the seller.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-2",
+      "type": "fee",
+      "channel": "any",
+      "text": "You must bear the direct costs of returning items except for the first return of an order, which is borne by sellers.",
+      "quote": "Please note that you will have to bear the direct costs of returning the items, except for the first return of an order, which will be borne by sellers.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "any",
+      "text": "Return shipping is free on your first return of one or multiple returnable items for every order within the Voluntary Return Window.",
+      "quote": "Return shipping is free on your first return of one or multiple returnable items for EVERY order within the Voluntary Return Window, subject to the exclusions detailed in Section 3 below.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-4",
+      "type": "refund_timing",
+      "channel": "any",
+      "windowDays": 14,
+      "windowAnchor": "receipt",
+      "text": "All refunds are processed within 14 days from the day the seller is informed of the withdrawal request.",
+      "quote": "All refunds, including shipping fees if applicable, are processed within 14 days from the day the seller is informed of the withdrawal request.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-5",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds will be made using the same payment method as the purchase unless otherwise agreed and without cost to you.",
+      "quote": "All refunds will be made using the same mean of payment as the one you used for your purchase, unless you expressly agree to use another mean of payment and provided this mean of payment does not incur any costs for you.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "health protection or hygiene products",
+      "text": "Products not suitable for return for health protection or hygiene reasons if their sealing was removed after delivery cannot be withdrawn.",
+      "quote": "products that are not suitable for return for reasons of health protection or hygiene and whose sealing was removed after delivery or due to their nature have been inseparably mixed with other products after delivery;",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "audio or video recordings or computer software",
+      "text": "Audio or video recordings or computer software in sealed packaging cannot be withdrawn if the sealing was removed after delivery.",
+      "quote": "audio or video recordings or computer software in sealed packaging, if the sealing was removed after delivery;",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "customized or personalized products",
+      "text": "Products manufactured to customer specifications or clearly personalised cannot be withdrawn.",
+      "quote": "products manufactured to customer specifications or clearly personalised;",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "perishable products",
+      "text": "Products that may deteriorate or expire rapidly cannot be withdrawn.",
+      "quote": "products that may deteriorate or expire rapidly.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

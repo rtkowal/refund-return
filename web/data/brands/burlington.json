@@ -1,0 +1,140 @@
+{
+  "slug": "burlington",
+  "name": "Burlington",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.burlington.com/helpcenter/return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.burlington.com/helpcenter/return-policy",
+      "file": "research/scrape-2026-11-03-b2/10-brands-41-120/burlington-com-helpcenter-return-policy.md",
+      "sha256": "469bac28a51b9d5f5c1599d3f4dd9fc71021949b170bfc3c1e189e719cae8954",
+      "apifyRunId": "432rq9ixpKzLXR6yU",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "All items must be returned within 30 days of purchase.",
+      "quote": "All items must be returned within 30 days of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-2",
+      "type": "receipt",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Original receipt is required for returns within 30 days.",
+      "quote": "Please bring your original receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Merchandise must be in new condition, unused and unwashed and in its original packaging to be returned.",
+      "quote": "Merchandise must be in new condition, unused and unwashed and in its original packaging.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-4",
+      "type": "refund_method",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Refunds will be issued in the original form of payment for returns within 30 days.",
+      "quote": "Refunds will be issued in the original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-5",
+      "type": "receipt",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "purchase",
+      "text": "Non-receipted returns after 60 days will receive merchandise credit for the lowest selling price and require photo ID.",
+      "quote": "Non-receipted returns, accompanied by a photo ID (driver’s license, state issued non-driver ID, passport, or military ID) and returns after 60 days will receive a merchandise credit for the lowest selling price.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-6",
+      "type": "refund_method",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "purchase",
+      "text": "Returns after 60 days or non-receipted returns receive merchandise credit instead of refund.",
+      "quote": "Non-receipted returns, accompanied by a photo ID (driver’s license, state issued non-driver ID, passport, or military ID) and returns after 60 days will receive a merchandise credit for the lowest selling price.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-7",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Layaway deposits, payments and returned layaway merchandise, as well as receipted returns after 30 days, receive merchandise credit less service fees.",
+      "quote": "Layaway deposits, payments and returned Layaway merchandise, as well as receipted returns after 30 days, will receive a merchandise credit (less service fees).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-8",
+      "type": "fee",
+      "channel": "any",
+      "text": "Merchandise credit for layaway returns after 30 days is less service fees.",
+      "quote": "Layaway deposits, payments and returned Layaway merchandise, as well as receipted returns after 30 days, will receive a merchandise credit (less service fees).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-9",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns from check purchases will be credited to the original account.",
+      "quote": "Returns from a check purchase will be credited to the original account.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-10",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Debit card returns using PIN will receive cash.",
+      "quote": "Debit cards using PIN will receive cash.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-11",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "All returns are subject to third party verification and system approval and may require ID and return history.",
+      "quote": "All returns are subject to a third party verification process and system approval. Your ID information and return transaction history may be collected and entered into our processor’s system where permitted by law. We reserve the right to limit or refuse any refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

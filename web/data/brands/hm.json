@@ -1,0 +1,62 @@
+{
+  "slug": "hm",
+  "name": "H&M",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www2.hm.com/en_us/customer-service/returns.html",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www2.hm.com/en_us/customer-service/returns.html",
+      "file": "research/scrape-2026-11-03/03-brands/www2-hm-com-en-us-customer-service-returns-html.md",
+      "sha256": "11df2ff413bf836eb095016ecfb91f7001a6d4fb9c496a30941187d5d33e3aca",
+      "apifyRunId": "4RJ5hKWyv3DAFf0wf",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "You have 30 days to decide if an item is right for you.",
+      "quote": "You have 30 days to decide if an item is right for you.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-2",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns require a valid receipt and tags attached.",
+      "quote": "If you'd like to make a return or exchange, visit any H&M store in the United States (excluding Puerto Rico) with a valid receipt and tags attached, or register your return in the Returns Portal online.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "online",
+      "text": "A flat fee of $5.99 will be deducted from all mail-in returns of online purchases.",
+      "quote": "Please note: A flat fee of $5.99 will be deducted from all mail-in returns of online purchases.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "in_store",
+      "text": "In-store returns are always free.",
+      "quote": "In-store returns are always free.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

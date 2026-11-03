@@ -1,0 +1,128 @@
+{
+  "slug": "big-lots",
+  "name": "Big Lots",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://biglots.com/faq/",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://biglots.com/faq/",
+      "file": "research/scrape-batch3/17-brands-fix/biglots-com-faq.md",
+      "sha256": "342cf95bfbedafd0f255281d9a1638819e1dcab62e7459d52582138a0da83ce8",
+      "apifyRunId": "Uc8WOn9zWYgL0A3bA",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Most items can be returned within 30 days with a receipt.",
+      "quote": "Most items can be returned within 30 days with a receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-2",
+      "type": "receipt",
+      "channel": "any",
+      "text": "A receipt is required for all returns.",
+      "quote": "A receipt is required for all returns.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-3",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are issued in the original form of payment with a valid receipt.",
+      "quote": "Refunds are issued in the original form of payment with a valid receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-4",
+      "type": "window",
+      "channel": "any",
+      "category": "furniture",
+      "windowDays": 14,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Furniture must be returned within 14 days, in original condition, with a receipt.",
+      "quote": "Furniture must be returned within 14 days, in original condition, with a receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "mattresses",
+      "text": "All mattress sales are final and cannot be returned.",
+      "quote": "No. All mattress sales are final.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns may be declined if items do not meet guidelines.",
+      "quote": "Returns are reviewed case by case and may be declined if they don’t meet guidelines.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Items that are worn, used, mistreated, or soiled are not eligible for return or exchange.",
+      "quote": "Items that are worn, used, mistreated, or soiled are not eligible for return or exchange.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "bras, panties, swimsuits, prepaid phone cards, gift cards",
+      "text": "Bras, panties, swimsuits, prepaid phone cards, and gift cards are non-returnable.",
+      "quote": "Yes. The following items are non-returnable:\n\n  *   Bras\n  *   Panties\n  *   Swimsuits\n  *   Prepaid phone cards\n  *   Gift cards",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "underwear",
+      "text": "Underwear must be unopened to be eligible for return.",
+      "quote": "Underwear must be unopened to be eligible",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-10",
+      "type": "exchange",
+      "channel": "any",
+      "text": "Opened items cannot be refunded but may be exchanged for the same title.",
+      "quote": "Opened items cannot be refunded but may be exchanged for the same title.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

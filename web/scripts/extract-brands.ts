@@ -23,6 +23,7 @@ const MANIFESTS = ["research/scrape-2026-11-03/manifest.csv", "research/scrape-2
 const args = process.argv.slice(2);
 const DRY = args.includes("--dry");
 const LIMIT = Number(args[args.indexOf("--limit") + 1]) || Infinity;
+const FILES = args.includes("--files") ? args[args.indexOf("--files") + 1].split(",") : undefined;
 const ONLY = args.includes("--only") ? args[args.indexOf("--only") + 1] : undefined;
 const MODEL = AI_MODELS.extract;
 const MIN_CHARS = 800;
@@ -44,7 +45,7 @@ for (const m of MANIFESTS) {
   }
 }
 const files = BRAND_DIRS.flatMap((d) => existsSync(join(ROOT, d)) ? readdirSync(join(ROOT, d)).filter((f) => f.endsWith(".md")).map((f) => `${d}/${f}`) : [])
-  .filter((f) => usable.has(f) && statSync(join(ROOT, f)).size > MIN_CHARS);
+  .filter((f) => usable.has(f) && statSync(join(ROOT, f)).size > MIN_CHARS && (!FILES || FILES.some((x) => f.includes(x))));
 
 const SCHEMA = {
   name: "policy", strict: true,
@@ -69,11 +70,11 @@ const SCHEMA = {
 const SYSTEM = `You extract US retail return/refund policy facts from a store's official page.
 Rules: only facts explicitly stated on the page; never infer or add outside knowledge. Each rule needs a verbatim supporting quote copied exactly.
 Prefer: default return window, category-specific windows, holiday windows, exclusions, receipt/ID rules, fees (restocking, return shipping), refund method and timing, price adjustment, exchanges.
-Max 12 rules. If the page is not a return policy (navigation, login, store locator, unrelated), set isReturnPolicy=false and rules=[].`;
+Max 12 rules. A page that states a return, refund, exchange or price-adjustment/price-match policy counts as a policy page. If the page is none of these (navigation, login, store locator, unrelated), set isReturnPolicy=false and rules=[].`;
 
 async function extract(body: string) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  return openaiJson<any>({ model: MODEL, schema: SCHEMA, messages: [{ role: "system", content: SYSTEM }, { role: "user", content: body.slice(0, 60_000) }] });
+  return openaiJson<any>({ model: MODEL, schema: SCHEMA, messages: [{ role: "system", content: SYSTEM }, { role: "user", content: body.slice(0, 120_000) }] });
 }
 
 (async () => {

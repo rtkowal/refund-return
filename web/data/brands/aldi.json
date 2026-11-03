@@ -3,7 +3,7 @@
   "name": "ALDI",
   "kind": "retailer",
   "officialPolicyUrl": "https://help.aldi.us/faqs/article/Refunds-and-Returns",
-  "launch": true,
+  "launch": false,
   "lastVerifiedAt": "apify_run_",
   "snapshots": {
     "policy": {

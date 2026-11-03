@@ -1,0 +1,135 @@
+{
+  "slug": "bjs-wholesale-club",
+  "name": "BJ's Wholesale Club",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.bjs.com/returnpolicy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.bjs.com/returnpolicy",
+      "file": "research/scrape-batch3/17-brands-fix/bjs-com-returnpolicy.md",
+      "sha256": "da6825bb9b67b3dadb3da77b19ac7ebbc4eef8a63027421cd91121aac729d100",
+      "apifyRunId": "Uc8WOn9zWYgL0A3bA",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 365,
+      "windowAnchor": "purchase",
+      "text": "Most items can be returned within 365 days of purchase.",
+      "quote": "BJ's accepts returns on most items within 365 days of purchase, unless otherwise specified.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "category": "groceries",
+      "windowDays": 90,
+      "windowAnchor": "purchase",
+      "text": "Groceries must be returned within 90 days of purchase.",
+      "quote": "No returns will be accepted after 90 days from date of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-3",
+      "type": "window",
+      "channel": "any",
+      "category": "electronics",
+      "windowDays": 90,
+      "windowAnchor": "purchase",
+      "text": "Electronics must be returned within 90 days of purchase.",
+      "quote": "Includes undamaged televisions, home theater displays, computers/laptops, tablets, electronics, electric bikes and electric scooters.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-4",
+      "type": "window",
+      "channel": "any",
+      "category": "home",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Home items such as air conditioners, patio sets, and mattresses must be returned within 30 days of purchase.",
+      "quote": "Includes air conditioners (portable & window air conditioners), patio sets & structures (dining sets, conversation sets, gazebos, pergolas), and mattresses (including box springs, bed in a box, etc.).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-5",
+      "type": "window",
+      "channel": "any",
+      "category": "damaged electronics",
+      "windowDays": 14,
+      "windowAnchor": "purchase",
+      "text": "Damaged electronics must be returned within 14 days of purchase.",
+      "quote": "Televisions, home theater displays, computers/laptops, tablets, electric bikes and electric scooters found to be damaged upon initial inspection are returnable with their original packaging and accessories.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-6",
+      "type": "exchange",
+      "channel": "in_store",
+      "text": "Items purchased in-club, through pickup or ExpressPay, and certain large or high-value items delivered via Same-Day Delivery must be returned in-club.",
+      "quote": "Items purchased in-club, through pickup or ExpressPayA, as well as certain large or high-value items delivered via Same-Day DeliveryB must be returned in-club.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "optical",
+      "text": "BJ’s Optical does not accept returns on prescription eyewear or contact lenses except unopened contact lens boxes meeting conditions.",
+      "quote": "BJ’s Optical does not accept returns on prescription eyewear or contact lenses. If the contact lens box is unopened, unmarked and at least one year from the expiration date, it may be eligible for return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-8",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are issued back to the original form of payment.",
+      "quote": "all refunds are issued to the original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-9",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds are typically processed within 5 to 7 days after approval.",
+      "quote": "Refunds are typically processed within 5 – 7 days after approval.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-10",
+      "type": "fee",
+      "channel": "any",
+      "text": "Shipping, delivery, and handling charges are refunded only if the return is due to BJ’s error or damage during shipping/delivery.",
+      "quote": "Applicable shipping, delivery, and handling charges will be refunded or credited only if the order cancellation or return is a result of an error by BJ’s or if the item was damaged during shipping or delivery.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

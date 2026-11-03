@@ -3,7 +3,7 @@
   "name": "Patagonia",
   "kind": "retailer",
   "officialPolicyUrl": "https://www.patagonia.com/returns.html",
-  "launch": true,
+  "launch": false,
   "lastVerifiedAt": "apify_run_",
   "snapshots": {
     "policy": {

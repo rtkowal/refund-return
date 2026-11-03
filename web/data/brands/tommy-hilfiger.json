@@ -1,0 +1,110 @@
+{
+  "slug": "tommy-hilfiger",
+  "name": "Tommy Hilfiger",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://help.usa.tommy.com/s/article/our-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://help.usa.tommy.com/s/article/our-policy",
+      "file": "research/scrape-batch3/17-brands-fix/help-usa-tommy-com-s-article-our-policy.md",
+      "sha256": "157db53ffbc07d2b4c23057969ece71b7f18c45cde3197b10ac97afc790fe799",
+      "apifyRunId": "te4KP4vEIqKaIvFVh",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-holiday-1",
+      "type": "holiday",
+      "channel": "any",
+      "windowDays": 39,
+      "windowAnchor": "purchase",
+      "text": "Purchases made between October 22, 2026 - December 24, 2026, can be returned through January 31, 2027.",
+      "quote": "Need to return a gift? Our extended holiday return policy makes it easier. Purchases made between October 22, 2026 - December 24, 2026, can be returned through January 31, 2027.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "online",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Online returns must be received by our warehouse within 30 days of the shipping confirmation date.",
+      "quote": "Online returns must be received by our warehouse within **30 days** (45 days for Hilfiger Club members) of the shipping confirmation date.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-3",
+      "type": "window",
+      "channel": "online",
+      "windowDays": 45,
+      "windowAnchor": "delivery",
+      "text": "Hilfiger Club members have 45 days from shipping confirmation date to return online purchases.",
+      "quote": "Online returns must be received by our warehouse within **30 days** (45 days for Hilfiger Club members) of the shipping confirmation date.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-4",
+      "type": "refund_timing",
+      "channel": "online",
+      "windowDays": 5,
+      "text": "After processing, refunds can take up to 5 business days depending on your card issuing bank.",
+      "quote": "After processing, your refund can take up to 5 business days depending on your card issuing bank.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-5",
+      "type": "fee",
+      "channel": "online",
+      "text": "A flat rate return shipping fee of $4.95 will be deducted from your refund.",
+      "quote": "Please note: a flat rate return shipping fee of $4.95 will be deducted from your refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "final sale items",
+      "text": "Final sale items are not eligible for a return, refund or credit.",
+      "quote": "Final sale items are not eligible for a return, refund or credit.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "apparel",
+      "text": "Apparel must be unworn with original tags attached or refund may be denied.",
+      "quote": "Apparel must be unworn with original tags attached.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "footwear",
+      "text": "Footwear must be unworn and in its original shoebox or refund may be denied.",
+      "quote": "Footwear must be unworn and in its original shoebox.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

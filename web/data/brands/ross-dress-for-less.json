@@ -1,0 +1,135 @@
+{
+  "slug": "ross-dress-for-less",
+  "name": "Ross Dress for Less",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.rossstores.com/contact-us/",
+  "launch": false,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.rossstores.com/contact-us/",
+      "file": "research/scrape-batch3/17-brands-fix/rossstores-com-contact-us.md",
+      "sha256": "80bdab2dd83b524e20f88361952ce3049abe9a628afc046f773a6718b8de3d60",
+      "apifyRunId": "Uc8WOn9zWYgL0A3bA",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Merchandise can be returned within 30 days of purchase with original receipt for a full refund.",
+      "quote": "For merchandise (not used, worn, or altered) accompanied by the original receipt within 30 days of purchase, a full refund will be issued in the form of payment in which it was purchased.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "No refunds, store credit or exchanges on merchandise that is used, worn or altered.",
+      "quote": "Refunds, store credit or exchanges will not be given on any merchandise that is used, worn or altered.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-3",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns without a receipt require valid picture ID and are refunded as store credit or exchanged at current selling price.",
+      "quote": "Merchandise returns without a receipt will require a valid picture ID and will be refunded in the form of a Store credit or exchanged at the item’s current selling price.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-4",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds with receipt are issued in the original form of payment; credit/debit card refunds require the card and cardholder present.",
+      "quote": "For purchases made with a credit or debit card, the refund will be issued to the same card used for purchase. The credit or debit card used for purchase must be present to complete the refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-5",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Store credit vouchers over $50 from no-receipt returns are mailed within 21 days to the address on valid picture ID.",
+      "quote": "If the refund is over $50, the Store credit voucher will be sent by mail within 21 days of the return transaction. Vouchers will be mailed to the address listed on the valid picture ID.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-6",
+      "type": "fee",
+      "channel": "any",
+      "text": "A 5-day waiting period applies for cash refunds on merchandise purchased by check.",
+      "quote": "A (5) day waiting period is required for a cash refund on all merchandise purchased with a check.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-7",
+      "type": "window",
+      "channel": "any",
+      "text": "Merchandise returns with receipt older than 30 days will be exchanged or credited with store credit.",
+      "quote": "Merchandise returns with a receipt older than 30 days will be exchanged or credited with store credit.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "software",
+      "text": "No refunds on opened software; exchanges only for defective software.",
+      "quote": "Refunds will not be given on software that has been opened. Exchange for like merchandise only if software is defective.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-9",
+      "type": "receipt",
+      "channel": "any",
+      "category": "gift cards",
+      "text": "Original register receipt is required to replace lost or stolen gift cards for remaining balance.",
+      "quote": "Retain the original register receipt for Gift Cards. Lost or stolen Gift Cards can only be replaced for the value of any remaining balance by presenting the original receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-10",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Refunds, store credit or exchanges will not be given on select categories of merchandise without a receipt; tickets may be required.",
+      "quote": "Refunds, store credit or exchanges will not be given on select categories of merchandise without a receipt. Tickets may also be required in select categories.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-11",
+      "type": "exchange",
+      "channel": "any",
+      "category": "swimwear and lingerie",
+      "text": "Returns or exchanges of swimwear and lingerie must have original ticket attached.",
+      "quote": "Returns or exchanges of Swimwear and Lingerie must have original ticket attached.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

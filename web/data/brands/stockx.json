@@ -1,0 +1,92 @@
+{
+  "slug": "stockx",
+  "name": "StockX",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://stockx.com/help/articles/can-i-cancel-my-purchase",
+  "launch": false,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://stockx.com/help/articles/can-i-cancel-my-purchase",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/stockx-com-help-articles-can-i-cancel-my-purchase.md",
+      "sha256": "8077ffcd117150a18df5ea6b00629191940aaebcfaed5a68a58656aab5f804d6",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-cancellation-1",
+      "type": "cancellation",
+      "channel": "online",
+      "category": "Verified Marketplace",
+      "text": "You can cancel select Verified Marketplace orders outside the estimated delivery window directly from your account.",
+      "quote": "You can cancel select orders outside the estimated delivery window directly from your account.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-cancellation-2",
+      "type": "cancellation",
+      "channel": "online",
+      "category": "Listings or Live Marketplace",
+      "windowDays": 2,
+      "windowAnchor": "purchase",
+      "text": "The seller has two (2) business days to ship the item to you; if not shipped within 30 days, the order is canceled automatically and refunded.",
+      "quote": "The seller has two (2) business days to ship the item to you. If the seller does not ship the item to you within 30 days of the sale, the order will be canceled automatically, and you will be refunded.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-cancellation-3",
+      "type": "cancellation",
+      "channel": "online",
+      "category": "Listings or Live Marketplace",
+      "text": "To cancel a Listings or Live Marketplace purchase, you must send the seller a Direct Message with your reasoning; cancellation is at seller's discretion.",
+      "quote": "If you would like to cancel your purchase, send the seller a Direct Message through the Order Details page with your reasoning. It is up to the seller to determine if they will cancel or not.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-cancellation-4",
+      "type": "cancellation",
+      "channel": "online",
+      "category": "Verified Marketplace",
+      "windowDays": 90,
+      "windowAnchor": "delivery",
+      "text": "No Fee Resale lets you relist a Verified Marketplace item without fees within 90 days of delivery.",
+      "quote": "No Fee Resale lets you relist the item without transaction, processing, or shipping fees within 90 days of delivery.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "online",
+      "category": "Listings Marketplace",
+      "text": "Items purchased from the Listings Marketplace are not eligible for No Fee Resale.",
+      "quote": "Items purchased from the Listings Marketplace are not eligible for No Fee Resale, but can be relisted on the Listings Marketplace, which has zero seller fees at launch.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-cancellation-6",
+      "type": "cancellation",
+      "channel": "online",
+      "category": "Verified Marketplace or Listings Marketplace",
+      "windowDays": 14,
+      "windowAnchor": "delivery",
+      "text": "EU and UK buyers have the right to cancel a Verified or Listings Marketplace purchase before shipping or within 14 days of receiving the order.",
+      "quote": "EU and UK buyers have the right to cancel a Verified Marketplace or Listings Marketplace purchase before the order ships, or within 14 days of receiving the order.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

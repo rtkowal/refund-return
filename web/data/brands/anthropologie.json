@@ -3,7 +3,7 @@
   "name": "Anthropologie",
   "kind": "retailer",
   "officialPolicyUrl": "https://www.anthropologie.com/help/returns-exchanges",
-  "launch": true,
+  "launch": false,
   "lastVerifiedAt": "apify_run_",
   "snapshots": {
     "policy": {

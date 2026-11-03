@@ -1,0 +1,130 @@
+{
+  "slug": "michaels",
+  "name": "Michaels",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.michaels.com/return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.michaels.com/return-policy",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/michaels-com-return-policy.md",
+      "sha256": "8f7555cb9225e198f4e6c58b036b18998f08d79431620db29eafd8dd8f164647",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "purchase",
+      "text": "Most Michaels purchases can be returned within 60 days of purchase.",
+      "quote": "If your Michaels.com purchase does not meet your satisfaction, you may return it within two months (60 days) of purchase",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "online",
+      "category": "online-only costumes and accessory kits",
+      "windowDays": 7,
+      "windowAnchor": "purchase",
+      "text": "Online-only costumes and accessory kits must be returned 7 days prior to the holiday.",
+      "quote": "except for online-only costumes and accessory kits, which must be returned 7 days prior to the holiday.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "any",
+      "category": "MichaelsPro purchases",
+      "text": "Restocking fees may be applied for MichaelsPro returns.",
+      "quote": "Restocking fees may be applied for MichaelsPro returns.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-4",
+      "type": "refund_method",
+      "channel": "in_store",
+      "text": "Check purchases require a 10 day waiting period for refund; within 10 days may be refunded on Return Card.",
+      "quote": "Returns purchased with a check require a 10 day waiting period. Check purchases within 10 days may be refunded on Return Card.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-5",
+      "type": "refund_method",
+      "channel": "in_store",
+      "text": "Online purchases made using PayPal will be refunded in cash up to $500; otherwise contact customer care.",
+      "quote": "Online purchases made using PayPal will be refunded in cash (up to $500, otherwise please contact customer care).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-6",
+      "type": "exchange",
+      "channel": "any",
+      "text": "Exchanges are not offered; customers must return and place a new order.",
+      "quote": "At this time we do not offer exchanges. If you would like to exchange a product, please return it using our returns process and then place a new order.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "opened trading cards",
+      "text": "Opened trading cards are not returnable.",
+      "quote": "Opened trading cards will be considered damaged and are not returnable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "gift cards and prepaid cards",
+      "text": "Gift cards and prepaid cards are not returnable or exchangeable except where required by law.",
+      "quote": "Gift Cards and Prepaid Cards are not returnable or exchangeable, except where required by law.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "cut fabric",
+      "text": "Sales of cut fabric are final and not returnable or exchangeable except where required by law.",
+      "quote": "Online or in-store sales of cut fabric are final sale and are not returnable or exchangeable, except where required by law.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-10",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "clearance sales",
+      "text": "Clearance sales are final and not returnable or exchangeable.",
+      "quote": "Clearance sales are considered final, sold AS IS and are not returnable for a refund or exchange.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

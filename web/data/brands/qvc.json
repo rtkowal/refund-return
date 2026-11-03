@@ -1,0 +1,108 @@
+{
+  "slug": "qvc",
+  "name": "QVC",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.qvc.com/html/popups/ReturnsInformation.html",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.qvc.com/html/popups/ReturnsInformation.html",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/qvc-com-html-popups-ReturnsInformation-html.md",
+      "sha256": "13c6aa04d36fee4e35995ff6e98bb5221cba945b901e2889547a5ba6912fa1fb",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 90,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Purchases made from February 1 at 11:59am ET can be returned for any reason within 90 days for a refund or exchange.",
+      "quote": "Any purchase made from February 1 at 11:59am ET can be returned for any reason for a refund of the purchase price, minus the S&H and Q Return Label fee, or exchanged for a free replacement of the same item in a different color or size.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "food",
+      "text": "Food items are excluded from the 90-Day Extended Return Policy.",
+      "quote": "Food, personalized items, and gift cards are excluded.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "personalized items",
+      "text": "Personalized items are excluded from the 90-Day Extended Return Policy.",
+      "quote": "Food, personalized items, and gift cards are excluded.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "gift cards",
+      "text": "Gift cards are excluded from the 90-Day Extended Return Policy.",
+      "quote": "Food, personalized items, and gift cards are excluded.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "blowout clearance price items",
+      "text": "Blowout Clearance Price items are excluded from the 90-Day Extended Return Policy and can only be returned for defects or QVC errors.",
+      "quote": "QVC's 90-Day Extended Return Policy does not apply to Blowout Clearance Price items. QVC will only accept returns or exchanges for product defects or QVC errors.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-6",
+      "type": "fee",
+      "channel": "any",
+      "text": "Returns are refunded minus the shipping and handling and Q Return Label fee.",
+      "quote": "for a refund of the purchase price, minus the S&H and Q Return Label fee,",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-7",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are issued for the purchase price minus fees.",
+      "quote": "for a refund of the purchase price, minus the S&H and Q Return Label fee,",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-8",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 90,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Items can be exchanged for a free replacement of the same item in a different color or size within 90 days.",
+      "quote": "or exchanged for a free replacement of the same item in a different color or size.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

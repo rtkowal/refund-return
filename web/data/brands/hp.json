@@ -1,0 +1,126 @@
+{
+  "slug": "hp",
+  "name": "HP",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.hp.com/us-en/shop/cv/returnsandexchanges",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.hp.com/us-en/shop/cv/returnsandexchanges",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/hp-com-us-en-shop-cv-returnsandexchanges.md",
+      "sha256": "5155d17c64ce95d7bca897867d510912a64daeee9be809fda27d5549df89d254",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Most items purchased directly from the HP Store can be returned within 30 days from the date of delivery of your order.",
+      "quote": "For all eligible purchases, our return policy is 30 days from the date of delivery of your order.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Items from the HP Parts Store, Instant Ink, All-In Plan, retailers, HP Technical Support, software, services, or repair orders are not returnable.",
+      "quote": "We cannot accept returns or exchanges for items from the HP Parts Store, Instant Ink, All-In Plan, retailers, or HP Technical Support, including software, services, or repair orders.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "gift cards",
+      "text": "Gift cards are not returnable except where required by law.",
+      "quote": "Gift Cards (except where required by law)",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "large format printers",
+      "text": "Large format printers are not returnable unless defective or due to HP Store error.",
+      "quote": "Large format printers (for example, DesignJet’s) are not returnable unless the product is defective or the return is a result of an HP Store error",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-5",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are issued only to the original form of payment.",
+      "quote": "Refunds can only be issued back to your original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-6",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds take up to 5 business days to validate and up to 5 additional business days to appear depending on bank processing.",
+      "quote": "Please allow up to 5 business days for our team to validate your return. From there, the refund will be processed and you will receive email confirmation. The refund may then take up to 5 business days to appear on your account, depending on your bank’s processing time.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-7",
+      "type": "fee",
+      "channel": "any",
+      "text": "Original shipping charges are non-refundable for convenience returns.",
+      "quote": "In instances of a return for convenience (eg, no longer need, changed your mind), original shipping charges are non-refundable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-8",
+      "type": "exchange",
+      "channel": "any",
+      "text": "HP requires the original product to be returned before a replacement is shipped.",
+      "quote": "HP Store requires the original product to be returned before a replacement is shipped.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-9",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 10,
+      "windowAnchor": "delivery",
+      "text": "Claims regarding delivery issues must be made within 10 days of delivery or last tracking scan.",
+      "quote": "All claims regarding delivery issues, including loss, damage, mis-delivery, etc., must be made within 10 days of delivery or of the last package tracking scan.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-10",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns must be made in the same country as the purchase was made.",
+      "quote": "All returns must be made in the same country in which the purchase was made.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

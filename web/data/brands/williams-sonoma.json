@@ -1,0 +1,40 @@
+{
+  "slug": "williams-sonoma",
+  "name": "Williams Sonoma",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.williams-sonoma.com/returns",
+  "launch": false,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.williams-sonoma.com/returns",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/williams-sonoma-com-returns.md",
+      "sha256": "b0c3e1cda3bbd7f7564fd8451a3c8c652fda4f081d9c6ee8d26d96d69f21bb25",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-exclusion-1",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Return item(s) must have originally been shipped to the United States (includes US Territories and APO/FPO) only.",
+      "quote": "Return item(s) must have originally been shipped to the United States (includes US Territories and APO/FPO) only.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-2",
+      "type": "fee",
+      "channel": "online",
+      "text": "Depending on the reason for return, you may be responsible for return shipping costs.",
+      "quote": "Depending on the reason for return, you may be responsible for return shipping costs.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

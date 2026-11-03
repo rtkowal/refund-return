@@ -3,7 +3,7 @@
   "name": "ZARA",
   "kind": "retailer",
   "officialPolicyUrl": "https://www.zara.com/us/en/help-center/Refund",
-  "launch": true,
+  "launch": false,
   "lastVerifiedAt": "apify_run_",
   "snapshots": {
     "policy": {

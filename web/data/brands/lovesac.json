@@ -1,0 +1,104 @@
+{
+  "slug": "lovesac",
+  "name": "Lovesac",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://help.lovesac.com/s/article/Return-Process",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://help.lovesac.com/s/article/Return-Process",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/help-lovesac-com-s-article-Return-Process.md",
+      "sha256": "b9afdfef83f1b6ebcfd1180f5592007785590074f8f04fc71bfc966c01fe5ebe",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "delivery",
+      "text": "You can initiate a return with our Customer Love team or any of our Showrooms within 60-days of delivery of any eligible item.",
+      "quote": "You can initiate a return with our Customer Love team (contact info below) or any of our Showrooms within 60-days of delivery of any eligible item.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Covers and Accessories",
+      "text": "Covers and Accessories do not require original packaging for returns.",
+      "quote": "All items should be returned in original packaging, with the exception of Covers and Accessories.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Covers and Accessories",
+      "text": "Lovesac does not provide boxes for Covers or Accessories.",
+      "quote": "We do not provide boxes for Covers or Accessories.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "any",
+      "text": "Return shipping labels are prepaid and provided by Lovesac.",
+      "quote": "Once packaged and ready to ship, Lovesac will provide pre-paid return shipping labels via email and will schedule a pickup for you at the point of entry to your residence.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-5",
+      "type": "fee",
+      "channel": "any",
+      "text": "All returns must be sent via Lovesac scheduled FedEx pick-up or third-party if necessary.",
+      "quote": "We require all returns to be sent via Lovesac scheduled FedEx pick-up or third-party, if necessary.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-6",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are issued back to the original form of payment.",
+      "quote": "When an item has been received and verified through our return process, you will be issued a refund back to the original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-7",
+      "type": "refund_method",
+      "channel": "in_store",
+      "text": "If paid in a Showroom with cash, refunds will be issued with a corporate check sent to the shipping address on file.",
+      "quote": "If you paid in a Showroom with cash, refunds will be issued with a corporate check sent to the shipping address on file and may take an extended period of time.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-8",
+      "type": "exchange",
+      "channel": "any",
+      "text": "Returns can be initiated through Customer Love team or any Showroom.",
+      "quote": "You can initiate a return with our Customer Love team (contact info below) or any of our Showrooms within 60-days of delivery of any eligible item.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

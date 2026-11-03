@@ -13,6 +13,20 @@
       "sha256": "3cdc65d71294680c1bdc44d6050eb18d02b3f4b2dd67a7284ab9cbdb077a0c15",
       "apifyRunId": "4RJ5hKWyv3DAFf0wf",
       "fetchedAt": "2026-11-03"
+    },
+    "s2": {
+      "url": "https://customerservice.costco.com/app/answers/detail/a_id/769/~/how-are-freight-returns-handled",
+      "file": "research/scrape-batch3/14-facets/customerservice-costco-com-app-answers-detail-a-id-769-how-are-freight-returns-handled.md",
+      "sha256": "ac363ff39d0eb98292b5ce4b8a8cc9e4686b05ac8192cc053b4ae7921a10003f",
+      "apifyRunId": "Uc8WOn9zWYgL0A3bA",
+      "fetchedAt": "apify_run_"
+    },
+    "s3": {
+      "url": "https://customerservice.costco.com/app/answers/detail/a_id/1191/~/what-is-costcos-return-policy%3F",
+      "file": "research/scrape-batch3/14-facets/customerservice-costco-com-app-answers-detail-a-id-1191-what-is-costcos-return-policy-3F.md",
+      "sha256": "602c22940523acb866fc8eaab69b5bc843d0a77d630d6d7cb00b810fa8100291",
+      "apifyRunId": "Uc8WOn9zWYgL0A3bA",
+      "fetchedAt": "apify_run_"
     }
   },
   "rules": [
@@ -30,14 +44,14 @@
       "id": "window-2",
       "type": "window",
       "channel": "any",
+      "category": "electronics (TVs, projectors, major appliances, computers, tablets, smart wearables, cameras, drones, camcorders, MP3 players, cell phones)",
+      "windowDays": 90,
+      "windowAnchor": "receipt",
       "text": "90 days from the date the member received the item.",
       "quote": "Costco will accept returns within 90 days (from the date the member received the merchandise)",
       "snapshot": "policy",
       "status": "extracted",
-      "extractedBy": "claude-session",
-      "category": "electronics (TVs, projectors, major appliances, computers, tablets, smart wearables, cameras, drones, camcorders, MP3 players, cell phones)",
-      "windowDays": 90,
-      "windowAnchor": "receipt"
+      "extractedBy": "claude-session"
     },
     {
       "id": "membership-3",
@@ -63,12 +77,213 @@
       "id": "receipt-5",
       "type": "receipt",
       "channel": "any",
+      "category": "diamonds ≥1.00ct",
       "text": "Original IGI/GIA paperwork required; a Jewelry Credit Memo is issued pending gemologist inspection within 48 hours.",
       "quote": "Members returning a diamond over 1.00ct must also present all original paperwork",
       "snapshot": "policy",
       "status": "extracted",
-      "extractedBy": "claude-session",
-      "category": "diamonds ≥1.00ct"
+      "extractedBy": "claude-session"
+    },
+    {
+      "id": "s2-refund_timing-1",
+      "type": "refund_timing",
+      "channel": "any",
+      "category": "freight",
+      "text": "Once we have confirmed the order is picked up and in transit, we’ll process your refund.",
+      "quote": "Once we have confirmed the order is picked up and in transit, we’ll process your refund.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_timing-2",
+      "type": "refund_timing",
+      "channel": "any",
+      "category": "freight",
+      "text": "You’ll receive a confirmation email once we’ve issued your credit.",
+      "quote": "You’ll receive a confirmation email once we’ve issued your credit.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_timing-3",
+      "type": "refund_timing",
+      "channel": "any",
+      "category": "freight",
+      "text": "We ask that you allow a few business days for your credit card company or bank to process the credit.",
+      "quote": "We ask that you allow a few business days for your credit card company or bank to process the credit.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exchange-4",
+      "type": "exchange",
+      "channel": "any",
+      "category": "freight",
+      "text": "If your item was delivered by a freight carrier, it will be picked up the same way it was delivered (Curbside or Threshold or White Glove).",
+      "quote": "If your item was delivered by a freight carrier, it will be picked up the same way it was delivered ([Curbside or Threshold or White Glove](https://customerservice.costco.com/app/answers/answer_view/a_id/1152)).",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "freight",
+      "text": "Freight pickup does not include Special Order Kiosk, Custom Installed Programs, or Costco Warehouse Special Event purchases that may include delivery.",
+      "quote": "There are a few exceptions, however: freight pickup does not include Special Order Kiosk, Custom Installed Programs, or Costco Warehouse Special Event purchases that may include delivery.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exchange-6",
+      "type": "exchange",
+      "channel": "any",
+      "category": "freight",
+      "text": "The carrier will contact you within 5-7 business days using the phone number listed on your order to set up a pickup time.",
+      "quote": "When the return is [initiated](https://customerservice.costco.com/app/answers/answer_view/a_id/6874), the carrier will contact you within 5-7 business days using the phone number listed on your order. You can set up a time for them to come by and pick up your order.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s3-window-1",
+      "type": "window",
+      "channel": "any",
+      "category": "electronics",
+      "windowDays": 90,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Electronics can be returned within 90 days from the date the member received the merchandise.",
+      "quote": "Electronics: Costco will accept returns within 90 days (from the date the member received the merchandise) for Televisions, Projectors, Major Appliances (refrigerators above 10 cu. ft., freezers, ranges, cooktops, over-the-range and under-counter microwaves, range hoods, dishwashers, water heaters, washers and dryers), Computers, Touchscreen Tablets, Smart Wearable Devices, Cameras, Aerial Cameras (drones), Camcorders, MP3 players and Cellular Phones (return details will vary by carrier service contract).",
+      "snapshot": "s3",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s3-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "diamonds_over_1ct",
+      "text": "Diamonds over 1.00ct require original paperwork and are subject to inspection before refund.",
+      "quote": "Diamonds: 1.00ct or larger: Members returning a diamond over 1.00ct must also present all original paperwork (IGI and/or GIA certificates) at which time they will receive a Jewelry Credit Memo. Within 48 hours, our Costco Graduate Gemologist will inspect for authenticity.",
+      "snapshot": "s3",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s3-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "cigarettes_and_alcohol",
+      "text": "Costco does not accept returns on cigarettes or alcohol where prohibited by law.",
+      "quote": "Cigarettes and alcohol: Costco does not accept returns on cigarettes or alcohol where prohibited by law.",
+      "snapshot": "s3",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s3-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "products_with_limited_life",
+      "text": "Products with limited useful life expectancy, such as tires and batteries, may have product-specific limited warranties instead of returns.",
+      "quote": "Products with a limited useful life expectancy, such as tires and batteries, may be sold with a product-specific limited warranty.",
+      "snapshot": "s3",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s3-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "custom_products",
+      "text": "Custom products manufactured to personal specifications cannot be returned or refunded except for warranty repair/replacement.",
+      "quote": "Special Order Kiosk and Custom Installed Programs: Custom product(s) manufactured to our member’s personal and unique specifications cannot be returned or refunded, except for warranty repair/replacement due to failure to meet specifications.",
+      "snapshot": "s3",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s3-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "airline_and_live_event_tickets",
+      "text": "Airline and live performance event items are non-refundable.",
+      "quote": "Airline and Live Performance Event items are non-refundable.",
+      "snapshot": "s3",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s3-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "precious_metals",
+      "text": "Precious metals are non-refundable.",
+      "quote": "Precious metals are non-refundable.",
+      "snapshot": "s3",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s3-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "shop_cards",
+      "text": "Shop Cards are non-refundable.",
+      "quote": "Shop Cards are non-refundable.",
+      "snapshot": "s3",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s3-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "gift_cards_and_tickets",
+      "text": "Gift Card and Ticket items are non-refundable.",
+      "quote": "Gift Card and Ticket items are non-refundable.",
+      "snapshot": "s3",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s3-window-10",
+      "type": "window",
+      "channel": "any",
+      "category": "recreational_carts_ordered_online",
+      "windowDays": 90,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Recreational carts ordered online can be returned within 90 days from the date the member received the product.",
+      "quote": "Recreational Carts ordered online: Costco will accept returns within 90 days from the date the member received the product; see product page for return instructions.",
+      "snapshot": "s3",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s3-receipt-11",
+      "type": "receipt",
+      "channel": "any",
+      "category": "diamonds_over_1ct",
+      "text": "Returning diamonds over 1.00ct requires presenting all original paperwork (IGI and/or GIA certificates).",
+      "quote": "Members returning a diamond over 1.00ct must also present all original paperwork (IGI and/or GIA certificates) at which time they will receive a Jewelry Credit Memo.",
+      "snapshot": "s3",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s3-exchange-12",
+      "type": "exchange",
+      "channel": "in_store",
+      "text": "Products purchased at a Costco location need to be returned at the returns counter at any Costco warehouse.",
+      "quote": "Products purchased at a Costco location need to be returned at the returns counter at any Costco warehouse.",
+      "snapshot": "s3",
+      "status": "extracted",
+      "extractedBy": "llm"
     }
   ],
   "facets": []

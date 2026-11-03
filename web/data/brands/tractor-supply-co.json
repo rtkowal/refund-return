@@ -1,0 +1,138 @@
+{
+  "slug": "tractor-supply-co",
+  "name": "Tractor Supply Co.",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.tractorsupply.com/tsc/cms/policies-information/customer-solutions/tsc-return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.tractorsupply.com/tsc/cms/policies-information/customer-solutions/tsc-return-policy",
+      "file": "research/scrape-2026-11-03-b2/11-brands-121-200/tractorsupply-com-tsc-cms-policies-information-customer-solutions-tsc-return-policy.md",
+      "sha256": "4a8086a403abebd5f2250c5688d3524095455a3d4f32a11ed6a7dcce71b1674b",
+      "apifyRunId": "O2glRgE29zL4MxTey",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Most items can be returned within 30 days from the purchase date with proof of purchase.",
+      "quote": "Whether you made your purchase in a Tractor Supply store or online, if you're not completely satisfied with any item you purchased from Tractor Supply, return it to us with proof of purchase within 30 days from the purchase date to exchange or return an item at its original purchase price.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 90,
+      "windowAnchor": "purchase",
+      "text": "Active Neighbor's Club members have a 90 day paperless return window.",
+      "quote": "Active Neighbor's Club members are eligible for 90 day paperless returns.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-3",
+      "type": "receipt",
+      "channel": "any",
+      "text": "All returns require proof of purchase or refund verification system approval.",
+      "quote": "All returns require a proof of purchase or are subject to refund verification system approval.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-4",
+      "type": "receipt",
+      "channel": "in_store",
+      "text": "Store returns without proof of purchase or after 30 days require refund verification system approval and valid State or Federal ID.",
+      "quote": "Store returns without proof of purchase or after 30 days from purchase date require refund verification system approval. Approved returns without a receipt require a valid State or Federal ID.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-5",
+      "type": "refund_method",
+      "channel": "in_store",
+      "text": "In-store refunds are made to the original payment method if proof of purchase is provided; exceptions may issue gift card or check.",
+      "quote": "Refunds for items returned to your local Tractor Supply store are made by crediting the original method of payment if proof of purchase is provided; in some cases, exceptions apply and a gift card or Check** will be issued.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-6",
+      "type": "refund_method",
+      "channel": "online",
+      "text": "Online returns are refunded to the original payment method as per the payment type chart.",
+      "quote": "Refunds for items returned online will be refunded based on the chart below.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "ammunition",
+      "text": "All ammunition sales are final and cannot be returned.",
+      "quote": "All ammunition sales are final and cannot be returned.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-8",
+      "type": "exchange",
+      "channel": "in_store",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Exchanges can be made in any Tractor Supply store within 30 days of purchase.",
+      "quote": "If you would like to make an exchange please come visit us in any one of our Tractor Supply stores.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-9",
+      "type": "refund_timing",
+      "channel": "in_store",
+      "text": "In-store returns are processed immediately; credit timing depends on bank processing.",
+      "quote": "In store returns will be processed immediately and the time it takes for the credit to show is dependent on your bank's processing time.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-10",
+      "type": "refund_timing",
+      "channel": "online",
+      "text": "Online returns take 48 hours processing time upon receipt of the return.",
+      "quote": "If you're shipping your return back please allow 48 hours processing time upon receipt of your return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-11",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "items with shipping restrictions",
+      "text": "Items with shipping restrictions can only be returned in store.",
+      "quote": "Items that have shipping restrictions can only be returned in store.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

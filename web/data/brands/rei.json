@@ -3,7 +3,7 @@
   "name": "REI",
   "kind": "retailer",
   "officialPolicyUrl": "https://www.rei.com/help/returns",
-  "launch": true,
+  "launch": false,
   "lastVerifiedAt": "2026-11-03",
   "snapshots": {
     "policy": {

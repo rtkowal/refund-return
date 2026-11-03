@@ -3,7 +3,7 @@
   "name": "Famous Footwear",
   "kind": "retailer",
   "officialPolicyUrl": "https://www.famousfootwear.com/shipping-and-returns",
-  "launch": true,
+  "launch": false,
   "lastVerifiedAt": "apify_run_",
   "snapshots": {
     "policy": {

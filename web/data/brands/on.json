@@ -12,6 +12,13 @@
       "sha256": "4616cbbe385220d8ad24a9ab5946f25d0feed36622de867bb2b11c7a58d3804d",
       "apifyRunId": "432rq9ixpKzLXR6yU",
       "fetchedAt": "apify_run_"
+    },
+    "s2": {
+      "url": "https://www.on.com/en-us/returns",
+      "file": "research/scrape-batch3/17-brands-fix/on-com-en-us-returns.md",
+      "sha256": "e46c23fb4ae88ea89b07259c0cf4dad56fbd14c09718ed27abcfbb6c2c980d1d",
+      "apifyRunId": "te4KP4vEIqKaIvFVh",
+      "fetchedAt": "apify_run_"
     }
   },
   "rules": [
@@ -107,6 +114,89 @@
       "text": "Limited edition and last season items are not exchangeable but can be returned for a refund.",
       "quote": "Limited edition products and colorways plus Last Season pieces are not exchangeable but can be returned for a refund.",
       "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 90,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Returns and exchanges are available for products in new condition within 90 days of purchase.",
+      "quote": "Returns and exchanges are available for products in new condition within 90 days of purchase.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-2",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Returns are only accepted for orders purchased directly from On.",
+      "quote": "We are only able to accept returns for orders purchased directly from On.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "limited editions and last season items",
+      "text": "Limited editions and last season items can only be refunded, but are not exchangeable due to limited stock.",
+      "quote": "Limited editions and last season items can only be refunded, but are not exchangeable due to limited stock.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-receipt-4",
+      "type": "receipt",
+      "channel": "any",
+      "text": "To submit a return request, you must provide your order number and the email address used to place the order.",
+      "quote": "To submit a return request, enter your order number and the email address used to place the order [here](https://www.on.com/returns).",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_timing-5",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds will be issued upon receipt of your order.",
+      "quote": "Refunds will be issued upon receipt of your order.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exchange-6",
+      "type": "exchange",
+      "channel": "any",
+      "text": "Exchange replacements will be sent within 7-14 business days after receipt of the returned order.",
+      "quote": "Exchange replacements will be sent within 7-14 business days.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-fee-7",
+      "type": "fee",
+      "channel": "any",
+      "text": "On covers the cost of shipping for eligible returned products except for returns to or from India, Indonesia, Thailand and Malaysia.",
+      "quote": "We cover the cost of shipping for eligible returned On products unless it is to, or from, one of the following countries: India, Indonesia, Thailand and Malaysia.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-fee-8",
+      "type": "fee",
+      "channel": "any",
+      "text": "Expedited shipping costs on the original outbound order will not be refunded in the case of returns or exchanges.",
+      "quote": "Please note that expedited shipping costs on the original outbound order will not be refunded in the case of returns or exchanges.",
+      "snapshot": "s2",
       "status": "extracted",
       "extractedBy": "llm"
     }

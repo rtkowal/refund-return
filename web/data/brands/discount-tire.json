@@ -1,0 +1,92 @@
+{
+  "slug": "discount-tire",
+  "name": "Discount Tire",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.discounttire.com/customer-service/return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.discounttire.com/customer-service/return-policy",
+      "file": "research/scrape-batch3/17-brands-fix/discounttire-com-customer-service-return-policy.md",
+      "sha256": "0a0e6dc7541c587788ee28e8b91a21b28a003810e4c12a6f8c62257ee037be4c",
+      "apifyRunId": "te4KP4vEIqKaIvFVh",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "text": "There are no time limits for returns or exchanges.",
+      "quote": "There are no time limits for returns or exchanges.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-2",
+      "type": "receipt",
+      "channel": "in_store",
+      "text": "You need to bring your receipt or order number to help locate your purchase, but if you don't have it, they may find the purchase in other ways though additional information may be required.",
+      "quote": "Your receipt or order number is the fastest way to help us locate your purchase. If you don't have a receipt, we should be able to find the purchase in other ways but we may require additional information.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "From time to time, Discount Tire may be unable to accommodate a return.",
+      "quote": "We'll do our best to take care of you. However from time to time, we may be unable to accommodate a return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "any",
+      "text": "Restocking fees are not typical but may apply to custom ordered products.",
+      "quote": "Not typically, however restocking fees may apply to products we have to custom order on your behalf.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-5",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are made to the original form of payment.",
+      "quote": "Eligible items may be returned and refunded to the original form of tender.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-6",
+      "type": "refund_timing",
+      "channel": "any",
+      "windowDays": 14,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "If you paid by credit card, your account will be credited within 14 business days.",
+      "quote": "If you paid by credit card, we'll credit your account within 14 business days.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-7",
+      "type": "exchange",
+      "channel": "any",
+      "text": "If you exchange a product, your account will be charged for the new item and credited for the return.",
+      "quote": "If you choose to exchange a product for another, your account will be charged for the new item and credited for the return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

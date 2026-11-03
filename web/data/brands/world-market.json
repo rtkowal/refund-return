@@ -1,0 +1,176 @@
+{
+  "slug": "world-market",
+  "name": "World Market",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.worldmarket.com/returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.worldmarket.com/returns",
+      "file": "research/scrape-2026-11-03-b2/12-brands-retry-unblocker/worldmarket-com-returns.md",
+      "sha256": "4c197af8bf746ef28a9fe35eac806232d3ac3e6fcd2a3d6295cca7ab3de27942",
+      "apifyRunId": "a1RDVqKHolQTpskYp",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Most items may be returned to any World Market store in original condition within 30 days of purchase.",
+      "quote": "Store Returns Most items may be returned to any World Market store in original condition within 30 days of purchase (see Returns Exceptions below).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Most items purchased on WorldMarket.com may be returned by mail or to any World Market store in original condition within 30 days of delivery.",
+      "quote": "Online Orders Returned by Mail Most items purchased on WorldMarket.com may be returned by mail or to any World Market store in original condition within 30 days of delivery (see Returns Exceptions below).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-3",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Most items purchased on WorldMarket.com may be returned to any World Market store in original condition within 30 days of delivery.",
+      "quote": "Online Orders Returned to Store Most items purchased on WorldMarket.com may be returned to any World Market store in original condition within 30 days of delivery (see Returns Exceptions below).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-holiday-4",
+      "type": "holiday",
+      "channel": "any",
+      "windowDays": 61,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Items purchased between November 1 and December 31 may be returned through January 31.",
+      "quote": "Extended Holiday Returns Items purchased between November 1 and December 31 may be returned through January 31 with an original or gift receipt.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-5",
+      "type": "receipt",
+      "channel": "in_store",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "For eligible purchases made with a credit card or World Market Rewards account, we may be able to locate your receipt electronically within 30 days of purchase.",
+      "quote": "For eligible purchases made with a credit card or World Market Rewards account, we may be able to locate your receipt electronically within 30 days of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-6",
+      "type": "receipt",
+      "channel": "in_store",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "Gift returns with the original gift receipt may be exchanged for a merchandise credit.",
+      "quote": "Gift returns with the original gift receipt may be exchanged for a merchandise credit.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-7",
+      "type": "receipt",
+      "channel": "in_store",
+      "windowDays": 30,
+      "windowAnchor": "purchase",
+      "text": "For items returned to a store without a receipt, merchandise credit will be issued at the lowest selling price within the past 60 days for merchandise returned in its original condition WITHIN 30 DAYS OF PURCHASE.",
+      "quote": "For items returned to a store without a receipt, merchandise credit will be issued at the lowest selling price within the past 60 days for merchandise returned in its original condition WITHIN 30 DAYS OF PURCHASE.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "in_store",
+      "text": "The following items cannot be returned without a receipt: Jewelry, Clothing & Accessories, Personal Care & Spa Products, Framed Art, Lamps, Cutlery, Cookware, Coffee & Tea Accessories.",
+      "quote": "The following items cannot be returned without a receipt: Jewelry Clothing & Accessories Personal Care & Spa Products Framed Art Lamps Cutlery Cookware Coffee & Tea Accessories",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Gift Cards are non-returnable.",
+      "quote": "The following items are non-returnable or subject to additional return restrictions: Gift Cards",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-10",
+      "type": "fee",
+      "channel": "any",
+      "text": "Shipping charges are non-refundable unless the return is due to a damaged, defective, or incorrect item shipped by World Market.",
+      "quote": "Shipping charges are non-refundable unless the return is the result of a damaged, defective, or incorrect item shipped by World Market.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-11",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Returns will be refunded in the original form of payment.",
+      "quote": "Returns will be refunded in the original form of payment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-12",
+      "type": "refund_method",
+      "channel": "in_store",
+      "text": "PayPal purchases made in store will be refunded in cash.",
+      "quote": "PayPal purchases made in store will be refunded in cash.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-13",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns by mail must include the packing slip or order information including order number, name, and address.",
+      "quote": "Returns by mail must include the packing slip. If the packing slip is not available, the shipment must include the order number, name, and address — otherwise the return cannot be accepted.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-price_adjustment-14",
+      "type": "price_adjustment",
+      "channel": "any",
+      "windowDays": 10,
+      "windowAnchor": "purchase",
+      "text": "If an item you purchased is offered at a lower price within 10 days of your original purchase, you may be eligible for a one-time price adjustment.",
+      "quote": "If an item you purchased is offered at a lower price within 10 days of your original purchase, you may be eligible for a one-time price adjustment.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

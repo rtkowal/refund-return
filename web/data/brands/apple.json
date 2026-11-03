@@ -3,7 +3,7 @@
   "name": "Apple",
   "kind": "retailer",
   "officialPolicyUrl": "https://www.apple.com/shop/help/returns_refund",
-  "launch": true,
+  "launch": false,
   "lastVerifiedAt": "apify_run_",
   "snapshots": {
     "policy": {

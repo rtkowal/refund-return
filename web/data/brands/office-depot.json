@@ -1,0 +1,139 @@
+{
+  "slug": "office-depot",
+  "name": "Office Depot",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.officedepot.com/l/help/returns",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.officedepot.com/l/help/returns",
+      "file": "research/scrape-batch3/17-brands-fix/officedepot-com-l-help-returns.md",
+      "sha256": "d4f56c97e7b698737b096483262d6971267b01340bf9564b97fc61d191fea1d0",
+      "apifyRunId": "te4KP4vEIqKaIvFVh",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-receipt-1",
+      "type": "receipt",
+      "channel": "in_store",
+      "text": "Returns in store require the Original Receipt or valid ID for many items.",
+      "quote": "If you purchased in store or online, just bring your item(s) with your Original Receipt to a checkout counter in any of our 1,000+ stores for your refund or exchange within the required time frame. No receipt? No problem! Many items can still be returned or exchanged in store with a valid ID.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "category": "Office Supplies",
+      "windowDays": 90,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Office Supplies can be returned within 90 days if unopened and in original packaging.",
+      "quote": "Office Supplies 90 days Unopened, original packaging",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-3",
+      "type": "window",
+      "channel": "any",
+      "category": "Ink & Toner",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Ink & Toner can be returned within 30 days if unopened and in original packaging.",
+      "quote": "Ink & Toner 30 days Unopened, original packaging",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-4",
+      "type": "window",
+      "channel": "any",
+      "category": "Technology & Electronics",
+      "windowDays": 14,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Technology & Electronics can be returned within 14 days in original packaging with UPC code and like new condition.",
+      "quote": "Technology & Electronics 14 days Original packaging with UPC code, like new condition.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-5",
+      "type": "window",
+      "channel": "any",
+      "category": "Furniture",
+      "windowDays": 14,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Furniture can be returned within 14 days unassembled and in original packaging with UPC code including all parts and manuals.",
+      "quote": "Furniture 14 days Unassembled and in original packaging with UPC code (including all parts and manuals)",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-6",
+      "type": "window",
+      "channel": "any",
+      "category": "Software, CDs, DVDs & Video Games",
+      "windowDays": 14,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Software, CDs, DVDs & Video Games can be returned within 14 days if unopened; opened packaging can be exchanged for same item.",
+      "quote": "Software, CDs, DVDs & Video Games 14 days Unopened, original packaging. Opened packaging can be exchanged for same item.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-7",
+      "type": "window",
+      "channel": "any",
+      "category": "Office Depot® Brand Products excluding Ink & Toner",
+      "text": "Office Depot® Brand Products excluding Ink & Toner can be returned anytime.",
+      "quote": "Office Depot® Brand Products Anytime Excludes Ink & Toner",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Cleaning, Breakroom, Safety & Facility",
+      "text": "Cleaning, Breakroom, Safety & Facility products are not returnable.",
+      "quote": "Cleaning, Breakroom, Safety & Facility Not returnable Includes COVID test kits, personal protective equipment, masks, face coverings, face shields, gloves, goggles, gowns, thermometers, and other related products",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "Gift cards, Pre-paid & Phone cards",
+      "text": "Gift cards, Pre-paid & Phone cards are not returnable.",
+      "quote": "Gift cards, Pre-paid & Phone cards Not returnable Cannot be used to purchase other gift cards and are subject to the terms and conditions included with each card",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-10",
+      "type": "receipt",
+      "channel": "any",
+      "category": "Technology products",
+      "text": "Technology products without Original Receipt are not eligible for return.",
+      "quote": "Technology products without Original Receipt are not eligible for return.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

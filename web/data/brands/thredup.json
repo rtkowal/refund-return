@@ -1,0 +1,211 @@
+{
+  "slug": "thredup",
+  "name": "ThredUp",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://help.thredup.com/en_us/categories/order-returns-SJDweIVaN",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://help.thredup.com/en_us/categories/order-returns-SJDweIVaN",
+      "file": "research/scrape-batch3/17-brands-fix/help-thredup-com-en-us-categories-order-returns-SJDweIVaN.md",
+      "sha256": "345121bcc123996d917512b86f1ac54b32ca1d1d6046be1cbd7c2dc382165a4f",
+      "apifyRunId": "te4KP4vEIqKaIvFVh",
+      "fetchedAt": "apify_run_"
+    },
+    "s2": {
+      "url": "https://help.thredup.com/en_us/what-is-thredup-s-return-policy-HJjbVX1jn",
+      "file": "research/scrape-batch3/17-brands-fix/help-thredup-com-en-us-what-is-thredup-s-return-policy-HJjbVX1jn.md",
+      "sha256": "7238dd4ddb94bd6e9e2d60c60f06765a6b134ed3b49b12398c15052c6e08cec8",
+      "apifyRunId": "te4KP4vEIqKaIvFVh",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 14,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "You have 14 days from the date of purchase or receipt to process a return request.",
+      "quote": "If you decide that an item isn't the right fit for you, we invite you to visit your  returns page  to process a return request.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-2",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "ThredUp offers three refund options: ThredUp credit, original payment method, or donation to charity.",
+      "quote": "ThredUp  has three different refund options available: - ThredUp  credit: We'll give you a free return shipping label...",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "any",
+      "text": "If you choose ThredUp credit as your refund option, you receive a free return shipping label.",
+      "quote": "ThredUp  credit: We'll give you a free return shipping label...",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-4",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Some returns qualify for an instant refund based on factors such as return history.",
+      "quote": "Some returns qualify for an instant refund based on factors such as return history.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-5",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "If your order doesn’t qualify for an instant refund, you will receive a refund after the return is processed.",
+      "quote": "If your order doesn’t qualify for an instant refund, you will receive ...",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-6",
+      "type": "exchange",
+      "channel": "any",
+      "text": "Once a return has been processed, the refund method cannot be changed.",
+      "quote": "Once a return has been processed, the refund method cannot be changed.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 14,
+      "windowAnchor": "delivery",
+      "text": "All returns must be postmarked within 14 days from the date of delivery of an item.",
+      "quote": "All returns must be postmarked within 14 days from the date of delivery of an item.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-fee-2",
+      "type": "fee",
+      "channel": "any",
+      "text": "All items are subject to a $3.99 restocking fee.",
+      "quote": "All items are subject to a $3.99 restocking fee",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-fee-3",
+      "type": "fee",
+      "channel": "any",
+      "text": "Original shipping charge is not refunded when returning items.",
+      "quote": "Original shipping charge is not refunded when returning items",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Final sale items are not returnable.",
+      "quote": "Final sale items are not returnable",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_method-5",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Items purchased with ThredUp store credits will always be refunded back as store credits.",
+      "quote": "Items purchased with ThredUp store credits will always be refunded back as store credits",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_timing-6",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "ThredUp store credits will be refunded back to your account 5-7 days after ThredUp has received your return order.",
+      "quote": "ThredUp store credits will be refunded back to your account 5-7 days after ThredUp has received your return order",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_timing-7",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Credit card refunds can take an additional 3-5 business days to be refunded after ThredUp has received your return order.",
+      "quote": "credit card refunds can take an additional 3-5 business days to be refunded.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-8",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Promotions and discounts will not be reimbursed.",
+      "quote": "Promotions and discounts will not be reimbursed",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-exclusion-9",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "ThredUp does not offer return shipping labels for orders shipped outside the contiguous 48 United States.",
+      "quote": "ThredUp does not offer return shipping labels for orders shipped outside the contiguous 48 United States at this time.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-receipt-10",
+      "type": "receipt",
+      "channel": "any",
+      "text": "To qualify for a refund, all items must be in the same condition in which you received them.",
+      "quote": "To qualify for a refund, all items must be in the same condition in which you received them",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_method-11",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds will be issued back to your original form of payment for orders shipped internationally or outside the contiguous 48 United States.",
+      "quote": "Refunds will be issued back to your original form of payment.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "s2-refund_method-12",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Returns choosing refund as ThredUp credits may be refunded as soon as scanned into transit or within 3-5 business days upon delivery to warehouse.",
+      "quote": "For returns that choose ThredUp credits, the return _may be_ refunded as soon as it is scanned into transit by the carrier. If not, then it will be refunded within 3-5 business days upon delivery to our warehouse.",
+      "snapshot": "s2",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

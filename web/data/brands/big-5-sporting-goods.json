@@ -3,7 +3,7 @@
   "name": "Big 5 Sporting Goods",
   "kind": "retailer",
   "officialPolicyUrl": "https://www.big5sportinggoods.com/store/customer%20service/returns%20&%20exchanges",
-  "launch": true,
+  "launch": false,
   "lastVerifiedAt": "apify_run_",
   "snapshots": {
     "policy": {

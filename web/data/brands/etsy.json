@@ -3,7 +3,7 @@
   "name": "Etsy",
   "kind": "retailer",
   "officialPolicyUrl": "https://help.etsy.com/hc/en-us/articles/360022953514",
-  "launch": true,
+  "launch": false,
   "lastVerifiedAt": "apify_run_",
   "snapshots": {
     "policy": {

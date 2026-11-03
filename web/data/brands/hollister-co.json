@@ -3,7 +3,7 @@
   "name": "Hollister Co.",
   "kind": "retailer",
   "officialPolicyUrl": "https://www.hollisterco.com/hol/media/legalText/viewDetailsText20181212_SimpleReturns_US.html",
-  "launch": true,
+  "launch": false,
   "lastVerifiedAt": "apify_run_",
   "snapshots": {
     "policy": {

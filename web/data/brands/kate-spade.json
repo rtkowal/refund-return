@@ -3,7 +3,7 @@
   "name": "Kate Spade",
   "kind": "retailer",
   "officialPolicyUrl": "https://www.katespade.com/support/return-policy",
-  "launch": true,
+  "launch": false,
   "lastVerifiedAt": "apify_run_",
   "snapshots": {
     "policy": {

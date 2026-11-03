@@ -3,7 +3,7 @@
   "name": "Skechers",
   "kind": "retailer",
   "officialPolicyUrl": "https://customercare.skechers.com/HelpCenter/s/article/What-is-your-return-policy",
-  "launch": true,
+  "launch": false,
   "lastVerifiedAt": "apify_run_",
   "snapshots": {
     "policy": {

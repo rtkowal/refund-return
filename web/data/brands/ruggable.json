@@ -1,0 +1,140 @@
+{
+  "slug": "ruggable",
+  "name": "Ruggable",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://ruggable.com/help/faqs/return-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://ruggable.com/help/faqs/return-policy",
+      "file": "research/scrape-2026-11-03-b2/12-brands-retry-unblocker/ruggable-com-help-faqs-return-policy.md",
+      "sha256": "9285d3fb153b4525043634d1d853b121512474fe3898c33ce21b32778178fcb7",
+      "apifyRunId": "a1RDVqKHolQTpskYp",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "delivery",
+      "text": "Eligible purchases made directly through Ruggable.com between 11/2/26 and 12/25/26 can be returned within 60 days of delivery for a refund.",
+      "quote": "Eligible purchases made directly through Ruggable.com between 11/2/26 and 12/25/26 can be returned within 60 days of delivery for a refund.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Outside this period, our standard 30-day return window applies.",
+      "quote": "Outside this period, our standard 30-day return window applies.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-3",
+      "type": "fee",
+      "channel": "any",
+      "category": "doormats,bath mats,pillows,pet beds,select small rug sizes (2x3, 2x5, 2x6, 2.5x7, 2.5x10)",
+      "text": "A $10 USD return processing fee applies to doormats, bath mats, pillows, pet beds, and select small rug sizes.",
+      "quote": "Tier 1: $10 USD - Doormats, Bath Mats, Pillows, Pet Beds, and select small rug sizes (2x3, 2x5, 2x6, 2.5x7, 2.5x10)",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-4",
+      "type": "fee",
+      "channel": "any",
+      "category": "medium rug sizes (3x5, 4x6, 5x7, 6x9, 6.5x9.5, 2.5x12) and Play Mats",
+      "text": "A $25 USD return processing fee applies to medium rug sizes and play mats.",
+      "quote": "Tier 2: $25 USD - Medium rug sizes (3x5, 4x6, 5x7, 6x9, 6.5x9.5, 2.5x12) and Play Mats",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Products marked FINAL SALE, Spot Cleaner & Stain Remover, Gift Cards, and Sample Swatches are not eligible for return or exchange.",
+      "quote": "Products marked FINAL SALE. No Return, plus Spot Cleaner & Stain Remover, Gift Cards, and Sample Swatches, are not eligible for return or exchange.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-6",
+      "type": "receipt",
+      "channel": "any",
+      "text": "Returns must be sent back in the original packaging or similar protective packaging.",
+      "quote": "Returns must be sent back in the original packaging or similar protective packaging.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-7",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Items purchased through a third-party retailer or website must be returned through the original seller.",
+      "quote": "Items purchased through a third-party retailer or website must be returned through the original seller.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-8",
+      "type": "refund_timing",
+      "channel": "any",
+      "text": "Refunds are processed within 14 business days after the return is received.",
+      "quote": "Once we’ve received your return, we’ll process your refund within 14 business days back to your original payment method.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_method-9",
+      "type": "refund_method",
+      "channel": "any",
+      "text": "Refunds are issued to the original payment method used for purchase.",
+      "quote": "Refunds are issued to the original payment method.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-10",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "delivery",
+      "text": "Eligible purchases made between 11/2/26 and 12/25/26 can be exchanged within 60 days of delivery.",
+      "quote": "Eligible purchases made from 11/2/26 through 12/25/26 can be exchanged within 60 days of delivery.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-11",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "delivery",
+      "text": "Outside the holiday period, the standard exchange window is 30 days from delivery.",
+      "quote": "Outside this period, our standard 30-day exchange window applies.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "ollies-bargain-outlet",
+  "name": "Ollie's Bargain Outlet",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://www.ollies.com/policies/refund-policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://www.ollies.com/policies/refund-policy",
+      "file": "research/scrape-2026-11-03-b2/12-brands-retry-unblocker/ollies-com-policies-refund-policy.md",
+      "sha256": "36cb3700c7f0c09d8410c6992e3cd8ef0fb776c774e7afc1c967d32a91399cc3",
+      "apifyRunId": "a1RDVqKHolQTpskYp",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 30,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "You can return items within 30 days of purchase with a receipt for a full refund.",
+      "quote": "Everything you buy at Ollie's is covered by our 30-day no hard time guarantee. If for any reason you are not completely satisfied with your purchase - please return it within 30 days for a full refund. But ya gotta have your receipt!",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-holiday-2",
+      "type": "holiday",
+      "channel": "any",
+      "windowDays": 31,
+      "windowAnchor": "purchase_or_receipt",
+      "text": "Items purchased between now and December 31st can be returned by January 31st for a full refund with a sales receipt.",
+      "quote": "If not completely satisfied with your purchase made between Now and December 31st, return it by January 31st for a full refund(with sales receipt).",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "under-armour",
+  "name": "Under Armour",
+  "kind": "retailer",
+  "officialPolicyUrl": "https://help.underarmour.com/s/article/Under-Armour-Return-Policy",
+  "launch": true,
+  "lastVerifiedAt": "apify_run_",
+  "snapshots": {
+    "policy": {
+      "url": "https://help.underarmour.com/s/article/Under-Armour-Return-Policy",
+      "file": "research/scrape-batch3/17-brands-fix/help-underarmour-com-s-article-Under-Armour-Return-Policy.md",
+      "sha256": "bc7863895fc9dbd22273c2b0385907afd6e19fba8117d3d0d3d6e625d305d417",
+      "apifyRunId": "te4KP4vEIqKaIvFVh",
+      "fetchedAt": "apify_run_"
+    }
+  },
+  "rules": [
+    {
+      "id": "policy-window-1",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "purchase",
+      "text": "All gear must be returned within 60 days of purchase.",
+      "quote": "All gear must be returned within 60 days of purchase",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-window-2",
+      "type": "window",
+      "channel": "any",
+      "windowDays": 90,
+      "windowAnchor": "purchase",
+      "text": "Holiday return policy is extended to 90 days for orders placed between November 1 and December 31.",
+      "quote": "Typically we extend our holiday return policy from 60 to 90 days for all orders placed between November 1 and December 31st.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-3",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Gear cannot be worn, used, washed, altered, or opened to be eligible for return.",
+      "quote": "Gear cannot be worn, used, washed, altered, or opened",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-4",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Gear cannot be returned for personal reasons unrelated to product performance or satisfaction.",
+      "quote": "Gear cannot be returned for personal reasons unrelated to product performance or satisfaction",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-5",
+      "type": "exclusion",
+      "channel": "any",
+      "category": "footwear",
+      "text": "Footwear must include the original shoe box in its original condition for returns.",
+      "quote": "Footwear must include the original shoe box in its original condition",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exclusion-6",
+      "type": "exclusion",
+      "channel": "any",
+      "text": "Gear purchased in-store must be returned in the country purchased.",
+      "quote": "Gear purchased in-store must be returned in the country purchased (E.g., Gear purchased in the US cannot be returned in Canada)",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-receipt-7",
+      "type": "receipt",
+      "channel": "any",
+      "text": "All gear must have proof of purchase to be returned or exchanged.",
+      "quote": "All gear must have proof of purchase",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-fee-8",
+      "type": "fee",
+      "channel": "online",
+      "text": "Original shipping fees are non-refundable.",
+      "quote": "Original shipping fees are non-refundable.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-refund_timing-9",
+      "type": "refund_timing",
+      "channel": "online",
+      "text": "Allow up to 14 business days for online refunds to be posted after return is processed.",
+      "quote": "Please allow up to 14 business days for your refund to be posted.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    },
+    {
+      "id": "policy-exchange-10",
+      "type": "exchange",
+      "channel": "any",
+      "windowDays": 60,
+      "windowAnchor": "purchase",
+      "text": "Exchanges for size or color are allowed within 60 days of purchase through UA.com or in-store with proof of purchase.",
+      "quote": "We’re happy to offer size/color exchanges through UA.com within 60 days of purchase.",
+      "snapshot": "policy",
+      "status": "extracted",
+      "extractedBy": "llm"
+    }
+  ],
+  "facets": []
+}

@@ -1,5 +1,17 @@
 # refund-return.com
-> Verified US store return policies, refund rules and letter templates. Every fact links to its official source with a last-verified date.
+> Verified US store return policies, consumer-law summaries and free letter templates. Every policy fact is taken from the store's official page, checked against the exact source sentence, and shown with its source link and last-verified date. Operated by Digital Savages LLC. Information, not legal advice.
 
+## Key pages
+- [Store return policies A–Z](https://refund-return.com/brands/)
+- [Holiday return deadlines 2026](https://refund-return.com/holiday-return-deadlines/)
+- [How refunds work](https://refund-return.com/refunds/)
+- [How returns work](https://refund-return.com/returns/)
+- [Card chargebacks (credit vs debit)](https://refund-return.com/chargebacks/)
+- [Cancelling subscriptions](https://refund-return.com/cancel/)
+- [Flight refunds and EU/UK261 compensation](https://refund-return.com/flights/)
+- [Letter generators](https://refund-return.com/generator/) and [plain templates](https://refund-return.com/templates/)
+- [Return policy generator for sellers](https://refund-return.com/sellers/return-policy-generator/)
+
+## Method
 - [How we verify](https://refund-return.com/methodology/)
 - [Editorial policy](https://refund-return.com/editorial-policy/)

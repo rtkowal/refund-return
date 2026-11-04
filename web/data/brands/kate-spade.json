@@ -24,8 +24,10 @@
       "text": "You may exchange an item free of charge within 30 days of receipt.",
       "quote": "If you would like to exchange an item, you may do so free of charge within 30 days of receipt.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-2",
@@ -37,8 +39,10 @@
       "text": "Exchanges for select handbags, shoes, wallets and clothing items may be initiated online.",
       "quote": "Exchanges for select handbags, shoes, wallets and clothing items may be initiated online.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-3",
@@ -49,8 +53,10 @@
       "text": "You must ship the original item to the distribution center within 3 days of initiating the exchange.",
       "quote": "To ensure inventory availability, please ship the original item to our distribution center within 3 days of initiating the exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-4",
@@ -59,8 +65,10 @@
       "text": "If the replacement item is not available, you will receive a full refund to your original form of payment.",
       "quote": "Please note if the replacement item is not available, you will receive a full refund to your original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-5",
@@ -69,8 +77,10 @@
       "text": "If the original item is not received at the distribution center, the exchange will be cancelled.",
       "quote": "Lastly, if we do not receive your original item at our distribution center, your exchange will be cancelled.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -80,8 +90,10 @@
       "text": "All outlet orders and items marked \"Final Sale\" are not eligible for returns, exchanges, or price adjustments.",
       "quote": "All outlet orders and items marked \"Final Sale\" are not eligible for returns, exchanges, or price adjustments.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -90,8 +102,10 @@
       "text": "Original items must be unused, unworn with original hangtags and packaging attached to be eligible for exchange.",
       "quote": "Original items must be unused, unworn with original hangtags and packaging attached.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-8",
@@ -100,8 +114,10 @@
       "text": "Initial shipping charges are not refundable.",
       "quote": "Initial shipping charges are not refundable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

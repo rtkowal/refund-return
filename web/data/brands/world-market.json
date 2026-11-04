@@ -24,8 +24,10 @@
       "text": "Most items may be returned to any World Market store in original condition within 30 days of purchase.",
       "quote": "Store Returns Most items may be returned to any World Market store in original condition within 30 days of purchase (see Returns Exceptions below).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -36,8 +38,10 @@
       "text": "Most items purchased on WorldMarket.com may be returned by mail or to any World Market store in original condition within 30 days of delivery.",
       "quote": "Online Orders Returned by Mail Most items purchased on WorldMarket.com may be returned by mail or to any World Market store in original condition within 30 days of delivery (see Returns Exceptions below).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-3",
@@ -48,8 +52,10 @@
       "text": "Most items purchased on WorldMarket.com may be returned to any World Market store in original condition within 30 days of delivery.",
       "quote": "Online Orders Returned to Store Most items purchased on WorldMarket.com may be returned to any World Market store in original condition within 30 days of delivery (see Returns Exceptions below).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-holiday-4",
@@ -60,8 +66,11 @@
       "text": "Items purchased between November 1 and December 31 may be returned through January 31.",
       "quote": "Extended Holiday Returns Items purchased between November 1 and December 31 may be returned through January 31 with an original or gift receipt.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits the requirement for an original or gift receipt, which is specified in the quote."
     },
     {
       "id": "policy-receipt-5",
@@ -72,8 +81,10 @@
       "text": "For eligible purchases made with a credit card or World Market Rewards account, we may be able to locate your receipt electronically within 30 days of purchase.",
       "quote": "For eligible purchases made with a credit card or World Market Rewards account, we may be able to locate your receipt electronically within 30 days of purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-6",
@@ -84,8 +95,10 @@
       "text": "Gift returns with the original gift receipt may be exchanged for a merchandise credit.",
       "quote": "Gift returns with the original gift receipt may be exchanged for a merchandise credit.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-7",
@@ -96,8 +109,10 @@
       "text": "For items returned to a store without a receipt, merchandise credit will be issued at the lowest selling price within the past 60 days for merchandise returned in its original condition WITHIN 30 DAYS OF PURCHASE.",
       "quote": "For items returned to a store without a receipt, merchandise credit will be issued at the lowest selling price within the past 60 days for merchandise returned in its original condition WITHIN 30 DAYS OF PURCHASE.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-8",
@@ -106,8 +121,10 @@
       "text": "The following items cannot be returned without a receipt: Jewelry, Clothing & Accessories, Personal Care & Spa Products, Framed Art, Lamps, Cutlery, Cookware, Coffee & Tea Accessories.",
       "quote": "The following items cannot be returned without a receipt: Jewelry Clothing & Accessories Personal Care & Spa Products Framed Art Lamps Cutlery Cookware Coffee & Tea Accessories",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-9",
@@ -116,8 +133,10 @@
       "text": "Gift Cards are non-returnable.",
       "quote": "The following items are non-returnable or subject to additional return restrictions: Gift Cards",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-10",
@@ -126,8 +145,10 @@
       "text": "Shipping charges are non-refundable unless the return is due to a damaged, defective, or incorrect item shipped by World Market.",
       "quote": "Shipping charges are non-refundable unless the return is the result of a damaged, defective, or incorrect item shipped by World Market.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-11",
@@ -136,8 +157,10 @@
       "text": "Returns will be refunded in the original form of payment.",
       "quote": "Returns will be refunded in the original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-12",
@@ -146,8 +169,10 @@
       "text": "PayPal purchases made in store will be refunded in cash.",
       "quote": "PayPal purchases made in store will be refunded in cash.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-13",
@@ -156,8 +181,10 @@
       "text": "Returns by mail must include the packing slip or order information including order number, name, and address.",
       "quote": "Returns by mail must include the packing slip. If the packing slip is not available, the shipment must include the order number, name, and address — otherwise the return cannot be accepted.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-price_adjustment-14",
@@ -168,8 +195,10 @@
       "text": "If an item you purchased is offered at a lower price within 10 days of your original purchase, you may be eligible for a one-time price adjustment.",
       "quote": "If an item you purchased is offered at a lower price within 10 days of your original purchase, you may be eligible for a one-time price adjustment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

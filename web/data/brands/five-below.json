@@ -24,8 +24,10 @@
       "text": "Items can be returned within 90 days of purchase for a full refund with original receipt or online order confirmation.",
       "quote": "Items can be returned **within 90 days of purchase** to any Five Below location for a full refund to the original payment method – just bring the original receipt or online order confirmation!",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-2",
@@ -34,8 +36,11 @@
       "text": "Original receipt or online order confirmation is required for returns or exchanges.",
       "quote": "we gladly accept exchanges or returns* for unopened or defective merchandise with the original receipt.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The quote specifies that a receipt is required for returns or exchanges of unopened or defective merchandise, but the summary omits these conditions and overstates the policy by implying all returns/exchanges require a receipt regardless of item condition."
     },
     {
       "id": "policy-refund_method-3",
@@ -44,8 +49,10 @@
       "text": "Refunds will be credited to the original debit/credit card used for purchase; card must be present to receive refund.",
       "quote": "Refunds will be credited to the original debit/credit card used for purchase (card must be present to receive refund).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-4",
@@ -54,8 +61,10 @@
       "text": "Five Below does not reimburse the cost of shipping for online returns or provide return shipment labels.",
       "quote": "Five Below does not reimburse the cost of shipping for online returns or provide return shipment labels.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

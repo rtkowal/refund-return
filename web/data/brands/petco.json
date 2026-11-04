@@ -24,8 +24,10 @@
       "text": "You can return petco.com orders to a store within 30 days of shipment for a full refund.",
       "quote": "Your local Petco or Unleashed by Petco store will gladly accept the return of your petco.com order within 30 days of the initial shipment date for a full refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -36,8 +38,10 @@
       "text": "Returns made 31-60 days after shipment receive a full refund as merchandise credit.",
       "quote": "Returns made 31-60 days after shipment will receive a full refund as merchandise credit.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -47,8 +51,10 @@
       "text": "Prescription medicine and pharmacy products are not eligible for returns in-store or by mail.",
       "quote": "Restrictions on returns: Prescription medicine and pharmacy products are not eligible for returns in-store or by mail.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-4",
@@ -57,8 +63,10 @@
       "text": "Valid government issued ID is required for all returns and exchanges in store.",
       "quote": "Valid government issued identification is required for all returns and exchanges.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -67,8 +75,10 @@
       "text": "Returns without a receipt or made after 60 days are not eligible for return or exchange.",
       "quote": "Returns without a receipt or made after 60 days are not eligible for return or exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-6",
@@ -77,8 +87,10 @@
       "text": "Return shipping fees will be deducted from the refund when shipping items back.",
       "quote": "Return shipping fees will be deducted from the refund",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-7",
@@ -87,8 +99,10 @@
       "text": "Refunds take about 10 days to process to your original payment method after the item is received.",
       "quote": "It takes about 10 days to process the refund to your original payment method.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-8",
@@ -97,8 +111,10 @@
       "text": "Refunds for online orders are issued to the original form of payment or merchandise credit depending on timing.",
       "quote": "Items received within 30 days will receive a full refund to the original form of tender. Items received within 31-60 days will receive a full refund as merchandise credit.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-9",
@@ -108,8 +124,10 @@
       "text": "Saltwater aquatic life cannot be returned or exchanged in store.",
       "quote": "Saltwater aquatic life cannot be returned or exchanged.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-10",
@@ -119,8 +137,10 @@
       "text": "Prescription medication items cannot be returned to a store.",
       "quote": "Personalized items or prescription medication items cannot be returned to a store.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-11",
@@ -132,8 +152,10 @@
       "text": "Freshwater aquatic life purchased in store is guaranteed for 30 days for an exchange or full refund with receipt.",
       "quote": "In a properly established habitat, Petco guarantees freshwater aquatic life for 30 days from the date of purchase for an exchange or full refund to original form of payment. A receipt is required, and a water sample is recommended for all refunds and exchanges.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

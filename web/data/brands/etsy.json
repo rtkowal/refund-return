@@ -22,8 +22,10 @@
       "text": "If you purchase the return shipping label, you will generally be charged for the label a few days after receiving the package.",
       "quote": "If you used a shipping label purchased through Etsy, you’ll generally be charged for the label a few days after you receive the package.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-2",
@@ -32,8 +34,10 @@
       "text": "You can issue a partial refund to recoup return shipping costs depending on who agreed to pay for return shipping.",
       "quote": "You can also issue a partial refund to recoup return shipping costs, depending on who agreed to pay for return shipping.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-3",
@@ -42,8 +46,10 @@
       "text": "Refunds cannot exceed the original amount paid for the order.",
       "quote": "On Etsy, you can’t refund an order for more than the original amount paid.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-4",
@@ -52,8 +58,11 @@
       "text": "If you agreed to pay for return shipping, you can send the funds for the shipping label through PayPal.",
       "quote": "If you agreed to pay for return shipping, one option is to send the funds for the shipping label through PayPal.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary implies PayPal is the method to send funds, while the quote only says it is one option, not the only method."
     }
   ],
   "facets": []

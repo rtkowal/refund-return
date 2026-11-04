@@ -31,8 +31,10 @@
       "text": "Items purchased between November 1, 2026 and January 1, 2027 can be returned or exchanged until February 1, 2027.",
       "quote": "As a courtesy during the busy holiday season, we have extended our usual 30-day limit on returns and exchanges. You have until February 1, 2027 to return or exchange items purchased after November 1, 2026 through January 1, 2027.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -43,8 +45,10 @@
       "text": "Items may be returned within 30 days of the delivery date.",
       "quote": "If you are dissatisfied with your purchase for any reason, you may return it to B&H within 30 days of the delivery date, subject to the conditions and exclusions below.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-3",
@@ -53,8 +57,11 @@
       "text": "You must locate your order online or via guest lookup to start a return.",
       "quote": "Log in to the My Account/My Orders section of the website; filter by Eligible for Return and locate your order details. Select Start a Return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits that guest lookup is not mentioned in the quote; the quote only refers to logging into an account and does not mention guest lookup as an option."
     },
     {
       "id": "policy-fee-4",
@@ -63,8 +70,11 @@
       "text": "Return shipping costs are deducted from your refund unless the item is defective or damaged.",
       "quote": "Replace item(s) and invoice in original packaging. You may either affix the preprinted label provided with your Return Merchandise Authorization (return shipping cost will be deducted from your refund) or you may purchase a shipping label from the carrier of your choice.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds that defective or damaged items are exempt from return shipping costs, but the quote does not specify this exemption."
     },
     {
       "id": "policy-fee-5",
@@ -73,8 +83,10 @@
       "text": "A minimum 15% restocking fee may be charged if return conditions are not met.",
       "quote": "If all conditions are not met, B&H reserves the right to refuse the return or to charge a minimum 15% restocking fee.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -84,8 +96,10 @@
       "text": "TVs and monitors 37\" and larger cannot be returned if original packaging is opened or unsealed.",
       "quote": "The following items cannot be returned if original packaging is unsealed or opened:\n\n*   TVs and monitors 37\" and larger",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -95,8 +109,10 @@
       "text": "Computers built or modified by B&H to customer specifications are nonreturnable.",
       "quote": "Any computers built or modified by B&H to customer specifications",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-8",
@@ -106,8 +122,10 @@
       "text": "Underwater equipment that has been submerged cannot be returned.",
       "quote": "Underwater equipment that has been submerged",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-9",
@@ -117,8 +135,10 @@
       "text": "Select special-order merchandise or any item indicated as nonreturnable on the website cannot be returned.",
       "quote": "Select special-order merchandise, or any item indicated on the website as nonreturnable",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-window-1",
@@ -130,8 +150,10 @@
       "text": "You may return your merchandise to B&H within 30 days of the purchase date for used equipment.",
       "quote": "If you are dissatisfied with a Used equipment purchase for any reason, you may return your merchandise to B&H within 30 days of the purchase date (after receiving an RMA), subject to the conditions and exclusions below:",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-holiday-2",
@@ -143,8 +165,10 @@
       "text": "Items purchased after November 1, 2026 through January 1, 2027 can be returned or exchanged until February 1, 2027.",
       "quote": "You have until February 1, 2027 to return or exchange items purchased after November 1, 2026 through January 1, 2027.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-3",
@@ -154,8 +178,10 @@
       "text": "Returned merchandise must be in the same condition as sold with all included accessories or a restocking fee of 15% may apply.",
       "quote": "All returned merchandise must be in the same condition as sold, with all included accessories. If condition differs, we reserve the right to refuse the return or to charge a restocking fee of 15%.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-fee-4",
@@ -165,8 +191,10 @@
       "text": "Return shipping fees are the responsibility of the customer and will be deducted from the refund if a prepaid label is used.",
       "quote": "If defective, please specify the defect. You may either affix the preprinted label provided with your Return Merchandise Authorization (return shipping cost will be deducted from your refund) or you may purchase a shipping label from the carrier of your choice.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-fee-5",
@@ -176,8 +204,10 @@
       "text": "Shipping fees are nonrefundable.",
       "quote": "B&H can only refund your original purchase price—shipping fees are nonrefundable.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-receipt-6",
@@ -187,8 +217,10 @@
       "text": "An RMA number must be obtained before returning used equipment.",
       "quote": "If you are dissatisfied with a Used equipment purchase for any reason, you may return your merchandise to B&H within 30 days of the purchase date (after receiving an RMA), subject to the conditions and exclusions below:",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-refund_method-7",
@@ -198,8 +230,10 @@
       "text": "Refunds are issued to the original payment method used for purchase.",
       "quote": "In most cases, we will issue your refund to the same payment method used for the original purchase.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-refund_timing-8",
@@ -209,8 +243,10 @@
       "text": "Credit card refunds appear within 7-10 days after B&H receives the product; check refunds are issued no sooner than 10 business days after purchase.",
       "quote": "If payment was made by credit card, we will credit your account once we receive the product. Please allow 7-10 days for a credit to appear on your credit card statement. If payment was made by check, the refund check will be issued no sooner than 10 business days after the date of purchase.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exchange-9",
@@ -222,8 +258,10 @@
       "text": "You may exchange used equipment within 30 days of purchase.",
       "quote": "You have the option of exchanging an item or receiving a refund for the full amount of the original purchase price within the allowed return period.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-10",
@@ -235,8 +273,10 @@
       "text": "Claims for damaged or missing items must be received within two business days of receipt of merchandise.",
       "quote": "Claims for damaged or missing items must be received within two business days of receipt of merchandise.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-window-11",
@@ -248,8 +288,11 @@
       "text": "Every used item carries a 90-day parts and labor warranty covering operational defects under normal use.",
       "quote": "Every used item we stock carries a 90-day Parts and Labor warranty.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds that the warranty covers 'operational defects under normal use,' which is not stated in the quote."
     },
     {
       "id": "s2-exchange-12",
@@ -261,8 +304,10 @@
       "text": "If a used item is proven defective within the warranty period, B&H may repair, exchange, or refund the item at their discretion.",
       "quote": "If the product has been returned to B&H and proven by one of our technicians to be defective, then depending on the product and failure circumstances, at our discretion, we will either repair the product, exchange for the same model and cosmetic condition (or better) or provide a refund for the same value paid at the time of purchase.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

@@ -24,8 +24,10 @@
       "text": "Items purchased in-store may be returned within 30 days of purchase.",
       "quote": "You may return Merchandise purchased in-store to any open HomeGoods store within 30 days of purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -36,8 +38,10 @@
       "text": "Returns with a receipt must be made within 30 days of purchase for an exchange or refund.",
       "quote": "If you're not satisfied with your purchase, please return merchandise accompanied by a register receipt within 30 days of purchase, for an exchange or refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-3",
@@ -46,8 +50,10 @@
       "text": "Returns with receipts over 30 days or without a receipt will receive store credit only.",
       "quote": "Returns with receipts over 30 days or without a receipt (but otherwise eligible for return) will receive store credit only.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-4",
@@ -56,8 +62,10 @@
       "text": "A valid government-issued photo ID, name, address, and signature are required for returns without a valid receipt or gift receipt.",
       "quote": "Any valid government issued photo ID, name, address, and signature are required for returns without a valid receipt or gift receipt.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-5",
@@ -66,8 +74,10 @@
       "text": "Returns without a receipt will receive a non-transferable merchandise credit.",
       "quote": "Returns without a receipt will receive a non-transferable merchandise credit.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-6",
@@ -76,8 +86,10 @@
       "text": "Returns with a receipt received outside the returns timeframe may qualify for a merchandise credit redeemable in store.",
       "quote": "Returns with a receipt received outside the returns timeframe may qualify for a merchandise credit. This credit is redeemable in store at any HomeGoods store location.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -86,8 +98,10 @@
       "text": "Merchandise that is used or in unsellable condition will not be accepted for refund, store credit or exchange.",
       "quote": "Merchandise that is used or in unsellable condition will not be accepted for refund, store credit or exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-8",
@@ -96,8 +110,10 @@
       "text": "Any item not returned in original condition will be returned at the customer’s expense.",
       "quote": "Any item not meeting the condition standards of this policy will be returned at the customer’s expense.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-9",
@@ -108,8 +124,10 @@
       "text": "Holiday purchases made between October 5, 2025 and December 24, 2025 may be returned through January 24, 2026.",
       "quote": "Purchases made between October 5, 2025 & December 24, 2025 may be returned through January 24, 2026.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

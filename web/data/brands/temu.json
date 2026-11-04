@@ -25,8 +25,10 @@
       "text": "The Voluntary Return Window may be only up to 45 or 60 days for certain electronic goods or large electrical appliances, as specified on the individual product detail page depending on the seller.",
       "quote": "The Voluntary Return Window may be only up to 45 or 60 days for certain electronic goods or large electrical appliances, as specified on the individual product detail page depending on the seller.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-2",
@@ -35,8 +37,10 @@
       "text": "You must bear the direct costs of returning items except for the first return of an order, which is borne by sellers.",
       "quote": "Please note that you will have to bear the direct costs of returning the items, except for the first return of an order, which will be borne by sellers.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-3",
@@ -45,8 +49,11 @@
       "text": "Return shipping is free on your first return of one or multiple returnable items for every order within the Voluntary Return Window.",
       "quote": "Return shipping is free on your first return of one or multiple returnable items for EVERY order within the Voluntary Return Window, subject to the exclusions detailed in Section 3 below.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits the important condition 'subject to the exclusions detailed in Section 3 below,' which is present in the quote. This could mislead consumers about universal eligibility."
     },
     {
       "id": "policy-refund_timing-4",
@@ -57,8 +64,10 @@
       "text": "All refunds are processed within 14 days from the day the seller is informed of the withdrawal request.",
       "quote": "All refunds, including shipping fees if applicable, are processed within 14 days from the day the seller is informed of the withdrawal request.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-5",
@@ -67,8 +76,10 @@
       "text": "Refunds will be made using the same payment method as the purchase unless otherwise agreed and without cost to you.",
       "quote": "All refunds will be made using the same mean of payment as the one you used for your purchase, unless you expressly agree to use another mean of payment and provided this mean of payment does not incur any costs for you.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -78,8 +89,10 @@
       "text": "Products not suitable for return for health protection or hygiene reasons if their sealing was removed after delivery cannot be withdrawn.",
       "quote": "products that are not suitable for return for reasons of health protection or hygiene and whose sealing was removed after delivery or due to their nature have been inseparably mixed with other products after delivery;",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -89,8 +102,10 @@
       "text": "Audio or video recordings or computer software in sealed packaging cannot be withdrawn if the sealing was removed after delivery.",
       "quote": "audio or video recordings or computer software in sealed packaging, if the sealing was removed after delivery;",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-8",
@@ -100,8 +115,10 @@
       "text": "Products manufactured to customer specifications or clearly personalised cannot be withdrawn.",
       "quote": "products manufactured to customer specifications or clearly personalised;",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-9",
@@ -111,8 +128,10 @@
       "text": "Products that may deteriorate or expire rapidly cannot be withdrawn.",
       "quote": "products that may deteriorate or expire rapidly.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

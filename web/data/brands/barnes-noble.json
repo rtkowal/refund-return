@@ -24,8 +24,11 @@
       "text": "Items bought online or in-store can be returned within 30 days after delivery or purchase date.",
       "quote": "We will issue a refund for the purchase price of the item plus any applicable taxes to your original form of payment for items returned within 30 days after the delivery date.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The QUOTE only mentions returns within 30 days after the delivery date, not after in-store purchase date. The SUMMARY adds in-store purchases, which is not supported by the QUOTE."
     },
     {
       "id": "policy-holiday-2",
@@ -36,8 +39,10 @@
       "text": "Purchases made between Nov 1 and Dec 31, 2026 are refundable or exchangeable through Jan 31, 2027.",
       "quote": "Purchases made between November 1st and December 31st, 2026 are refundable or exchangeable through January 31st, 2027, including sealed or unsealed NOOK devices.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -47,8 +52,10 @@
       "text": "Opened shrink-wrapped or sealed products cannot be returned unless defective.",
       "quote": "Shrink-wrapped or sealed product that has been opened and/or removed from original packaging may not be returned, unless it is defective, in which case it can be exchanged only for the same product.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -58,8 +65,10 @@
       "text": "Magazines, newspapers, used books and shipping fees are not returnable or exchangeable.",
       "quote": "Magazines, newspapers, used books and shipping fees are not returnable or exchangeable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -69,8 +78,10 @@
       "text": "Digital content including eBooks, audiobooks, digital magazines, Access Codes, gift cards, and opened shrink-wrapped items are not returnable.",
       "quote": "Digital content, including eBooks, audiobooks, digital magazines and newspapers, Access Codes, gift cards, and shrink-wrapped items that have been opened, are not returnable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -80,8 +91,10 @@
       "text": "Bulk orders of 50 or more copies are non-returnable.",
       "quote": "Bulk orders of 50 or more copies are non-returnable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-7",
@@ -90,8 +103,11 @@
       "text": "Returns require original receipt or proof of purchase; without packing slip or shipping confirmation, returns cannot be processed.",
       "quote": "Without a packing slip or shipping confirmation printout, we cannot process the return and you will not receive your refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The QUOTE only refers to online returns (packing slip or shipping confirmation), not in-store receipts or proof of purchase. The SUMMARY generalizes to all returns, which is not fully supported."
     },
     {
       "id": "policy-fee-8",
@@ -100,8 +116,11 @@
       "text": "Shipping charges for returns are not refunded and return shipping is paid by the customer.",
       "quote": "Shipping charges are non-refundable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The QUOTE only states that shipping charges are non-refundable. The SUMMARY adds that return shipping is paid by the customer, which is not mentioned in the QUOTE."
     },
     {
       "id": "policy-refund_method-9",
@@ -110,8 +129,10 @@
       "text": "Refunds are issued to the original form of payment or store credit if original payment is unavailable or for certain payment methods.",
       "quote": "Eligible refunds will generally be made to your original form of tender. Store credit in the form of an electronic gift card will be issued if the original form of payment is not available.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-10",
@@ -120,8 +141,10 @@
       "text": "Refunds are processed within 24 hours after request but may take several business days to appear on statements.",
       "quote": "Refunds are processed within 24 hours after being requested, but may take several business days to appear on your online statement depending on your card issuer's internal processes.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

@@ -24,8 +24,10 @@
       "text": "Most items can be returned within 30 days of delivery if in original, undamaged condition.",
       "quote": "We accept returns for most items within 30 days of delivery. The item(s) must be in its original, undamaged condition.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -37,8 +39,11 @@
       "text": "Mattresses come with a 100-night free trial for returns.",
       "quote": "Every mattress comes with a 100-night free trial. If you don't love your new mattress within the first 100 nights, you can arrange a return for free to store credit, or to your original payment method for a fee ranging from $49-$99.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits that returns to the original payment method incur a fee, while store credit returns are free. The quote specifies this important condition."
     },
     {
       "id": "policy-exclusion-3",
@@ -48,8 +53,10 @@
       "text": "Mattress toppers, crib mattresses, air mattresses, and open box mattresses are excluded from the mattress return policy.",
       "quote": "This excludes Mattress Toppers, Crib Mattresses, Air Mattresses, and Open Box Mattresses.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -60,8 +67,11 @@
       "text": "Items purchased between November 1 and December 31 can be returned until January 31.",
       "quote": "For all items purchased between November 1 and December 31 (except Appliances as described above), the deadline to return them is extended until January 31.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits that appliances are excluded from the extended return window, which is specified in the quote."
     },
     {
       "id": "policy-fee-5",
@@ -71,8 +81,10 @@
       "text": "Mattress returns to original payment method may incur a fee ranging from $49-$99; store credit returns are free.",
       "quote": "If you don't love your new mattress within the first 100 nights, you can arrange a return for free to store credit, or to your original payment method for a fee ranging from $49-$99.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-6",
@@ -81,8 +93,10 @@
       "text": "Refunds to original payment method take 3-5 business days after refund initiation; store credit refunds take 24 hours from initiation.",
       "quote": "For store credit, this takes 24 hours from initiation, and 3-5 business days for refunds to the original payment method.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

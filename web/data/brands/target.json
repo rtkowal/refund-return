@@ -24,8 +24,10 @@
       "text": "You can request a price match if the price goes lower at Target between November 1, 2026 and December 24, 2026 after purchase.",
       "quote": "Starting November 1, 2026, if you purchase an item in store or online and the price goes lower at Target on or before December 24, 2026, you can request a price match.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-price_adjustment-2",
@@ -34,8 +36,10 @@
       "text": "Price match requires the item to be identical in brand, size, weight, color, quantity, and model number.",
       "quote": "The item must be identical in brand, size, weight, color, quantity and model number, and the lower price must be found at Target.com or in a local Target store.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-price_adjustment-3",
@@ -44,8 +48,10 @@
       "text": "Price match excludes items purchased with a promotional Target GiftCard or items currently having a Target GiftCard promotion.",
       "quote": "If you received a promotional Target GiftCard as part of the original purchase. Or, if the product currently has a Target GiftCard offered as part of a promotion.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-price_adjustment-4",
@@ -55,8 +61,10 @@
       "text": "Produce items need to be sold in the same unit of measure (per pound vs. per item) for price match.",
       "quote": "Items need to be sold in the same unit of measure (per pound vs. per item).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-price_adjustment-5",
@@ -66,8 +74,10 @@
       "text": "Non-SuperTargets cannot match per-pound produce items.",
       "quote": "Non-SuperTargets can't match per-pound items.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-price_adjustment-6",
@@ -76,8 +86,10 @@
       "text": "Price match requires showing the price on your mobile device from Target.com; screenshots or pictures are not accepted.",
       "quote": "Present the price on your mobile device from Target.com. A Target team member will then verify the match using a Target device. Screenshots or pictures cannot be accepted.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

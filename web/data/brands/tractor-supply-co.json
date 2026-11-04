@@ -24,8 +24,10 @@
       "text": "Most items can be returned within 30 days from the purchase date with proof of purchase.",
       "quote": "Whether you made your purchase in a Tractor Supply store or online, if you're not completely satisfied with any item you purchased from Tractor Supply, return it to us with proof of purchase within 30 days from the purchase date to exchange or return an item at its original purchase price.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -36,8 +38,11 @@
       "text": "Active Neighbor's Club members have a 90 day paperless return window.",
       "quote": "Active Neighbor's Club members are eligible for 90 day paperless returns.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds 'paperless return window,' which is not specified in the quote. The quote only says '90 day paperless returns' but does not clarify if this is a 'window' or if all returns are paperless."
     },
     {
       "id": "policy-receipt-3",
@@ -46,8 +51,10 @@
       "text": "All returns require proof of purchase or refund verification system approval.",
       "quote": "All returns require a proof of purchase or are subject to refund verification system approval.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-4",
@@ -56,8 +63,10 @@
       "text": "Store returns without proof of purchase or after 30 days require refund verification system approval and valid State or Federal ID.",
       "quote": "Store returns without proof of purchase or after 30 days from purchase date require refund verification system approval. Approved returns without a receipt require a valid State or Federal ID.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-5",
@@ -66,8 +75,10 @@
       "text": "In-store refunds are made to the original payment method if proof of purchase is provided; exceptions may issue gift card or check.",
       "quote": "Refunds for items returned to your local Tractor Supply store are made by crediting the original method of payment if proof of purchase is provided; in some cases, exceptions apply and a gift card or Check** will be issued.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-6",
@@ -76,8 +87,10 @@
       "text": "Online returns are refunded to the original payment method as per the payment type chart.",
       "quote": "Refunds for items returned online will be refunded based on the chart below.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -87,8 +100,10 @@
       "text": "All ammunition sales are final and cannot be returned.",
       "quote": "All ammunition sales are final and cannot be returned.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-8",
@@ -99,8 +114,11 @@
       "text": "Exchanges can be made in any Tractor Supply store within 30 days of purchase.",
       "quote": "If you would like to make an exchange please come visit us in any one of our Tractor Supply stores.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds a 30-day time limit for exchanges, which is not mentioned in the quote."
     },
     {
       "id": "policy-refund_timing-9",
@@ -109,8 +127,10 @@
       "text": "In-store returns are processed immediately; credit timing depends on bank processing.",
       "quote": "In store returns will be processed immediately and the time it takes for the credit to show is dependent on your bank's processing time.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-10",
@@ -119,8 +139,10 @@
       "text": "Online returns take 48 hours processing time upon receipt of the return.",
       "quote": "If you're shipping your return back please allow 48 hours processing time upon receipt of your return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-11",
@@ -130,8 +152,10 @@
       "text": "Items with shipping restrictions can only be returned in store.",
       "quote": "Items that have shipping restrictions can only be returned in store.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

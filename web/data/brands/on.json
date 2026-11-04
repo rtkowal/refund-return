@@ -31,8 +31,10 @@
       "text": "Standard return window is 30 days for purchases outside the holiday extended period.",
       "quote": "For all other countries, our standard 30 day return and exchange policy applies.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-2",
@@ -41,8 +43,10 @@
       "text": "Returns are only accepted for orders purchased directly from On.",
       "quote": "We are only able to accept returns for orders purchased directly from On.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -51,8 +55,10 @@
       "text": "On is unable to accept returns of products purchased from retail partners.",
       "quote": "On is unable to accept the return of product purchased from one of our retail partners.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -62,8 +68,10 @@
       "text": "Limited editions and last season items can only be refunded, not exchanged.",
       "quote": "Limited editions and last season items can only be refunded, but are not exchangeable due to limited stock.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-5",
@@ -72,8 +80,10 @@
       "text": "Expedited shipping costs on the original order are not refunded.",
       "quote": "Please note that expedited shipping costs on the original outbound order will not be refunded in the case of returns or exchanges.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-6",
@@ -82,8 +92,10 @@
       "text": "Return shipping is free for eligible returns except in India, Indonesia, Thailand, and Malaysia.",
       "quote": "We offer free return shipping for eligible returns unless you are in India, Indonesia, Thailand or Malaysia.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-7",
@@ -93,8 +105,11 @@
       "text": "Gift returns require the original order number and gift receipt in the US.",
       "quote": "In the US, we ask that you provide the gift receipt that was sent in the Shipping Confirmation email of the original order.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds a requirement for the original order number, which is not mentioned in the quote."
     },
     {
       "id": "policy-exchange-8",
@@ -103,8 +118,10 @@
       "text": "Exchanges are allowed only for different sizes or colors of the same model if in stock.",
       "quote": "We allow for exchanges for a different size or color of the same model as originally purchased. The new size and color must be in stock to be able to proceed with the exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-9",
@@ -114,8 +131,10 @@
       "text": "Limited edition and last season items are not exchangeable but can be returned for a refund.",
       "quote": "Limited edition products and colorways plus Last Season pieces are not exchangeable but can be returned for a refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-window-1",
@@ -126,8 +145,10 @@
       "text": "Returns and exchanges are available for products in new condition within 90 days of purchase.",
       "quote": "Returns and exchanges are available for products in new condition within 90 days of purchase.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-2",
@@ -136,8 +157,10 @@
       "text": "Returns are only accepted for orders purchased directly from On.",
       "quote": "We are only able to accept returns for orders purchased directly from On.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-3",
@@ -147,8 +170,10 @@
       "text": "Limited editions and last season items can only be refunded, but are not exchangeable due to limited stock.",
       "quote": "Limited editions and last season items can only be refunded, but are not exchangeable due to limited stock.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-receipt-4",
@@ -157,8 +182,10 @@
       "text": "To submit a return request, you must provide your order number and the email address used to place the order.",
       "quote": "To submit a return request, enter your order number and the email address used to place the order [here](https://www.on.com/returns).",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-refund_timing-5",
@@ -167,8 +194,10 @@
       "text": "Refunds will be issued upon receipt of your order.",
       "quote": "Refunds will be issued upon receipt of your order.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exchange-6",
@@ -177,8 +206,11 @@
       "text": "Exchange replacements will be sent within 7-14 business days after receipt of the returned order.",
       "quote": "Exchange replacements will be sent within 7-14 business days.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds 'after receipt of the returned order,' which is not specified in the quote."
     },
     {
       "id": "s2-fee-7",
@@ -187,8 +219,10 @@
       "text": "On covers the cost of shipping for eligible returned products except for returns to or from India, Indonesia, Thailand and Malaysia.",
       "quote": "We cover the cost of shipping for eligible returned On products unless it is to, or from, one of the following countries: India, Indonesia, Thailand and Malaysia.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-fee-8",
@@ -197,8 +231,10 @@
       "text": "Expedited shipping costs on the original outbound order will not be refunded in the case of returns or exchanges.",
       "quote": "Please note that expedited shipping costs on the original outbound order will not be refunded in the case of returns or exchanges.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

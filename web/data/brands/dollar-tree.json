@@ -22,8 +22,11 @@
       "text": "Items purchased in-store can be exchanged for another item with the original receipt.",
       "quote": "With the original receipt, items can be exchanged for another item, or a refund will be issued in the original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits that a refund is also an option with the original receipt, not just an exchange. The quote mentions both exchange and refund."
     },
     {
       "id": "policy-refund_method-2",
@@ -32,8 +35,10 @@
       "text": "Refunds for in-store purchases with original receipt will be issued in the original form of payment.",
       "quote": "With the original receipt, items can be exchanged for another item, or a refund will be issued in the original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-3",
@@ -42,8 +47,10 @@
       "text": "Items purchased in-store without the original receipt can be exchanged at the current scanned price.",
       "quote": "Without the original receipt, items can be exchanged at the current scanned price.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -53,8 +60,10 @@
       "text": "Refunds and exchanges are not provided for gift cards or prepaid financial cards.",
       "quote": "Refunds and exchanges are not provided for gift cards or prepaid financial cards.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-5",
@@ -64,8 +73,10 @@
       "text": "All sales are final for orders placed online at DollarTree.com.",
       "quote": "For online purchases: All sales are final for orders placed at DollarTree.com.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -74,8 +85,10 @@
       "text": "Online purchases cannot be returned or refunded unless the order is incomplete or items arrived damaged.",
       "quote": "However, if your order is incomplete or your items arrived damaged, call 1-877-530-TREE (8733) with your order information and our Customer Order Support Team will assist with a resolution.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

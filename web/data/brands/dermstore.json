@@ -24,8 +24,10 @@
       "text": "You have 60 days from the date of receiving your item to start a return.",
       "quote": "You have 60 days from the date of receiving your item to start a return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-2",
@@ -34,8 +36,10 @@
       "text": "Returns are accepted only if items are in pristine condition, unopened, unused and seals intact.",
       "quote": "We accept returns for all orders, provided they are in pristine condition. This means they’re unopened, unused and any seals are intact.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -44,8 +48,10 @@
       "text": "Exchanges are not offered; customers must place a new order and return the original for a refund.",
       "quote": "Please note, we don’t offer exchanges. You will need to place a new order and return your original for a refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-4",
@@ -54,8 +60,10 @@
       "text": "Refunds are processed within 3-5 working days after the return is received.",
       "quote": "Once received, we'll refund the amount for the returned goods and send you a notification via email. This can take 3-5 working days from the date we receive the return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-5",
@@ -64,8 +72,10 @@
       "text": "Refunds should appear in the customer's account within 5 working days after processing.",
       "quote": "Your refund should be returned to your account within 5 working days and we’ll send you an email to let you know it's on its way!",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

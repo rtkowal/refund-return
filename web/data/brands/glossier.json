@@ -31,8 +31,10 @@
       "text": "All returns must be processed within 30 days of receiving the order.",
       "quote": "All returns must be processed within 30 days of receiving the order.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-2",
@@ -41,8 +43,10 @@
       "text": "Order number (GLO#) must be provided to place a return.",
       "quote": "Order # (GLO#) must be provided to place a return, and you will be refunded in full to your original form of payment (with the exception of in-store cash purchases, which will be refunded with store credit).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-3",
@@ -51,8 +55,10 @@
       "text": "Refunds are issued to the original form of payment except in-store cash purchases which are refunded with store credit.",
       "quote": "you will be refunded in full to your original form of payment (with the exception of in-store cash purchases, which will be refunded with store credit).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -61,8 +67,10 @@
       "text": "Gift cards and store-specific merchandise are final sale and cannot be returned.",
       "quote": "Please note, gift cards and store-specific merchandise are final sale.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-5",
@@ -71,8 +79,10 @@
       "text": "Credit card refunds usually take 5-10 business days to appear on your statement.",
       "quote": "Credit card refunds usually take 5-10 business days to appear on your statement.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-6",
@@ -83,8 +93,11 @@
       "text": "Exchanges can be processed by contacting customer service or visiting a store within the 30 day return window.",
       "quote": "If you don’t see the return option there, or you’d like to process an exchange, please reach out to gTEAM@glossier.com or visit one of our stores with your order number and the products you'd like to exchange or return, and we'll take care of the rest.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds a 30 day return window for exchanges, which is not explicitly stated in the quote for exchanges (only for returns)."
     },
     {
       "id": "policy-exclusion-7",
@@ -93,8 +106,10 @@
       "text": "Gift returns are accepted for store credit only and require the gifter's information to locate the original order.",
       "quote": "If you were gifted Glossier but it isn't what you had in mind, you can return your items for store credit. Please reach out to gTEAM@glossier.com or visit one of our stores with the gifter's first and last name, email address, and the products you’d like to return or exchange (the gifter won’t be notified of any changes). Once locating the original order, we'll handle it!",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-window-1",
@@ -105,8 +120,10 @@
       "text": "All returns must be requested within 30 days of receiving the order.",
       "quote": "All returns must be requested within 30 days of receiving the order.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-2",
@@ -116,8 +133,10 @@
       "text": "Sweatshirts, merchandise, engraved items, and gift cards are final sale and cannot be returned.",
       "quote": "Please note, sweatshirts, merchandise, engraved items, and gift cards are final sale.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-receipt-3",
@@ -126,8 +145,10 @@
       "text": "The original order number must be provided to place a return.",
       "quote": "The original order number must be provided to place a return",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-refund_method-4",
@@ -136,8 +157,10 @@
       "text": "Refunds are issued to the original form of payment or as a Glossier gift card if using the self-service returns process.",
       "quote": "you will be refunded in full to your original form of payment (with the exception of in-store cash purchases, which will be refunded with store credit), excluding the cost of delivery, except where otherwise required by law. You will also have the opportunity to choose to receive a refund in the form of a Glossier gift card if you use our self-service returns process.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-refund_timing-5",
@@ -146,8 +169,10 @@
       "text": "Credit card refunds usually take 5–10 business days to appear on your statement; gift card refunds are available immediately.",
       "quote": "Credit card refunds usually take 5–10 business days to appear on your statement. Gift card refunds will be available right away on your original gift card.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-6",
@@ -157,8 +182,10 @@
       "text": "Returns or exchanges are not accepted for products purchased through wholesale partners like Sephora, Space NK, and Mecca.",
       "quote": "We are unable to accept returns or exchanges for all products purchased through our wholesale partners, including Sephora, Space NK, and Mecca.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exchange-7",
@@ -169,8 +196,10 @@
       "text": "Returns and exchanges can be processed in-store within 30 days of receiving the order with order number and products.",
       "quote": "Yes! Come to the store prepared with your order number and the products you'd like to exchange or return, and we'll take care of the rest. Please note returns and exchanges can only be processed within 30 days of you receiving the order.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-fee-8",
@@ -179,8 +208,10 @@
       "text": "The cost of delivery is excluded from refunds except where otherwise required by law.",
       "quote": "you will be refunded in full to your original form of payment, excluding the cost of delivery except where otherwise required by law.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

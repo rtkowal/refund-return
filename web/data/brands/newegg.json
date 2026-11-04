@@ -29,8 +29,10 @@
       "text": "Refunds will be issued back to the original payment method or by check if original payment method is unavailable.",
       "quote": "Once your return has been processed, refunds will be issued back to your original payment method. If the original payment method is no longer available, Newegg will mail you a check to the billing address listed on your account.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-2",
@@ -39,8 +41,10 @@
       "text": "Refunds for gift purchases are issued as store credit.",
       "quote": "For returns for refunds for products purchased as gifts, Newegg will issue you a refund in the form of store credit.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-3",
@@ -49,8 +53,10 @@
       "text": "Replacements are processed and shipped within 1-2 business days after return processing; exchanges for different products are not allowed.",
       "quote": "Once your return has been processed, a replacement will be processed and shipped within approximately 1-2 business days. If Newegg no longer carries a product that is sent in for replacement, or if that product is simply out of stock, Newegg will issue you a refund.\n\nProducts eligible for a replacement may only be replaced with the same product. We currently do not allow exchanges or returns for replacements for different products.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -60,8 +66,11 @@
       "text": "Opened or activated physical copies of software, media, and video games cannot be returned, exchanged, replaced, or refunded.",
       "quote": "Opened or Activated physical copies of software, software licenses, movies, music, books, video game consoles, VR consoles, and video games cannot be returned, exchanged, replaced, or refunded.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits several categories (e.g., video game consoles, VR consoles, software licenses, movies, music, books) listed in the quote, so it understates the scope."
     },
     {
       "id": "policy-exclusion-5",
@@ -71,8 +80,10 @@
       "text": "Opened or activated consumable products cannot be returned, exchanged, replaced, or refunded.",
       "quote": "Opened or Activated consumable products cannot be returned, exchanged, replaced, or refunded.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -82,8 +93,10 @@
       "text": "All digital product sales are final and cannot be returned, exchanged, replaced, or refunded.",
       "quote": "All Digital products sales are final, and cannot be returned, exchanged, replaced, or refunded.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-7",
@@ -95,8 +108,10 @@
       "text": "Services and extended warranties can be returned for a refund within 30 days of delivery if unused; partial refunds may be given after 30 days.",
       "quote": "Services and Extended Warranties can be returned for a refund within 30 days of the delivery date if the service or warranty has not been used or redeemed. For refund requests after 30 days, you may receive a partial refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-8",
@@ -106,8 +121,10 @@
       "text": "A 15% restocking fee applies to opened hard drives, motherboards, graphics cards, projectors, and televisions unless defective or unopened.",
       "quote": "A 15% restocking fee applies to the following product categories: hard drives (HD), motherboards (MB), graphics cards (VGA), projectors, and televisions (TV) when items are returned in opened condition. New and unopened returns will not be subject to a restocking fee. Products that are received by the customer in damaged or defective condition will not be subject to a restocking fee.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-9",
@@ -116,8 +133,10 @@
       "text": "To return a product, you must obtain an RMA number within the applicable return period and include it on the return package.",
       "quote": "To return a product to Newegg, you must obtain an RMA number within the applicable return period for the product. Your RMA number must be listed on your return package to identify your return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-10",
@@ -126,8 +145,10 @@
       "text": "Newegg does not charge for return shipping labels for products up to 50lbs; customers may request a prepaid return label.",
       "quote": "Newegg does not charge for return shipping labels for products up to 50lbs. You may request a courtesy prepaid return label during the return creation process.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-11",
@@ -137,8 +158,10 @@
       "text": "Purchases of prepaid cards, gift packaging, and memberships are not eligible for return.",
       "quote": "Purchases for prepaid cards, gift packaging and memberships are not eligible for return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-window-1",
@@ -149,8 +172,10 @@
       "text": "The standard return window for products sold and shipped by Newegg is 30 days from the delivery date.",
       "quote": "Standard Return Policy | Refund or Replacement within 30 days of the delivery date.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-window-2",
@@ -161,8 +186,10 @@
       "text": "Products labeled with the 30-Day Hassle-Free Returns badge are eligible for free returns within 30 days with no restocking fees and free return shipping.",
       "quote": "Any product sold and shipped by Newegg labeled with the 30-Day Hassle-Free Returns badge is eligible for free returns within 30 days with no restocking fees and free return shipping.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-3",
@@ -172,8 +199,10 @@
       "text": "Consumable products cannot be returned to Newegg.",
       "quote": "Consumable products cannot be returned to Newegg. Consumable products may include, but are not limited to, Printer Ink, Toner Cartridges, CD/DVD Media, Retail Packaged Software, Downloadable Software, Digital Products, Paper Products, Face Masks, Gift Cards, Prepaid Cards, SIM Kits and etc. that are consumed once they are used.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-4",
@@ -182,8 +211,10 @@
       "text": "Prepaid cards, gift packaging, and memberships are not eligible for return.",
       "quote": "Purchases for prepaid cards, gift packaging and memberships are not eligible for return.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-5",
@@ -192,8 +223,10 @@
       "text": "Special order products are not eligible for return.",
       "quote": "Special order products are not eligible for return.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-fee-6",
@@ -202,8 +235,10 @@
       "text": "Newegg does not charge any restocking fees for returns regardless of the reason for return.",
       "quote": "Newegg does not charge any restocking fees for returns regardless of the reason for return.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-fee-7",
@@ -212,8 +247,10 @@
       "text": "Newegg does not charge for return shipping labels for products up to 50lbs but may deduct return shipping costs from the refund if applicable.",
       "quote": "Newegg does not charge for return shipping labels for products up to 50lbs. You may request a courtesy prepaid return label during the return creation process within the applicable return policy period. Newegg reserves the right to deduct from the refund amount the cost of the return shipping from the customer to Newegg.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-refund_method-8",
@@ -222,8 +259,10 @@
       "text": "Refunds are credited back to the original payment method or by check if the original method is unavailable; gift purchases are refunded as store credit; Bitpay purchases refunded as Newegg gift card.",
       "quote": "Refunds will be credited back to your original payment method. Once your return has been processed, please allow 3-5 business days for your refund to post to your account. If the original payment method is no longer available, Newegg will mail you a check to the billing address listed on your account. For returns for refunds for products purchased as gifts, Newegg will issue you a refund in the form of store credit. For returns for refunds for products purchased through Bitpay, Newegg will issue you a refund in the form of a Newegg gift card.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-refund_timing-9",
@@ -232,8 +271,10 @@
       "text": "Refunds post within 3-5 business days after the return is processed.",
       "quote": "Once your return has been processed, please allow 3-5 business days for your refund to post to your account.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

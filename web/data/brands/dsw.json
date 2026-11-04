@@ -24,8 +24,11 @@
       "text": "Merchandise purchased through DoorDash or Uber may be returned for a DSW merchandise credit within 30 days of purchase.",
       "quote": "Unless marked as Final Sale, merchandise purchased through DoorDash or Uber may be returned for a DSW merchandise credit within 30 days of purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits the condition 'Unless marked as Final Sale' which is present in the quote. This is an important limitation."
     },
     {
       "id": "policy-fee-2",
@@ -34,8 +37,10 @@
       "text": "In-store returns are free.",
       "quote": "In-store returns are free.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-3",
@@ -44,8 +49,10 @@
       "text": "Exchanges for a different size or color are free both in store and by mail.",
       "quote": "Need a different size or color? We offer free exchanges both in store and through mail.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

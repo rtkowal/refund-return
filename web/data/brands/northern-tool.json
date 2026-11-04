@@ -24,8 +24,10 @@
       "text": "Eligible products may be returned within 60 days of receipt for a refund or exchange.",
       "quote": "Eligible products may be returned within 60 days of receipt for a refund or exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-2",
@@ -35,8 +37,10 @@
       "text": "During severe weather or natural disasters, sales of generators, chainsaws and water pumps may be designated as final and not returnable.",
       "quote": "During the threat or occurrence of a severe weather event or natural disaster, sales of generators, chainsaws and water pumps may be designated as final.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -46,8 +50,10 @@
       "text": "Gas and diesel-powered products cannot be returned after they have been fueled or oiled.",
       "quote": "Gas and diesel-powered products cannot be returned to Northern Tool after they have been fueled or oiled.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -57,8 +63,10 @@
       "text": "Custom and built-to-order products are nonreturnable.",
       "quote": "Custom and built-to-order products are nonreturnable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -68,8 +76,10 @@
       "text": "NorTrac equipment, surface cleaners, gang reels, winches, reconditioned forklifts, books, DVDs, CDs, videos, blueprints, clearance items and electronic auction items are nonreturnable.",
       "quote": "NorTrac equipment, surface cleaners, gang reels, winches, reconditioned forklifts, books, DVDs, CDs, videos, blueprints, clearance items and electronic auction items are nonreturnable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-6",
@@ -78,8 +88,10 @@
       "text": "A restocking fee of up to 15% may apply to products that are not defective or are returned used, opened, incomplete or without original packaging.",
       "quote": "A restocking fee of up to 15% may apply to products that are not defective or are returned used, opened, incomplete or without their original packaging.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-7",
@@ -89,8 +101,10 @@
       "text": "Factory-shipped products may be subject to a restocking fee of up to 15% and require manufacturer approval before return.",
       "quote": "Factory-shipped products require approval from the manufacturer before they can be returned and should not be returned directly to Northern Tool. These products may also be subject to a restocking fee of up to 15%.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-8",
@@ -99,8 +113,10 @@
       "text": "Returns require a packing slip, order number, or return authorization number to expedite the return process.",
       "quote": "To expedite your return at the store, please bring your packing slip, order number, or return authorization number along with your products for return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-9",
@@ -109,8 +125,10 @@
       "text": "Processing a return via shipment will take 2-4 weeks.",
       "quote": "Processing your return via shipment will take 2-4 weeks.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-10",
@@ -119,8 +137,10 @@
       "text": "Refunds are for the cost of the products only.",
       "quote": "Refunds are for the cost of the products only.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-11",
@@ -131,8 +151,10 @@
       "text": "Eligible products may be returned within 60 days of receipt for an exchange.",
       "quote": "Eligible products may be returned within 60 days of receipt for a refund or exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

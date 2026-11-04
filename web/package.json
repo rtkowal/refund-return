@@ -11,7 +11,8 @@
     "extract": "tsx scripts/extract-brands.ts",
     "check-links": "node scripts/check-links.mjs",
     "extract-laws": "tsx scripts/extract-laws.ts",
-    "seo-audit": "node scripts/seo-audit.mjs"
+    "seo-audit": "node scripts/seo-audit.mjs",
+    "review": "tsx scripts/review-facts.ts"
   },
   "dependencies": {
     "@upstash/ratelimit": "^2.2.0",

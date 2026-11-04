@@ -31,8 +31,10 @@
       "text": "Returns received in store more than 90 days after the original purchase date will result in the issuance of merchandise credit.",
       "quote": "Returns received in store more than 90 days after the original purchase date will result in the issuance of merchandise credit (irrespective of when the return was entered into our returns portal).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -43,8 +45,10 @@
       "text": "Returns processed at the facility more than 90 days after the original purchase date will result in merchandise credit.",
       "quote": "Returns processed in our facility more than 90 days after the original purchase date will result in the issuance of merchandise credit (irrespective of when the return was entered into our returns portal).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -53,8 +57,10 @@
       "text": "Gift cards (including E-Gift Cards) cannot be returned or exchanged.",
       "quote": "Gift cards (including E-Gift Cards) cannot be returned or exchanged.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-4",
@@ -65,8 +71,10 @@
       "text": "Within 90 days from purchase, refunds will be issued based on the original tender; after 90 days merchandise credit will be issued.",
       "quote": "Ninety days or less from the original purchase date, credit card, debit card and PayPal purchase refunds will be issued based on the original tender; thereafter merchandise credit will be issued.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-5",
@@ -75,8 +83,10 @@
       "text": "Your shipping confirmation email can be used as a receipt.",
       "quote": "Your shipping confirmation email can be used as a receipt.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-6",
@@ -85,8 +95,10 @@
       "text": "Return shipping costs are the customer's responsibility; Bath & Body Works does not provide prepaid return labels.",
       "quote": "Please note: Return shipping costs are your responsibility. Bath & Body Works does not provide prepaid return labels.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -95,8 +107,11 @@
       "text": "Flash Sales, select short promotions, Candle Day pricing, social shops and reseller purchases are not eligible for price adjustments.",
       "quote": "Flash Sales, select promotions lasting 48 hours or less, Candle Day event pricing, purchases from social shops (such as Tik Tok) or resellers (such as Amazon) and email offers are not eligible for price adjustments.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits 'email offers' from the list of exclusions present in the quote, so it is incomplete."
     },
     {
       "id": "policy-exchange-8",
@@ -105,8 +120,10 @@
       "text": "Exchanges and gift returns of Website purchases can only be performed in stores.",
       "quote": "Exchanges and gift returns of items purchased from the Website can only be performed in stores, subject to the terms of this policy.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-receipt-1",
@@ -115,8 +132,10 @@
       "text": "A government-issued ID is required at select US stores to track returns and exchanges.",
       "quote": "At select US stores, a government-issued identification (“ID”) is required in order to track returns and exchanges and Bath & Body Works and White Barn will electronically scan or manually collect information from this ID.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-fee-2",
@@ -127,8 +146,10 @@
       "text": "At select US stores, non-receipted returns or exchanges are limited to $250 within a 90-day period.",
       "quote": "AT SELECT US STORES, YOU WILL BE LIMITED TO $250 IN NON-RECEIPTED RETURNS OR EXCHANGES WITHIN A 90-DAY PERIOD.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-price_adjustment-3",
@@ -139,8 +160,10 @@
       "text": "One-time price adjustment is available within 14 days of purchase with original receipt for in-store purchases.",
       "quote": "A one-time price adjustment from the original store selling price to the current store selling price will be issued for in-store purchases when the original receipt is presented within 14 days after the date of the original purchase.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-4",
@@ -149,8 +172,10 @@
       "text": "Price adjustments do not apply to Flash Sales, select short promotions, Candle Day pricing, Instacart, social shops, resellers, or email offers.",
       "quote": "Flash Sales, select promotions lasting 48 hours or less, Candle Day event pricing, Instacart purchases, purchases from social shops (such as TikTok) or resellers (such as Amazon) and email offers are not eligible for price adjustments.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-5",
@@ -159,8 +184,10 @@
       "text": "Returns of products purchased from social shops or authorized sellers must be made to those sellers, not Bath & Body Works stores or online.",
       "quote": "Product purchased on Bath & Body Works social channels (such as TikTok) or from authorized sellers (such as Amazon) must be returned to the authorized seller, consistent with the authorized seller’s policies; Returns will not be accepted in Bath & Body Works stores or via the Bath & Body Works online return process.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exchange-6",
@@ -169,8 +196,10 @@
       "text": "Exchanges are allowed for products of the same type and ticket price as the returned product.",
       "quote": "customers are welcome to exchange product for a replacement that is of the same type and the same ticket price as the product being returned (for example, exchanging a three-wick candle for a different three-wick candle with the same ticket price).",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

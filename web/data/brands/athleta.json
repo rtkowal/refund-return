@@ -24,8 +24,10 @@
       "text": "Returns/exchanges must be returned within 30 days of the delivery date (online purchases) or date of purchase (in store purchases).",
       "quote": "Returns/exchanges must be returned within 30 days of the delivery date (online purchases) or date of purchase (in store purchases). Returns/exchanges with sales receipt are accepted within 30 days of purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -36,8 +38,10 @@
       "text": "Premier Encore Members may return merchandise up to 45 days after purchase or delivery and will be issued a Merchandise Return Card if the return is made over 30 days after purchase or delivery.",
       "quote": "Premier Members who were signed in online or provided their phone number to make their purchase in store may return merchandise up to 45 days after purchase (or delivery) and will be issued a Merchandise Return Card (MRC) if the return is made over 30 days after purchase (or delivery).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-3",
@@ -48,8 +52,10 @@
       "text": "All-Access Encore Members may return merchandise up to 60 days after purchase or delivery and will be issued a Merchandise Return Card if the return is made over 30 days after purchase or delivery.",
       "quote": "All-Access Cardmembers who were signed in online or provided their phone number to make their purchase in store may return merchandise up to 60 days after purchase (or delivery) and will be issued a Merchandise Return Card (MRC) if the return is made over 30 days after purchase (or delivery).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-holiday-4",
@@ -58,8 +64,10 @@
       "text": "Items purchased online or in stores between October 15 and December 24 may be returned through January 15 the following year, or 30 days from delivery date or date-of-purchase, whichever is later.",
       "quote": "Items purchased online or in stores between October 15 and December 24 may be returned through January 15 the following year, or 30 days from delivery date (online purchases) or date-of-purchase (in store purchases), whichever is later.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -68,8 +76,10 @@
       "text": "Final sale items and items purchased in the Encore Market cannot be returned or exchanged.",
       "quote": "Final sale items and items purchased in the Encore Market cannot be returned or exchanged.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -79,8 +89,10 @@
       "text": "Masks are final sale and are not eligible for returns and exchanges.",
       "quote": "Masks are final sale and are not eligible for returns and exchanges.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -90,8 +102,10 @@
       "text": "Encore Market items are final sale and can't be returned, exchanged or refunded.",
       "quote": "Encore Market items are final sale and can’t be returned, exchanged or refunded.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-8",
@@ -101,8 +115,10 @@
       "text": "Final Sale items cannot be returned or exchanged by mail or in stores.",
       "quote": "Final Sale items cannot be returned or exchanged by mail or in stores.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-9",
@@ -112,8 +128,11 @@
       "text": "Swimwear must have the original price tags and hygienic liner intact to be returned by mail only.",
       "quote": "Swimwear must have the original price tags and hygienic liner intact.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds 'to be returned by mail only,' which is not stated in the quote. The quote only requires original price tags and hygienic liner intact, with no mention of mail-only returns."
     },
     {
       "id": "policy-exclusion-10",
@@ -125,8 +144,10 @@
       "text": "New sunglasses may be returned within 30 days of delivery with original receipt and tags attached; defective sunglasses can be returned at any time.",
       "quote": "New sunglasses may be returned within 30 days of the delivery date if accompanied by the original receipt, with tags attached. Defective sunglasses can be returned at any time.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-11",
@@ -136,8 +157,10 @@
       "text": "Gap Beauty products can only be returned in store; opened or used items cannot be returned or exchanged.",
       "quote": "Gap Beauty products can only be returned in store. Opened or used items cannot be returned or exchanged.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-12",
@@ -146,8 +169,10 @@
       "text": "Refunds require proof of purchase such as shipping confirmation email, store receipt, or original credit card used for purchase.",
       "quote": "Refunds require proof of purchase: the shipping confirmation email (online purchases), store receipt or the original credit card used for the purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-13",
@@ -156,8 +181,10 @@
       "text": "Exchanges require returning the original item first, then purchasing the new item.",
       "quote": "For exchanges, the item is returned first, then a second transaction is the purchase that completes your exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

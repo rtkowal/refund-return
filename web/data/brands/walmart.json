@@ -32,8 +32,10 @@
       "text": "90 days for most items (in-store and Walmart.com).",
       "quote": "You have 90 days after purchase or upon receipt to return most items unless noted in our exceptions.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "claude-session"
+      "status": "reviewed",
+      "extractedBy": "claude-session",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "window-2",
@@ -43,8 +45,10 @@
       "text": "Items sold and shipped by Marketplace sellers: 30 days.",
       "quote": "Items sold and shipped by a Marketplace seller may be returned within 30 days.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "claude-session"
+      "status": "reviewed",
+      "extractedBy": "claude-session",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "window-3",
@@ -55,8 +59,10 @@
       "text": "Most consumer electronics: 30 days.",
       "quote": "Most Consumer Electronics are returnable within 30 days.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "claude-session"
+      "status": "reviewed",
+      "extractedBy": "claude-session",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "window-4",
@@ -67,8 +73,10 @@
       "text": "Wireless phones: 14 days.",
       "quote": "Wireless phones are returnable within 14 days.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "claude-session"
+      "status": "reviewed",
+      "extractedBy": "claude-session",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "holiday-5",
@@ -82,8 +90,11 @@
       "text": "Most items bought Oct 1–Dec 31 are returnable until Jan 31. Marketplace seller participation varies.",
       "quote": "Most items purchased in-store or online from October 1 through December 31 are returnable until January 31.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "claude-session"
+      "status": "disputed",
+      "extractedBy": "claude-session",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds 'Marketplace seller participation varies,' which is not stated in the quote. The quote only covers Walmart in-store and online purchases."
     },
     {
       "id": "exclusion-6",
@@ -92,8 +103,10 @@
       "text": "Items bought from dealers or resellers (not Walmart directly) are not eligible.",
       "quote": "Items purchased from dealers or resellers and not Walmart or Walmart.com directly aren't eligible for return, refund, or exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "claude-session"
+      "status": "reviewed",
+      "extractedBy": "claude-session",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-1",
@@ -102,8 +115,10 @@
       "text": "Certain items such as firearms, ammunition, prescription medications, and others are not returnable or refundable.",
       "quote": "To help keep our customers and associates safe Walmart and Marketplace sellers will not replace, accept returns, or provide refunds for:\n\n| Firearms & Ammunition | Prescription Medications and Devices | \n| Airsoft & Air Guns, BB Guns, Crossbows, Vertical / Archery bows | Items containing pseudoephedrine, ephedrine, phenylpropanolamine | \n| Pepper Spray/Bear Spray | Sex Toys & Vibrators, Pregnancy Tests, Ovulation Tests, & Home Diagnostic Testing Kits (including COVID-19 tests) | \n| Gas Powered Recreational Vehicles (e. g., Dirt Bikes, Mini-Bikes, Go-Carts, Scooters, Ride-ons, UTVs & ATVs) | Diabetic Supplies* including meters, strips, lancets, lancet devices & syringes | \n| Used or Mounted Tires, Wheels, Rims, Snow Tires | Hygienic Medical Equipment (e.g., bedpans, bath seats, sitz baths, eye drop guides, opened/unsealed breast pumps) | \n| Trading cards (opened or unopened) | RV sewer lines, toilets, toilet bowls and urinals (used or installed) | \n| Precious Metals (e.g., gold bars, coins, currency) | Special orders made through Walmart Business | \n| Alcohol (Wine, Spirits, Beer) | Tobacco Products | \n| Prepaid Cell Phone Cards, Prepaid Gaming Cards, Gift cards, SIM Cards | Video on Demand, Downloadable Video Games/Software |",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-window-2",
@@ -115,8 +130,10 @@
       "text": "Automotive batteries can be refunded or exchanged if they test bad within 90 days of purchase.",
       "quote": "**90-Day Automotive Battery Guarantee:** Money back refund or exchange to original purchaser if battery tests bad within 90 days.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-window-3",
@@ -128,8 +145,11 @@
       "text": "Major appliances can be returned for a full refund within 2 days of accepted delivery; after 2 days, returns are subject to guidelines.",
       "quote": "A customer may initiate a return of a major appliance for a full refund within 2 days of accepted delivery.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds 'after 2 days, returns are subject to guidelines,' which is not stated in the quote. The quote only mentions a full refund within 2 days."
     }
   ],
   "facets": []

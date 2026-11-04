@@ -24,8 +24,10 @@
       "text": "You have 30 days to request a return from the date you receive your item(s).",
       "quote": "You have 30 days to request a return from the date you receive your item(s). Failure to initiate a return request within 30 days of receipt may result in the denial of your return request under our Standard Return policy.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-2",
@@ -34,8 +36,10 @@
       "text": "No returns or refunds on items listed as Final Sale, special items (Vintage, Sample, ID, Custom, Defect, Pre-Release), used items, auction items, GOAT Storage items, or items shipped to freight forwarders or delivery addresses in China.",
       "quote": "We do not issue refunds or accept returns or exchanges on any items listed as \"Final Sale\" on the checkout page, special items (e.g., Vintage, Sample, ID, Custom, Defect, Pre-Release), any used items, auction items, any GOAT Storage items, or any items shipped to a freight forwarder or a delivery address in the People's Republic of China.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-3",
@@ -44,8 +48,10 @@
       "text": "Returns must include the GOAT return label and packing slip provided by GOAT.",
       "quote": "Item(s) must include the return label and packing slip provided by us. Returns will not be processed without a GOAT return label and packing slip.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-4",
@@ -54,8 +60,11 @@
       "text": "Refunds are issued less shipping costs to and from the buyer and any priority processing fee paid.",
       "quote": "If your return is accepted, your refund will be issued in the form of GOAT Credit, less the shipping costs to and from you and any priority processing fee paid.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits that refunds are issued as GOAT Credit, not cash or original payment method, which is a key detail in the quote."
     }
   ],
   "facets": []

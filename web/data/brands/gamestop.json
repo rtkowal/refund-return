@@ -22,8 +22,10 @@
       "text": "A valid in-store receipt or Gamestop.com order number is required for returns.",
       "quote": "When visiting a store, an in-store receipt or Gamestop.com order number is required.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-2",
@@ -32,8 +34,10 @@
       "text": "Returns may require a valid Government ID except where prohibited by law.",
       "quote": "Returns may require a valid Government ID, except where prohibited by law. The following identification is accepted for returns: U.S. Driver's License, U.S. State ID, U.S. Military ID, or U.S. Passport.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-3",
@@ -42,8 +46,10 @@
       "text": "Returns with valid proof of purchase will receive a refund based on the initial form of payment.",
       "quote": "Returns with valid proof of purchase will receive a refund based on the initial form of payment, such as the credit card used for the purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -52,8 +58,11 @@
       "text": "Returnable items without valid proof of purchase are not eligible for return or exchange.",
       "quote": "Returnable items without a Valid Proof of Purchase are not eligible for return/exchange, but if the items are trade in eligible, may be traded in at current trade value pricing..",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits that items without proof of purchase may still be traded in at current trade value pricing, which is mentioned in the quote."
     },
     {
       "id": "policy-exclusion-5",
@@ -63,8 +72,10 @@
       "text": "Trading cards, blind items, clearance products, seasonal items, consumables, individual bundle components, digital products, Graded PSA Cards, and all books, magazines and guides are final sale and cannot be returned or exchanged.",
       "quote": "The following are final sale and cannot be returned or exchanged:\n\n*   Trading cards, blind items, clearance products, seasonal items, consumables, individual bundle components, digital products, Graded PSA Cards, and all books, magazines and guides.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-6",
@@ -76,8 +87,10 @@
       "text": "Defective general items (excluding PCs, PC components, laptops, TVs, and monitors) can be exchanged for an identical replacement within the return window.",
       "quote": "Defective products (excluding PCs, PC components, laptops, TVs, and monitors) can be exchanged for an identical replacement within the return window.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

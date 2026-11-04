@@ -24,8 +24,10 @@
       "text": "Purchases made between October 22, 2026 - December 24, 2026, can be returned through January 31, 2027.",
       "quote": "Need to return a gift? Our extended holiday return policy makes it easier. Purchases made between October 22, 2026 - December 24, 2026, can be returned through January 31, 2027.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -36,8 +38,10 @@
       "text": "Online returns must be received by our warehouse within 30 days of the shipping confirmation date.",
       "quote": "Online returns must be received by our warehouse within **30 days** (45 days for Hilfiger Club members) of the shipping confirmation date.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-3",
@@ -48,8 +52,10 @@
       "text": "Hilfiger Club members have 45 days from shipping confirmation date to return online purchases.",
       "quote": "Online returns must be received by our warehouse within **30 days** (45 days for Hilfiger Club members) of the shipping confirmation date.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-4",
@@ -59,8 +65,10 @@
       "text": "After processing, refunds can take up to 5 business days depending on your card issuing bank.",
       "quote": "After processing, your refund can take up to 5 business days depending on your card issuing bank.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-5",
@@ -69,8 +77,10 @@
       "text": "A flat rate return shipping fee of $4.95 will be deducted from your refund.",
       "quote": "Please note: a flat rate return shipping fee of $4.95 will be deducted from your refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -80,8 +90,10 @@
       "text": "Final sale items are not eligible for a return, refund or credit.",
       "quote": "Final sale items are not eligible for a return, refund or credit.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -91,8 +103,11 @@
       "text": "Apparel must be unworn with original tags attached or refund may be denied.",
       "quote": "Apparel must be unworn with original tags attached.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds 'or refund may be denied,' which is not stated in the quote."
     },
     {
       "id": "policy-exclusion-8",
@@ -102,8 +117,11 @@
       "text": "Footwear must be unworn and in its original shoebox or refund may be denied.",
       "quote": "Footwear must be unworn and in its original shoebox.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds 'or refund may be denied,' which is not stated in the quote."
     }
   ],
   "facets": []

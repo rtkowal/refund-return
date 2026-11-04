@@ -24,8 +24,10 @@
       "text": "Return requests must be submitted within 72 hours from delivery and before the transaction is completed.",
       "quote": "Return requests submitted within 72 hours from delivery (based on the carrier’s timestamp) and before the transaction is completed will be considered for the following reasons:",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-2",
@@ -34,8 +36,10 @@
       "text": "Returns or refunds are not permitted after the transaction has been completed.",
       "quote": "After a transaction has been completed, returns or refunds are not permitted.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -44,8 +48,10 @@
       "text": "Items that violate Mercari's Terms of Service including prohibited items cannot be returned.",
       "quote": "Mercari will not return items that violate our Terms of Service including items that are prohibited to sell.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -55,8 +61,10 @@
       "text": "Some items like swimwear, lingerie, undergarments, opened beauty products, earrings or other body adornments are typically non-returnable for hygiene reasons.",
       "quote": "Some items, like swimwear, lingerie, undergarments, opened beauty products, earrings or other body adornments are typically non-returnable for hygiene reasons.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-5",
@@ -67,8 +75,10 @@
       "text": "Buyers must drop off the item with the designated carrier using the Mercari-provided return label within 72 hours of receipt of the label.",
       "quote": "The buyer must drop off the item with the designated carrier using the Mercari-provided return label within 72 hours of receipt of the label, as confirmed by the carrier's first scan timestamp.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-6",
@@ -77,8 +87,10 @@
       "text": "For items over 50 pounds, sellers must provide their own shipping labels for returns.",
       "quote": "For returns of items over 50 pounds, sellers must provide their own shipping labels.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-7",
@@ -87,8 +99,10 @@
       "text": "Completed returns will be refunded to the original form of payment.",
       "quote": "Completed returns will be refunded to the original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-8",
@@ -99,8 +113,10 @@
       "text": "Refunds will be processed within 14 calendar days of confirmation that the buyer returned the item using the Mercari-provided return label.",
       "quote": "The refund will be processed within 14 calendar days of confirmation that the buyer returned the item to the seller using the Mercari-provided return label.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-9",
@@ -109,8 +125,10 @@
       "text": "Returns are not permitted and refunds will not be issued if the buyer has rated the item or does not contact Mercari to request a return within 72 hours of receipt.",
       "quote": "If a buyer has rated the item or does not contact Mercari to request a return within 72 hours of receipt of an item, a return will not be permitted and a refund will not be issued.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-10",
@@ -119,8 +137,10 @@
       "text": "Returns are only eligible for items significantly not as described, damaged during shipping, or counterfeit; other reasons are not mandatory for return acceptance.",
       "quote": "Return requests submitted within 72 hours from delivery (based on the carrier’s timestamp) and before the transaction is completed will be considered for the following reasons:\n\n*   Item is significantly not as described in the listing\n*   Item was damaged during shipping\n*   Item is inauthentic/counterfeit\n\nIf the buyer’s concern is not eligible for a return under Mercari’s Return Policy, the seller may choose – but is not required – to accept a return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

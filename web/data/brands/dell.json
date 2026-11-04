@@ -24,8 +24,10 @@
       "text": "The default return window is 30 days from the date of your invoice for eligible purchases.",
       "quote": "For all eligible purchases, our return policy is 30 days from the date of your invoice, unless you have a separate agreement with Dell.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-2",
@@ -34,8 +36,11 @@
       "text": "You must initiate the return within the 30-day window and receive a credit return authorization (CRA) number from Dell to get a refund or credit.",
       "quote": "You must initiate the return within this time. If approved, you will receive a credit return authorization (CRA) number from Dell.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds that you must receive a CRA number to get a refund or credit, but the quote only says you receive a CRA number if approved, not that it's required for a refund or credit."
     },
     {
       "id": "policy-refund_timing-3",
@@ -44,8 +49,10 @@
       "text": "Refunds may take up to 10-15 business days after Dell receives the returned order to be credited back to the original payment method.",
       "quote": "Please be advised that it may take up to 10-15 business days from the date the order is received back at Dell for you to get the money credited back to the original method of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-price_adjustment-4",
@@ -54,8 +61,10 @@
       "text": "Purchases during promotions or bundles may have refunds reduced by the value of promotional items or discounts if those items are kept or redeemed.",
       "quote": "Refunds or credits for a product you purchased in a bundle or during a promotion can get a little complicated. Depending on the promotion, Dell may deduct the value of the discount, promotional item or redeemed card from any refund or credit you receive for the return of the purchased item.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

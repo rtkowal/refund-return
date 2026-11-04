@@ -24,8 +24,10 @@
       "text": "Products purchased from clinique.com must be returned in new or gently used condition and within 30 days from the date the order is delivered.",
       "quote": "Products purchased from clinique.com must be returned in new or gently used condition and within 30 days from the date the order is delivered.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-2",
@@ -34,8 +36,10 @@
       "text": "A non-refundable $7 shipping charge will be deducted from your refund.",
       "quote": "A non-refundable $7 shipping charge will be deducted from your refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-3",
@@ -44,8 +48,10 @@
       "text": "All shipping, delivery, and return fees are non-refundable.",
       "quote": "All shipping, delivery, and return fees are non-refundable. This includes state-imposed shipping fees.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -54,8 +60,10 @@
       "text": "Clinique eGift Cards cannot be exchanged or returned to Clinique Online.",
       "quote": "Clinique eGift Cards are issued by ELC Brands Management Inc. and sold by its third-party partner, CashStar, and thus cannot be exchanged or returned to Clinique Online.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-5",
@@ -64,8 +72,11 @@
       "text": "Returns must comply with the return policy and are inspected upon receipt at the warehouse.",
       "quote": "We accept returns for products purchased from clinique.com only, and all returns are inspected upon receipt at our warehouse.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds that returns must comply with the return policy, which is not stated in the quote. The quote only mentions inspection upon receipt."
     },
     {
       "id": "policy-refund_method-6",
@@ -74,8 +85,10 @@
       "text": "The purchase price will be refunded to the original form of payment for items returned within the return policy.",
       "quote": "For items returned within our returns policy, the purchase price will be refunded to the original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-7",
@@ -84,8 +97,10 @@
       "text": "Refunds will be processed within 3 business days of receipt at the warehouse.",
       "quote": "Returns will be processed within 3 business days of receipt at our warehouse, and you will receive a credit confirmation with your refund amount once your return has been fully processed.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-8",
@@ -94,8 +109,10 @@
       "text": "Refunds to credit cards, Clinique gift cards, Alipay, or Instagram orders can take 7-10 business days to post.",
       "quote": "Refunds issued to a credit card, Clinique gift card, Alipay, or for orders placed through Instagram can take up to 7-10 business days to post to your account.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-9",
@@ -106,8 +123,10 @@
       "text": "Refunds for returns received after 30 days are not guaranteed and are at Clinique Online's discretion.",
       "quote": "Refunds for returns received after 30 days are not guaranteed and will be made at the sole discretion of Clinique Online.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-10",
@@ -116,8 +135,10 @@
       "text": "To exchange a product, return the unwanted product and place a new order for the desired product.",
       "quote": "If you would like to exchange a product(s), simply return the eligible unwanted product(s). A refund will be processed within 3 business days of receipt. You may place a new order for the product(s) you wish to purchase at any time.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

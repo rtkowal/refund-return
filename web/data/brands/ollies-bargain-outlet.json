@@ -24,8 +24,10 @@
       "text": "You can return items within 30 days of purchase with a receipt for a full refund.",
       "quote": "Everything you buy at Ollie's is covered by our 30-day no hard time guarantee. If for any reason you are not completely satisfied with your purchase - please return it within 30 days for a full refund. But ya gotta have your receipt!",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-holiday-2",
@@ -36,8 +38,10 @@
       "text": "Items purchased between now and December 31st can be returned by January 31st for a full refund with a sales receipt.",
       "quote": "If not completely satisfied with your purchase made between Now and December 31st, return it by January 31st for a full refund(with sales receipt).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

@@ -24,8 +24,10 @@
       "text": "Holiday purchases made beginning November 2, 2026 will be eligible for return or exchange through January 24, 2027.",
       "quote": "Holiday purchases made beginning November 2, 2026 will be eligible for return or exchange through January 24, 2027.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -36,8 +38,10 @@
       "text": "You can return items that are unused and in original condition within 30 days of purchase with your original receipt or electronic receipt.",
       "quote": "You can return items that are unused and in original condition within 30 days of purchase with your original receipt or electronic receipt.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-3",
@@ -46,8 +50,11 @@
       "text": "Original receipt or electronic receipt is required for returns.",
       "quote": "You can return items that are unused and in original condition within 30 days of purchase with your original receipt or electronic receipt.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits the condition that items must be unused and in original condition and returned within 30 days; the quote specifies these requirements along with the need for a receipt."
     },
     {
       "id": "policy-exclusion-4",
@@ -56,8 +63,10 @@
       "text": "Returned items must include all original stones and components to be eligible for a refund.",
       "quote": "To be eligible for a refund, returned items, must include all original stones and components.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -66,8 +75,10 @@
       "text": "Pandora may deny a return or refund if the item has been altered, modified, damaged, tampered with, or had any stone or component removed, substituted, or replaced after purchase.",
       "quote": "Pandora may deny a return or refund if inspection determines that an item has been altered, modified, damaged, tampered with, or has had any stone or component removed, substituted, or replaced after purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-6",
@@ -76,8 +87,10 @@
       "text": "Return shipping is free for returns by mail.",
       "quote": "Return shipping is on us, so you won't be charged.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-7",
@@ -86,8 +99,10 @@
       "text": "Original shipping charges are not refundable.",
       "quote": "Original shipping charges are not refundable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-8",
@@ -96,8 +111,10 @@
       "text": "Gift Cards are non-returnable and not refundable once purchased.",
       "quote": "Gift Cards are non-returnable and not refundable once purchased.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-9",
@@ -106,8 +123,10 @@
       "text": "To exchange, first return the original item for a refund, then purchase the new item; in-store exchanges for equal or lesser value items may be available depending on inventory.",
       "quote": "If you’d like a different item:\n\n*   First, return the original item and receive a refund\n    \n*   Then, purchase your new item\n    \n*   In-store exchanges for items of equal or lesser value may be available, depending on store inventory",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

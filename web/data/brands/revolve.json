@@ -24,8 +24,10 @@
       "text": "Items purchased in store are only returnable in store and can't be mailed back to our online return center. You have 30 days from the date of purchase to return your item(s) for a refund.",
       "quote": "Items purchased in store are only returnable in store and can't be mailed back to our online return center. You have 30 days from the date of purchase to return your item(s) for a refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -36,8 +38,11 @@
       "text": "For orders shipped on or after May 1st 2024, we will accept returns within 30 days of shipment for a full refund.",
       "quote": "For orders shipped on or after May 1st 2024, we will accept returns within 30 days of shipment for a full refund and within 60 days for an exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits that exchanges are accepted within 60 days, which is included in the quote."
     },
     {
       "id": "policy-window-3",
@@ -48,8 +53,10 @@
       "text": "For orders shipped on or after May 1st 2024, we will accept exchanges within 60 days of shipment.",
       "quote": "For orders shipped on or after May 1st 2024, we will accept returns within 30 days of shipment for a full refund and within 60 days for an exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -59,8 +66,10 @@
       "text": "Items marked FINAL SALE are not eligible for refund, exchange, or store credit.",
       "quote": "Items marked _FINAL SALE_ are **not eligible** for refund, exchange, or store credit.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -70,8 +79,10 @@
       "text": "Beauty products may be returned only if they are unused and unopened.",
       "quote": "Beauty products may be returned only if they are **unused and unopened**.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-6",
@@ -83,8 +94,10 @@
       "text": "Beauty products may be returned within 30 days provided that they are unused and unopened.",
       "quote": "We will accept back beauty products within 30 days provided that they are unused and unopened.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-7",
@@ -96,8 +109,10 @@
       "text": "FWRD Renew items must be returned within 14 days with all original tags, packaging, and accessories intact.",
       "quote": "FWRD Renew items must be returned within 14 days with all original tags, packaging, and accessories intact.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-8",
@@ -106,8 +121,10 @@
       "text": "For US customers, a prepaid return shipping label will be provided at no charge to return your merchandise (free shipping both ways).",
       "quote": "For US customers, a prepaid return shipping label will be provided at no charge to return your merchandise (free shipping both ways).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-9",
@@ -116,8 +133,10 @@
       "text": "Returns take 2-3 business days to process upon reaching the facility, and refunds can take several business days to reflect on your credit card account.",
       "quote": "Returns take us 2-3 business days to process upon reaching our facility. Once your return is processed and your refund is issued, you will receive a refund confirmation email. Refunds can take several business days to reflect on your credit card account.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-10",
@@ -128,8 +147,10 @@
       "text": "Items purchased in store can only be returned in store and exchanges must be reserved online or via customer service before returning in person.",
       "quote": "Reserve your exchange item online via your order history or contact customer service prior returning in person.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-holiday-11",
@@ -140,8 +161,10 @@
       "text": "During the Holiday season (Nov. 1st - Dec 25th), returns are accepted after 30 days if received by January 10th.",
       "quote": "During the Holiday season (Nov. 1st - Dec 25th), we will accept your return after 30 days so long as it is received by January 10th.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-12",
@@ -153,8 +176,10 @@
       "text": "Bridal gowns may be returned within 30 days if unworn and unaltered with all original tags attached; no returns accepted after 30 days.",
       "quote": "All bridal gowns may be returned within 30 days for a full refund or store credit. We cannot accept returns on any bridal gowns after 30 days. Bridal gowns must be unworn and unaltered, and all original tags must be attached.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

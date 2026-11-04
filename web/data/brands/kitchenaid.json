@@ -29,8 +29,10 @@
       "text": "You must call the returns team at 1 (800) 541-6390 to initiate a return.",
       "quote": "Please call our returns team at **1 (800) 541-6390** to initiate a return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-2",
@@ -39,8 +41,11 @@
       "text": "You will receive a prepaid shipping label by email to return your product.",
       "quote": "You'll get an email with a link to a shipping label.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The quote only says you'll get an email with a link to a shipping label, but does not specify that it is prepaid or that it is for returning your product. The summary adds details not present in the quote."
     },
     {
       "id": "policy-exclusion-3",
@@ -49,8 +54,11 @@
       "text": "Returned products must be new and unused and packed securely in their original packaging.",
       "quote": "Wrap the products in their original packaging with the shipping label on top.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The quote only mentions wrapping products in original packaging with the shipping label on top. It does not state that products must be new and unused or packed securely. The summary adds unsupported requirements."
     },
     {
       "id": "policy-fee-4",
@@ -59,8 +67,10 @@
       "text": "Free return shipping is only available for U.S. consumers who call the returns team directly.",
       "quote": "Free return shipping is only available for U.S. consumers who directly call this number.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-5",
@@ -69,8 +79,10 @@
       "text": "Returns are processed after the returned items are received and validated.",
       "quote": "Once we validate the returned items have arrived, your return will be processed.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-fee-1",
@@ -82,8 +94,10 @@
       "text": "Returns between day 16 and day 30 incur a 20% restocking fee with a $50 minimum, and original delivery, shipping and service fees are not refunded.",
       "quote": "If you are Requesting a return between day 16 and day 30, an additional restocking fee of 20% of the product cost will be applied, with a $50 minimum. Original delivery, shipping and service fees will not be refunded.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-2",
@@ -95,8 +109,10 @@
       "text": "Returns after 30 days are not accepted; warranty service or repair must be scheduled instead.",
       "quote": "After 30 Calendar Days If the 30-day return window has passed, and your product is still under warranty, call us for warranty service or to schedule a repair.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-fee-3",
@@ -108,8 +124,10 @@
       "text": "Returns from Hawaii are subject to a flat $50 restocking fee.",
       "quote": "If you're returning a product from Hawaii, your return will only be subject to a flat $50 restocking fee.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-refund_method-4",
@@ -121,8 +139,10 @@
       "text": "Refunds are issued for the product price only; delivery, shipping and service fees are not refunded.",
       "quote": "Delivery, shipping and service fees will not be refunded.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-refund_method-5",
@@ -134,8 +154,10 @@
       "text": "Refunds are made in the form of the original payment method.",
       "quote": "Refunds are made in the form of the original payment.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-window-6",
@@ -147,8 +169,11 @@
       "text": "Returns for major appliance parts and accessories are accepted within 30 calendar days after delivery.",
       "quote": "Get a refund when you request your return within 30 calendar days after the date of delivery.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The quote does not specify that the 30-day return window applies only to major appliance parts and accessories; it is more general. The summary adds a restriction not present in the quote."
     },
     {
       "id": "s2-fee-7",
@@ -160,8 +185,11 @@
       "text": "Original shipping and handling and return postage charges for parts and accessories are not refunded and customers are often responsible for return shipping.",
       "quote": "Original shipping and handling and return postage charges will not be refunded.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The quote only states that original shipping, handling, and return postage charges will not be refunded. The summary adds that customers are often responsible for return shipping, which is not stated in the quote."
     },
     {
       "id": "s2-window-8",
@@ -173,8 +201,10 @@
       "text": "Water filters may be returned within 30 days from the date of shipment if unused and in original packaging.",
       "quote": "Your product(s) may be returned within 30 days from the date of shipment. The product(s) must be in unused condition and in original packaging material.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-fee-9",
@@ -186,8 +216,10 @@
       "text": "Customers are responsible for return shipping and handling charges for water filter returns.",
       "quote": "You are responsible for return shipping & handling charges.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-refund_timing-10",
@@ -197,8 +229,10 @@
       "text": "Refunds for countertop appliance parts and accessories are processed within 14 days plus postal delivery time after receipt and validation of the returned product.",
       "quote": "After the receipt of the returned product and product check-in, a check will be processed within 14 days plus postal delivery time, averaging 20 days after credit memo creation.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-cancellation-11",
@@ -210,8 +244,10 @@
       "text": "Orders can be cancelled up to 72 hours before the scheduled delivery date with a full refund including delivery, shipping, and service fees.",
       "quote": "You can cancel an order up to 72 hours before the scheduled delivery date. To cancel an order, please call us at the numbers listed above with your order number handy. We will refund your product purchase price as well as delivery, shipping, and service fees.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

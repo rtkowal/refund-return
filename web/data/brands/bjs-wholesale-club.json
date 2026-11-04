@@ -24,8 +24,10 @@
       "text": "Most items can be returned within 365 days of purchase.",
       "quote": "BJ's accepts returns on most items within 365 days of purchase, unless otherwise specified.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -37,8 +39,11 @@
       "text": "Groceries must be returned within 90 days of purchase.",
       "quote": "No returns will be accepted after 90 days from date of purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The quote only states that no returns are accepted after 90 days, but does not specify that this applies to groceries. The summary adds specificity not present in the quote."
     },
     {
       "id": "policy-window-3",
@@ -50,8 +55,11 @@
       "text": "Electronics must be returned within 90 days of purchase.",
       "quote": "Includes undamaged televisions, home theater displays, computers/laptops, tablets, electronics, electric bikes and electric scooters.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The quote lists electronics among other items but does not explicitly state a 90-day return window. The summary adds a timeframe not present in the quote."
     },
     {
       "id": "policy-window-4",
@@ -63,8 +71,11 @@
       "text": "Home items such as air conditioners, patio sets, and mattresses must be returned within 30 days of purchase.",
       "quote": "Includes air conditioners (portable & window air conditioners), patio sets & structures (dining sets, conversation sets, gazebos, pergolas), and mattresses (including box springs, bed in a box, etc.).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The quote lists the items but does not specify a 30-day return window. The summary adds a timeframe not present in the quote."
     },
     {
       "id": "policy-window-5",
@@ -76,8 +87,11 @@
       "text": "Damaged electronics must be returned within 14 days of purchase.",
       "quote": "Televisions, home theater displays, computers/laptops, tablets, electric bikes and electric scooters found to be damaged upon initial inspection are returnable with their original packaging and accessories.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The quote does not specify a 14-day return window for damaged electronics; it only states that damaged items are returnable upon initial inspection. The summary adds a specific timeframe not present in the quote."
     },
     {
       "id": "policy-exchange-6",
@@ -86,8 +100,10 @@
       "text": "Items purchased in-club, through pickup or ExpressPay, and certain large or high-value items delivered via Same-Day Delivery must be returned in-club.",
       "quote": "Items purchased in-club, through pickup or ExpressPayA, as well as certain large or high-value items delivered via Same-Day DeliveryB must be returned in-club.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -97,8 +113,10 @@
       "text": "BJ’s Optical does not accept returns on prescription eyewear or contact lenses except unopened contact lens boxes meeting conditions.",
       "quote": "BJ’s Optical does not accept returns on prescription eyewear or contact lenses. If the contact lens box is unopened, unmarked and at least one year from the expiration date, it may be eligible for return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-8",
@@ -107,8 +125,10 @@
       "text": "Refunds are issued back to the original form of payment.",
       "quote": "all refunds are issued to the original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-9",
@@ -117,8 +137,10 @@
       "text": "Refunds are typically processed within 5 to 7 days after approval.",
       "quote": "Refunds are typically processed within 5 – 7 days after approval.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-10",
@@ -127,8 +149,10 @@
       "text": "Shipping, delivery, and handling charges are refunded only if the return is due to BJ’s error or damage during shipping/delivery.",
       "quote": "Applicable shipping, delivery, and handling charges will be refunded or credited only if the order cancellation or return is a result of an error by BJ’s or if the item was damaged during shipping or delivery.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

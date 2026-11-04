@@ -24,8 +24,10 @@
       "text": "All purchases made between Wednesday, October 28, 2026 through Friday, December 25, 2026 can be returned through Monday, January 25, 2027.",
       "quote": "All purchases made between Wednesday, October 28, 2026 through Friday, December 25, 2026 can be returned through Monday, January 25, 2027.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -37,8 +39,10 @@
       "text": "Sale items (excluding final sale) can be returned within 30 days of purchase or receipt.",
       "quote": "| Sale Items (excluding final sale) | 30 Days |",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -48,8 +52,10 @@
       "text": "Customized items including Coach Create, monogrammed items, and cut-to-size belts are final sale and cannot be returned or exchanged.",
       "quote": "Customized Items (Coach Create or monogrammed items and cut-to-size belts) | Final Sale",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -59,8 +65,10 @@
       "text": "Made to order items are final sale and cannot be returned or exchanged.",
       "quote": "Made To Order | Final Sale",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -70,8 +78,10 @@
       "text": "Leather care products are final sale and cannot be returned or exchanged.",
       "quote": "Leather Care Products | Final Sale",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -81,8 +91,10 @@
       "text": "Fragrances are final sale and cannot be returned or exchanged.",
       "quote": "Fragrances | Final Sale",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-7",
@@ -91,8 +103,10 @@
       "text": "A $7 fee will be deducted from your refund if you use the pre-paid shipping label for mail returns.",
       "quote": "When using our pre-paid label, $7 will be deducted from your refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-8",
@@ -101,8 +115,10 @@
       "text": "Merchandise returned with a gift receipt will receive a Coach Merchandise Card (store credit).",
       "quote": "Merchandise returned with a gift receipt will receive a Coach Merchandise Card (store credit).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-9",
@@ -111,8 +127,10 @@
       "text": "It can take up to 7–10 business days to process a return once received, and 1–2 billing cycles for the financial institution to credit the account.",
       "quote": "Once your return is received, it could take up to 7–10 business days for it to be processed. Please allow 1–2 billing cycles for your financial institution to credit your account.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-10",
@@ -122,8 +140,10 @@
       "text": "If not satisfied with a customized Coach Create piece, you can bring it to a Coach store with customization services to have embellishments switched out for free.",
       "quote": "However, if you're not satisfied with your customized Coach Create piece, bring it to a Coach store with customization services—our craftsmen will switch out your embellishments for free.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

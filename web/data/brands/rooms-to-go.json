@@ -24,8 +24,10 @@
       "text": "Online sales may be cancelled only up until merchandise is loaded on the truck for delivery, generally three days prior to the delivery date.",
       "quote": "Online sales may be cancelled only up until Merchandise is loaded on the truck for delivery, generally three days prior to the delivery date.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-cancellation-2",
@@ -34,8 +36,10 @@
       "text": "Express/Next Day Delivery orders are not eligible for cancellation.",
       "quote": "Express/Next Day Delivery orders are not eligible for cancellation.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-3",
@@ -45,8 +49,10 @@
       "text": "Refunds may take up to 10 business days to process after cancellation or return.",
       "quote": "Refunds may take up to 10 business days to process.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -57,8 +63,10 @@
       "text": "Returns of items purchased online are permitted within 48 hours of delivery if the merchandise was not as expected.",
       "quote": "Returns of items purchased online are permitted within 48 hours of delivery if the merchandise was not as expected.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-5",
@@ -67,8 +75,10 @@
       "text": "Returns may incur a fee equal to the original delivery charge and possibly pickup, redelivery, restocking or other fees for certain returns and exchanges including Doorway Delivery, mattresses and box springs.",
       "quote": "returns may incur a fee equal to the original delivery charge. You may incur a pickup, redelivery, restocking or other fee for certain returns and exchanges including Doorway Delivery, mattresses and box springs.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-6",
@@ -77,8 +87,10 @@
       "text": "To initiate a return, you must contact Internet Sales Support and provide your original sales order number.",
       "quote": "To initiate a return, please contact Internet Sales Support at 1-888-709-5380, and they will provide instructions for returning your merchandise. Please include your original sales order number when contacting Internet Sales Support.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-7",
@@ -87,8 +99,10 @@
       "text": "Items delivered via UPS must be returned via UPS at the customer's expense.",
       "quote": "Items delivered via UPS must be returned via UPS at the customer's expense.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-8",
@@ -98,8 +112,10 @@
       "text": "Once the merchandise has been returned, refunds may take up to 10 business days to process.",
       "quote": "Once the merchandise has been returned to us, refunds may take up to 10 business days to process.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-9",
@@ -108,8 +124,10 @@
       "text": "If items were purchased using BitPay, refunds will be made by check payable in U.S. dollars.",
       "quote": "If you purchase items using BitPay, any permissible refund will be made by Rooms To Go by check payable in U.S. dollars in the amount set forth in the sales order, subject to the delivery charges noted in this section.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-10",
@@ -120,8 +138,10 @@
       "text": "For showroom purchases, a total refund is available only if there has been no delivery and you cancel the sale within 48 hours of the date of purchase.",
       "quote": "A total refund is available only if there has been no delivery and you cancel the sale within 48 hours of the date of purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-11",
@@ -130,8 +150,10 @@
       "text": "If you cancel showroom purchase after 48 hours but before delivery, only 80% of the purchase price will be refunded.",
       "quote": "If you do not cancel the sale within 48 hours, but cancel prior to delivery, only 80% of the purchase price will be refunded.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-12",
@@ -140,8 +162,10 @@
       "text": "No refunds are available and sales cannot be cancelled after merchandise has been delivered for showroom purchases.",
       "quote": "For purchases made in a Rooms To Go showroom, no refunds are available and sales cannot be cancelled after merchandise has been delivered.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-13",
@@ -150,8 +174,10 @@
       "text": "Express/Next Day Delivery orders are not eligible for refund or cancellation for showroom purchases.",
       "quote": "Express/Next Day Delivery orders are not eligible for refund or cancellation.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

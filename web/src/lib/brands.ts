@@ -15,5 +15,5 @@ export function getBrand(slug: string): Brand | undefined {
 }
 /** Public view: strips the internal source quote. */
 export function publicRules(b: Brand) {
-  return b.rules.map(({ quote: _q, ...r }) => r);
+  return b.rules.filter((r) => r.status !== "disputed").map(({ quote: _q, reviewNote: _n, ...r }) => r);
 }

@@ -23,8 +23,11 @@
       "text": "Returns of server and storage products outside the allotted calendar days from the date of invoice are subject to a restocking fee and return shipping and handling fees.",
       "quote": "Unless Lenovo ships the wrong product(s) or makes an error in the configuration of the product(s) ordered, returns of 1) server and storage products; 2) orders for personal computing products in quantities greater than five (5) units and 3) Product(s) submitted outside the allotted calendar days from the date of invoice are subject to a restocking fee of 15% of the price paid and return shipping and handling fees.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary implies that all server and storage product returns outside the allotted days are subject to fees, but the quote specifies exceptions (if Lenovo ships the wrong product or makes a configuration error). The summary omits these exceptions."
     },
     {
       "id": "policy-exclusion-2",
@@ -34,8 +37,11 @@
       "text": "Returns of personal computing products in quantities greater than five units outside the allotted calendar days from the date of invoice are subject to a restocking fee and return shipping and handling fees.",
       "quote": "Unless Lenovo ships the wrong product(s) or makes an error in the configuration of the product(s) ordered, returns of 1) server and storage products; 2) orders for personal computing products in quantities greater than five (5) units and 3) Product(s) submitted outside the allotted calendar days from the date of invoice are subject to a restocking fee of 15% of the price paid and return shipping and handling fees.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits the exceptions stated in the quote (returns due to Lenovo's error or wrong product shipped are not subject to fees)."
     },
     {
       "id": "policy-fee-3",
@@ -44,8 +50,11 @@
       "text": "Returns outside the allowed window or for certain categories are subject to a 15% restocking fee and return shipping and handling fees.",
       "quote": "Unless Lenovo ships the wrong product(s) or makes an error in the configuration of the product(s) ordered, returns of 1) server and storage products; 2) orders for personal computing products in quantities greater than five (5) units and 3) Product(s) submitted outside the allotted calendar days from the date of invoice are subject to a restocking fee of 15% of the price paid and return shipping and handling fees.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits the exceptions for Lenovo's shipping or configuration errors, which are present in the quote."
     },
     {
       "id": "policy-refund_timing-4",
@@ -54,8 +63,10 @@
       "text": "Allow 5-10 business days for Lenovo to receive and inspect the returned merchandise and issue your refund; an additional 2-10 business days may be required by your bank to receive the refund.",
       "quote": "Please allow 5-10 business days for Lenovo to receive your package, inspect the returned merchandise and issue your refund to your original form of payment. Depending on your bank or form of payment, an additional 2-10 business days may be required to transmit funds and receive your refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-5",
@@ -64,8 +75,10 @@
       "text": "Refunds are issued to the original form of payment.",
       "quote": "Please allow 5-10 business days for Lenovo to receive your package, inspect the returned merchandise and issue your refund to your original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-holiday-6",
@@ -74,8 +87,10 @@
       "text": "For orders placed between November 2 and December 13, 2026, Lenovo extends the usual 30-day return window and price match window through January 27, 2027.",
       "quote": "For orders placed between November 2 to December 13, we will extend the usual 30-day return window and you may return qualifying purchases through January 27th, 2027",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-holiday-7",
@@ -84,8 +99,10 @@
       "text": "Holiday price match window is extended through January 27, 2027 for qualifying orders placed November 2 to December 13, 2026.",
       "quote": "For qualifying orders placed during this period (November 2-December 13, 2026), we will extend the usual 30-day price match window through January 27th, 2027",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

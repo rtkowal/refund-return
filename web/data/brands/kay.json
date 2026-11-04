@@ -25,8 +25,10 @@
       "text": "Returns are allowed within 30 days from the purchase shipment date for jewelry.",
       "quote": "Returns are allowed within 30 days from the purchase shipment date and exchanges within 60 days of the purchase shipment date for jewelry.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -38,8 +40,10 @@
       "text": "Exchanges are allowed within 60 days from the purchase shipment date for jewelry.",
       "quote": "Returns are allowed within 30 days from the purchase shipment date and exchanges within 60 days of the purchase shipment date for jewelry.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-3",
@@ -51,8 +55,10 @@
       "text": "Returns and exchanges for watches are allowed within 30 days from the purchase shipping date for online orders.",
       "quote": "Returns and exchanges for watches are allowed within 30 days from the purchase shipping date for online orders.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-holiday-4",
@@ -63,8 +69,10 @@
       "text": "Merchandise purchased between 10/20/2026 and 12/24/2026 can be returned through 1/24/2027.",
       "quote": "Merchandise purchased between 10/20/2026 and 12/24/2026 can be returned through 1/24/2027",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -73,8 +81,10 @@
       "text": "Merchandise purchased using Progressive Leasing cannot be exchanged.",
       "quote": "Merchandise purchased using Progressive Leasing cannot be exchanged.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-6",
@@ -83,8 +93,10 @@
       "text": "All shipped returns must include the packing slip and all original documents received with your order.",
       "quote": "All shipped returns MUST include the packing slip and all original documents received with your order.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-7",
@@ -93,8 +105,10 @@
       "text": "All refunds are credited to the same tender as the original purchase.",
       "quote": "All refunds are credited to the same tender as the original purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-8",
@@ -104,8 +118,10 @@
       "text": "The sizing fee for sized-to-order rings will be refunded once the return is processed.",
       "quote": "If you return a sized-to-order ring, we will refund the sizing fee once we process your return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-9",
@@ -116,8 +132,10 @@
       "text": "Exchanges must be done at one of our stores.",
       "quote": "We can process returns at Kay.com but exchanges must be done at one of our stores.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

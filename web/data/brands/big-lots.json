@@ -24,8 +24,10 @@
       "text": "Most items can be returned within 30 days with a receipt.",
       "quote": "Most items can be returned within 30 days with a receipt.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-2",
@@ -34,8 +36,10 @@
       "text": "A receipt is required for all returns.",
       "quote": "A receipt is required for all returns.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-3",
@@ -44,8 +48,10 @@
       "text": "Refunds are issued in the original form of payment with a valid receipt.",
       "quote": "Refunds are issued in the original form of payment with a valid receipt.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -57,8 +63,10 @@
       "text": "Furniture must be returned within 14 days, in original condition, with a receipt.",
       "quote": "Furniture must be returned within 14 days, in original condition, with a receipt.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -68,8 +76,10 @@
       "text": "All mattress sales are final and cannot be returned.",
       "quote": "No. All mattress sales are final.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -78,8 +88,10 @@
       "text": "Returns may be declined if items do not meet guidelines.",
       "quote": "Returns are reviewed case by case and may be declined if they don’t meet guidelines.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -88,8 +100,10 @@
       "text": "Items that are worn, used, mistreated, or soiled are not eligible for return or exchange.",
       "quote": "Items that are worn, used, mistreated, or soiled are not eligible for return or exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-8",
@@ -99,8 +113,10 @@
       "text": "Bras, panties, swimsuits, prepaid phone cards, and gift cards are non-returnable.",
       "quote": "Yes. The following items are non-returnable:\n\n  *   Bras\n  *   Panties\n  *   Swimsuits\n  *   Prepaid phone cards\n  *   Gift cards",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-9",
@@ -110,8 +126,10 @@
       "text": "Underwear must be unopened to be eligible for return.",
       "quote": "Underwear must be unopened to be eligible",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-10",
@@ -120,8 +138,10 @@
       "text": "Opened items cannot be refunded but may be exchanged for the same title.",
       "quote": "Opened items cannot be refunded but may be exchanged for the same title.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

@@ -22,8 +22,10 @@
       "text": "Merchandise purchased in our stores can only be returned to a store.",
       "quote": "Please note, merchandise purchased in our stores can only be returned to a store.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-2",
@@ -32,8 +34,10 @@
       "text": "A $5.95 shipping charge will be deducted from your refund unless you are processing an exchange.",
       "quote": "However, a $5.95 shipping charge will be deducted from your refund unless you are processing an exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-3",
@@ -42,8 +46,10 @@
       "text": "Shipping fees are non-refundable.",
       "quote": "Shipping fees are non-refundable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-4",
@@ -52,8 +58,10 @@
       "text": "Exchanges for the same item in a different size or color include a free return label and waived shipping for the new order.",
       "quote": "Did you order the wrong size or color? We’ll provide a FREE return label and waive shipping for your new order.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

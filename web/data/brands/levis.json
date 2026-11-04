@@ -24,8 +24,10 @@
       "text": "You have 14 days to return items for exchange before the exchange is automatically canceled.",
       "quote": "Remember, you have 14 days to return your item(s), or the exchange will be automatically canceled.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-2",
@@ -34,8 +36,10 @@
       "text": "Final Sale items, shipping and handling fees, gift cards, gift wrap charges, and donations are non-refundable.",
       "quote": "Items marked as [**Final Sale**](https://help.levi.com/hc/en-us/articles/15465378030989-Final-Sale-FAQ), along with shipping and handling fees, gift cards, gift wrap charges, and donations, are non-refundable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-3",
@@ -44,8 +48,10 @@
       "text": "In-store returns with a receipt are refunded instantly to the original form of payment if items are in original and unworn condition with tags attached.",
       "quote": "Items purchased in-store can be returned for a full refund with a receipt, using the original form of payment. Items must be in their original and unworn condition with original tags attached.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-4",
@@ -54,8 +60,10 @@
       "text": "In-store returns without a receipt will be issued store credit or exchange equal to the current selling price.",
       "quote": "In-store returns without a receipt will be issued store credit or exchange equal to the current selling price.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-5",
@@ -64,8 +72,10 @@
       "text": "All refunds are made in the original form of payment.",
       "quote": "All refunds are made in the original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-6",
@@ -74,8 +84,10 @@
       "text": "In-store returns are refunded instantly.",
       "quote": "In-store returns are refunded instantly.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-7",
@@ -86,8 +98,10 @@
       "text": "Exchanges must be initiated within 14 days of purchase or receipt.",
       "quote": "Remember, you have 14 days to return your item(s), or the exchange will be automatically canceled.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-8",
@@ -96,8 +110,10 @@
       "text": "Exchanges can only be made for a different size, not for a new style or color.",
       "quote": "We are not able to support exchanges for a new style or color at this time. Exchanges can only be made for a different size.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

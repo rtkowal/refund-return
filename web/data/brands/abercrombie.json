@@ -24,8 +24,10 @@
       "text": "You must initiate your online return within 60 days of the order shipment date to receive a refund to your original payment method.",
       "quote": "To receive your refund to your original payment method, your online return must be initiated within 60 days of the order shipment date.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-2",
@@ -36,8 +38,11 @@
       "text": "Returns received within 60 days of shipment are refunded to the original payment method.",
       "quote": "We refund any merchandise in resalable condition with a copy of your original invoice to the original payment method if mailed to the address listed above within 60 days of the shipping date.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits the requirement that the merchandise must be in resalable condition and accompanied by the original invoice, which is specified in the quote."
     },
     {
       "id": "policy-refund_method-3",
@@ -46,8 +51,10 @@
       "text": "Returns received after 60 days of shipment are refunded as an e-gift card sent to the email address used on the order.",
       "quote": "If your return is received and processed at our Distribution Center after 60 days of the order shipment date, your refund will be processed in the form of an e-gift card.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-4",
@@ -56,8 +63,10 @@
       "text": "A copy of your original invoice or order confirmation email must be included with your return if an invoice was not included in the package.",
       "quote": "If an invoice was not included in your package, and you submit your return online selecting “I’ll Ship it Myself”, please print your order confirmation email that was sent to you at order placement and include it in the return package.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-5",
@@ -66,8 +75,10 @@
       "text": "If you do not submit your return online and no invoice was included, you must include the order confirmation email in the return package.",
       "quote": "If an invoice was not included in your package, and you do not submit your return online, please print your order confirmation email that was sent to you at order placement and include it in the return package.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-6",
@@ -76,8 +87,11 @@
       "text": "You are responsible for return shipping costs if you send the merchandise back yourself without initiating the return online.",
       "quote": "You are responsible for return shipping costs.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds a condition (sending merchandise back yourself without initiating the return online) that is not specified in the quote, which simply states the customer is responsible for return shipping costs."
     },
     {
       "id": "policy-exclusion-7",
@@ -86,8 +100,10 @@
       "text": "Select merchandise must have tags attached to be eligible for return.",
       "quote": "Select merchandise will be accompanied with a tag that must stay attached in order to return the item.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-8",
@@ -96,8 +112,10 @@
       "text": "If your order was placed in USD, you may return items in a US Abercrombie & Fitch or abercrombie kids store.",
       "quote": "If your order was placed in USD, you may return in a US Abercrombie & Fitch or abercrombie kids store.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

@@ -24,8 +24,10 @@
       "text": "Merchandise purchased between 10/20/2026 and 12/24/2026 can be returned through 1/24/2027.",
       "quote": "Merchandise purchased between 10/20/2026 and 12/24/2026 can be returned through 1/24/2027.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -37,8 +39,10 @@
       "text": "Returns are allowed within 30 days from the purchase (shipment) date for jewelry.",
       "quote": "Returns are allowed within 30 days from the purchase (shipment) date and exchanges within 60 days of the purchase (shipment) date for jewelry, and within 30 days from the purchase (shipping date for online orders) date for watches.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-3",
@@ -50,8 +54,10 @@
       "text": "Exchanges are allowed within 60 days of the purchase (shipment) date for jewelry.",
       "quote": "Returns are allowed within 30 days from the purchase (shipment) date and exchanges within 60 days of the purchase (shipment) date for jewelry, and within 30 days from the purchase (shipping date for online orders) date for watches.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -63,8 +69,10 @@
       "text": "Returns are allowed within 30 days from the purchase (shipping) date for watches.",
       "quote": "Returns are allowed within 30 days from the purchase (shipment) date and exchanges within 60 days of the purchase (shipment) date for jewelry, and within 30 days from the purchase (shipping date for online orders) date for watches.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-5",
@@ -75,8 +83,10 @@
       "text": "Exchanges must be done at one of our stores.",
       "quote": "We can handle a return at Zales.com, but exchanges must be done at one of our stores.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -86,8 +96,10 @@
       "text": "Returns and exchanges are not allowed on special ordered watches.",
       "quote": "Returns and exchanges are not allowed on special ordered watches, custom designs, gift cards*,jewelry that has been engraved or altered/modified beyond sizing or stone setting and protection plan replacement merchandise.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -97,8 +109,10 @@
       "text": "Returns and exchanges are not allowed on custom designs.",
       "quote": "Returns and exchanges are not allowed on special ordered watches, custom designs, gift cards*,jewelry that has been engraved or altered/modified beyond sizing or stone setting and protection plan replacement merchandise.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-8",
@@ -108,8 +122,11 @@
       "text": "Gift cards cannot be returned except where required by law.",
       "quote": "Returns and exchanges are not allowed on special ordered watches, custom designs, gift cards*,jewelry that has been engraved or altered/modified beyond sizing or stone setting and protection plan replacement merchandise.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds 'except where required by law,' which is not present in the quote. The quote simply states gift cards cannot be returned or exchanged."
     },
     {
       "id": "policy-exclusion-9",
@@ -119,8 +136,10 @@
       "text": "Returns and exchanges are not allowed on jewelry that has been engraved or altered/modified beyond sizing or stone setting.",
       "quote": "Returns and exchanges are not allowed on special ordered watches, custom designs, gift cards*,jewelry that has been engraved or altered/modified beyond sizing or stone setting and protection plan replacement merchandise.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-10",
@@ -130,8 +149,10 @@
       "text": "Returns and exchanges are not allowed on protection plan replacement merchandise.",
       "quote": "Returns and exchanges are not allowed on special ordered watches, custom designs, gift cards*,jewelry that has been engraved or altered/modified beyond sizing or stone setting and protection plan replacement merchandise.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-11",
@@ -141,8 +162,10 @@
       "text": "Merchandise purchased using Progressive Leasing cannot be exchanged.",
       "quote": "Merchandise purchased using Progressive Leasing cannot be exchanged.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-12",
@@ -151,8 +174,10 @@
       "text": "All refunds are credited to the same tender as the original purchase.",
       "quote": "All refunds are credited to the same tender as the original purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-13",
@@ -161,8 +186,10 @@
       "text": "Refund processing time for online returns is approximately five business days from the date of the return, with credit appearing in 5-7 business days depending on the financial institution.",
       "quote": "Processing time for refunds is approximately five (5) business days from the date of the return. The refund will be generated at the time the return is processed, but the timeframe for it to reflect as a credit on your card is dependent on your individual financial institution. However, most are reflected in 5-7 Business Days.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

@@ -36,8 +36,10 @@
       "text": "Refunds for in-store purchases are made using the same payment method used for the purchase.",
       "quote": "If you have returned an item purchased in-store, the refund will be made with the same method of payment used for the purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-2",
@@ -46,8 +48,10 @@
       "text": "If refund to the original payment method is not possible for in-store returns, store staff will provide an alternative method.",
       "quote": "If a refund to the original method of payment is not possible, our store staff will indicate an alternative method.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-3",
@@ -56,8 +60,10 @@
       "text": "Refunds for online purchases are made using the same payment method used for the purchase.",
       "quote": "When you make a return of an online purchase, you will receive the refund via the same payment method you used for the purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-4",
@@ -68,8 +74,10 @@
       "text": "Online returns sent through a shipping company are processed within 72 hours after receipt at the facilities.",
       "quote": "If you sent your return through a shipping company, we will process it in the 72 hours after receiving it in our facilities.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-5",
@@ -80,8 +88,10 @@
       "text": "Refund amount will be received within a maximum of 14 days after return completion, depending on the bank.",
       "quote": "Keep in mind that once the return has been made, you will receive the amount within a maximum period of 14 days, depending on your bank.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-1",
@@ -90,8 +100,10 @@
       "text": "Returns must be made in the same market/region where the purchase was made.",
       "quote": "You must make the return in the same market/region where you made the purchase.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-receipt-2",
@@ -100,8 +112,10 @@
       "text": "No receipt is needed when returning online purchases via drop off point.",
       "quote": "You do not need to include the receipt.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-3",
@@ -111,8 +125,10 @@
       "text": "Large sized items from the HOME collection require contacting Zara to arrange a pickup at your house for returns.",
       "quote": "When making a return request, if your order contains a large sized item from the HOME collection, we will ask you to contact us to arrange a pickup at your house.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s3-exclusion-1",
@@ -122,8 +138,10 @@
       "text": "Items from the Standard Procedure collection of cosmetics may not be exchanged or returned.",
       "quote": "Items from the Standard Procedure collection may not be exchanged or returned.",
       "snapshot": "s3",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s3-window-2",
@@ -133,8 +151,10 @@
       "text": "Home items must be returned in their sealed original packaging and original condition.",
       "quote": "HOME items must be returned in their sealed original packaging and in its original condition.",
       "snapshot": "s3",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

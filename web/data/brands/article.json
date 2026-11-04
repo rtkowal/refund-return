@@ -24,8 +24,10 @@
       "text": "You have up to 30 days from the date of delivery to return your furniture.",
       "quote": "If you decide your piece isn’t quite right, you have up to 30 days from the date of delivery to return your furniture.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-2",
@@ -36,8 +38,10 @@
       "text": "You can exchange any product in your order up to 30 days after delivery.",
       "quote": "You can exchange any product in your order up to 30 days after delivery.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-3",
@@ -46,8 +50,10 @@
       "text": "Shipping on your first exchange for any item is free of charge; subsequent exchanges require you to pay forward and return shipping fees.",
       "quote": "Shipping on your first exchange for any item is free of charge. If you decide to exchange that item again (i.e. more than once) you will be responsible for any forward and return shipping fees.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-4",
@@ -56,8 +62,10 @@
       "text": "Refunds are issued to your original form of payment after inspection of the returned item.",
       "quote": "Once the item has been inspected by our team, we will issue a refund to your original form of payment, less any applicable outbound and return shipping fees.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-5",
@@ -66,8 +74,10 @@
       "text": "Refunds are issued less any applicable outbound and return shipping fees.",
       "quote": "Once the item has been inspected by our team, we will issue a refund to your original form of payment, less any applicable outbound and return shipping fees.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-6",
@@ -76,8 +86,10 @@
       "text": "You must retain a copy of your original receipt to ensure a successful return.",
       "quote": "To ensure a successful return, please retain a copy of your original receipt, and ensure that your piece is in as-new condition.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -87,8 +99,10 @@
       "text": "Small items purchased from retail stores must be returned to the store.",
       "quote": "Small items purchased from one of our retail stores, such as pillows, sheets, or a table lamp, must be returned to the store.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-8",
@@ -97,8 +111,10 @@
       "text": "If your new exchanged item costs less, the difference will be refunded to your original payment method; if it costs more, you will be charged the difference.",
       "quote": "If your new item costs less, we’ll refund the difference to your original payment method. If it costs more, we'll just charge you the difference when setting up the exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-9",
@@ -107,8 +123,10 @@
       "text": "Free exchanges are not available outside the standard delivery area.",
       "quote": "Please note that free exchanges aren't available outside our standard delivery area.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-10",
@@ -117,8 +135,10 @@
       "text": "Cash or check refunds over $100 at the San Francisco store are issued by company check and may take up to 14 business days to arrive.",
       "quote": "For returns made at our San Francisco store, cash or check refunds over $100 will be issued by company check. Please allow up to 14 business days after your return for your check to arrive.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

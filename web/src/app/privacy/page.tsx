@@ -5,7 +5,7 @@ export default function Privacy() {
   return (
     <article className="prose-rr max-w-2xl">
       <h1 className="mb-6 text-3xl font-bold">Privacy policy</h1>
-      <p className="text-sm text-muted">Last updated: November 3, 2026. [Owner: add the operating company&apos;s legal name, address and a contact email before launch.]</p>
+      <p className="text-sm text-muted">Last updated: November 3, 2026. This site is operated by Digital Savages LLC.</p>
       <h2>The short version</h2>
       <ul>
         <li>You don&apos;t need an account, and we don&apos;t ask for your name or email.</li>

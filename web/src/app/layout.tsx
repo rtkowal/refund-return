@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 const orgJsonLd = {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "Organization", "@id": `${SITE.url}/#org`, name: SITE.name, url: SITE.url },
+    { "@type": "Organization", "@id": `${SITE.url}/#org`, name: SITE.name, legalName: SITE.operator, url: SITE.url },
     { "@type": "WebSite", "@id": `${SITE.url}/#site`, name: SITE.name, url: SITE.url, publisher: { "@id": `${SITE.url}/#org` } },
   ],
 };

@@ -17,7 +17,7 @@ export function SiteFooter() {
           <Link href="/privacy/">Privacy</Link>
           <Link href="/holiday-return-deadlines/">Holiday return deadlines</Link>
         </nav>
-        <p>© {new Date().getFullYear()} refund-return.com</p>
+        <p>© {new Date().getFullYear()} Digital Savages LLC</p>
       </div>
     </footer>
   );

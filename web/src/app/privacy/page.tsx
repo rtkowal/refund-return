@@ -22,7 +22,7 @@ export default function Privacy() {
         <li><strong>Abuse protection</strong>: we limit how many letters one IP address can request per hour, and we may use Cloudflare Turnstile to block automated use.</li>
       </ul>
       <h2>Your choices</h2>
-      <p>Because we don&apos;t keep account data or letter content, there is usually nothing tied to you to access or delete. If you have a question or request, contact us at [contact email].</p>
+      <p>Because we don&apos;t keep account data or letter content, there is usually nothing tied to you to access or delete.</p>
       <h2>Changes</h2>
       <p>If we change how we handle data, for example by adding advertising or an optional &quot;email me my letter&quot; feature, we will update this page first.</p>
     </article>

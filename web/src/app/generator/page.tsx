@@ -6,7 +6,7 @@ export default function Generators() {
   return (
     <div className="space-y-6">
       <h1 className="text-3xl font-bold">Letter templates</h1>
-      <p className="text-muted">Describe your situation and get a letter you can edit and send yourself. Free, no sign-up.</p>
+      <p className="text-muted">Describe your situation and get a letter you can edit and send yourself. Free, no sign-up. Prefer a plain template? <Link className="underline" href="/templates/">See all templates</Link>.</p>
       <ul className="grid gap-3 sm:grid-cols-2">
         {GENERATORS.map((g) => (
           <li key={g.slug}><Link href={`/generator/${g.slug}/`} className="block h-full rounded-xl border border-line bg-surface p-4 hover:border-accent">

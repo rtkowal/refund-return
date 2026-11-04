@@ -39,6 +39,13 @@ export function Wizard({ def, brands, initialBrand }: { def: GeneratorDef; brand
       setRes(j); setStep(3);
     } catch (e) { setErr((e as Error).message); } finally { setBusy(false); }
   }
+  async function downloadDocx() {
+    if (!res) return;
+    const { Document, Packer, Paragraph } = await import("docx");
+    const doc = new Document({ sections: [{ children: res.letter.split("\n").map((t) => new Paragraph({ text: t })) }] });
+    const url = URL.createObjectURL(await Packer.toBlob(doc));
+    Object.assign(document.createElement("a"), { href: url, download: `${def.filename}.docx` }).click(); URL.revokeObjectURL(url);
+  }
   function download() {
     if (!res) return;
     const url = URL.createObjectURL(new Blob([res.letter], { type: "text/plain" }));
@@ -113,6 +120,7 @@ export function Wizard({ def, brands, initialBrand }: { def: GeneratorDef; brand
           <textarea className={`${field} font-mono text-sm`} rows={16} value={res.letter} onChange={(e) => setRes({ ...res, letter: e.target.value })} aria-label="Your letter (editable)" />
           <div className="flex flex-wrap gap-2">
             <button onClick={() => navigator.clipboard.writeText(res.letter)} className="rounded-lg bg-accent px-5 py-3 font-medium text-accent-ink">Copy</button>
+            <button onClick={downloadDocx} className="rounded-lg border border-line px-5 py-3">Download .docx</button>
             <button onClick={download} className="rounded-lg border border-line px-5 py-3">Download .txt</button>
           </div>
           {brand && def.usesBrand && (

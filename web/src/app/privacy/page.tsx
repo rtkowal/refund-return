@@ -5,7 +5,7 @@ export default function Privacy() {
   return (
     <article className="prose-rr max-w-2xl">
       <h1 className="mb-6 text-3xl font-bold">Privacy policy</h1>
-      <p className="text-sm text-muted">Last updated: November 3, 2026. [Owner: add the operating company&apos;s legal name, address and a contact email before launch.]</p>
+      <p className="text-sm text-muted">Last updated: November 3, 2026. This site is operated by Digital Savages LLC.</p>
       <h2>The short version</h2>
       <ul>
         <li>You don&apos;t need an account, and we don&apos;t ask for your name or email.</li>
@@ -22,7 +22,7 @@ export default function Privacy() {
         <li><strong>Abuse protection</strong>: we limit how many letters one IP address can request per hour, and we may use Cloudflare Turnstile to block automated use.</li>
       </ul>
       <h2>Your choices</h2>
-      <p>Because we don&apos;t keep account data or letter content, there is usually nothing tied to you to access or delete. If you have a question or request, contact us at [contact email].</p>
+      <p>Because we don&apos;t keep account data or letter content, there is usually nothing tied to you to access or delete.</p>
       <h2>Changes</h2>
       <p>If we change how we handle data, for example by adding advertising or an optional &quot;email me my letter&quot; feature, we will update this page first.</p>
     </article>

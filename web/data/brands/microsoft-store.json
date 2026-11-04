@@ -25,8 +25,10 @@
       "text": "Holiday purchases made between October 1, 2026 and December 2, 2026 can be returned through January 31, 2027.",
       "quote": "Holiday extended return policy available with eligible physical products purchased between October 1, 2026 - December 2, 2026 from Microsoft Store online and Microsoft Experience Centers in select markets. Holiday purchases made during that window can be returned through January 31, 2027.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-2",
@@ -36,8 +38,10 @@
       "text": "Returns exclude ROG Xbox Ally X, ROG Xbox Ally, Surface Hub, HoloLens, and Windows DevKit.",
       "quote": "Excludes ROG Xbox Ally X, ROG Xbox Ally, Surface Hub, HoloLens, and Windows DevKit.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -47,8 +51,10 @@
       "text": "Price adjustment excludes ROG Xbox Ally, ROG Xbox Ally X, Surface for Business devices and accessories, and refurbished products.",
       "quote": "Excludes ROG Xbox Ally, ROG Xbox Ally X, Surface for Business devices and accessories, and refurbished products.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-4",
@@ -58,8 +64,10 @@
       "text": "Customer must mail in the qualifying trade-in device to be eligible for reimbursement.",
       "quote": "Customer must mail in the qualifying trade-in device to be eligible for reimbursement.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -69,8 +77,11 @@
       "text": "Trade-in devices with broken or missing components, cracked display or screen, liquid damage, modifications, password protection, or missing original chargers/accessories are not eligible.",
       "quote": "To be eligible for trade in, (i) you must own the qualifying device, (ii) the device must power on, (iii) the battery must hold a charge (the device must not be required to be plugged in to operate), and (iv) the device must be in fully-functional, working condition and not have broken or missing components, a cracked display or screen, liquid damage, modification(s) or the device warranty seal broken. The device cannot be password protected and must include its original chargers, accessories, and hard drive.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits some eligibility requirements from the quote, such as the device needing to power on, the battery holding a charge, and the device not being required to be plugged in to operate. It also omits the requirement for the hard drive to be included and the device warranty seal not being broken."
     },
     {
       "id": "policy-exclusion-6",
@@ -80,8 +91,10 @@
       "text": "All trade-ins are final and cannot be redeemed for cash, gift cards, or credit towards other products.",
       "quote": "All trade-ins are final. Cannot be transferred or otherwise redeemed for cash or gift cards, or credit towards other devices or products.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

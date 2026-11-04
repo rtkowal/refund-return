@@ -25,8 +25,10 @@
       "text": "Baby formula cannot be returned or refunded once you have accepted delivery or picked up your order.",
       "quote": "Note that certain items, including baby formula, alcoholic beverages, and tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-2",
@@ -38,8 +40,10 @@
       "text": "Alcoholic beverages cannot be returned or refunded once you have accepted delivery or picked up your order.",
       "quote": "Note that certain items, including baby formula, alcoholic beverages, and tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -51,8 +55,10 @@
       "text": "Tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
       "quote": "Note that certain items, including baby formula, alcoholic beverages, and tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -63,8 +69,10 @@
       "text": "You can request a refund within seven days after your delivery or pick up for online grocery orders.",
       "quote": "Notify the driver upon delivery of your order (or the Store Associate upon pick up of your order), or contact us within seven days after your delivery or pick up.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-5",
@@ -73,8 +81,10 @@
       "text": "Refunds will be issued based on the method of payment used.",
       "quote": "A full refund will be issued when the product and receipt are presented. Refund will be issued based on the method of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-6",
@@ -83,8 +93,10 @@
       "text": "A receipt is required for all alcohol, cigarette, and tobacco product refunds and the person must be of legal age.",
       "quote": "Receipt required for all alcohol / cigarette / tobacco product refunds. Person must be of legal age.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-7",
@@ -93,8 +105,10 @@
       "text": "Refunds without a receipt over $10 require manager approval and will be issued as merchandise credit for the lowest selling price in the past 30 days.",
       "quote": "Refunds without a receipt that are over $10 require manager approval. Approved refunds will be issued a merchandise credit for the lowest selling price in the past 30 days.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-8",
@@ -103,8 +117,10 @@
       "text": "Refunds over $20 paid by credit will be issued as account credit; refunds $20 or less will be issued in cash.",
       "quote": "CREDIT: Refunds $20 or less will be issued cash. Refunds more than $20 will be issued account credit.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-9",
@@ -113,8 +129,10 @@
       "text": "Refunds paid by EBT or Corporate Charge will be credited to the account.",
       "quote": "EBT or Corporate Charge: Refunds will be credited to the account.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-10",
@@ -123,8 +141,10 @@
       "text": "No refunds are given for eWIC purchases.",
       "quote": "eWIC: No Refund",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-11",
@@ -134,8 +154,10 @@
       "text": "The money back guarantee applies only to produce items.",
       "quote": "All produce items are covered under our money back guarantee.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

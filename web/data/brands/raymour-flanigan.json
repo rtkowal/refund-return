@@ -23,8 +23,10 @@
       "text": "We are unfortunately unable to process returns or refunds once merchandise has been accepted.",
       "quote": "Due to the care we put forth for every order, we are unfortunately unable to process returns or refunds once merchandise has been accepted.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-cancellation-2",
@@ -34,8 +36,10 @@
       "text": "You may cancel anytime up to the day of pick-up or delivery.",
       "quote": "If you have concerns about your order, you may cancel anytime up to the day of pick-up or delivery.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -45,8 +49,10 @@
       "text": "We reserve the right to repair or replace your furniture as deemed necessary at our sole discretion.",
       "quote": "Please note that we reserve the right to repair or replace your furniture as deemed necessary at our sole discretion.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -58,8 +64,10 @@
       "text": "A return request must be made within 72 hours of receiving your item(s).",
       "quote": "A return request must be made within 72 hours of receiving your item(s) by calling 888-729-6687.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -69,8 +77,10 @@
       "text": "Only items labeled \"Free Shipping\" qualify for return.",
       "quote": "Only items labeled \"Free Shipping\" qualify for return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -80,8 +90,10 @@
       "text": "Assembled or modified items are unable to be returned.",
       "quote": "Assembled or modified items are unable to be returned.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-7",
@@ -91,8 +103,11 @@
       "text": "A restocking fee of 15% of the merchandise total will be applied to returned free shipping items.",
       "quote": "A restocking fee of 15% of the merchandise total will be applied to returned items.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary specifies 'returned free shipping items,' but the quote applies the restocking fee to all returned items, not just those with free shipping."
     },
     {
       "id": "policy-fee-8",
@@ -102,8 +117,10 @@
       "text": "Changes after three days will result in the loss of your 20% deposit.",
       "quote": "Changes after this period will result in the loss of your 20% deposit.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-9",
@@ -113,8 +130,10 @@
       "text": "After seven days from notification of arrival, a 5% storage fee per week may be assessed.",
       "quote": "After seven days, you may be assessed a 5% storage fee per week.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-10",
@@ -124,8 +143,11 @@
       "text": "All area rug returns require a restocking fee of 10%.",
       "quote": "Please note: all returns will be reviewed for approval and require a restocking fee of 10%.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary specifies 'area rug returns,' but the quote applies the 10% restocking fee to all returns, not just area rugs."
     }
   ],
   "facets": []

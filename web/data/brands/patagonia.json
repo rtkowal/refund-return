@@ -22,8 +22,10 @@
       "text": "You can start an exchange for a wrong size or color and get free shipping both ways.",
       "quote": "Wrong size or color? Want a different item instead? Start your exchange here and get free shipping both ways.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-2",
@@ -32,8 +34,11 @@
       "text": "Dirty products will be returned and not accepted for repair.",
       "quote": "Dirty products will be returned.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The quote only says dirty products will be returned, not that they will not be accepted for repair. The summary adds an unsupported detail."
     },
     {
       "id": "policy-refund_method-3",
@@ -42,8 +47,10 @@
       "text": "Returns can be started online or brought to a Patagonia-owned store.",
       "quote": "Don't want a purchase after all? Start your return here or bring it in to a Patagonia-owned store.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

@@ -24,8 +24,10 @@
       "text": "Returns made within 30 days of the order delivery date will be issued a refund to the original form of payment.",
       "quote": "Returns made within 30 days of the order delivery date will be issued a refund to the original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -36,8 +38,10 @@
       "text": "Furniture quality defects may be returned for a refund within one year from the purchase date.",
       "quote": "We guarantee the quality of our furniture (free of manufacture defect) for up to one year from purchase. If you experience any defects, you may return your furniture purchase for a refund within one year from the purchase date.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-3",
@@ -49,8 +53,10 @@
       "text": "Most furniture items may be returned or exchanged by carrier within 30 days from the date of delivery.",
       "quote": "Most UO Furniture items may be returned or exchanged by carrier within 30 days from the date of delivery.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -59,8 +65,10 @@
       "text": "After one year, no returns or exchanges will be accepted.",
       "quote": "After one year, we will no longer accept returns or exchanges.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-holiday-5",
@@ -71,8 +79,11 @@
       "text": "Purchases made from 10/1/2026 to 12/24/2026 may be returned for a refund through 1/31/2027.",
       "quote": "Purchases made from 10/1/2026 to 12/24/2026 may be returned for a refund to the original form of payment through 1/31/2027.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits that refunds are to the original form of payment, which is specified in the quote."
     },
     {
       "id": "policy-fee-6",
@@ -81,8 +92,10 @@
       "text": "A $5 restocking fee will be deducted from your refund for most mailed returns.",
       "quote": "A $5 restocking fee will be deducted from your refund for most mailed returns.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-7",
@@ -92,8 +105,10 @@
       "text": "Select furniture items are subject to a 15% restocking fee if returned, plus applicable taxes.",
       "quote": "Select furniture items are subject to a 15% restocking fee if returned, plus applicable taxes.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-8",
@@ -102,8 +117,10 @@
       "text": "Made-to-order furniture, sale items with additional sale-on-sale discount, and items ending in $0.95 are final sale and cannot be returned or exchanged.",
       "quote": "Some items are final sale and cannot be returned or exchanged. This includes made-to-order furniture, sale items purchased at an additional sale-on-sale discount, and furthered sale items ending in $0.95.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-9",
@@ -112,8 +129,10 @@
       "text": "UO MRKT items must be returned to the seller and cannot be returned to Urban Outfitters or UO stores.",
       "quote": "Eligible UO MRKT items must be returned to the UO MRKT seller and cannot be returned to UrbanOutfitters.com or UO stores.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-10",
@@ -122,8 +141,10 @@
       "text": "Returns without a receipt will not be accepted.",
       "quote": "Returns without a receipt will not be accepted.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-11",
@@ -134,8 +155,11 @@
       "text": "Returns within 30 days of delivery will be refunded to the original payment method; returns after 30 days will be refunded via emailed e-merchandise credit.",
       "quote": "Returns Within 30 Days of Delivery: The original method of payment will be refunded in full. Returns After 30 Days of Delivery or a Gift Return: A UO Gift Card will be issued for the price paid.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary says refunds after 30 days are via emailed e-merchandise credit, but the quote specifies a UO Gift Card, not necessarily emailed or e-merchandise credit."
     },
     {
       "id": "policy-refund_timing-12",
@@ -144,8 +168,10 @@
       "text": "Refunds take approximately 1-2 weeks for processing plus 1-3 business days to credit back to the original payment method.",
       "quote": "Please allow approximately 1-2 weeks for return processing. You will receive a refund notification from us when your return has been processed, and refunds will take an additional 1-3 business days to credit back to your original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

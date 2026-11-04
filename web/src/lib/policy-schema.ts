@@ -16,6 +16,7 @@ export const Rule = z.object({
   extractedBy: z.enum(["llm","human","claude-session"]),
   reviewedBy: z.string().optional(),
   reviewedAt: z.string().optional(),
+  reviewNote: z.string().optional(),
 });
 
 export const Snapshot = z.object({
@@ -47,6 +48,7 @@ export type Rule = z.infer<typeof Rule>;
 export function isIndexable(b: Brand, now = new Date()): boolean {
   const maxDays = [10, 11, 0].includes(now.getMonth()) ? 7 : 30;
   const age = (now.getTime() - new Date(b.lastVerifiedAt).getTime()) / 86_400_000;
-  const reviewed = b.rules.every((r) => r.status === "reviewed" || r.status === "published");
+  const live = b.rules.filter((r) => r.status !== "disputed");
+  const reviewed = live.length >= 2 && live.every((r) => r.status === "reviewed" || r.status === "published") && live.some((r) => r.type === "window");
   return b.launch && reviewed && age <= maxDays;
 }

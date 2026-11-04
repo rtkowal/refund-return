@@ -25,8 +25,10 @@
       "text": "Purple mattresses can be returned within 100 calendar days of delivery.",
       "quote": "Eligible Purple mattresses can be returned within **100 calendar days of delivery**.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -38,8 +40,10 @@
       "text": "Purple pillows may be returned within 30 calendar days of delivery.",
       "quote": "Eligible Purple pillows may be returned within **30 calendar days of delivery**.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-3",
@@ -51,8 +55,10 @@
       "text": "Purple seat cushions may be returned within 30 calendar days of delivery.",
       "quote": "Eligible Purple Seat Cushions may be returned within **30 calendar days of delivery**.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -64,8 +70,10 @@
       "text": "Purple bedding products may be returned within 30 calendar days of delivery.",
       "quote": "Eligible bedding products may be returned within **30 calendar days of delivery**.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -74,8 +82,10 @@
       "text": "Purple Squishy products, Freeform Extra Fill, Adjustable Bases, Smart Bases, Bed Frames, Platforms, Headboards, and Flat Foundations are not eligible for returns, refunds, or exchanges.",
       "quote": "The following products are not eligible for returns, refunds, or exchanges:\n\n*   Purple Squishy™ products\n*   Freeform™ Extra Fill\n*   Adjustable Bases\n*   Smart Bases\n*   Bed Frames\n*   Platforms\n*   Headboards\n*   Flat Foundations",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-6",
@@ -87,8 +97,10 @@
       "text": "A 21-night adjustment period is required before returning a mattress.",
       "quote": "Complete the required **21-night adjustment period**",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -98,8 +110,10 @@
       "text": "Mattress must be clean and undamaged and law tag must remain attached to be eligible for return.",
       "quote": "Mattress must be clean and undamaged\n*   Law tag must remain attached",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-8",
@@ -109,8 +123,10 @@
       "text": "Pillow must be clean and undamaged to be eligible for return.",
       "quote": "Pillow must be clean and undamaged",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-9",
@@ -120,8 +136,10 @@
       "text": "Seat cushion must be clean and undamaged to be eligible for return.",
       "quote": "Cushion must be clean and undamaged",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-10",
@@ -131,8 +149,10 @@
       "text": "Bedding product must be clean and undamaged to be eligible for return.",
       "quote": "Product must be clean and undamaged",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-11",
@@ -142,8 +162,10 @@
       "text": "Customer is responsible for return shipping costs on bedding returns.",
       "quote": "Customer is responsible for return shipping costs",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-12",
@@ -155,8 +177,10 @@
       "text": "One mattress exchange is allowed during the 100-day trial period.",
       "quote": "One mattress exchange is allowed during the trial period.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-13",
@@ -166,8 +190,10 @@
       "text": "Pillow exchanges are not available.",
       "quote": "Pillow exchanges are not available.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-14",
@@ -177,8 +203,10 @@
       "text": "Seat cushion exchanges are not available.",
       "quote": "Seat cushion exchanges are not available.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-15",
@@ -188,8 +216,10 @@
       "text": "Bedding exchanges are not available.",
       "quote": "Bedding exchanges are not available.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-16",
@@ -198,8 +228,10 @@
       "text": "Refunds may take up to 14 business days to appear after processing.",
       "quote": "After your return is processed and a refund is issued, it may take up to **14 business days** for the funds to appear in your account, depending on your financial institution.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

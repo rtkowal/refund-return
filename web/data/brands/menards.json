@@ -24,8 +24,10 @@
       "text": "Items can be returned with a receipt within 90 days of purchase for a refund or exchange.",
       "quote": "Returns with a Receipt within 90 Days of Purchase",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -36,8 +38,10 @@
       "text": "Returns with a receipt after 90 days of purchase receive in-store credit only.",
       "quote": "Returns with a Receipt after 90 Days of Purchase\n\nIf you make a return after 90 days of purchase, you will receive an in-store credit for the original purchase price.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-3",
@@ -46,8 +50,10 @@
       "text": "A driver's license or state ID is required for all no-receipt returns.",
       "quote": "Please note that a driver's license or state ID will be required for all no-receipt returns.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -59,8 +65,10 @@
       "text": "Gas-powered items may be returned or exchanged within 30 days of purchase if unused, in original package, and not filled with gas.",
       "quote": "A gas-powered item may be returned or exchanged within 30 days of purchase with a receipt if the item has not been used, is in the original package, and has not been filled with gas.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-5",
@@ -72,8 +80,10 @@
       "text": "Service items may be returned or exchanged within 30 days of purchase if unused and in original package.",
       "quote": "A service item, such as a handheld gas-powered item or contractor paint sprayer, may be returned or exchanged within 30 days of purchase if the item has not been used and is in the original package.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-6",
@@ -85,8 +95,10 @@
       "text": "Major appliances with manufacturing defects may be returned or exchanged within 7 days of purchase.",
       "quote": "A major appliance may be returned or exchanged within 7 days of the purchase date if the item has a manufacturing defect.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-7",
@@ -98,8 +110,10 @@
       "text": "Major appliances may be returned or exchanged within 90 days of purchase if unused and in original package.",
       "quote": "A major appliance can be returned or exchanged within 90 days of the purchase date if the item has not been used and is in the original package.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

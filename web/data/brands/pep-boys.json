@@ -24,8 +24,10 @@
       "text": "You can return items with the original receipt within 30 days of purchase for a refund or replacement.",
       "quote": "simply return with the original receipt within 30 days of the purchase date for a refund or replacement.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-2",
@@ -35,8 +37,10 @@
       "text": "Installed performance accessories, electrical items, electronics, and tire chains cannot be returned.",
       "quote": "If installed, performance accessories, electrical items, electronics, and tire chains cannot be accepted for return",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -46,8 +50,10 @@
       "text": "Opened or consumed products cannot be returned.",
       "quote": "Opened or consumed products cannot be accepted for return",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -57,8 +63,10 @@
       "text": "Clearance merchandise is not eligible for return.",
       "quote": "Clearance merchandise is not eligible for return",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -68,8 +76,10 @@
       "text": "Special order merchandise, uninstalled tires and uninstalled tire chains are subject to a 20% restocking fee if returned.",
       "quote": "Special Order merchandise, uninstalled tires and / or uninstalled tire chains will be accepted for return subject to a 20% restocking fee",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-6",
@@ -78,8 +88,11 @@
       "text": "A 20% restocking fee applies to cancellations and certain returns.",
       "quote": "We will process your refund and credit the payment card you used to place the order in the amount of your order, less the 20% restocking fee.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary generalizes the 20% restocking fee to 'cancellations and certain returns,' but the quote only mentions it being deducted from the refund amount, not specifically for cancellations."
     },
     {
       "id": "policy-receipt-7",
@@ -88,8 +101,10 @@
       "text": "Returns without a receipt are accepted for in-store credit at the lowest selling price in the last 30 days with valid ID.",
       "quote": "If you do not have your receipt, you may return your purchase for an in-store credit at our lowest selling price during the previous 30 days. You will need to provide a valid form of identification to return an item without a receipt.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-8",
@@ -100,8 +115,10 @@
       "text": "If you paid by check, returns are not accepted until 15 days after purchase.",
       "quote": "If you paid by check we unfortunately cannot accept your return until the 15th day after the date of purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-9",
@@ -110,8 +127,10 @@
       "text": "Refunds may take up to ten business days to appear on your account due to credit card company regulations.",
       "quote": "Please note that it may take up to ten business days for the credit to appear on your account, due to credit card company regulations.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-10",
@@ -123,8 +142,10 @@
       "text": "Installed tires have a 30-day or 1,000-mile satisfaction guarantee allowing exchange for better suited tires.",
       "quote": "Pep Boys offers a 30-days or 1,000-mile satisfaction guarantee on Pep Boys installed tires. If you are not 100% satisfied with your new tires, we will exchange them for tires better suited for your needs.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-11",
@@ -134,8 +155,10 @@
       "text": "Batteries, alternators, and starters can be exchanged if verified defective via in-store testing within warranty period.",
       "quote": "Batteries / Alternators / Starters – eligible for exchange if verified defective via Pep Boys’ in-store testing within warranty period",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

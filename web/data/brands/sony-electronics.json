@@ -24,8 +24,10 @@
       "text": "Most products purchased directly from the Website can be returned within 30 days following date of delivery or pick up by Sony.",
       "quote": "Sony’s return policy allows for most Products purchased directly from the Website and shipped to locations in the United States to be returned by you after obtaining a Sony return authorization number (RMA) during the Return & Exchange Period of 30 days following date of delivery or pick up by Sony for a refund of purchase price actually paid minus any return shipping costs.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -36,8 +38,10 @@
       "text": "Products purchased between November 1 and December 25 can be returned until January 16 of the next calendar year or within 30 days from delivery or pick up, whichever is greater.",
       "quote": "You may return eligible Products purchased between November 1 and December 25 (“Holiday Season”) until January 16 of the next calendar year, or within 30 days from date of delivery or pick up (whichever is greater), subject to all other terms and conditions set forth in this Agreement.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-3",
@@ -46,8 +50,10 @@
       "text": "Sony may charge a restocking fee of 15% of the purchase price on returns at its sole discretion.",
       "quote": "In its sole discretion, Sony may additionally charge a restocking fee of 15% of the purchase price (“Restocking Fee”) to all Products.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-4",
@@ -56,8 +62,10 @@
       "text": "A Sony return authorization number (RMA) is required to return products.",
       "quote": "Sony’s return policy allows for most Products purchased directly from the Website and shipped to locations in the United States to be returned by you after obtaining a Sony return authorization number (RMA) during the Return & Exchange Period of 30 days following date of delivery or pick up by Sony for a refund of purchase price actually paid minus any return shipping costs.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-5",
@@ -66,8 +74,10 @@
       "text": "Refunds to the original payment method take up to 10 business days; if original payment method is unavailable, a check may take up to 4 weeks.",
       "quote": "Please allow up to 10 business days for the refund to your original payment method. If the original form of payment is no longer available, then Sony will issue a check instead, which may take up to 4 weeks.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-6",
@@ -77,8 +87,10 @@
       "text": "Certain final sale products can only be exchanged for the same product if defective.",
       "quote": "aibo, aibo AI Cloud Renewal Plans, subscriptions, cloud services, movies, music, game hardware, games, software, professional products, gift cards, engraved Products and 500mm super telephoto lens (SAL500F40G) are final sales and can only be exchanged for the same Product if defective.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-7",
@@ -90,8 +102,11 @@
       "text": "Returns for TVs 50\" and above and projectors must be arranged for pickup by Sony's partner carrier from the delivery address within 30 days of delivery.",
       "quote": "TV returns 50” and above and projectors must be picked up by our partner carrier from the same address to which the order was delivered.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds a 30-day return window for TVs 50\" and above and projectors, but the quote does not specify a time frame for these returns."
     },
     {
       "id": "policy-exchange-8",
@@ -101,8 +116,10 @@
       "text": "Pickup for returns of TVs 50\" and above and projectors is scheduled by Sony's preferred carrier within 24 hours of return request.",
       "quote": "Our preferred carrier will contact you within 24 hours to schedule for pickup time.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-9",
@@ -112,8 +129,11 @@
       "text": "Refunds for TVs 50\" and above and projectors take up to 10 business days after Sony receives the returned product.",
       "quote": "Please allow up to 10 business days for the refund to your original payment method.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary specifies that the 10 business days for refund applies after Sony receives the returned product, but the quote only states 'please allow up to 10 business days' without specifying after receipt."
     },
     {
       "id": "policy-exclusion-10",
@@ -122,8 +142,10 @@
       "text": "Products damaged, missing accessories, instruction sheets, or with damaged packaging while in customer's possession are not eligible for return.",
       "quote": "Products that have been damaged, missing accessories, instruction sheets or with damaged packaging while in your possession are not eligible for return to Sony.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

@@ -24,8 +24,10 @@
       "text": "Returns of eligible items are accepted within 30 days of delivery.",
       "quote": "If you're not completely satisfied, we're happy to accept returns of eligible items within **30 days of delivery**.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -37,8 +39,10 @@
       "text": "Certain product launches and exclusives must be returned or exchanged within 15 days.",
       "quote": "Certain product launches and puma.com exclusives have a shorter window for returns and exchanges. This includes but is not limited to PUMA x LAMELO BALL and FENTY x PUMA Shoes which must be returned / exchanged within 15 days.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -48,8 +52,10 @@
       "text": "Final sale products cannot be returned or exchanged.",
       "quote": "Products that are classified as final sale cannot be returned or exchanged.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -59,8 +65,10 @@
       "text": "Customized products cannot be returned except for manufacturing or material defects.",
       "quote": "Custom products are nonrefundable, except in the case of manufacturing or material defects in which case you may contact Customer Service via phone or email for assistance.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-5",
@@ -69,8 +77,10 @@
       "text": "To return items purchased online to a PUMA store, bring the original form of payment and a physical or digital copy of the Order Confirmation Email.",
       "quote": "Please bring the original form of payment and a physical or digital copy of the Order Confirmation Email with you so you may be refunded.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-6",
@@ -79,8 +89,10 @@
       "text": "Refunds to debit/credit cards and PayPal are credited back to the original form of payment; refunds for PUMA Gift Cards are issued as a separate E-Gift Card.",
       "quote": "Purchases made by debit or credit card (including pre-paid gift cards) and through PayPal will be credited back to the original form of payment. If you paid with a PUMA Gift Card, you will be issued a separate E-Gift Card for the refunded amount.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-7",
@@ -89,8 +101,10 @@
       "text": "Returns initiated online can take 1-2 weeks to process after the return is received.",
       "quote": "Returns that have been initiated on us.puma.com can take 1-2 weeks to process depending on when the return is received.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-8",
@@ -99,8 +113,10 @@
       "text": "Direct exchanges are not offered; customers must return items and place a new order.",
       "quote": "We do not offer direct exchanges at this time. If you wish to exchange an item, you must go through our return process and place a new order.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

@@ -25,8 +25,11 @@
       "text": "Purchases made October 4, 2026 – December 30, 2026 are eligible for return through January 31, 2027 for most Kohl's merchandise.",
       "quote": "Purchases made **October 4, 2026 – December 30, 2026** are eligible for return through **January 31, 2027**.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds 'for most Kohl's merchandise,' which is not specified in the quote. The quote does not mention any exclusions or limitations."
     },
     {
       "id": "policy-holiday-2",
@@ -38,8 +41,10 @@
       "text": "Sephora at Kohl’s purchases made October 30, 2026 – December 30, 2026 are eligible for return through January 31, 2027.",
       "quote": "Purchases made at **Sephora at Kohl’s** between **October 30, 2026 – December 30, 2026** are eligible for return through **January 31, 2027**.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-3",
@@ -51,8 +56,10 @@
       "text": "Most Kohl’s merchandise can be returned up to 90 days from the date of purchase.",
       "quote": "Most Kohl’s merchandise can be returned up to **90 days** from the date of purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -64,8 +71,10 @@
       "text": "Kohl’s Cardholders enjoy up to 120 days to return most items.",
       "quote": "Kohl’s Cardholders enjoy **up to 120 days** to return most items.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-5",
@@ -77,8 +86,10 @@
       "text": "Premium Electronics and Watches normally have a 30-day return window.",
       "quote": "Premium Electronics and Watches normally have a **30-day** return window.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-6",
@@ -90,8 +101,10 @@
       "text": "Sephora at Kohl’s products follow the Sephora standard 30-day return policy.",
       "quote": "Sephora at Kohl’s products follow the Sephora standard 30-day return policy.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -101,8 +114,10 @@
       "text": "Opened or Unsealed Breast Pumps and Accessories are non-refundable and cannot be exchanged.",
       "quote": "Opened or Unsealed **Breast Pumps and Accessories**: Non-refundable and cannot be exchanged.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-8",
@@ -112,8 +127,10 @@
       "text": "Most returns are accepted with or without a receipt; associates can look up your order using order number, Kohl’s Rewards account, credit card number, or return barcode in the Kohl’s App.",
       "quote": "Most returns are accepted with or without a receipt. Associates can look up your order using:\n\n*   Order number\n*   Kohl’s Rewards account\n*   Credit card number\n*   Return barcode in the Kohl’s App",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-9",
@@ -123,8 +140,10 @@
       "text": "Refunds will be issued to the card used to make your purchase; merchandise credits mailed to billing address unless otherwise specified.",
       "quote": "Refunds will be issued to the card used to make your purchase. Merchandise credits will be mailed to the billing address on file, unless a different address is provided.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-10",
@@ -134,8 +153,10 @@
       "text": "Refunds from in-store returns should appear on your credit card within about seven days, but may take longer depending on your bank’s processing time.",
       "quote": "Your refund should appear on your credit card within about seven days, but it may take longer depending on your bank’s processing time.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-11",
@@ -145,8 +166,10 @@
       "text": "Most items are eligible for in-store exchanges within the applicable return window; exchanges by mail are not available.",
       "quote": "Most items are eligible for in-store exchanges within the applicable return window. Exchanges by mail are not available.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

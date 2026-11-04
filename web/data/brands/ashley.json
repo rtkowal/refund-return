@@ -25,8 +25,10 @@
       "text": "Standard Shipping items can be returned within 30 days of delivery.",
       "quote": "We accept the return of Standard Shipping item(s) within 30 days of delivery.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-2",
@@ -38,8 +40,10 @@
       "text": "Return shipping or pickup fees may apply for Standard Shipping item returns.",
       "quote": "Return shipping or pickup fees may apply.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -51,8 +55,10 @@
       "text": "Non-damaged and non-defective White Glove and Doorstep Delivery items may not be returned.",
       "quote": "For White Glove and Doorstep Delivery, you MUST contact Guest Experience within three (3) business days of delivery if your item is damaged or defective , and we’ll work with you to repair or replace the item, however NON-DAMAGED AND NON-DEFECTIVE ITEMS MAY NOT BE RETURNED .",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -64,8 +70,10 @@
       "text": "Damaged or defective White Glove and Doorstep Delivery items must be reported within 3 business days of delivery.",
       "quote": "For White Glove and Doorstep Delivery, you MUST contact Guest Experience within three (3) business days of delivery if your item is damaged or defective",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -75,8 +83,10 @@
       "text": "Final-Sale, Clearance, Special Orders, and Monogrammed or Personalized Items cannot be returned except if damaged or defective and reported within 3 business days.",
       "quote": "We do not accept returns on Final-Sale and Clearance Items, Special Orders, or Monogrammed or Personalized Items, except for items delivered damaged or defective and reported to us within three (3) business days after delivery.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -86,8 +96,10 @@
       "text": "Returns on mattresses or foundations are controlled by the manufacturer’s warranty.",
       "quote": "Returns on mattresses or foundations are controlled by the manufacturer’s warranty, if any.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-7",
@@ -96,8 +108,10 @@
       "text": "In-store purchases have their own return policies set by the store where purchased.",
       "quote": "In-store purchases, whether from independently owned and operated stores or from stores owned and operated by Ashley Global Retail, LLC or subsidiaries, set their own policies regarding returns and exchanges.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-8",
@@ -106,8 +120,10 @@
       "text": "Refunds are made based on the payment method used at the time of purchase.",
       "quote": "Refunds are made based on the payment method used at the time of purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-9",
@@ -116,8 +132,10 @@
       "text": "Allow 7–10 days after receipt of returned items for refunds to appear on your credit card statement.",
       "quote": "Please allow 7–10 days following our receipt of the returned item(s) for any credit or refund to display on your credit card statement.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-10",
@@ -126,8 +144,10 @@
       "text": "Shipping, delivery, and handling charges are nonrefundable except for damaged or defective merchandise.",
       "quote": "With the exception of refunds for damaged or defective merchandise, shipping, delivery, and handling charges are nonrefundable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

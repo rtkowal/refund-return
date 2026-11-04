@@ -22,8 +22,10 @@
       "text": "Using the prepaid return label deducts $7.50 from your refund.",
       "quote": "When using our prepaid label $7.50 will be deducted from your refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -34,8 +36,10 @@
       "text": "Returns and exchanges must be requested within 30 days of original purchase with proof of purchase.",
       "quote": "J.Crew gladly accepts returns of unworn, unwashed, undamaged or defective merchandise purchased online, by phone or in stores for delivery that shipped to a U.S. address for a full refund or free exchange which are requested within 30 days of original purchase and include proof of purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -45,8 +49,10 @@
       "text": "Swimsuits without hygienic liners cannot be returned or exchanged.",
       "quote": "Swimsuits without hygienic liners in place are ineligible for returns or exchanges.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-4",
@@ -55,8 +61,10 @@
       "text": "Refunds are made to the original payment method unless otherwise agreed.",
       "quote": "Refunds will be made in the form of the original payment, unless otherwise agreed.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-5",
@@ -65,8 +73,10 @@
       "text": "Merchandise purchased with a gift card will be refunded on a new gift card.",
       "quote": "Merchandise purchased with a gift card will be issued a refund on a new gift card.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-6",
@@ -75,8 +85,10 @@
       "text": "In-store returns may require proof of purchase and a valid government-issued photo ID.",
       "quote": "J.Crew may consider factors including, but not limited to, the condition of the merchandise, proof of purchase, return activity, and transaction history with J.Crew Group and our affiliated brands. We may request additional information to process in-store returns, including proof of purchase, a valid government-issued photo ID, or other information necessary to validate the transaction.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -86,8 +98,10 @@
       "text": "Final sale, monogrammed, personalized, lingerie, vintage, altered items cannot be returned or exchanged.",
       "quote": "All monogrammed, personalized, lingerie, vintage, altered or final sale items cannot be returned or exchanged.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-8",
@@ -96,8 +110,10 @@
       "text": "Exchanges cannot be done for returned merchandise; returns must be processed first and a new order placed for replacement.",
       "quote": "Unfortunately, we cannot offer exchanges for returned merchandise. Please return the item you wish to exchange for a refund in accordance with our return policy and place a new order for a replacement item.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-9",
@@ -107,8 +123,10 @@
       "text": "Marketplace vendor items must be returned directly to the vendor and are not accepted at J.Crew stores or distribution centers.",
       "quote": "Items delivered by our Marketplace vendors must be returned directly to them by following the instructions enclosed in your package and will not be accepted at J.Crew stores or the distribution center.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-10",
@@ -117,8 +135,10 @@
       "text": "Gift returns or exchanges in stores require a gift receipt and refunds are issued to a J.Crew Gift Card.",
       "quote": "In stores, requests to return or exchange merchandise received as a gift must be accompanied by a gift receipt. We will refund the purchase amount to a J.Crew Gift Card.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-11",
@@ -127,8 +147,10 @@
       "text": "Using the prepaid label for gift returns deducts $7.50 from your refund.",
       "quote": "When using our prepaid label $7.50 will be deducted from your refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

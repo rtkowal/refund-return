@@ -22,8 +22,10 @@
       "text": "Most items can be returned at any time unless noted otherwise.",
       "quote": "Return at any time | Most items, unless noted below",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -35,8 +37,10 @@
       "text": "Electronics can be returned within 90 days of purchase or receipt.",
       "quote": "Within 90 days | Electronics",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-3",
@@ -48,8 +52,10 @@
       "text": "Commercial heavy equipment can be returned within 30 days of purchase or receipt.",
       "quote": "Within 30 days | Commercial heavy equipment",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -61,8 +67,10 @@
       "text": "Cell phones (prepaid, postpaid and no contract) can be returned within 14 days of purchase or receipt.",
       "quote": "Within 14 days | Cell phones (prepaid, postpaid and no contract)",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-5",
@@ -71,8 +79,10 @@
       "text": "Refunds for in-club returns are issued as cash or credit depending on the original form of payment.",
       "quote": "Your refund will be issued as cash or credit, depending on your original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-6",
@@ -81,8 +91,10 @@
       "text": "Refunds for online returns are credited to the account charged at the time of purchase.",
       "quote": "For items returned through SamsClub.com, you'll receive credit to the account that was charged at the time of purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

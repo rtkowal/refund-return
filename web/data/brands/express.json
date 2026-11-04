@@ -24,8 +24,10 @@
       "text": "Items can be returned within 30 days of the delivery date with a valid receipt or order number.",
       "quote": "We're happy to accept returns for items with a valid receipt or order number within 30 days of the delivery date.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-2",
@@ -34,8 +36,10 @@
       "text": "Returns require a valid receipt, invoice, or order confirmation; without it, no refund, credit or courtesy exchange will be issued.",
       "quote": "We do not accept returns or exchanges without a receipt, invoice, or order confirmation. If you do not have a valid receipt or if we cannot confirm your purchase in our system, no refund, credit or courtesy exchange will be issued.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -45,8 +49,10 @@
       "text": "Items marked Clearance or with a price ending in .97 and face coverings are not returnable.",
       "quote": "Items marked Clearance or items that have a price ending in .97 are not returnable. Face coverings are also non-returnable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -56,8 +62,10 @@
       "text": "Certain merchandise such as fragrance or swimwear may not be eligible for return unless in original condition.",
       "quote": "Certain merchandise such as fragrance or swimwear may not be eligible for return unless in original condition.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-5",
@@ -66,8 +74,10 @@
       "text": "A $6.99 fee will be deducted from refunds for prepaid return shipping labels, with some exemptions.",
       "quote": "$6.99 will be deducted from your refund for the cost of using the prepaid return label. Certain items may be exempt from this deduction.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-6",
@@ -76,8 +86,10 @@
       "text": "Online exchanges are not offered; customers must return items and place a new order to exchange.",
       "quote": "At this time, we don’t offer online exchanges. If you’d like to exchange a product, return it using our Returns process and then place a new order.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-7",
@@ -88,8 +100,10 @@
       "text": "Online purchases can be returned within 60 days of purchase.",
       "quote": "We’re happy to accept returns for items within 60 days of your purchase online.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-8",
@@ -99,8 +113,10 @@
       "text": "All clearance and final sale items are not eligible for returns, exchanges, price adjustments, or price matches.",
       "quote": "All clearance items are considered final sale, meaning no returns or exchanges are allowed. Final sale items do not qualify for price adjustments or price matches.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-9",
@@ -109,8 +125,10 @@
       "text": "Returns will not be accepted at Express Factory Outlet stores for non-Factory Outlet items purchased elsewhere or online.",
       "quote": "Express Factory Outlet stores cannot accept returns for non-Express Factory Outlet items purchased at Express or Express Men retail stores, or online at express.com.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

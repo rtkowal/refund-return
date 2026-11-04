@@ -24,8 +24,10 @@
       "text": "Returns with an original receipt must be made within 120 days of the date of purchase to be eligible for exchange or refund.",
       "quote": "When accompanied by your original receipt within 120 days of the date of your purchase, we will be happy to exchange your returned merchandise for another solution or issue a refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -36,8 +38,10 @@
       "text": "Returns without a receipt or with an original receipt after 120 days will receive a Merchandise Credit card.",
       "quote": "Returns without a receipt or with an original receipt after 120 days of the date of purchase will receive a Merchandise Credit card for either the lowest retail price of the product(s) within the last 90 days or the actual purchase price from the original receipt.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-3",
@@ -48,8 +52,10 @@
       "text": "A valid original receipt is required for returns or exchanges within 120 days for refund or exchange.",
       "quote": "When accompanied by your original receipt within 120 days of the date of your purchase, we will be happy to exchange your returned merchandise for another solution or issue a refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-4",
@@ -58,8 +64,10 @@
       "text": "There are no shipping or restocking fees for in-store returns.",
       "quote": "There are no shipping or restocking fees if you make an in-store return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-5",
@@ -68,8 +76,10 @@
       "text": "Shipping fees apply for returns shipped to the warehouse address.",
       "quote": "Returns may also be shipped to 500 Freeport Parkway, Suite 100, Coppell, Texas 75019 (shipping fees apply).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-6",
@@ -80,8 +90,11 @@
       "text": "Refunds are issued to the original payment method when returned with receipt within 120 days.",
       "quote": "If cash or a debit card was used instore as original tender, we will give cash back up to $400 or refund to the debit card. If a check was used as original tender, we will give cash back up to $200. If a credit card was used as original tender, we will issue a refund to that card.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits important details about cash and check refund limits and does not specify the different refund methods for each payment type, which the quote details."
     },
     {
       "id": "policy-refund_method-7",
@@ -92,8 +105,10 @@
       "text": "Corporate checks are mailed for cash or debit refunds over $400 and check refunds over $200.",
       "quote": "A corporate check will be mailed for cash or debit card refunds over $400 and check refunds over $200.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-8",
@@ -102,8 +117,10 @@
       "text": "If original receipt is not available but credit card was used, they will try to locate purchase transaction to process refund; otherwise a Merchandise Credit card is issued.",
       "quote": "If you do not have your original receipt and you used a credit card for payment, we will do our best to obtain your purchase transaction from our system to process your exchange/refund. If we cannot locate your original purchase transaction, you will receive a Merchandise Credit card.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-9",
@@ -114,8 +131,10 @@
       "text": "Exchanges are accepted within 120 days with original receipt.",
       "quote": "When accompanied by your original receipt within 120 days of the date of your purchase, we will be happy to exchange your returned merchandise for another solution or issue a refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-price_adjustment-10",
@@ -126,8 +145,10 @@
       "text": "Price adjustments are available within 7 days of purchase with original receipt for full original retail price reductions, excluding previous promotions and certain custom closets and installation services.",
       "quote": "We will happily extend a price adjustment if we reduce the full original retail price of product within 7 days of your original product purchase date in the form of a store Merchandise Credit or the original tender, when accompanied by your original receipt. Previous promotions cannot be adjusted. Avera and Laren Custom Closets and the included cost of Installation Services are not included.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-11",
@@ -136,8 +157,10 @@
       "text": "Returns are not offered for products that have been successfully utilized and enjoyed for an extended period, such as moving or no longer needing the product.",
       "quote": "However, a return for another solution or a refund will not be offered for products that have been successfully utilized and enjoyed for an extended period of time. For example, moving and/or no longer having a need for the product will not qualify.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-12",
@@ -148,8 +171,10 @@
       "text": "Items purchased through Instacart can be returned in-store within 120 days for store credit.",
       "quote": "Purchases are eligible for store credit when returned within 120 days.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-13",
@@ -160,8 +185,10 @@
       "text": "Instacart returns are refunded as store credit only.",
       "quote": "Items purchased through Instacart can only be returned in-store, and refunds will be issued as store credit.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-14",
@@ -172,8 +199,10 @@
       "text": "Instacart returns require presenting the Instacart receipt and a valid photo ID.",
       "quote": "Visit any store and present your Instacart receipt and the item you wish to return to an employee. Purchases are eligible for store credit when returned within 120 days. Your name and a valid photo ID will be required at the time of return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

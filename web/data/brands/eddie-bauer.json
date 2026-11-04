@@ -24,8 +24,10 @@
       "text": "The default return period is 30 days from delivery for all items ordered via phone or online store.",
       "quote": "We offer a hassle-free 30-day return period on all items ordered via phone or our online store.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-holiday-2",
@@ -36,8 +38,11 @@
       "text": "Orders placed between November 18 and December 25 have an extended 45-day return period from delivery.",
       "quote": "Orders placed between Monday, November 18 and December 25 are eligible for an extended 45-day return period for items ordered through our online store.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds 'from delivery,' but the quote does not specify that the 45-day period is from delivery; it only states an extended 45-day return period. This is an unsupported detail."
     },
     {
       "id": "policy-exclusion-3",
@@ -46,8 +51,10 @@
       "text": "Final Sale items are not eligible for return or exchange.",
       "quote": "Final Sale items are not eligible for return or exchange",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-4",
@@ -56,8 +63,10 @@
       "text": "In the US, customers can pay a $3.50 prepaid return fee at checkout to cover return costs.",
       "quote": "Pay a $3.50 prepaid return fee at checkout, which covers the cost of a return made in accordance with this policy",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-5",
@@ -66,8 +75,10 @@
       "text": "If the prepaid return option is declined in the US, a $10 restocking fee is deducted from the refund.",
       "quote": "Decline the prepaid return option, in which case a $10 restocking fee will be deducted from any refund if the item is returned",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-6",
@@ -76,8 +87,10 @@
       "text": "In Canada, a $20 restocking fee is deducted from refunds for returns, and prepaid return option is not available.",
       "quote": "The prepaid return option is not available. For returns made in accordance with this policy, a $20 restocking fee will be deducted from the refund, subject to applicable law.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-7",
@@ -86,8 +99,10 @@
       "text": "Returns without proof of purchase may be credited as merchandise credit at current selling price.",
       "quote": "Returns made without proof of purchase may be credited at the item’s current selling price on the date of return, in the form of a merchandise credit",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

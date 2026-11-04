@@ -24,8 +24,10 @@
       "text": "Unworn and unwashed items may be returned within 30 days of purchase date.",
       "quote": "Unworn and unwashed items may be returned within 30 days of purchase date.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-2",
@@ -34,8 +36,10 @@
       "text": "Customers will be issued a refund to the original form of payment for the cost of merchandise and sales tax.",
       "quote": "Customers will be issued a refund for the cost of the merchandise and sales tax associated with the transaction to the original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-3",
@@ -44,8 +48,10 @@
       "text": "Shipping charges paid on the original order will not be refunded on returns made in store or online.",
       "quote": "Shipping charges paid on the original order will not be refunded on returns made in store or online.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-4",
@@ -54,8 +60,10 @@
       "text": "For online returns, a printable pre-paid return shipping label is provided for free.",
       "quote": "For online returns we provide a printable pre-paid return shipping label for free and easy returns through UPS, however shipping charges paid on the original order will not be refunded (i.e. expedited shipping cost or ground shipping charges when free shipping threshold was not met).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -64,8 +72,10 @@
       "text": "Items marked \"Final Sale\" are not eligible for return or exchange and are not subject to price adjustment.",
       "quote": "Items marked \"Final Sale\" are not eligible for return or exchange and are not subject to price adjustment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-6",
@@ -74,8 +84,10 @@
       "text": "Returns can be made in store for a refund to the original form of payment or online at Crocs.com.",
       "quote": "Returns can be made in store for a refund to the original form of payment or online at Crocs.com.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-7",
@@ -84,8 +96,10 @@
       "text": "Store returns can only be processed for amounts up to $250.",
       "quote": "Store returns can only be processed for amounts up to $250.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-8",
@@ -94,8 +108,10 @@
       "text": "Returns take up to 10-14 business days to process after receipt of the item(s).",
       "quote": "Our returns take up to 10-14 business days to process after we receive the item(s).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-9",
@@ -106,8 +122,10 @@
       "text": "If an item purchased was damaged during shipping, contact Customer Service for an exchange or refund within 30 days of arrival.",
       "quote": "If you feel an item purchased at Crocs.com was damaged during shipping, please contact Customer Service for an exchange or refund within 30 days of arrival.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

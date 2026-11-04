@@ -24,8 +24,10 @@
       "text": "Most Michaels purchases can be returned within 60 days of purchase.",
       "quote": "If your Michaels.com purchase does not meet your satisfaction, you may return it within two months (60 days) of purchase",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -37,8 +39,10 @@
       "text": "Online-only costumes and accessory kits must be returned 7 days prior to the holiday.",
       "quote": "except for online-only costumes and accessory kits, which must be returned 7 days prior to the holiday.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-3",
@@ -48,8 +52,10 @@
       "text": "Restocking fees may be applied for MichaelsPro returns.",
       "quote": "Restocking fees may be applied for MichaelsPro returns.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-4",
@@ -58,8 +64,10 @@
       "text": "Check purchases require a 10 day waiting period for refund; within 10 days may be refunded on Return Card.",
       "quote": "Returns purchased with a check require a 10 day waiting period. Check purchases within 10 days may be refunded on Return Card.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-5",
@@ -68,8 +76,10 @@
       "text": "Online purchases made using PayPal will be refunded in cash up to $500; otherwise contact customer care.",
       "quote": "Online purchases made using PayPal will be refunded in cash (up to $500, otherwise please contact customer care).",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-6",
@@ -78,8 +88,10 @@
       "text": "Exchanges are not offered; customers must return and place a new order.",
       "quote": "At this time we do not offer exchanges. If you would like to exchange a product, please return it using our returns process and then place a new order.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -89,8 +101,10 @@
       "text": "Opened trading cards are not returnable.",
       "quote": "Opened trading cards will be considered damaged and are not returnable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-8",
@@ -100,8 +114,10 @@
       "text": "Gift cards and prepaid cards are not returnable or exchangeable except where required by law.",
       "quote": "Gift Cards and Prepaid Cards are not returnable or exchangeable, except where required by law.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-9",
@@ -111,8 +127,10 @@
       "text": "Sales of cut fabric are final and not returnable or exchangeable except where required by law.",
       "quote": "Online or in-store sales of cut fabric are final sale and are not returnable or exchangeable, except where required by law.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-10",
@@ -122,8 +140,10 @@
       "text": "Clearance sales are final and not returnable or exchangeable.",
       "quote": "Clearance sales are considered final, sold AS IS and are not returnable for a refund or exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

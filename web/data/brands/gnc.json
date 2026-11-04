@@ -24,8 +24,10 @@
       "text": "All products are refundable/exchangeable within 30 days from the date of your order from GNC.com or payment made in a GNC Retail store with a valid sales receipt or GNC.com packing slip.",
       "quote": "All products are refundable/exchangeable within 30 days from the date of your order from GNC.com or payment made in a GNC Retail store with a valid sales receipt or GNC.com packing slip.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-2",
@@ -36,8 +38,10 @@
       "text": "Customers can return their purchase with a valid sales receipt and a valid photo ID within 30 days from the date of purchase.",
       "quote": "Customers can return their purchase with a valid sales receipt and a valid photo ID within 30 days from the date of purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-3",
@@ -48,8 +52,10 @@
       "text": "Cash refunds are given on product purchased with cash and brought back, used or unused, within 30 days of the purchase date with a valid sales receipt and a valid photo ID.",
       "quote": "Cash refunds are given on product purchased with cash and brought back, used or unused, within 30 days of the purchase date with a valid sales receipt and a valid photo ID within 30 days from the date of purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-4",
@@ -60,8 +66,10 @@
       "text": "Exchanges will be offered on GNC brand products within 30 days from the purchase date with or without a sales receipt.",
       "quote": "Exchanges will be offered on GNC brand products within 30 days from the purchase date with or without a sales receipt.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-5",
@@ -72,8 +80,10 @@
       "text": "In the absence of a sales receipt or GNC.com packing slip, an exchange will be offered on any GNC brand product based on the lowest sale price or Member Price within the last 60 days.",
       "quote": "In the absence of a sales receipt or GNC.com packing slip, an exchange will be offered on any GNC brand product based on the lowest sale price or Member Price within the last 60 days.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -84,8 +94,10 @@
       "text": "No exchanges or refunds will be given on non-GNC brand items unless they are accompanied with a valid sales receipt.",
       "quote": "No exchanges or refunds will be given on non-GNC brand items unless they are accompanied with a valid sales receipt.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-7",
@@ -96,8 +108,10 @@
       "text": "Credits will be issued to the original charge account when the product is returned within 30 days from the purchase date with a valid sales receipt or GNC.com packing slip; cash refunds will not be given for credit card purchases.",
       "quote": "Credits will be issued to the original charge account when the product is returned within 30 days from the purchase date with a valid sales receipt or GNC.com packing slip. Cash refunds will not be given.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-8",
@@ -108,8 +122,10 @@
       "text": "If you paid by check, with a valid sales receipt, we will offer a cash refund ten business days after your purchase.",
       "quote": "If you paid by check, with a valid sales receipt, we will offer a cash refund ten business days after your purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-9",
@@ -120,8 +136,10 @@
       "text": "Debit card refunds will be issued as a cash refund within 30 days from the date of purchase with a valid sales receipt or to the original charged account if there is not sufficient cash available.",
       "quote": "Debit card refunds will be issued as a cash refund within 30 days from the date of purchase with a valid sales receipt. Debit card refunds may also be issued to the original charged account if there is not sufficient cash available.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-10",
@@ -130,8 +148,10 @@
       "text": "Bill Me Later® purchases cannot be returned to a local GNC store.",
       "quote": "Please note that Bill Me Later® purchases cannot be returned to a local GNC store.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-11",
@@ -140,8 +160,10 @@
       "text": "A return where the original payment was a GNC Gift Card will be issued another GNC Gift Card as a Merchandise Credit.",
       "quote": "A return where the original payment was a GNC Gift Card will be issued another GNC Gift Card as a Merchandise Credit.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-12",
@@ -150,8 +172,10 @@
       "text": "GNC Memberships are non-refundable.",
       "quote": "GNC Memberships are non-refundable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

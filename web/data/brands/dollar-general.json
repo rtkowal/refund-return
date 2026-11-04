@@ -22,8 +22,10 @@
       "text": "No returns of merchandise purchased online will be accepted at any time or for any reason at any Dollar General retail store.",
       "quote": "Please note that no returns of merchandise purchased online will be accepted at any time or for any reason at any Dollar General® retail store.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-2",
@@ -32,8 +34,10 @@
       "text": "Refunds will be processed to the original method of payment if applicable.",
       "quote": "If applicable, Dollar General will process your refund to your original method of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-3",
@@ -42,8 +46,10 @@
       "text": "Bank processing times vary and funds availability is at the discretion of your bank.",
       "quote": "Bank processing times vary and funds availability is at the discretion of your bank.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -53,8 +59,11 @@
       "text": "Self-service refunds may be processed for up to 2 items or $5 using the self-service refund application on your order confirmation.",
       "quote": "Self-service refunds may be processed for up to 2 items or $5.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds 'using the self-service refund application on your order confirmation,' which is not stated in the quote."
     },
     {
       "id": "policy-refund_method-5",
@@ -64,8 +73,11 @@
       "text": "For refunds on more than two items or more than $5, or for full order refunds, contact Dollar General Customer Care for assistance.",
       "quote": "For refunds on more than two items in an order, for more than $5 on a particular order, or for a full order refund in the event your order was not delivered to the address provided, contact the Dollar General Customer Care team [here](https://dollargeneral.service-now.com/dg) for assistance.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits the condition that a full order refund is only if the order was not delivered, which is specified in the quote."
     },
     {
       "id": "policy-exclusion-6",
@@ -75,8 +87,10 @@
       "text": "Dollar General has no obligation to provide refunds for items purchased via DG Delivery but may grant them in its sole discretion.",
       "quote": "Dollar General has no obligation to provide refunds for items purchased via DG Delivery but may grant them in its sole discretion in each case.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -86,8 +100,11 @@
       "text": "Delivery fees and tips are nonrefundable unless the order was not delivered to the address provided.",
       "quote": "Delivery Fees are not refundable or adjustable should the order size change due to out of stocks, substitutions, or refunds and returns, unless your order was not delivered to the address provided.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds 'and tips' as nonrefundable, but the quote only mentions delivery fees."
     }
   ],
   "facets": []

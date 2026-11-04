@@ -24,8 +24,10 @@
       "text": "Most saleable merchandise can be returned within 30 days of receipt with proof of purchase.",
       "quote": "most saleable merchandise can be returned within **30 days of receipt** with proof of purchase for a refund to your original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -37,8 +39,10 @@
       "text": "CHANEL, myGemma, REBAG, and other pre-owned merchandise may be returned within 14 days of purchase.",
       "quote": "**CHANEL, myGemma, REBAG, and other pre-owned merchandise** may be returned within **14 days of purchase**.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -48,8 +52,10 @@
       "text": "Final Sale items cannot be returned or exchanged.",
       "quote": "**Final Sale items** cannot be returned or exchanged, including:\n    *   Items marked **\"The Final Offer\"**\n    *   Altered, customized, monogrammed, or personalized products\n    *   Breast pumps\n    *   Food and beverage items\n    *   Sexual wellness products",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -59,8 +65,10 @@
       "text": "Baby & Child Products must be unused, unopened, and sealed in their original packaging to be returned.",
       "quote": "For safety reasons, the following items must be **unused, unopened, and sealed in their original packaging**:\n    *   **Baby & Child Products**\n        *   Baby strollers\n        *   Car seats\n        *   Highchairs\n        *   Playpens\n        *   Bouncers\n        *   Changing tables\n        *   Dressers\n        *   Cribs\n        *   Bassinets",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-5",
@@ -69,8 +77,10 @@
       "text": "Proof of purchase is required for a refund to the original form of payment.",
       "quote": "most saleable merchandise can be returned within **30 days of receipt** with proof of purchase for a refund to your original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -80,8 +90,10 @@
       "text": "Gifts with purchase must be returned with the qualifying items or the gift value may be deducted from the refund or the return may be refused.",
       "quote": "If your order included a gift with purchase, the gift must be returned along with the qualifying item(s). If it is not returned, the value of the gift may be deducted from your refund, or your return may not be accepted.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -91,8 +103,10 @@
       "text": "Merchandise purchased at bloomingdales.com or Bloomingdale's stores cannot be returned or exchanged at Bloomingdale's Outlet Stores.",
       "quote": "Merchandise purchased at **bloomingdales.com** or at a **Bloomingdale's store** cannot be returned or exchanged at a **Bloomingdale's Outlet Store**.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

@@ -24,8 +24,11 @@
       "text": "Returns with the original receipt are accepted within 90 days of purchase.",
       "quote": "Within 90 days of purchase, we will gladly exchange the merchandise, give store credit, or issue a refund based on your original method of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds the requirement of 'with the original receipt,' which is not explicitly stated in the quote. The quote does not specify that a receipt is required for returns within 90 days."
     },
     {
       "id": "policy-exchange-2",
@@ -36,8 +39,11 @@
       "text": "Within 90 days of purchase with receipt, merchandise can be exchanged.",
       "quote": "Within 90 days of purchase, we will gladly exchange the merchandise, give store credit, or issue a refund based on your original method of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds 'with receipt,' which is not specified in the quote. The quote only mentions the 90-day window for exchanges, not the receipt requirement."
     },
     {
       "id": "policy-refund_method-3",
@@ -48,8 +54,11 @@
       "text": "Refunds are issued based on the original method of payment when returned with receipt within 90 days.",
       "quote": "Within 90 days of purchase, we will gladly exchange the merchandise, give store credit, or issue a refund based on your original method of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds the requirement of 'with receipt,' which is not stated in the quote. The quote only specifies the 90-day window and refund method, not the receipt condition."
     },
     {
       "id": "policy-fee-4",
@@ -58,8 +67,10 @@
       "text": "There is a 10 calendar day wait on refunds for check purchases, or merchandise credit can be issued instead.",
       "quote": "There will be a wait of 10 calendar days on check purchases, or merchandise credit can be issued.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-5",
@@ -68,8 +79,11 @@
       "text": "A valid ID is required for returns without the original store receipt.",
       "quote": "A valid ID is required.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary specifies that a valid ID is required for returns without a receipt, but the quote only states 'A valid ID is required' without specifying the context."
     },
     {
       "id": "policy-exchange-6",
@@ -80,8 +94,10 @@
       "text": "Without the original receipt, merchandise can be exchanged or merchandise credit issued based on the lowest selling price in the last 60 days.",
       "quote": "You may exchange the merchandise or be issued a merchandise credit based on the lowest selling price in the last 60 days.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -90,8 +106,10 @@
       "text": "The store reserves the right to limit or refuse returns of certain products and non-receipted items.",
       "quote": "We reserve the right to limit or refuse to accept the return of certain products and non-receipted items.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

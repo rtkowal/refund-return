@@ -25,8 +25,10 @@
       "text": "Machines purchased from Dyson.com must be returned within 30 days from the delivery date for a full refund.",
       "quote": "To return a machine purchased from Dyson.com for a full refund, you must return the machine within 30 days from the delivery date.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -38,8 +40,10 @@
       "text": "Machines purchased at a Dyson Demo Store or Dyson Service Center must be returned within 30 days from the purchase date.",
       "quote": "For machine purchases made at a Dyson Demo Store or Dyson Service Center, the return must be made within 30 days from the purchase date.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-3",
@@ -51,8 +55,10 @@
       "text": "Eligible machines returned to Dyson Direct will receive a full refund to the original payment method.",
       "quote": "Eligible machines returned to Dyson Direct will receive a full refund to the original payment method, and Dyson Direct will pay for eligible standard return shipping.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-4",
@@ -64,8 +70,10 @@
       "text": "Dyson Direct will pay for eligible standard return shipping for machines.",
       "quote": "Dyson Direct will pay for eligible standard return shipping.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-5",
@@ -77,8 +85,10 @@
       "text": "Dyson headphones have a 14-day refund policy from the delivery date.",
       "quote": "Dyson headphones have a 14-day refund policy from the delivery date.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-6",
@@ -90,8 +100,10 @@
       "text": "Dyson headphones purchased at a Dyson Demo Store or Dyson Service Center must be returned within 14 days from the purchase date.",
       "quote": "If purchased at a Dyson Demo Store or Dyson Service Center, the return must be made within 14 days from the purchase date.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-7",
@@ -103,8 +115,11 @@
       "text": "Dyson Oral Care Devices may be returned for a change of mind within 30 days from the delivery date if unopened and unused.",
       "quote": "Dyson Oral Care Devices may be returned for a change of mind within 30 days from the delivery date or, if purchased at a Dyson Demo Store or Dyson Service Center, within 30 days from the purchase date.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary omits that the 30-day window applies to both delivery date (online) and purchase date (in-store), while the quote includes both scenarios."
     },
     {
       "id": "policy-exclusion-8",
@@ -116,8 +131,10 @@
       "text": "Dyson Oral Care Devices must remain unopened and unused to qualify for a change-of-mind return.",
       "quote": "To qualify for a change-of-mind return, the product must remain unopened and unused.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-9",
@@ -127,8 +144,10 @@
       "text": "Personalized accessories and accompanying machines cannot be returned, refunded, or exchanged once the order is placed.",
       "quote": "Personalized accessories and accompanying machines cannot be returned, refunded, or exchanged once your order is placed.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-10",
@@ -138,8 +157,10 @@
       "text": "Dyson Outlet refurbished machines and Final Sale machines are final sale and not eligible for change-of-mind returns.",
       "quote": "Dyson Outlet refurbished machines and Final Sale machines, including the first-generation Dyson Airwrap, are final sale and are not eligible for change-of-mind returns.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-11",
@@ -149,8 +170,10 @@
       "text": "Please allow 4–8 weeks for return processing.",
       "quote": "Please allow 4–8 weeks for return processing.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-12",
@@ -162,8 +185,10 @@
       "text": "Eligible Dyson formulation products may be refunded or replaced within 60 days from the date of purchase.",
       "quote": "If you are not satisfied with an eligible Dyson formulation product purchased from the Dyson website, you may request a refund or replacement within 60 days from the date of purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

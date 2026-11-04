@@ -24,8 +24,10 @@
       "text": "Returns are eligible for a refund if they are made within 30 days of delivery.",
       "quote": "Returns are eligible for a refund if they are made within 30 days of delivery.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-2",
@@ -34,8 +36,10 @@
       "text": "Gourmet, monogrammed or personalized items cannot be returned or exchanged.",
       "quote": "Gourmet, monogrammed or personalized items also cannot be returned or exchanged.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -45,8 +49,10 @@
       "text": "Dresses with an attached garment tag must keep the tag on to be returnable; removing the tag voids return eligibility.",
       "quote": "Your dress may come with an attached garment tag indicating that it must be kept on in order to return it. Once the tag is removed, the item cannot be returned.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -56,8 +62,10 @@
       "text": "Intimates and swimwear must be returned with hygiene seals attached if applicable.",
       "quote": "For health and safety reasons, intimates and swimwear must be returned with the hygiene seals attached, if applicable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -67,8 +75,10 @@
       "text": "Free gifts with purchase must be included when returning the item.",
       "quote": "If your order comes with a free gift, please include the gift when returning the item.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-6",
@@ -77,8 +87,10 @@
       "text": "A $9.95 return shipping fee will be deducted from your refund for each mailed return.",
       "quote": "A $9.95 return shipping fee will be deducted from your refund for each mailed return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-7",
@@ -87,8 +99,10 @@
       "text": "Returns presented in store will not be charged a return shipping fee.",
       "quote": "Returns presented in store will not be charged a return shipping fee.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-price_adjustment-8",
@@ -99,8 +113,10 @@
       "text": "Price adjustments are offered within 10 days of the purchase date for full-price items.",
       "quote": "We offer price adjustments within 10 days of the purchase date for full-price items.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-9",
@@ -109,8 +125,10 @@
       "text": "Please allow 7 to 10 days for processing your return.",
       "quote": "Please allow 7 to 10 days for processing your return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-10",
@@ -119,8 +137,10 @@
       "text": "Refunds will be credited to your original method of payment.",
       "quote": "Refunds will be credited to your original method of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

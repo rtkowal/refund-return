@@ -24,8 +24,10 @@
       "text": "Most items can be returned within 30 days of delivery.",
       "quote": "Booksamillion.com guarantees your satisfaction and offers you returns within **30****\\*\\*** days of delivery on most items.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -36,8 +38,10 @@
       "text": "In-store purchases must be returned to a physical store with a receipt within 15 days.",
       "quote": "In-Store purchases must be returned to a physical store with a receipt within 15 days.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-holiday-3",
@@ -48,8 +52,10 @@
       "text": "Holiday purchases made between November 1 and December 31, 2026 can be returned or exchanged through January 31, 2027.",
       "quote": "For holiday purchases made between November 1 and December 31, 2026, we will allow returns or exchanges through January 31, 2027.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -59,8 +65,10 @@
       "text": "Items purchased from the New & Used Marketplace are non-returnable.",
       "quote": "Return Policy: Does not apply to items purchased from the **New & Used Marketplace**. Those items are **non-returnable**.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -70,8 +78,10 @@
       "text": "eBooks or Audio Downloads cannot be returned once purchased and/or downloaded.",
       "quote": "Does not apply to eBooks or Audio Downloads, once purchased and/or downloaded.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-6",
@@ -80,8 +90,10 @@
       "text": "In-store returns require a receipt.",
       "quote": "In-Store purchases must be returned to a physical store with a receipt within 15 days.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-7",
@@ -90,8 +102,10 @@
       "text": "Refunds are issued to the original payment method or back to the gift card if used.",
       "quote": "Items returned will be refunded to the **original** payment method. If you used a gift card to make your purchase, a credit will be issued back to the gift card.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-8",
@@ -100,8 +114,10 @@
       "text": "Shipping and handling charges are non-refundable.",
       "quote": "Please note that shipping and handling charges are non-refundable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-9",
@@ -110,8 +126,10 @@
       "text": "Customers are responsible for return shipping if they changed their mind or no longer want the item.",
       "quote": "A non-paid label will be provided for any return where the customer changed their mind, no longer wants or needs the item, did not like, too late to cancel, etc. The customer will be responsible for return shipping in those cases.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-10",
@@ -120,8 +138,10 @@
       "text": "Products marked non-returnable cannot be accepted for return.",
       "quote": "We cannot accept returns of products marked **non-returnable**.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-11",
@@ -133,8 +153,11 @@
       "text": "Electronic returns must be sealed in original package unless defective and returned within 30 days.",
       "quote": "Electronic returns, such as Compact Discs, DVDs, Video Games, and Consumer Electronics (headphones, speakers, etc.) must be sealed in the original package unless defective.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds a 30-day return window for electronics, but the quote does not specify a time frame for electronic returns—only that they must be sealed unless defective."
     }
   ],
   "facets": []

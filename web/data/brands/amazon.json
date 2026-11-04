@@ -24,8 +24,10 @@
       "text": "Most items can be returned within 30 days of delivery if in original or unused condition.",
       "quote": "Most items can be returned for a refund or replacement/exchange within 30 days of delivery as long as they are in original or unused condition.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -37,8 +39,10 @@
       "text": "Digital books accidentally purchased from the Kindle Store that have not been read can be returned within 7 days.",
       "quote": "7 days | *   Digital books accidentally purchased from the Kindle Store that have not been read.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-3",
@@ -50,8 +54,10 @@
       "text": "Apple Brand products and Boost Infinite Brand products sold in new condition can be returned within 15 days.",
       "quote": "15 days | *   Apple Brand products and Boost Infinite Brand products sold in new condition (AppleCare+ plans may be canceled in accordance with the terms of the plan)",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -63,8 +69,10 @@
       "text": "Select Amazon Renewed products in Acceptable, Good, or Excellent condition can be returned within 90 days.",
       "quote": "90 days | *   Select Amazon Renewed products in \"Acceptable,\" \"Good,\" or \"Excellent\" condition types.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-5",
@@ -76,8 +84,10 @@
       "text": "Items purchased from an Amazon Wedding Registry by someone other than the registry owner can be returned within 180 days.",
       "quote": "180 days | *   Items purchased from an Amazon Wedding Registry by someone other than the registry owner.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-6",
@@ -89,8 +99,10 @@
       "text": "Amazon Renewed products in Premium condition can be returned within 365 days.",
       "quote": "365 days | *   Amazon Renewed products in \"Premium\" condition",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-holiday-7",
@@ -101,8 +113,10 @@
       "text": "Most items purchased between November 1 and December 31, 2026 can be returned through January 31, 2027.",
       "quote": "For the 2026 holiday season, most items purchased between November 1 and December 31, 2026 can be returned through January 31, 2027.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-holiday-8",
@@ -114,8 +128,10 @@
       "text": "Apple-branded products purchased between November 1 and December 31, 2026 can be returned through January 15, 2027.",
       "quote": "Apple-branded products purchased between November 1 and December 31, 2026 can be returned through January 15, 2027.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-9",
@@ -125,8 +141,10 @@
       "text": "Perishable products cannot be returned.",
       "quote": "Some products are non-returnable, such as the following:\n\n*   Perishables",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-10",
@@ -136,8 +154,11 @@
       "text": "Amazon Pharmacy products cannot be returned or refunded.",
       "quote": "*   Amazon Pharmacy products",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds 'or refunded,' but the quote only states Amazon Pharmacy products are non-returnable, not that they cannot be refunded."
     },
     {
       "id": "policy-exclusion-11",
@@ -147,8 +168,10 @@
       "text": "Pet medication products cannot be returned.",
       "quote": "*   Pet medication products",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-12",
@@ -158,8 +181,10 @@
       "text": "Certain digital products cannot be returned.",
       "quote": "*   Certain digital products",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-13",
@@ -169,8 +194,10 @@
       "text": "Automobiles cannot be returned.",
       "quote": "*   Automobiles",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-14",
@@ -179,8 +206,10 @@
       "text": "Amazon may require additional information and documentation such as government-issued photo ID during return processing.",
       "quote": "For any return, Amazon may require additional information and documentation (such as a government-issued photo identification) during the processing of a return to help determine whether to provide a refund/replacement.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-15",
@@ -189,8 +218,10 @@
       "text": "Late fees of 20% of item price apply for returns after the return by date up to 30 days; 100% after 30 days.",
       "quote": "Late fee | You may be charged a fee when you do not drop off or complete a carrier pickup on or before the \"return by date\". | 20% of the item price for the first 30 days after the \"return by date\"; 100% of the item price afterwards.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-16",
@@ -199,8 +230,10 @@
       "text": "Damage fees up to 50% of item price apply for returns with damage or missing parts not due to Amazon or seller error; 100% for Amazon Luxury items.",
       "quote": "Damage fee | You may be charged a fee when you return an item that is damaged, missing parts, not in original condition, has tags removed or have obvious signs of use for reasons not due to an Amazon.com or seller error. | Up to 50% of the item price, except for Amazon Luxury items, which will be charged 100% of the item price.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-17",
@@ -209,8 +242,11 @@
       "text": "Refund processing can take up to 30 days after Amazon receives the return.",
       "quote": "It can take up to 30 days for us to receive and process your return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary says refund processing can take up to 30 days after Amazon receives the return, but the quote says it can take up to 30 days for Amazon to receive and process the return, which includes both shipping and processing time, not just processing."
     },
     {
       "id": "policy-refund_method-18",
@@ -219,8 +255,11 @@
       "text": "Refunds are issued to the original payment method or Amazon gift card balance depending on payment type.",
       "quote": "A refund will be provided if Amazon (or the third-party seller) has received the item, and determined that you are eligible for a refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary specifies refund methods (original payment method or Amazon gift card balance), but the quote does not mention how refunds are issued, only that a refund will be provided if eligible."
     },
     {
       "id": "policy-refund_timing-19",
@@ -229,8 +268,10 @@
       "text": "Refund timing varies by payment method, from hours for gift cards to up to 30 days for prepaid credit cards.",
       "quote": "Refund Timelines\n\nOnce we issue your refund, it may take additional time for your financial institution to make funds available in your account.\n\n| Refund Timeline | Refund Method |\n| --- | --- |\n| 2-3 hours | Amazon.com Gift Card or Gift Card balance |\n| 3-5 business days | Credit Card |\n| Up to 5 business days | Shop with Reward Points |\n| Up to 10 business days | Debit card |\n| Checking account |\n| EBT Card |\n| Cash (at participating locations) |\n| Up to 30 days | Prepaid credit card (depending on the issuer of the card) |\n| No refund issued | Promotional certificate |",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

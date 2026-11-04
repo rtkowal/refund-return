@@ -24,8 +24,11 @@
       "text": "Eligible items purchased at Walgreens or on Walgreens.com may be returned or exchanged at any Walgreens store within 30 days of purchase date.",
       "quote": "Eligible items purchased at Walgreens or on Walgreens.com may be returned or exchanged at any Walgreens store within 30 days of purchase date and must be accompanied by the original receipt or Order number.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The SUMMARY omits the requirement that returns must be accompanied by the original receipt or Order number, which is stated in the QUOTE."
     },
     {
       "id": "policy-receipt-2",
@@ -36,8 +39,10 @@
       "text": "Returns must be accompanied by the original receipt or Order number.",
       "quote": "Eligible items purchased at Walgreens or on Walgreens.com may be returned or exchanged at any Walgreens store within 30 days of purchase date and must be accompanied by the original receipt or Order number.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-3",
@@ -48,8 +53,10 @@
       "text": "Refunds will be issued to the original form of payment.",
       "quote": "Refunds will be issued to the original form of payment.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -58,8 +65,10 @@
       "text": "Gift cards, pre-paid cards, phone cards, mobile phones, bathing suits, underwear, earrings, sexual wellness items, seasonal products, hazmat items, or COVID-19 testing kits cannot be returned.",
       "quote": "We cannot accept returns for gift cards, pre-paid cards, phone cards, mobile phones, bathing suits, underwear, earrings, sexual wellness items, seasonal products, hazmat items, or COVID-19 testing kits.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-5",
@@ -71,8 +80,10 @@
       "text": "Hearing aids can be returned within 45 days of purchase.",
       "quote": "Additionally, hearing aids can be returned within 45 days or purchase.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -82,8 +93,10 @@
       "text": "Large bulky items such as electric wheelchairs, scooters, lift chairs, and oversized home medical equipment require special return instructions and should not be returned to a store.",
       "quote": "For large bulky items such as electric wheelchairs, scooters, lift chairs, and oversized home medical equipment please contact Customer Care at 1-877-250-5823 for special return instructions. Do NOT return these items to a store.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

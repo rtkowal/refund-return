@@ -29,8 +29,10 @@
       "text": "Some items are final sale and cannot be returned.",
       "quote": "Final sale",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-2",
@@ -39,8 +41,10 @@
       "text": "A $7.99 fee is deducted from the refund for return shipping when using the prepaid shipping label for mail returns.",
       "quote": "$7.99 will be deducted from your refund to cover return shipping for standard size/weight packages when your return is mailed using the prepaid shipping label provided.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-3",
@@ -49,8 +53,10 @@
       "text": "Purchases of $500 or more made with cash will be refunded by check in store.",
       "quote": "Purchases of $500 or more made with cash will be refunded by check.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-4",
@@ -59,8 +65,10 @@
       "text": "Store purchases returned by mail will be refunded by check.",
       "quote": "Store purchases returned by mail will be refunded by check, including any portion purchased with Total REI Rewards.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-5",
@@ -69,8 +77,10 @@
       "text": "Gift return refunds by check can take up to 3 weeks starting from the day the return is received.",
       "quote": "Refunds by check can take up to 3 weeks, starting the day we receive your return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-6",
@@ -79,8 +89,10 @@
       "text": "Direct exchanges by mail are not offered.",
       "quote": "Unfortunately, we are not able to offer direct exchanges by mail.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "b4-policy-window-1",
@@ -92,8 +104,10 @@
       "text": "Outdoor electronics have a 90-day return window for both members and non-members.",
       "quote": "Outdoor electronics | 90 days | 90 days",
       "snapshot": "b4policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "b4-policy-exclusion-2",
@@ -103,8 +117,10 @@
       "text": "In-store Re/Supply used gear purchases, REI Co-op Memberships, lift tickets, passes and gift cards are final sale and cannot be returned.",
       "quote": "In-store Re/Supply used gear purchases, REI Co-op Memberships, lift tickets, passes and gift cards | Final sale | Final sale",
       "snapshot": "b4policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "b4-policy-fee-3",
@@ -113,8 +129,10 @@
       "text": "A $7.99 fee is deducted from refunds for return shipping when using the prepaid shipping label for mail returns.",
       "quote": "$7.99 will be deducted from your refund to cover return shipping for standard size/weight packages when your return is mailed using the prepaid shipping label provided.",
       "snapshot": "b4policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "b4-policy-refund_method-4",
@@ -123,8 +141,10 @@
       "text": "Purchases of $500 or more made with cash will be refunded by check in-store.",
       "quote": "Purchases of $500 or more made with cash will be refunded by check.",
       "snapshot": "b4policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "b4-policy-refund_method-5",
@@ -133,8 +153,10 @@
       "text": "Store purchases returned by mail will be refunded by check, including any portion purchased with Total REI Rewards.",
       "quote": "Store purchases returned by mail will be refunded by check, including any portion purchased with Total REI Rewards.",
       "snapshot": "b4policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "b4-policy-exchange-6",
@@ -143,8 +165,10 @@
       "text": "Direct exchanges are not offered by mail.",
       "quote": "Unfortunately, we are not able to offer direct exchanges by mail.",
       "snapshot": "b4policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "b4-policy-refund_method-7",
@@ -154,8 +178,10 @@
       "text": "Gifts returned by mail are refunded by check to the gift recipient's name and address.",
       "quote": "All gifts returned by mail will be refunded in the form of a check issued to the gift recipient name and address provided.",
       "snapshot": "b4policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

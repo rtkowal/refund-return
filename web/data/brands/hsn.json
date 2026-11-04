@@ -24,8 +24,11 @@
       "text": "You can return items within 30 days of purchase or receipt.",
       "quote": "If you don't, send it back within 30 days.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The QUOTE only says 'send it back within 30 days' and does not specify whether this is 30 days from purchase or receipt. The SUMMARY adds extra detail not present in the QUOTE."
     },
     {
       "id": "policy-exchange-2",
@@ -36,8 +39,11 @@
       "text": "You can exchange items within 30 days and the exchange shipping is free.",
       "quote": "Need the same item in a different size or color? We'll ship your exchange for free.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The QUOTE only mentions free shipping for exchanges of the same item in a different size or color, but the SUMMARY generalizes this to all exchanges, which is not fully supported."
     },
     {
       "id": "policy-refund_method-3",
@@ -46,8 +52,11 @@
       "text": "Refunds are processed after the returned item is received using the label on the packing slip.",
       "quote": "Apply the label that came on your packing slip to the outside of the package.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The QUOTE only describes applying the label to the package and does not mention refund processing or timing. The SUMMARY adds information not present in the QUOTE."
     },
     {
       "id": "policy-refund_timing-4",
@@ -56,8 +65,11 @@
       "text": "Return shipping is free and you can leave the package in your mailbox or drop it off at a Post Office or UPS location.",
       "quote": "Leave it in your mailbox or drop it off at a Post Office or UPS location.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The QUOTE only describes drop-off options and does not mention that return shipping is free. The SUMMARY adds information not present in the QUOTE."
     }
   ],
   "facets": []

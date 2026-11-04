@@ -22,8 +22,10 @@
       "text": "Products identified as \"All Sales Final\" are not eligible for return.",
       "quote": "Products, purchases, or items identified as \"All Sales Final\" either at the store, online, on the receipt or otherwise, are not eligible for return at any Advance Auto Parts store or online.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -34,8 +36,10 @@
       "text": "Online purchases can be returned to any store within 45 days from the date of purchase as new items.",
       "quote": "Online purchases can be returned to any Advance Auto Parts store within 45 days from the date of purchase as NEW, which means the item must be in its original condition and packaging, unopened and uninstalled, including all original materials supplied with the item.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-3",
@@ -46,8 +50,10 @@
       "text": "Returns with proof of purchase are allowed within 45 days if the item is new.",
       "quote": "We allow 45 days for you to return a product as NEW, which means the item must be in its original condition and packaging, unopened and uninstalled, including all original materials supplied with the item.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-4",
@@ -56,8 +62,10 @@
       "text": "Returns without proof of purchase receive a merchandise gift card at the lowest selling price in the last 45 days if the item is new.",
       "quote": "If you return an item without proof of purchase, you will receive an Advance Auto Parts merchandise gift card at the lowest selling price of the item in the last 45 days. It must be returned as NEW, which means the item must be in its original condition and packaging, unopened and uninstalled, including all original materials supplied with the item.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-5",
@@ -66,8 +74,10 @@
       "text": "You must bring your receipt or order confirmation email for returns.",
       "quote": "Please bring the original packaging and your receipt and have your Order Confirmation email ready.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-6",
@@ -76,8 +86,10 @@
       "text": "Refunds are credited back using the same payment method as the original order.",
       "quote": "Your refund will be credited back to you using the same payment method you used for your original order.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-7",
@@ -87,8 +99,10 @@
       "text": "A 15% restocking fee applies to certain Special Order, Commercial Tools and Equipment returns.",
       "quote": "Certain Special Order, Commercial Tools and Equipment are subject to a 15% re-stocking fee when returned.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-8",
@@ -98,8 +112,10 @@
       "text": "Clearance and \"AS IS\" merchandise are non-refundable.",
       "quote": "Clearance and \"AS IS\" merchandise are non-refundable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-9",
@@ -109,8 +125,10 @@
       "text": "Opened gaskets and electrical/electronic goods are not returnable.",
       "quote": "Some merchandise, including opened gaskets and electrical/electronic goods, are **not returnable**.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-10",
@@ -119,8 +137,10 @@
       "text": "Shipping and handling charges are not refundable unless the return is due to Advance Auto Parts' error.",
       "quote": "Shipping and handling charges are not refundable unless the return is due to our error.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

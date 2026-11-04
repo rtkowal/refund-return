@@ -24,8 +24,10 @@
       "text": "Items purchased on Wish are eligible for return within 30 days after delivery or within 30 days of the maximum delivery date.",
       "quote": "Items purchased on Wish are eligible for return: 30 days after delivery with the return window beginning on the day of delivery, or within 30 days of the maximum delivery date. This is called the '30 Day Window'.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-2",
@@ -34,8 +36,10 @@
       "text": "Custom-made or personalized goods are ineligible for returns.",
       "quote": "Custom-made goods or personalized goods;",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -45,8 +49,10 @@
       "text": "Previously sealed health and hygiene items opened after delivery are not suitable for return.",
       "quote": "Previously sealed goods which have been opened after delivery, and would not be suitable for return for reasons of hygiene or health protection, for example Health & Hygiene Items such as skin lotion, toothpaste.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-4",
@@ -56,8 +62,10 @@
       "text": "Previously sealed audio, video recordings or computer software unsealed after delivery are not eligible for return.",
       "quote": "Previously sealed audio or video recordings or computer software which was unsealed after delivery;",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -67,8 +75,10 @@
       "text": "Perishable goods which deteriorate or expire rapidly are generally not eligible for return.",
       "quote": "Perishables or goods/products which deteriorate or expire rapidly. If the item you order is perishable, it is not eligible for return in most cases.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-6",
@@ -78,8 +88,10 @@
       "text": "Refunds for services purchased from local providers are subject to the provider's policies.",
       "quote": "Services - If you purchase services from a local provider, your ability to obtain a refund is subject to the provider's policies.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-7",
@@ -88,8 +100,10 @@
       "text": "Refunds are processed to the original form of payment including shipping costs unless expedited or non-standard delivery was selected.",
       "quote": "Wish will process a refund on behalf of the seller to your original form of payment, along with any shipping costs you incurred when you purchased the product, unless at the time of sale you selected expedited or non-standard delivery (i.e., overnight, next day) in which case you will not be refunded for the initial shipping.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-8",
@@ -98,8 +112,10 @@
       "text": "Refunds to the original form of payment can take up to 10 business days to be credited depending on your financial institution.",
       "quote": "Depending on your financial institution, refunds to your original form of payment can take up to 10 business days to be credited.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-9",
@@ -111,8 +127,10 @@
       "text": "Apparel items are returnable within 30 days except undergarments, swimwear or previously sealed apparel opened after delivery; exchanges for size or color may be offered.",
       "quote": "With the following exceptions, all apparel items are returnable within the 30 Day Window. Exchange of size or color may be offered by sellers, when available, after you start the return process.\n\nUndergarments, swimwear or previously sealed apparel items that have been opened since delivery may not be eligible for return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

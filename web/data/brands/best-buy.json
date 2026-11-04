@@ -31,8 +31,10 @@
       "text": "Halloween Decorations and Christmas Decorations can be returned within 15 days for a full refund.",
       "quote": "Products in Halloween Decorations and Christmas Decorations categories can be returned within 15 days for all customers, including My Best Buy™, My Best Buy Plus™ and My Best Buy Total™ (“Membership Program”) members, for a full refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-2",
@@ -44,8 +46,10 @@
       "text": "Litter boxes have a 90-day return policy for all customers.",
       "quote": "Litter boxes have a 90-day return policy for all customers, including Membership Program members;",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-3",
@@ -57,8 +61,10 @@
       "text": "Pet training devices have a 60-day return policy for all customers.",
       "quote": "pet training devices and hearing aids have a 60-day return policy for all customers, including Membership Program members.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -70,8 +76,10 @@
       "text": "Hearing aids have a 60-day return policy for all customers.",
       "quote": "pet training devices and hearing aids have a 60-day return policy for all customers, including Membership Program members.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-5",
@@ -83,8 +91,10 @@
       "text": "Hearing amplifiers follow the standard 15-day return policy.",
       "quote": "Please note that hearing amplifiers follow our standard 15-day return policy.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-6",
@@ -93,8 +103,10 @@
       "text": "Returns lacking proof of purchase may be denied or limited and will be reimbursed as store credit if accepted.",
       "quote": "Reimbursements on returns lacking proof of purchase may require an email address, will be in the form of store credit, may be denied or limited, and state sales taxes and fees will not be reimbursed.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -103,8 +115,10 @@
       "text": "Returns missing accessories or packaging may be denied or refunded with a deduction.",
       "quote": "Please return items with all accessories and packaging. If you do not, Best Buy and Marketplace Sellers may either deny the return, or allow a return with a nonrefundable deduction on your refund for what is missing.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-8",
@@ -113,8 +127,10 @@
       "text": "If you do not return all items purchased in a bundle, you lose the discount or free item benefit.",
       "quote": "If you received a discount or free item by purchasing multiple items together, you will lose that benefit if you do not return all items purchased.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-9",
@@ -124,8 +140,10 @@
       "text": "Gifts returned in store will be refunded as store credit.",
       "quote": "If the product was purchased from Best Buy, we will provide you store credit for the purchase price of a gift you return in store.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-10",
@@ -135,8 +153,10 @@
       "text": "Gifts returned by mail will credit the gift purchaser and notify them by email.",
       "quote": "For gifts returned via mail, we will credit the gift purchaser and notify them via email.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-price_adjustment-1",
@@ -145,8 +165,10 @@
       "text": "Best Buy will match the current product price of key online and local competitors for immediately available new products sold from Best Buy, excluding Marketplace Products, clearance, refurbished and open-box items.",
       "quote": "We'll match the current product price of key online and local competitors (\"[Qualified Competitors](https://www.bestbuy.com/site/price-match-guarantee/qualified-competitors/pcmcat1693426756861.c?id=pcmcat1693426756861)\") for immediately available new products sold from Best Buy (excludes Marketplace Products, clearance, refurbished and open-box items).",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-price_adjustment-2",
@@ -156,8 +178,10 @@
       "text": "Best Buy matches their online and app prices on in-store purchases and their in-store prices on online and app purchases.",
       "quote": "We match our online and app prices on in-store purchases and our in-store prices on online and app purchases.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-price_adjustment-3",
@@ -167,8 +191,10 @@
       "text": "If Best Buy lowers their in-store, online or app price during the return and exchange period, they will match their lower price upon request.",
       "quote": "If we lower our in-store, online or app price during the return and exchange period, we will match our lower price, upon request.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-price_adjustment-4",
@@ -178,8 +204,10 @@
       "text": "One price match at the time of purchase, per identical item, per customer, at the current pre-tax price available to all customers is allowed.",
       "quote": "One price match at the time of purchase, per identical item, per customer, at the current pre-tax price available to all customers is allowed.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-5",
@@ -188,8 +216,10 @@
       "text": "Price Match Guarantee excludes pricing only available to select groups including Membership Program members, loyalty offers, discounts relating to non-warehouse membership or paid loyalty programs and government exchange store offers.",
       "quote": "Pricing only available to select groups of customers including Membership Program members, loyalty offers, discounts relating to non-warehouse membership or paid loyalty programs and government exchange store offers.",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-6",
@@ -198,8 +228,10 @@
       "text": "Price Match Guarantee excludes transactions from Best Buy Education, Best Buy Business and from a Best Buy Marketplace store on a third-party website.",
       "quote": "Transactions from Best Buy Education, Best Buy Business and from a Best Buy Marketplace store on a third-party website (e.g., Amazon, eBay, Google).",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "s2-exclusion-7",
@@ -208,8 +240,10 @@
       "text": "Price Match Guarantee excludes financing offers, bundle offers, subscription services, free items, pricing errors, mail-in offers, coupon offers, limited quantity items, out of stock items, clearance items, open-box items, refurbished items, pre-owned items, credit card offers, gift card offers, Point of Sale Activation cards, video game discounts related to a membership program, and voice-only deals.",
       "quote": "Any financing offers, bundle offers, items included in bundle offers, subscription services, free items, pricing errors, mail-in offers, coupon offers, items that are advertised as limited quantity, out of stock items, clearance items, open-box items, refurbished items, pre-owned items, credit card offers, gift card offers, items included in gift card offers, Point of Sale Activation cards, video game discounts related to a membership program, and voice-only deals, whether offered by us or a [Qualified Competitor](https://www.bestbuy.com/site/price-match-guarantee/qualified-competitors/pcmcat1693426756861.c?id=pcmcat1693426756861).",
       "snapshot": "s2",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

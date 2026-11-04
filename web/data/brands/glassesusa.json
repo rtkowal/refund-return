@@ -24,8 +24,10 @@
       "text": "You can return or exchange your order for free within 60 days of delivery.",
       "quote": "Return or exchange your order for FREE within 60 days of delivery using our self-service portal or Live Chat.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-2",
@@ -34,8 +36,10 @@
       "text": "Return processing takes approximately 4 business days after the return is scanned or received at the warehouse.",
       "quote": "Once your return is scanned at Happy Returns or received at our warehouse, processing takes approximately 4 business days:",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

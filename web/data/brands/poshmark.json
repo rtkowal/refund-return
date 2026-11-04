@@ -24,8 +24,10 @@
       "text": "You must ship the item back within 7 days of starting the return.",
       "quote": "You need to start the return within 7 days of delivery, and ship the item back within 7 days of starting the return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-2",
@@ -34,8 +36,11 @@
       "text": "Bundle purchases are currently excluded from Worry-Free Returns.",
       "quote": "Bundle purchases are currently excluded.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds 'from Worry-Free Returns,' which is not specified in the quote. The quote only says 'Bundle purchases are currently excluded,' without specifying from what."
     },
     {
       "id": "policy-receipt-3",
@@ -44,8 +49,11 @@
       "text": "You start a return claim through the order page or via the Worry-Free Returns purchase confirmation email.",
       "quote": "To start a return claim through Seel, go to the order page > select _Problems/Order Inquiry_ \\> select _Item does not fit_ or _Changed my mind about the item_. You will be redirected to the Seel Resolution Center to initiate a return claim.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary mentions starting a return claim via the Worry-Free Returns purchase confirmation email, but the quote only describes starting a claim through the order page and does not mention the confirmation email method."
     },
     {
       "id": "policy-fee-4",
@@ -54,8 +62,10 @@
       "text": "The Worry-Free Returns fee is a small percentage of your order total and is optional at checkout.",
       "quote": "The fee is a small percentage of your order total. The exact cost will show at checkout before you confirm your order.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-5",
@@ -64,8 +74,10 @@
       "text": "Return shipping is prepaid by Seel; you do not pay for return shipping.",
       "quote": "Nope! Seel will send you a prepaid shipping label for returning the item.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-6",
@@ -74,8 +86,10 @@
       "text": "Refunds are issued via direct bank transfer (ACH), Venmo, or PayPal after the return is processed.",
       "quote": "Refunds are sent via direct bank transfer (ACH), Venmo, or PayPal.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-7",
@@ -84,8 +98,11 @@
       "text": "Worry-Free Returns handles returns and refunds directly; sellers do not need to take action or receive returned items.",
       "quote": "When a buyer files a Worry-Free Returns claim, no action is needed by the seller.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds that sellers do not receive returned items, which is not stated in the quote. The quote only says no action is needed by the seller."
     },
     {
       "id": "policy-cancellation-8",
@@ -94,8 +111,10 @@
       "text": "You can cancel your Worry-Free Returns purchase within 24 hours of purchase via the confirmation email link or by contacting Seel.",
       "quote": "You can cancel within 24 hours of purchase using the link in your confirmation email from Seel, or by contacting Seel directly on resolve.seel.com/poshmark.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

@@ -25,8 +25,10 @@
       "text": "Baby formula cannot be returned or refunded once you have accepted delivery or picked up your order.",
       "quote": "Note that certain items, including baby formula, alcoholic beverages, and tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-2",
@@ -38,8 +40,10 @@
       "text": "Alcoholic beverages cannot be returned or refunded once you have accepted delivery or picked up your order.",
       "quote": "Note that certain items, including baby formula, alcoholic beverages, and tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -51,8 +55,10 @@
       "text": "Tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
       "quote": "Note that certain items, including baby formula, alcoholic beverages, and tobacco products cannot be returned or refunded once you have accepted delivery or picked up your order.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-4",
@@ -63,8 +69,10 @@
       "text": "You can request a refund within seven days after your delivery or pick up for online grocery orders.",
       "quote": "Notify the driver upon delivery of your order (or the Store Associate upon pick up of your order), or contact us within seven days after your delivery or pick up.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-5",
@@ -73,8 +81,10 @@
       "text": "The satisfaction guarantee does not cover damage caused by improper use, storage, or accidents after delivery or pick up, or ordinary wear and tear on durable goods.",
       "quote": "Please note that this satisfaction guarantee does not cover damage caused by improper use, storage, or accidents after delivery or pick up, or any ordinary wear and tear on durable goods.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-6",
@@ -85,8 +95,10 @@
       "text": "Refunds by check require a 7-day waiting period.",
       "quote": "CHECK: Refunds will be issued in cash after a 7-day waiting period.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -96,8 +108,10 @@
       "text": "No refunds are given for eWIC purchases.",
       "quote": "eWIC: No Refund",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-8",
@@ -107,8 +121,11 @@
       "text": "All produce items are covered under the money back guarantee if not 100% satisfied with freshness.",
       "quote": "All produce items are covered under our money back guarantee.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary adds a condition about 'not 100% satisfied with freshness' which is not specified in the quote; the quote only says all produce is covered under the money back guarantee."
     },
     {
       "id": "policy-refund_method-9",
@@ -118,8 +135,11 @@
       "text": "Produce refunds can be requested in store or via phone, web, mail, or chat.",
       "quote": "If you’re not 100% satisfied with the freshness of your produce, you can request a full refund.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The summary lists specific refund request methods (in store, phone, web, mail, chat) not mentioned in the quote, which only says you can request a full refund."
     }
   ],
   "facets": []

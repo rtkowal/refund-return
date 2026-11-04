@@ -7,7 +7,7 @@ const DIR = join(process.cwd(), "data", "brands");
 export function allBrands(): Brand[] {
   return readdirSync(DIR).filter((f) => f.endsWith(".json"))
     .map((f) => Brand.parse(JSON.parse(readFileSync(join(DIR, f), "utf8"))))
-    .filter((b) => b.launch)
+    .filter((b) => b.launch && b.rules.some((r) => r.status !== "disputed"))
     .sort((a, b) => a.name.localeCompare(b.name));
 }
 export function getBrand(slug: string): Brand | undefined {
@@ -15,5 +15,5 @@ export function getBrand(slug: string): Brand | undefined {
 }
 /** Public view: strips the internal source quote. */
 export function publicRules(b: Brand) {
-  return b.rules.map(({ quote: _q, ...r }) => r);
+  return b.rules.filter((r) => r.status !== "disputed").map(({ quote: _q, reviewNote: _n, ...r }) => r);
 }

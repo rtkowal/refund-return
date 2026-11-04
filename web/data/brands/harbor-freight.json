@@ -24,8 +24,10 @@
       "text": "You may return it within 90 days of the purchase date for a refund or exchange.",
       "quote": "If you are unsatisfied with an item you purchased from Harbor Freight, you may return it within 90 days of the purchase date for a refund or exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-2",
@@ -34,8 +36,10 @@
       "text": "Refunds may take up to 10 business days to be credited to your account after processing.",
       "quote": "Once we process your refund, it may take up to 10 business days for the funds to be credited to your account.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-3",
@@ -44,8 +48,10 @@
       "text": "Refunds will automatically go back to the original form of payment used for the purchase, except gift card purchases which are refunded to a new Harbor Freight gift card.",
       "quote": "In most cases, refunds will automatically go back to the original form of payment used for the purchase. Purchases made with a Harbor Freight gift card will be refunded to a new Harbor Freight gift card.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-4",
@@ -54,8 +60,10 @@
       "text": "Proof of purchase is required for all returns.",
       "quote": "Proof of purchase is required for all returns.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-5",
@@ -64,8 +72,10 @@
       "text": "A restocking fee may apply to an item being returned.",
       "quote": "A restocking fee may apply to an item being returned.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-receipt-6",
@@ -74,8 +84,10 @@
       "text": "For in-store returns, a valid government-issued photo ID and/or other identifying information must be presented at the time of return.",
       "quote": "For in-store returns, a valid government-issued photo ID and/or other identifying information must be presented at the time of return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-7",
@@ -85,8 +97,10 @@
       "text": "Pumps, sprayers, and drain cleaners cannot be returned to stores or by mail if opened due to safety reasons.",
       "quote": "Pumps, sprayers, and drain cleaners cannot be returned to stores or by mail if opened due to safety reasons.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-8",
@@ -96,8 +110,10 @@
       "text": "Items cannot contain engine oil or fuel at the time of return and cannot be returned by mail if they use flammable liquids or gases or contain hazardous materials.",
       "quote": "Items cannot contain engine oil or fuel in them at the time of the return. Please drain all the fuel and engine oil before returning your gas-powered item to any Harbor Freight store. Due to safety hazards, items that use flammable liquids or gases or contain hazardous materials cannot be returned through the mail even if the items were drained of the materials.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-window-9",
@@ -109,8 +125,10 @@
       "text": "Open Box and As-Is Items can be returned within five (5) days of purchase to any Harbor Freight store.",
       "quote": "Open Box and As-Is Items can be returned within five (5) days of purchase to any Harbor Freight store.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-10",
@@ -120,8 +138,10 @@
       "text": "Select items including abrasive media can only be returned in-store if unopened, including items purchased online.",
       "quote": "Select items, including abrasive media, can only be returned in-store if unopened, including items purchased online.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-11",
@@ -131,8 +151,10 @@
       "text": "Replacement parts are final sale and cannot be returned.",
       "quote": "Replacement parts are final sale and cannot be returned.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-12",
@@ -142,8 +164,10 @@
       "text": "Gift card purchases are nonrefundable.",
       "quote": "Gift card purchases are nonrefundable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []

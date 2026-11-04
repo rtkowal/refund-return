@@ -22,8 +22,11 @@
       "text": "Preorder items are final sale and not eligible for return or exchange.",
       "quote": "Preorders not eligible for return.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "disputed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04",
+      "reviewNote": "The quote only says preorders are not eligible for return; it does not mention exchanges or that they are 'final sale.' The summary adds extra information."
     },
     {
       "id": "policy-exclusion-2",
@@ -32,8 +35,10 @@
       "text": "Pre-order items are final sale and are not eligible for return or exchange.",
       "quote": "Pre-order items are final sale and are not eligible for return or exchange.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exclusion-3",
@@ -42,8 +47,10 @@
       "text": "Returns are only accepted for purchases made on Skechers.com.",
       "quote": "We only accept returns for purchases made on Skechers.com.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_timing-4",
@@ -52,8 +59,10 @@
       "text": "Allow 10 business days for return processing after the return is received.",
       "quote": "Please allow 10 business days once the return is received.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-refund_method-5",
@@ -62,8 +71,10 @@
       "text": "If unable to refund the original payment method, an e-gift card will be issued via email.",
       "quote": "If we are unable to refund the original form of payment, an E-gift card will be issued via email.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-6",
@@ -72,8 +83,10 @@
       "text": "Initial shipping costs are non-refundable.",
       "quote": "Initial shipping costs are non-refundable.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-exchange-7",
@@ -82,8 +95,10 @@
       "text": "Orders paid with Cash App Afterpay or Klarna returned in-store will receive an exchange or merchandise credit only.",
       "quote": "Orders paid with Cash App Afterpay or Klarna will be issued an exchange or merchandise credit if returned to a store location.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     },
     {
       "id": "policy-fee-8",
@@ -92,8 +107,10 @@
       "text": "Free return postage applies only to orders within the return period.",
       "quote": "Free return postage applies only to orders within the return period.",
       "snapshot": "policy",
-      "status": "extracted",
-      "extractedBy": "llm"
+      "status": "reviewed",
+      "extractedBy": "llm",
+      "reviewedBy": "auto:gpt-4.1",
+      "reviewedAt": "2026-11-04"
     }
   ],
   "facets": []
